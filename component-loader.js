@@ -19,7 +19,7 @@
     // CLIENT-SIDE AUTHENTICATION
     // ============================================
     
-    const PASSWORD = 'YOUR_PASSWORD_HERE'; // REPLACE WITH ACTUAL PASSWORD
+    const PASSWORD = 'arcadia'; // REPLACE WITH ACTUAL PASSWORD
     const AUTH_KEY = 'docs_authenticated'; // Change this if you want a unique key per project
     
     /**
