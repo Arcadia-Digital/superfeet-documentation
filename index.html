@@ -13,7 +13,39 @@
     
     <div class="container">
         
-                <h2>Internal Documentation</h2>
+                <h2>ARCDIG-DOCS Methodology Documentation</h2>
+                <ul class="toc-list">
+                    <li class="doc-item">
+                        <a href="docs/theme-architecture.html" class="doc-link">Theme Architecture</a>
+                        <div class="doc-description">Technical architecture and code structure documentation for the Superfeet multi-region Shopify Plus platform. Includes theme structure, sections, snippets, templates, and customization guidelines.</div>
+                    </li>
+                    <li class="doc-item">
+                        <a href="docs/technical-user-guide.html" class="doc-link">Technical User Guide</a>
+                        <div class="doc-description">Developer-focused documentation with code references, development workflows, navigation implementation, template system, and troubleshooting guides.</div>
+                    </li>
+                    <li class="doc-item">
+                        <a href="business-user-guide.html" class="doc-link">Business User Guide</a>
+                        <div class="doc-description">Content management workflows for business users. Includes comprehensive navigation documentation with menu-to-section mapping table, theme customizer usage, and common tasks.</div>
+                    </li>
+                    <li class="doc-item">
+                        <a href="docs/data-guide.html" class="doc-link">Data Guide</a>
+                        <div class="doc-description">Complete reference documentation for all metafields, metaobjects, and data structures. Organized by namespace with code examples and access patterns.</div>
+                    </li>
+                    <li class="doc-item">
+                        <a href="docs/integrations.html" class="doc-link">Integrations</a>
+                        <div class="doc-description">Complete documentation of all 29 installed apps and integrations. Includes theme code references, configuration guides, and troubleshooting for each integration.</div>
+                    </li>
+                    <li class="doc-item">
+                        <a href="docs/QUICK_REFERENCE.html" class="doc-link">Quick Reference</a>
+                        <div class="doc-description">Quick lookup tables and common tasks for fast reference. Includes store information, platform metrics, menu-to-section mapping, and troubleshooting quick fixes.</div>
+                    </li>
+                    <li class="doc-item">
+                        <a href="docs/image-media-specifications.html" class="doc-link">Image & Media Specifications</a>
+                        <div class="doc-description">Complete image and media specifications for designers. Includes dimensions, aspect ratios, file formats, optimization guidelines, and component-specific requirements for all sections and templates.</div>
+                    </li>
+                </ul>
+
+                <h2>Legacy Documentation</h2>
                 <ul class="toc-list">
                     <li class="doc-item">
                         <a href="superfeet-platform-documentation.html" class="doc-link">Main Platform Documentation</a>
@@ -59,84 +91,6 @@
     
     <div id="footer-container"></div>
     
-    <script>
-        // Header menu functionality
-        function initializeHeaderMenu() {
-            const menuToggle = document.getElementById('menu-toggle');
-            const headerMenu = document.getElementById('header-menu');
-            
-            if (menuToggle && headerMenu) {
-                // Toggle menu on button click
-                menuToggle.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    
-                    const isOpen = headerMenu.classList.contains('show');
-                    
-                    if (isOpen) {
-                        closeMenu();
-                    } else {
-                        openMenu();
-                    }
-                });
-                
-                // Close menu when clicking outside
-                document.addEventListener('click', function(e) {
-                    if (!headerMenu.contains(e.target) && !menuToggle.contains(e.target)) {
-                        closeMenu();
-                    }
-                });
-                
-                // Close menu on escape key
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape') {
-                        closeMenu();
-                    }
-                });
-                
-                function openMenu() {
-                    headerMenu.classList.add('show');
-                    menuToggle.classList.add('active');
-                    menuToggle.setAttribute('aria-expanded', 'true');
-                }
-                
-                function closeMenu() {
-                    headerMenu.classList.remove('show');
-                    menuToggle.classList.remove('active');
-                    menuToggle.setAttribute('aria-expanded', 'false');
-                }
-            }
-        }
-
-                // Load header component
-                fetch('header.html')
-                    .then(response => response.text())
-                    .then(data => {
-                        document.getElementById('header-container').innerHTML = data;
-                        initializeHeaderMenu();
-                    })
-                    .catch(error => {
-                        console.error('Error loading header:', error);
-                    });
-
-        // Load footer component
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-container').innerHTML = data;
-            })
-            .catch(error => {
-                console.error('Error loading footer:', error);
-                // Fallback footer if component fails to load
-                document.getElementById('footer-container').innerHTML = `
-                    <footer class="arcadia-footer">
-                        <div class="footer-content">
-                            <p>This documentation is proprietary and confidential. Unauthorized distribution is prohibited.</p>
-                            <p><a href="https://arcadiadigital.com" target="_blank">Arcadia Digital</a> | <a href="https://github.com/petebuzzell-ad/superfeet-documentation" target="_blank">GitHub Repository</a></p>
-                        </div>
-                    </footer>
-                `;
-            });
-    </script>
+    <script src="component-loader.js"></script>
 </body>
 </html>

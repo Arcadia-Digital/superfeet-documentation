@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <title>Business User Guide - Superfeet eCommerce Platform Documentation</title>
+    <link rel="icon" type="image/webp" href="assets/favicon.webp">
+    <link rel="stylesheet" href="arcadia-style.css">
+    <style>
+        .toc-sidebar {
+            position: sticky;
+            top: 20px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: var(--newsprint-white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--sage-green);
+        }
+        
+        .toc-sidebar h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--forest-green);
+        }
+        
+        .toc-sidebar ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .toc-sidebar ul ul {
+            padding-left: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .toc-sidebar a {
+            color: var(--charcoal);
+            text-decoration: none;
+            display: block;
+            padding: 0.25rem 0;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        
+        .toc-sidebar a:hover {
+            color: var(--sage-green);
+        }
+        
+        .toc-sidebar a.active {
+            color: var(--forest-green);
+            font-weight: 600;
+            background-color: var(--sage-green);
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            margin: 0.25rem -0.75rem;
+            transition: all 0.3s ease;
+        }
+        
+        .toc-sidebar a.active::before {
+            content: "▶";
+            margin-right: 0.5rem;
+            font-size: 0.8rem;
+        }
+        
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 968px) {
+            .two-column-layout {
+                grid-template-columns: 1fr;
+            }
+            .toc-sidebar {
+                position: relative;
+                top: 0;
+            }
+        }
+        
+        .data-table {
+            width: 100%;
+            margin: 1rem 0;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            background-color: var(--forest-green);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .data-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--digital-gray-1);
+        }
+        
+        .data-table tr:hover {
+            background-color: var(--newsprint-white);
+        }
+        
+        code {
+            background-color: var(--digital-gray-1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        pre code {
+            display: block;
+            padding: 1rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-container"></div>
+    
+    <div class="container">
+        <div class="two-column-layout">
+            <nav class="toc-sidebar">
+                <h3>Table of Contents</h3>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#menu-to-section-mapping">Menu-to-Section Mapping</a></li>
+                    <li><a href="#rx-microsite-setup">RX Microsite Setup</a></li>
+                    <li><a href="#insole-finder-quiz">Insole Finder Quiz</a></li>
+                    <li><a href="#product-templates--customizations">Product Templates & Customizations</a>
+                        <ul>
+                            <li><a href="#recharge-bundle-products">Recharge Bundle Products</a></li>
+                            <li><a href="#subscription-products">Subscription Products</a></li>
+                            <li><a href="#product-specific-templates">Product-Specific Templates</a></li>
+                            <li><a href="#product-metafields-for-display">Product Metafields for Display</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#collection-templates--searchspring">Collection Templates & SearchSpring</a></li>
+                    <li><a href="#custom-sections">Custom Sections</a></li>
+                    <li><a href="#image--media-specifications">Image & Media Specifications</a></li>
+                    <li><a href="#multi-store-considerations">Multi-Store Considerations</a></li>
+                    <li><a href="#troubleshooting">Troubleshooting</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <section id="introduction">
+                    <h1>Business User Guide</h1>
+                    <p><strong>Superfeet Multi-Region Shopify Plus Platform</strong></p>
+                    <p>Superfeet-specific customizations and workflows for managing the eCommerce platform.</p>
+                </section>
+                
+                <section id="menu-to-section-mapping">
+                    <h2>Menu-to-Section Mapping</h2>
+                    
+                    <h3>Complete Menu Assignment Reference</h3>
+                    
+                    <p>This table shows exactly which menu setting controls which visible element on the site.</p>
+                    
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Visible Element</th>
+                                <th>Menu Setting Location</th>
+                                <th>Theme Customizer Path</th>
+                                <th>Desktop Display</th>
+                                <th>Mobile Display</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Header - Main Desktop Menu</strong></td>
+                                <td><code>section.settings.menu</code></td>
+                                <td>Theme Customizer → Header → Menu</td>
+                                <td>Horizontal menu bar</td>
+                                <td>Hidden (uses mobile menu)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Header - Mobile Menu</strong></td>
+                                <td><code>section.settings.mobile_menu</code></td>
+                                <td>Theme Customizer → Header → Mobile menu</td>
+                                <td>Hidden</td>
+                                <td>Hamburger menu drawer</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Header - Utility Menu</strong></td>
+                                <td><code>section.settings.utility_menu</code></td>
+                                <td>Theme Customizer → Header → Utility menu</td>
+                                <td>Secondary menu items</td>
+                                <td>Included in mobile drawer</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Announcement Bar Menu</strong></td>
+                                <td><code>section.settings.announcement_menu</code></td>
+                                <td>Theme Customizer → Announcement bar → Menu</td>
+                                <td>Top bar links</td>
+                                <td>Hidden</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Footer - Menu Block 1</strong></td>
+                                <td>Block: <code>link_list</code> → <code>block.settings.menu</code></td>
+                                <td>Theme Customizer → Footer → Add block → Link list → Menu</td>
+                                <td>Footer column</td>
+                                <td>Accordion</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Footer - Menu Block 2</strong></td>
+                                <td>Block: <code>link_list</code> → <code>block.settings.menu</code></td>
+                                <td>Theme Customizer → Footer → Add block → Link list → Menu</td>
+                                <td>Footer column</td>
+                                <td>Accordion</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Footer - Menu Block 3+</strong></td>
+                                <td>Block: <code>link_list</code> → <code>block.settings.menu</code></td>
+                                <td>Theme Customizer → Footer → Add block → Link list → Menu</td>
+                                <td>Footer column</td>
+                                <td>Accordion</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Footer - Copyright Menu</strong></td>
+                                <td><code>section.settings.copyright_menu</code></td>
+                                <td>Theme Customizer → Footer → Copyright → Menu</td>
+                                <td>Bottom bar links</td>
+                                <td>Bottom bar links</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h3>Key Points</h3>
+                    
+                    <ul>
+                        <li><strong>Header menus</strong> use direct settings (not blocks)</li>
+                        <li><strong>Footer menus</strong> use blocks (add multiple menu blocks)</li>
+                        <li><strong>Mobile vs Desktop</strong> behavior differs for header and footer</li>
+                        <li><strong>Announcement bar</strong> menu only shows on desktop</li>
+                    </ul>
+                </section>
+                
+                <section id="rx-microsite-setup">
+                    <h2>RX Microsite Setup</h2>
+                    
+                    <p>The RX microsite is a custom implementation that uses different header and footer groups for specific pages, creating a separate branded experience within the main Superfeet site.</p>
+                    
+                    <h3>How It Works</h3>
+                    
+                    <p>When a page has the <code>cql.rx_microsite</code> metafield set to <code>true</code>, the theme automatically:</p>
+                    <ul>
+                        <li>Loads <code>header-group-microsite</code> instead of <code>header-group</code></li>
+                        <li>Loads <code>footer-group-microsite</code> instead of <code>footer-group</code></li>
+                        <li>Applies microsite-specific styling and navigation</li>
+                    </ul>
+                    
+                    <h3>Setting Up an RX Microsite Page</h3>
+                    
+                    <p><strong>Step 1: Create the Page</strong></p>
+                    <ol>
+                        <li>Go to <strong>Online Store → Pages</strong> in Shopify Admin</li>
+                        <li>Create a new page or edit existing page</li>
+                        <li>Add page content as needed</li>
+                    </ol>
+                    
+                    <p><strong>Step 2: Enable RX Microsite</strong></p>
+                    <ol>
+                        <li>On the page edit screen, scroll to <strong>Metafields</strong> section</li>
+                        <li>Find or create metafield: <strong>Namespace and key:</strong> <code>cql.rx_microsite</code></li>
+                        <li>Set <strong>Type:</strong> Boolean</li>
+                        <li>Set <strong>Value:</strong> <code>true</code></li>
+                        <li>Save the page</li>
+                    </ol>
+                    
+                    <p><strong>Step 3: Configure Microsite Header/Footer (if needed)</strong></p>
+                    <ol>
+                        <li>Go to <strong>Theme Customizer</strong></li>
+                        <li>Navigate to <strong>Header Group RX</strong> section (for microsite header)</li>
+                        <li>Navigate to <strong>Footer Group RX</strong> section (for microsite footer)</li>
+                        <li>Configure menus, logo, and settings specific to RX microsite</li>
+                    </ol>
+                    
+                    <h3>RX Microsite Configuration</h3>
+                    
+                    <p><strong>Header Group RX Settings:</strong></p>
+                    <ul>
+                        <li><strong>Menu:</strong> <code>rx-main-menu</code> (default)</li>
+                        <li><strong>Mobile menu:</strong> <code>rx-main-menu-mobile</code> (default)</li>
+                        <li><strong>Utility menu:</strong> <code>rx-utility-menu-mobile</code> (default)</li>
+                        <li><strong>Search:</strong> Disabled by default</li>
+                        <li><strong>Store locator:</strong> Disabled by default</li>
+                        <li><strong>Demo button:</strong> "Request Information" (links to contact page)</li>
+                    </ul>
+                    
+                    <p><strong>Footer Group RX Settings:</strong></p>
+                    <ul>
+                        <li><strong>Social media:</strong> Uses "microsite" social links</li>
+                        <li><strong>Company info:</strong> RX-specific contact information</li>
+                        <li><strong>Country/Language selectors:</strong> Disabled by default</li>
+                        <li><strong>Payment icons:</strong> Disabled by default</li>
+                    </ul>
+                    
+                    <h3>RX Microsite Menus</h3>
+                    
+                    <p>Create these menus in <strong>Online Store → Navigation:</strong></p>
+                    <ul>
+                        <li><code>rx-main-menu</code> - Main desktop navigation</li>
+                        <li><code>rx-main-menu-mobile</code> - Mobile navigation</li>
+                        <li><code>rx-utility-menu-mobile</code> - Mobile utility menu</li>
+                        <li><code>footer-about-rx</code> - Footer about menu</li>
+                        <li><code>announcement-bar-menu</code> - Announcement bar menu (if used)</li>
+                    </ul>
+                    
+                    <h3>Important Notes</h3>
+                    
+                    <ul>
+                        <li>RX microsite pages use the same theme but different header/footer groups</li>
+                        <li>All RX pages share the same header/footer configuration</li>
+                        <li>Changes to Header Group RX or Footer Group RX affect all RX microsite pages</li>
+                        <li>RX microsite can be used for other branded experiences (not just RX)</li>
+                    </ul>
+                </section>
+                
+                <section id="insole-finder-quiz">
+                    <h2>Insole Finder Quiz</h2>
+                    
+                    <p>The Insole Finder is a custom quiz application that guides customers to the right insole product.</p>
+                    
+                    <h3>How It Works</h3>
+                    
+                    <p>The Insole Finder uses a dedicated layout file (<code>theme.insole-finder.liquid</code>) that provides a custom experience separate from the main site layout.</p>
+                    
+                    <h3>Setting Up Insole Finder Pages</h3>
+                    
+                    <p><strong>Step 1: Create Insole Finder Page</strong></p>
+                    <ol>
+                        <li>Go to <strong>Online Store → Pages</strong></li>
+                        <li>Create new page or edit existing Insole Finder page</li>
+                        <li>Set <strong>Template suffix:</strong> <code>insole-finder-2</code></li>
+                    </ol>
+                    
+                    <p><strong>Step 2: Configure Insole Finder Section</strong></p>
+                    <ol>
+                        <li>Go to <strong>Theme Customizer</strong></li>
+                        <li>Select the Insole Finder page</li>
+                        <li>Find <strong>Insole Finder 2</strong> section</li>
+                        <li>Configure quiz settings, questions, and product recommendations</li>
+                    </ol>
+                    
+                    <p><strong>Step 3: Link to Insole Finder</strong></p>
+                    <ul>
+                        <li>Link from navigation menus</li>
+                        <li>Link from product pages</li>
+                        <li>Link from homepage or landing pages</li>
+                    </ul>
+                    
+                    <h3>Insole Finder Template</h3>
+                    
+                    <ul>
+                        <li><strong>Template:</strong> <code>page.insole-finder-2.json</code></li>
+                        <li><strong>Section:</strong> <code>sections/insole-finder-2.liquid</code></li>
+                        <li><strong>Layout:</strong> <code>layout/theme.insole-finder.liquid</code> (uses microsite header/footer)</li>
+                    </ul>
+                    
+                    <h3>Important Notes</h3>
+                    
+                    <ul>
+                        <li>Insole Finder uses the microsite header/footer layout</li>
+                        <li>Quiz logic is handled by custom app (Insole Finder Quiz app)</li>
+                        <li>Product recommendations are generated based on quiz answers</li>
+                        <li>Quiz results link to specific product pages</li>
+                        <li>Work with Michael Sullivan, Heather Allerdice-Gerow, and the team at Born West to make changes to the Insole Finder.</li>
+                    </ul>
+                </section>
+                
+                <section id="product-templates--customizations">
+                    <h2>Product Templates & Customizations</h2>
+                    
+                    <h3 id="recharge-bundle-products">Recharge Bundle Products</h3>
+                    
+                    <p><strong>Template:</strong> <code>product.recharge-bundle.json</code></p>
+                    
+                    <p><strong>Setup:</strong></p>
+                    <ol>
+                        <li>Go to <strong>Products</strong> → Select product</li>
+                        <li>Scroll to <strong>Search engine listing</strong></li>
+                        <li>Set <strong>Template suffix:</strong> <code>recharge-bundle</code></li>
+                        <li>Save product</li>
+                    </ol>
+                    
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                        <li>Recharge bundle widget displays on product page</li>
+                        <li>Customers can customize bundle contents</li>
+                        <li>Bundle pricing and options managed in Recharge app</li>
+                        <li>ReCharge bundle documentation - <a href="https://support.getrecharge.com/hc/en-us/sections/6981308041623-Bundles" target="_blank" rel="noopener">https://support.getrecharge.com/hc/en-us/sections/6981308041623-Bundles</a></li>
+                    </ul>
+                    
+                    <p><strong>Recharge Bundle Widget Settings:</strong></p>
+                    <ul>
+                        <li>Theme color: <code>#00c09e</code> (default)</li>
+                        <li>Items per row: 1 (mobile), 3 (desktop)</li>
+                        <li>Configured in product template JSON</li>
+                    </ul>
+                    
+                    <h3 id="subscription-products">Subscription Products</h3>
+                    
+                    <p><strong>Template:</strong> <code>product.subscription.json</code></p>
+                    
+                    <p><strong>Setup:</strong></p>
+                    <ol>
+                        <li>Set <strong>Template suffix:</strong> <code>subscription</code></li>
+                        <li>Configure subscription options in Recharge app</li>
+                        <li>Subscription widget displays on product page</li>
+                    </ol>
+                    
+                    <p><strong>Note:</strong> Subscriptions are available but have not been activated. Once SF brand and eComm teams have aligned on an initial subscription offer, rely on the support team at ReCharge, <a href="https://support.getrecharge.com/hc/en-us/categories/360000578374-Subscription-Management" target="_blank" rel="noopener">ReCharge documentation</a>, and your development partner.</p>
+                    
+                    <h3 id="product-specific-templates">Product-Specific Templates</h3>
+                    
+                    <p>Superfeet has <strong>31 product-specific templates</strong> for custom product page layouts. Each template provides a unique layout and section configuration optimized for specific product types.</p>
+                    
+                    <p><strong>Complete List of Product Templates:</strong></p>
+                    
+                    <ol>
+                        <li><strong><code>all-purpose-cushion</code></strong> - All-Purpose Cushion product template</li>
+                        <li><strong><code>all-purpose-wide-fit</code></strong> - All-Purpose Wide Fit product template</li>
+                        <li><strong><code>alternate</code></strong> - Alternate product layout template</li>
+                        <li><strong><code>ap-support-low-arch</code></strong> - All-Purpose Support Low Arch product template</li>
+                        <li><strong><code>apma-approved</code></strong> - APMA approved products template</li>
+                        <li><strong><code>casual-pain-relief</code></strong> - Casual Pain Relief product template</li>
+                        <li><strong><code>casual-women-s-easy-fit</code></strong> - Casual Women's Easy Fit product template</li>
+                        <li><strong><code>everyday-pressure-relief</code></strong> - Everyday Pressure Relief product template</li>
+                        <li><strong><code>fixed-bundle</code></strong> - Fixed bundle products template</li>
+                        <li><strong><code>gift-card</code></strong> - Gift card product template</li>
+                        <li><strong><code>hike-cushion</code></strong> - Hike Cushion product template</li>
+                        <li><strong><code>hike-support</code></strong> - Hike Support product template</li>
+                        <li><strong><code>hike-women-s-support</code></strong> - Hike Women's Support product template</li>
+                        <li><strong><code>hockey-cushion</code></strong> - Hockey Cushion product template</li>
+                        <li><strong><code>hockey-performance</code></strong> - Hockey Performance product template</li>
+                        <li><strong><code>me3d-max</code></strong> - ME3D Max product template</li>
+                        <li><strong><code>me3d</code></strong> - ME3D product template</li>
+                        <li><strong><code>recharge-bundle</code></strong> - Recharge bundle products template (includes Recharge bundle widget)</li>
+                        <li><strong><code>run-cushion-low</code></strong> - Run Cushion Low product template</li>
+                        <li><strong><code>run-cushion</code></strong> - Run Cushion product template</li>
+                        <li><strong><code>run-pacer-elite</code></strong> - Run Pacer Elite product template</li>
+                        <li><strong><code>run-pain-relief</code></strong> - Run Pain Relief product template</li>
+                        <li><strong><code>run-support-high-med-low</code></strong> - Run Support High/Med/Low product template</li>
+                        <li><strong><code>run-support-v1</code></strong> - Run Support V1 product template</li>
+                        <li><strong><code>run-women-s-support</code></strong> - Run Women's Support product template</li>
+                        <li><strong><code>sport-ultralight</code></strong> - Sport Ultralight product template</li>
+                        <li><strong><code>subscription</code></strong> - Subscription products template (includes Recharge subscription widget)</li>
+                        <li><strong><code>winter-support</code></strong> - Winter Support product template</li>
+                        <li><strong><code>work-cushion</code></strong> - Work Cushion product template</li>
+                        <li><strong><code>work-memory-foam</code></strong> - Work Memory Foam product template</li>
+                        <li><strong><code>work-slim-fit</code></strong> - Work Slim Fit product template</li>
+                    </ol>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ol>
+                        <li>Go to <strong>Products</strong> → Select product</li>
+                        <li>Scroll to <strong>Search engine listing</strong> section</li>
+                        <li>Find <strong>Template suffix</strong> field</li>
+                        <li>Enter template suffix (e.g., <code>all-purpose-cushion</code> for <code>product.all-purpose-cushion.json</code>)</li>
+                        <li>Click <strong>Save</strong></li>
+                    </ol>
+                    
+                    <p><strong>Important Notes:</strong></p>
+                    <ul>
+                        <li>Template suffix is <strong>case-sensitive</strong> and must match exactly (no spaces, use hyphens)</li>
+                        <li>If template doesn't exist, default <code>product.json</code> template is used</li>
+                        <li>Templates can include custom sections, metafield displays, and app integrations</li>
+                        <li>Some templates (like <code>recharge-bundle</code> and <code>subscription</code>) include app-specific widgets</li>
+                        <li>Templates are store-specific - verify template exists in your store's theme code</li>
+                    </ul>
+                    
+                    <h3 id="product-metafields-for-display">Product Metafields for Display</h3>
+                    
+                    <p>Complete reference of all product metafields, their purpose, and where they display on the storefront.</p>
+                    
+                    <h4>CQL Namespace (<code>cql.*</code>)</h4>
+                    
+                    <p><strong>Product Information Metafields:</strong></p>
+                    
+                    <ul>
+                        <li><strong><code>cql.arch_height</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Arch height specification (e.g., "Medium", "High", "Low/Medium/High")</li>
+                                <li><strong>Display:</strong> Product page - Icon data rows section (with icon from metaobject)</li>
+                                <li><strong>Usage:</strong> Used for product filtering and comparison features</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.insole_thickness</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Insole thickness specification (e.g., "Mid", "Thin")</li>
+                                <li><strong>Display:</strong> Product page - Icon data rows section (with icon from metaobject)</li>
+                                <li><strong>Usage:</strong> Product specification display</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.product_gender</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Product gender category (e.g., "Unisex", "Men's", "Women's")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering/grouping)</li>
+                                <li><strong>Usage:</strong> Internal categorization and filtering</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.product_family</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Product family grouping (e.g., "All-Purpose", "Run Support")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for grouping)</li>
+                                <li><strong>Usage:</strong> Internal organization and related product logic</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.underfoot_cushioning</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Cushioning level specification (e.g., "Soft", "Medium")</li>
+                                <li><strong>Display:</strong> Product page - Icon data rows section (with icon from metaobject)</li>
+                                <li><strong>Usage:</strong> Product specification display</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.target_use_activity</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Target activity/use case (e.g., "All-Purpose", "Running")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering)</li>
+                                <li><strong>Usage:</strong> Internal categorization</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.fits_best_in</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Fit description (e.g., "Roomy to moderate fitting footwear with removable insoles")</li>
+                                <li><strong>Display:</strong> Product page - Main product section (as metafield block with label "Fits Best In")</li>
+                                <li><strong>Usage:</strong> Helps customers understand shoe compatibility</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.insole_technology</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Technology description (e.g., "A.C.T. (Adaptive Comfort Technology)")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for internal reference)</li>
+                                <li><strong>Usage:</strong> Product information reference</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.insole_heel_cup_depth</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Heel cup depth specification (e.g., "Max")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for internal reference)</li>
+                                <li><strong>Usage:</strong> Product specification reference</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.previously_named</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Previous product name (for rebranded products)</li>
+                                <li><strong>Display:</strong> Product page - Main product section (as metafield block with label "Previously Named")</li>
+                                <li><strong>Usage:</strong> Helps customers find products they knew by previous name</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.badge</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Badge text (e.g., "Best Seller", "New", "Limited Edition")</li>
+                                <li><strong>Display:</strong> Product page - Product media gallery (badge overlay on product images)</li>
+                                <li><strong>Usage:</strong> Highlights special product attributes</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.best_for</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Best use case description (e.g., "Everyday footwear, athletic shoes, active use")</li>
+                                <li><strong>Display:</strong> Product page - Main product section (as metafield block with label "Best For")</li>
+                                <li><strong>Usage:</strong> Helps customers understand product use cases</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.short_description</code></strong> [multi_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Short product description (formatted text)</li>
+                                <li><strong>Display:</strong> Product page - Main product section (as "short_description" block, replaces standard description)</li>
+                                <li><strong>Special Usage:</strong> For Recharge bundles, displays as "Includes:" list when <code>rc_bundles.layout_template</code> is set</li>
+                                <li><strong>Usage:</strong> Primary product description on product pages</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.discount_summary</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Discount summary text</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for internal reference)</li>
+                                <li><strong>Usage:</strong> Discount information reference</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.bundle_type</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Bundle type identifier</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for internal logic)</li>
+                                <li><strong>Usage:</strong> Determines bundle behavior and display</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <p><strong>Size Information Metafields:</strong></p>
+                    
+                    <ul>
+                        <li><strong><code>cql.kid_sizes</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Kids size range</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering/grouping)</li>
+                                <li><strong>Usage:</strong> Size filtering and product organization</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.men_sizes</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Men's size range (e.g., "5.5 - 7, 7.5 - 9, 9.5 - 11, 11.5 - 13")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering/grouping)</li>
+                                <li><strong>Usage:</strong> Size filtering and product organization</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.women_sizes</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Women's size range (e.g., "4.5 - 6, 6.5 - 8, 8.5 - 10, 10.5 - 12, 12.5 - 14")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering/grouping)</li>
+                                <li><strong>Usage:</strong> Size filtering and product organization</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.skate_sizes</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Skate size range</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering/grouping)</li>
+                                <li><strong>Usage:</strong> Size filtering for skate-specific products</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <p><strong>Product Attributes:</strong></p>
+                    
+                    <ul>
+                        <li><strong><code>cql.vegan</code></strong> [boolean]
+                            <ul>
+                                <li><strong>Purpose:</strong> Vegan product indicator</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering)</li>
+                                <li><strong>Usage:</strong> Product filtering and categorization</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.latex_free</code></strong> [boolean]
+                            <ul>
+                                <li><strong>Purpose:</strong> Latex-free product indicator</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering)</li>
+                                <li><strong>Usage:</strong> Product filtering and categorization</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.low_stock_threshold</code></strong> [number_integer]
+                            <ul>
+                                <li><strong>Purpose:</strong> Low stock threshold number</li>
+                                <li><strong>Display:</strong> Product page - Low stock message block (displays when inventory falls below threshold)</li>
+                                <li><strong>Usage:</strong> Triggers low stock warning message on product pages</li>
+                                <li><strong>Note:</strong> Message text configured in product section block settings</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <p><strong>Product Relationships:</strong></p>
+                    
+                    <ul>
+                        <li><strong><code>cql.comparison_products</code></strong> [list.product_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Related/comparison products for product compare features</li>
+                                <li><strong>Display:</strong> Product compare sections (used to populate comparison tables)</li>
+                                <li><strong>Usage:</strong> Powers product comparison functionality</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.shop_for</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Shop for category (e.g., "Men, Women, Kids")</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering/grouping)</li>
+                                <li><strong>Usage:</strong> Product categorization and filtering</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.addon_product</code></strong> [product_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Add-on product for upsell functionality</li>
+                                <li><strong>Display:</strong> Product page - Add-on form section (when addon_product block is present)</li>
+                                <li><strong>Usage:</strong> Displays add-on product selection form</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.associated_products</code></strong> [list.product_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Associated products for cross-sell functionality</li>
+                                <li><strong>Display:</strong> Product page - Associated products section (when associated_products block is present)</li>
+                                <li><strong>Usage:</strong> Displays related product recommendations</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <p><strong>Metaobject References:</strong></p>
+                    
+                    <ul>
+                        <li><strong><code>cql.faq_group</code></strong> [metaobject_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> FAQ group metaobject for reusable FAQ content</li>
+                                <li><strong>Display:</strong> Collection pages - FAQ sections (when faq_group_handle is configured)</li>
+                                <li><strong>Usage:</strong> Powers FAQ sections on collection pages</li>
+                                <li><strong>Example:</strong> <code>product_feature_groups.ap-cushion</code></li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.arch_height_info</code></strong> [metaobject_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Arch height information and icon reference</li>
+                                <li><strong>Display:</strong> Product page - Icon data rows section (provides icon image and tooltip)</li>
+                                <li><strong>Usage:</strong> Displays arch height icon and tooltip information</li>
+                                <li><strong>Example:</strong> <code>arch_height_icons.mid</code></li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.thickness_info</code></strong> [metaobject_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Thickness information and icon reference</li>
+                                <li><strong>Display:</strong> Product page - Icon data rows section (provides icon image and tooltip)</li>
+                                <li><strong>Usage:</strong> Displays thickness icon and tooltip information</li>
+                                <li><strong>Example:</strong> <code>thickness_icons.medium</code></li>
+                            </ul>
+                        </li>
+                        <li><strong><code>cql.cushion_info</code></strong> [metaobject_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Cushion information and icon reference</li>
+                                <li><strong>Display:</strong> Product page - Icon data rows section (provides icon image and tooltip)</li>
+                                <li><strong>Usage:</strong> Displays cushion icon and tooltip information</li>
+                                <li><strong>Example:</strong> <code>cushion_icons.soft</code></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <p><strong>Media:</strong></p>
+                    
+                    <ul>
+                        <li><strong><code>cql.image_with_feature</code></strong> [file_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Image with feature overlay</li>
+                                <li><strong>Display:</strong> Product page - Image with features section (when used in template)</li>
+                                <li><strong>Usage:</strong> Displays product image with feature annotations</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Custom Namespace (<code>custom.*</code>)</h4>
+                    
+                    <ul>
+                        <li><strong><code>custom.feature_diagram</code></strong> [metaobject_reference]
+                            <ul>
+                                <li><strong>Purpose:</strong> Feature diagram metaobject for interactive product diagrams</li>
+                                <li><strong>Display:</strong> Product/landing pages - Feature diagram section</li>
+                                <li><strong>Usage:</strong> Powers interactive feature diagram sections</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>custom.insole_finder_header_text</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Insole Finder header text</li>
+                                <li><strong>Display:</strong> Insole Finder quiz pages</li>
+                                <li><strong>Usage:</strong> Custom header text for Insole Finder experience</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>custom.hsa_fsa_eligible</code></strong> [boolean]
+                            <ul>
+                                <li><strong>Purpose:</strong> HSA/FSA eligibility indicator</li>
+                                <li><strong>Display:</strong> Not directly visible on storefront (used for filtering/grouping)</li>
+                                <li><strong>Usage:</strong> Product categorization for HSA/FSA eligible products</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>SEO Namespace (<code>seo.*</code>)</h4>
+                    
+                    <ul>
+                        <li><strong><code>seo_title</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Custom SEO title (overrides default product title)</li>
+                                <li><strong>Display:</strong> Browser tab title and search engine results</li>
+                                <li><strong>Usage:</strong> SEO optimization for search engines</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>seo_desc</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Custom SEO description (overrides default product description)</li>
+                                <li><strong>Display:</strong> Search engine results (meta description)</li>
+                                <li><strong>Usage:</strong> SEO optimization for search engines</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>seo.hidden</code></strong> [number_integer]
+                            <ul>
+                                <li><strong>Purpose:</strong> Hide from search (0 = visible, 1 = hidden)</li>
+                                <li><strong>Display:</strong> Controls search engine indexing</li>
+                                <li><strong>Usage:</strong> Prevents products from appearing in search results</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Reviews Namespace (<code>reviews.*</code>)</h4>
+                    
+                    <ul>
+                        <li><strong><code>reviews.rating_count</code></strong> [number_integer]
+                            <ul>
+                                <li><strong>Purpose:</strong> Review count</li>
+                                <li><strong>Display:</strong> Not directly visible (used for internal logic)</li>
+                                <li><strong>Usage:</strong> Review system integration</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>reviews.rating</code></strong> [rating]
+                            <ul>
+                                <li><strong>Purpose:</strong> Average rating</li>
+                                <li><strong>Display:</strong> Not directly visible (Yotpo handles review display)</li>
+                                <li><strong>Usage:</strong> Review system integration</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Yotpo Namespace (<code>yotpo.*</code>)</h4>
+                    
+                    <ul>
+                        <li><strong><code>yotpo.reviews_average</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Average review rating from Yotpo</li>
+                                <li><strong>Display:</strong> Product pages - Yotpo review widgets</li>
+                                <li><strong>Usage:</strong> Powers Yotpo review display</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>yotpo.reviews_count</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Review count from Yotpo</li>
+                                <li><strong>Display:</strong> Product pages - Yotpo review widgets</li>
+                                <li><strong>Usage:</strong> Powers Yotpo review display</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>yotpo.richsnippetshtml</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Rich snippets HTML for structured data</li>
+                                <li><strong>Display:</strong> Search engine results (structured data)</li>
+                                <li><strong>Usage:</strong> SEO structured data for search engines</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Google Shopping Namespace (<code>mm-google-shopping.*</code>)</h4>
+                    
+                    <ul>
+                        <li><strong><code>mm-google-shopping.custom_product</code></strong> [boolean]
+                            <ul>
+                                <li><strong>Purpose:</strong> Custom product flag for Google Merchant Center</li>
+                                <li><strong>Display:</strong> Not visible on storefront (used for feed generation)</li>
+                                <li><strong>Usage:</strong> Google Shopping feed configuration</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>mm-google-shopping.google_product_category</code></strong> [string]
+                            <ul>
+                                <li><strong>Purpose:</strong> Google product category for Merchant Center</li>
+                                <li><strong>Display:</strong> Not visible on storefront (used for feed generation)</li>
+                                <li><strong>Usage:</strong> Google Shopping feed categorization</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Facebook Namespace (<code>mc-facebook.*</code>)</h4>
+                    
+                    <ul>
+                        <li><strong><code>mc-facebook.google_product_category</code></strong> [string]
+                            <ul>
+                                <li><strong>Purpose:</strong> Facebook product category for catalog</li>
+                                <li><strong>Display:</strong> Not visible on storefront (used for catalog generation)</li>
+                                <li><strong>Usage:</strong> Facebook catalog configuration</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Recharge Namespace (<code>rc_bundles.*</code>)</h4>
+                    
+                    <ul>
+                        <li><strong><code>rc_bundles.layout_template</code></strong> [single_line_text_field]
+                            <ul>
+                                <li><strong>Purpose:</strong> Bundle layout template identifier</li>
+                                <li><strong>Display:</strong> Product page - Affects bundle widget display and short_description formatting</li>
+                                <li><strong>Usage:</strong> Controls Recharge bundle widget behavior and display</li>
+                                <li><strong>Note:</strong> When set, <code>cql.short_description</code> displays as "Includes:" list format</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Standard Metafields</h4>
+                    
+                    <ul>
+                        <li><strong><code>title_tag</code></strong> [string]
+                            <ul>
+                                <li><strong>Purpose:</strong> Page title tag</li>
+                                <li><strong>Display:</strong> Browser tab title</li>
+                                <li><strong>Usage:</strong> Page title override</li>
+                            </ul>
+                        </li>
+                        <li><strong><code>description_tag</code></strong> [string]
+                            <ul>
+                                <li><strong>Purpose:</strong> Meta description tag</li>
+                                <li><strong>Display:</strong> Search engine results (meta description)</li>
+                                <li><strong>Usage:</strong> SEO meta description override</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section id="collection-templates--searchspring">
+                    <h2>Collection Templates & SearchSpring</h2>
+                    
+                    <h3>SearchSpring Collections</h3>
+                    
+                    <p><strong>Template:</strong> <code>collection.searchspring.json</code></p>
+                    
+                    <p><strong>Setup:</strong></p>
+                    <ol>
+                        <li>Go to <strong>Collections</strong> → Select collection</li>
+                        <li>Scroll to <strong>Search engine listing</strong></li>
+                        <li>Set <strong>Template suffix:</strong> <code>searchspring</code></li>
+                        <li>Save collection</li>
+                    </ol>
+                    
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                        <li>Enhanced search and filtering via SearchSpring</li>
+                        <li>Product recommendations</li>
+                        <li>Advanced faceted search</li>
+                        <li>SearchSpring JavaScript SDK loaded automatically</li>
+                    </ul>
+                    
+                    <p><strong>Important:</strong></p>
+                    <ul>
+                        <li>SearchSpring replaces default Shopify search on these collections</li>
+                        <li>Essential A/B Testing app is <strong>incompatible</strong> with SearchSpring</li>
+                        <li>SearchSpring configuration managed in SearchSpring dashboard</li>
+                    </ul>
+                    
+                    <h3>Native Shopify Collections</h3>
+                    
+                    <p><strong>Template:</strong> <code>collection.native.json</code></p>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ul>
+                        <li>Standard Shopify collection functionality</li>
+                        <li>No SearchSpring integration</li>
+                        <li>Use for simple collections without advanced search</li>
+                    </ul>
+                    
+                    <h3>Collection-Specific Templates</h3>
+                    
+                    <p>Superfeet has <strong>28 collection-specific templates</strong> for custom collection page layouts. Each template provides unique section configurations optimized for specific collection types and use cases.</p>
+                    
+                    <p><strong>Complete List of Collection Templates:</strong></p>
+                    
+                    <ol>
+                        <li><strong><code>all-purpose-collection</code></strong> - All-Purpose collection template</li>
+                        <li><strong><code>bundle-collection</code></strong> - Bundle collection template</li>
+                        <li><strong><code>casual-dress-collection</code></strong> - Casual/Dress collection template</li>
+                        <li><strong><code>category-landing</code></strong> - Category landing page template</li>
+                        <li><strong><code>cleat-sports-collection</code></strong> - Cleat Sports collection template</li>
+                        <li><strong><code>court-sports-collection</code></strong> - Court Sports collection template</li>
+                        <li><strong><code>ea-9zkhwx</code></strong> - Essential A/B Testing template (created by Essential A/B Testing app for A/B testing)</li>
+                        <li><strong><code>ea-aklu3g</code></strong> - Essential A/B Testing template (created by Essential A/B Testing app for A/B testing)</li>
+                        <li><strong><code>ea-f4vvc0</code></strong> - Essential A/B Testing template (created by Essential A/B Testing app for A/B testing)</li>
+                        <li><strong><code>ea-fk7mj0</code></strong> - Essential A/B Testing template (created by Essential A/B Testing app for A/B testing)</li>
+                        <li><strong><code>ea-u2m7v1</code></strong> - Essential A/B Testing template (created by Essential A/B Testing app for A/B testing)</li>
+                        <li><strong><code>ea-z40jd9</code></strong> - Essential A/B Testing template (created by Essential A/B Testing app for A/B testing)</li>
+                        <li><strong><code>fit-train-collection</code></strong> - Fitness/Training collection template</li>
+                        <li><strong><code>golf-collection</code></strong> - Golf collection template</li>
+                        <li><strong><code>hiking-collection</code></strong> - Hiking collection template</li>
+                        <li><strong><code>hockey-skates-collection</code></strong> - Hockey Skates collection template</li>
+                        <li><strong><code>holiday-gift-guide</code></strong> - Holiday Gift Guide collection template</li>
+                        <li><strong><code>native</code></strong> - Native Shopify collection template (standard Shopify functionality, no SearchSpring)</li>
+                        <li><strong><code>pain-relief-collection</code></strong> - Pain Relief collection template</li>
+                        <li><strong><code>qr-code-promotion-page</code></strong> - QR Code Promotion Page collection template</li>
+                        <li><strong><code>racquet-sports-collection</code></strong> - Racquet Sports collection template</li>
+                        <li><strong><code>run-support-sale</code></strong> - Run Support Sale collection template</li>
+                        <li><strong><code>run-support-sale-2</code></strong> - Run Support Sale 2 collection template</li>
+                        <li><strong><code>searchspring</code></strong> - SearchSpring-powered collection template (enhanced search and filtering)</li>
+                        <li><strong><code>ski-snowboard-collection</code></strong> - Ski/Snowboard collection template</li>
+                        <li><strong><code>tier-2-collection</code></strong> - Tier 2 collection template</li>
+                        <li><strong><code>walking-collection</code></strong> - Walking collection template</li>
+                        <li><strong><code>work-collection</code></strong> - Work collection template</li>
+                    </ol>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ol>
+                        <li>Go to <strong>Collections</strong> → Select collection</li>
+                        <li>Scroll to <strong>Search engine listing</strong> section</li>
+                        <li>Find <strong>Template suffix</strong> field</li>
+                        <li>Enter template suffix (e.g., <code>searchspring</code> for <code>collection.searchspring.json</code>)</li>
+                        <li>Click <strong>Save</strong></li>
+                    </ol>
+                    
+                    <p><strong>Important Notes:</strong></p>
+                    <ul>
+                        <li>Template suffix is <strong>case-sensitive</strong> and must match exactly (no spaces, use hyphens)</li>
+                        <li>If template doesn't exist, default <code>collection.json</code> template is used</li>
+                        <li><strong>SearchSpring template</strong> (<code>searchspring</code>) replaces default Shopify search with SearchSpring enhanced search</li>
+                        <li><strong>Native template</strong> (<code>native</code>) uses standard Shopify collection functionality (no SearchSpring)</li>
+                        <li>Templates can include custom sections, banners, FAQ sections, and product grid configurations</li>
+                        <li>Templates are store-specific - verify template exists in your store's theme code</li>
+                        <li><strong>EA-prefixed templates</strong> (e.g., <code>ea-9zkhwx</code>) are automatically created by the Essential A/B Testing app when running A/B tests on collections. These templates are test variants and should not be manually assigned. See <a href="https://essential-apps.com/essential-shopify-ab-testing-app/" target="_blank" rel="noopener">Essential A/B Testing documentation</a> for more information.</li>
+                    </ul>
+                </section>
+                
+                <section id="custom-sections">
+                    <h2>Custom Sections</h2>
+                    
+                    <h3>Product Compare Sections</h3>
+                    
+                    <p><strong>Two Versions Available:</strong></p>
+                    
+                    <ol>
+                        <li><strong>Product Compare</strong> (<code>product-compare.liquid</code>)
+                            <ul>
+                                <li>Simple product comparison table</li>
+                                <li>Configure products via section settings</li>
+                                <li>Manual product selection</li>
+                            </ul>
+                        </li>
+                        <li><strong>Product Compare Enhanced</strong> (<code>product-compare-enhanced.liquid</code>)
+                            <ul>
+                                <li>Uses metaobjects for product line data</li>
+                                <li>Dynamic parameter comparison</li>
+                                <li>Visual parameter scales</li>
+                                <li><strong>Requires:</strong> Metaobject with product line entries</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <p><strong>Product Compare Enhanced Setup:</strong></p>
+                    <ol>
+                        <li>Create metaobject in Shopify Admin</li>
+                        <li>Add product line entries with parameters</li>
+                        <li>Add <strong>Product Compare Enhanced</strong> section to page</li>
+                        <li>Select metaobject in section settings</li>
+                        <li>Configure parameter labels and options</li>
+                    </ol>
+                    
+                    <h3>Feature Diagram Section</h3>
+                    
+                    <p><strong>Section:</strong> <code>feature-diagram.liquid</code></p>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ul>
+                        <li>Interactive diagram with feature points</li>
+                        <li>Clickable feature icons with descriptions</li>
+                        <li>Carousel support for multiple features</li>
+                        <li>Used on RX landing pages and product pages</li>
+                    </ul>
+                    
+                    <p><strong>Setup:</strong></p>
+                    <ol>
+                        <li>Add <strong>Feature Diagram</strong> section to page</li>
+                        <li>Upload diagram base image</li>
+                        <li>Add feature carousel blocks</li>
+                        <li>Position icons on diagram (vertical/horizontal position)</li>
+                        <li>Configure feature descriptions and icons</li>
+                    </ol>
+                    
+                    <h3>Shop the Look Section</h3>
+                    
+                    <p><strong>Section:</strong> <code>shop-the-look.liquid</code></p>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ul>
+                        <li>Display multiple products in lifestyle context</li>
+                        <li>Product hotspots on lifestyle image</li>
+                        <li>Click hotspots to view product details</li>
+                        <li>Used on collection and product pages</li>
+                    </ul>
+                    
+                    <h3>SearchSpring Recommendations</h3>
+                    
+                    <p><strong>Section:</strong> <code>searchspring-recommendations.liquid</code></p>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ul>
+                        <li>Product recommendations powered by SearchSpring</li>
+                        <li>Displays on product pages, collection pages, cart page</li>
+                        <li>Automatically hides if cookies disabled or doNotTrack enabled</li>
+                    </ul>
+                    
+                    <p><strong>Setup:</strong></p>
+                    <ol>
+                        <li>Add <strong>SearchSpring Recommendations</strong> section</li>
+                        <li>Configure display settings</li>
+                        <li>SearchSpring handles product selection automatically</li>
+                    </ol>
+                    
+                    <h3>UGC (User-Generated Content) Section</h3>
+                    
+                    <p><strong>Section:</strong> <code>ugc.liquid</code></p>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ul>
+                        <li>Display Yotpo UGC galleries</li>
+                        <li>Product reviews and customer photos</li>
+                        <li>Used on product and collection pages</li>
+                    </ul>
+                    
+                    <p><strong>Setup:</strong></p>
+                    <ol>
+                        <li>Add <strong>UGC</strong> section</li>
+                        <li>Configure gallery ID (from Yotpo)</li>
+                        <li>Yotpo handles content display</li>
+                    </ol>
+                </section>
+                
+                <section id="image--media-specifications">
+                    <h2>Image & Media Specifications</h2>
+                    
+                    <p>For comprehensive image and media specifications for all components, sections, and templates, see the dedicated <a href="image-media-specifications.html">Image & Media Specifications Guide</a>.</p>
+                    
+                    <p><strong>Quick Reference:</strong></p>
+                    <ul>
+                        <li><strong>Product Images:</strong> 2048×2048px (square), WebP format, < 500KB</li>
+                        <li><strong>Image Banners:</strong> 1400×700px (desktop), 800×1200px (mobile), WebP format</li>
+                        <li><strong>Product Cards:</strong> 1200×1200px (square), WebP format, < 500KB</li>
+                        <li><strong>Logos:</strong> 360×180px (2:1 ratio), SVG or PNG with transparency</li>
+                        <li><strong>Icons:</strong> 80×80px (square), SVG format preferred</li>
+                    </ul>
+                    
+                    <p><strong>Important:</strong></p>
+                    <ul>
+                        <li>All product images must be <strong>square (1:1 aspect ratio)</strong> for consistent grid display</li>
+                        <li>Always provide separate mobile images for banners and hero sections</li>
+                        <li>Use WebP format for optimal performance (Shopify auto-generates from JPG/PNG)</li>
+                        <li>Optimize all images before upload to meet file size targets</li>
+                    </ul>
+                    
+                    <p>See <a href="image-media-specifications.html">Image & Media Specifications Guide</a> for complete specifications, responsive breakpoints, video requirements, and optimization guidelines.</p>
+                </section>
+                
+                <section id="multi-store-considerations">
+                    <h2>Multi-Store Considerations</h2>
+                    
+                    <h3>Independent Stores</h3>
+                    
+                    <p>Superfeet operates three independent Shopify stores:</p>
+                    <ul>
+                        <li><strong>US:</strong> <code>superfeetww</code> (superfeet.com)</li>
+                        <li><strong>Canada:</strong> <code>superfeet-ca</code> (superfeet.ca)</li>
+                        <li><strong>UK:</strong> <code>superfeet-uk</code> (superfeet.co.uk)</li>
+                    </ul>
+                    
+                    <h3>Changes Across Stores</h3>
+                    
+                    <p><strong>Manual Replication Required:</strong></p>
+                    <ul>
+                        <li>Theme code changes (sections, snippets, templates)</li>
+                        <li>Navigation menu updates</li>
+                        <li>Page content updates</li>
+                        <li>Product template assignments</li>
+                        <li>Collection template assignments</li>
+                    </ul>
+                    
+                    <p><strong>Store-Specific Configurations:</strong></p>
+                    <ul>
+                        <li>Header/footer menus (different per store)</li>
+                        <li>Product availability (inventory per store)</li>
+                        <li>Pricing (currency per store)</li>
+                        <li>Apps (some apps US-only, others all stores)</li>
+                    </ul>
+                    
+                    <h3>Template Counts</h3>
+                    
+                    <ul>
+                        <li><strong>US:</strong> 123 templates</li>
+                        <li><strong>Canada:</strong> 82 templates</li>
+                        <li><strong>UK:</strong> 90 templates</li>
+                    </ul>
+                    
+                    <p><strong>Note:</strong> Template counts differ due to store-specific template assignments and regional customizations.</p>
+                </section>
+                
+                <section id="troubleshooting">
+                    <h2>Troubleshooting</h2>
+                    
+                    <h3>RX Microsite Not Loading</h3>
+                    
+                    <p><strong>Problem:</strong> Page has <code>cql.rx_microsite</code> metafield set but still shows regular header/footer.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li>Verify metafield is set to <code>true</code> (boolean, not text "true")</li>
+                        <li>Check metafield namespace/key: <code>cql.rx_microsite</code></li>
+                        <li>Clear browser cache</li>
+                        <li>Verify page is using default <code>page.json</code> template (not custom template)</li>
+                    </ol>
+                    
+                    <h3>SearchSpring Not Working</h3>
+                    
+                    <p><strong>Problem:</strong> Collection has <code>searchspring</code> template suffix but SearchSpring not loading.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li>Verify template suffix spelling: <code>searchspring</code> (lowercase, no spaces)</li>
+                        <li>Check SearchSpring dashboard for sync status</li>
+                        <li>Verify SearchSpring app is active</li>
+                        <li>Check browser console for JavaScript errors</li>
+                        <li>Verify cookies are enabled (SearchSpring requires cookies)</li>
+                    </ol>
+                    
+                    <h3>Product Template Not Applying</h3>
+                    
+                    <p><strong>Problem:</strong> Template suffix set but product page not using custom template.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li>Verify template file exists (e.g., <code>product.recharge-bundle.json</code>)</li>
+                        <li>Check template suffix spelling (case-sensitive, no spaces)</li>
+                        <li>Verify template is valid JSON</li>
+                        <li>Check browser console for errors</li>
+                        <li>Clear theme cache (publish/unpublish theme)</li>
+                    </ol>
+                    
+                    <h3>Menu Not Showing in Footer</h3>
+                    
+                    <p><strong>Problem:</strong> Footer menu block added but menu not displaying.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li>Verify menu is selected in block settings</li>
+                        <li>Check menu has menu items (not empty)</li>
+                        <li>Verify block is enabled (not disabled)</li>
+                        <li>Check mobile vs desktop display settings</li>
+                        <li>Verify menu is published in Shopify Admin</li>
+                    </ol>
+                    
+                    <h3>Low Stock Message Not Showing</h3>
+                    
+                    <p><strong>Problem:</strong> Product has <code>cql.low_stock_threshold</code> metafield but message not displaying.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li>Verify metafield is number type (not text)</li>
+                        <li>Check product section has <strong>Low stock message</strong> block</li>
+                        <li>Verify inventory quantity is below threshold</li>
+                        <li>Check block is enabled in product template</li>
+                    </ol>
+                </section>
+                
+                <section id="additional-resources">
+                    <h2>Additional Resources</h2>
+                    
+                    <ul>
+                        <li><strong>Theme Architecture:</strong> <a href="docs/theme-architecture.html">theme-architecture.html</a></li>
+                        <li><strong>Technical User Guide:</strong> <a href="docs/technical-user-guide.html">technical-user-guide.html</a></li>
+                        <li><strong>Data Guide:</strong> <a href="docs/data-guide.html">data-guide.html</a> - Metafields reference</li>
+                        <li><strong>Integrations:</strong> <a href="docs/integrations.html">integrations.html</a> - App documentation</li>
+                    </ul>
+                </section>
+                
+                <footer style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--digital-gray-1);">
+                    <p><em>Last Updated: Based on theme exports from November 2025</em><br>
+                    <em>Documentation follows ARCDIG-DOCS methodology v1.5.0</em></p>
+                </footer>
+            </main>
+        </div>
+    </div>
+    
+    <div id="footer-container"></div>
+    
+    <script src="component-loader.js"></script>
+    <script src="enhanced-toc/enhanced-toc.js"></script>
+</body>
+</html>
+
