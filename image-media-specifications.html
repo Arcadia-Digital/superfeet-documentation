@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <title>Image & Media Specifications - Superfeet eCommerce Platform Documentation</title>
+    <link rel="icon" type="image/webp" href="assets/favicon.webp">
+    <link rel="stylesheet" href="arcadia-style.css">
+    <style>
+        .toc-sidebar {
+            position: sticky;
+            top: 20px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: var(--newsprint-white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--sage-green);
+        }
+        
+        .toc-sidebar h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--forest-green);
+        }
+        
+        .toc-sidebar ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .toc-sidebar ul ul {
+            padding-left: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .toc-sidebar a {
+            color: var(--charcoal);
+            text-decoration: none;
+            display: block;
+            padding: 0.25rem 0;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        
+        .toc-sidebar a:hover {
+            color: var(--sage-green);
+        }
+        
+        .toc-sidebar a.active {
+            color: var(--forest-green);
+            font-weight: 600;
+            background-color: var(--sage-green);
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            margin: 0.25rem -0.75rem;
+            transition: all 0.3s ease;
+        }
+        
+        .toc-sidebar a.active::before {
+            content: "▶";
+            margin-right: 0.5rem;
+            font-size: 0.8rem;
+        }
+        
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 968px) {
+            .two-column-layout {
+                grid-template-columns: 1fr;
+            }
+            .toc-sidebar {
+                position: relative;
+                top: 0;
+            }
+        }
+        
+        .data-table {
+            width: 100%;
+            margin: 1rem 0;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            background-color: var(--forest-green);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .data-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--digital-gray-1);
+        }
+        
+        .data-table tr:hover {
+            background-color: var(--newsprint-white);
+        }
+        
+        code {
+            background-color: var(--digital-gray-1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        pre code {
+            display: block;
+            padding: 1rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-container"></div>
+    
+    <div class="container">
+        <div class="two-column-layout">
+            <nav class="toc-sidebar">
+                <h3>Table of Contents</h3>
+                <ul>
+                    <li><a href="#product-images">Product Images</a></li>
+                    <li><a href="#image-banner-section">Image Banner Section</a></li>
+                    <li><a href="#image-with-text-section">Image with Text Section</a></li>
+                    <li><a href="#featured-product-section">Featured Product Section</a></li>
+                    <li><a href="#product-card-images">Product Card Images</a></li>
+                    <li><a href="#feature-diagram-section">Feature Diagram Section</a></li>
+                    <li><a href="#collection-banner-images">Collection Banner Images</a></li>
+                    <li><a href="#icon--logo-specifications">Icon & Logo Specifications</a></li>
+                    <li><a href="#video-specifications">Video Specifications</a></li>
+                    <li><a href="#file-format-guidelines">File Format Guidelines</a></li>
+                    <li><a href="#optimization-best-practices">Optimization Best Practices</a></li>
+                    <li><a href="#component-specific-specifications">Component-Specific Specifications</a></li>
+                    <li><a href="#quick-reference-table">Quick Reference Table</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <section id="introduction">
+                    <h1>Image & Media Specifications</h1>
+                    <p><strong>Superfeet Multi-Region Shopify Plus Platform</strong></p>
+                    <p>Complete image and media specifications for all content and product template components. Use this guide when creating or sourcing images for the Superfeet eCommerce platform.</p>
+                </section>
+                
+                <section id="product-images">
+                    <h2>Product Images</h2>
+                    
+                    <h3>Main Product Images</h3>
+                    
+                    <p><strong>Purpose:</strong> Primary product images displayed on product detail pages (PDP).</p>
+                    
+                    <p><strong>Specifications:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 2048px × 2048px (square) or 2200px × 2200px</li>
+                        <li><strong>Minimum Dimensions:</strong> 1100px × 1100px</li>
+                        <li><strong>Maximum Dimensions:</strong> 4096px × 4096px</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square) recommended, but theme supports any aspect ratio</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG, PNG</li>
+                        <li><strong>File Size:</strong> &lt; 500KB per image (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Responsive Breakpoints:</strong></p>
+                    <p>The theme automatically generates multiple image sizes:</p>
+                    <ul>
+                        <li>550w (mobile)</li>
+                        <li>1100w (tablet)</li>
+                        <li>1445w (desktop default)</li>
+                        <li>1680w (large desktop)</li>
+                        <li>2048w (retina displays)</li>
+                        <li>2200w (high-DPI)</li>
+                        <li>2890w (ultra-wide)</li>
+                        <li>4096w (maximum)</li>
+                    </ul>
+                    
+                    <p><strong>Usage:</strong></p>
+                    <ul>
+                        <li>Upload via Shopify Admin → Products → Product Images</li>
+                        <li>First image is the featured image</li>
+                        <li>Additional images appear in product gallery</li>
+                        <li>Supports hover/secondary images for product cards</li>
+                    </ul>
+                    
+                    <p><strong>Important:</strong></p>
+                    <ul>
+                        <li>Use high-quality, professional product photography</li>
+                        <li>Ensure consistent lighting and background across all product images</li>
+                        <li>Include multiple angles (front, side, detail shots)</li>
+                        <li>Product images should show the actual product (not lifestyle shots)</li>
+                    </ul>
+                </section>
+                
+                <section id="image-banner-section">
+                    <h2>Image Banner Section</h2>
+                    
+                    <p><strong>Section:</strong> <code>image-banner.liquid</code></p>
+                    
+                    <p><strong>Purpose:</strong> Full-width hero banners with optional text overlay, used on homepage, landing pages, and collection pages.</p>
+                    
+                    <h3>Desktop Images</h3>
+                    
+                    <p><strong>Desktop Large Image (Wide Screens):</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 2800px × 1400px (2:1 aspect ratio)</li>
+                        <li><strong>Maximum Width:</strong> 2800px</li>
+                        <li><strong>Aspect Ratio:</strong> 2:1 recommended (can vary based on <code>desktop_max_height</code> setting)</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 800KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Desktop Image (Standard):</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1400px × 700px (2:1 aspect ratio)</li>
+                        <li><strong>Maximum Width:</strong> 1400px</li>
+                        <li><strong>Aspect Ratio:</strong> 2:1 recommended</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 600KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Desktop Max Height:</strong></p>
+                    <ul>
+                        <li><strong>Default:</strong> 640px</li>
+                        <li><strong>Configurable:</strong> Set in Theme Customizer (Image Banner section → Desktop background area maximum size)</li>
+                        <li><strong>Range:</strong> Typically 400px - 1200px</li>
+                    </ul>
+                    
+                    <h3>Mobile Images</h3>
+                    
+                    <p><strong>Mobile Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 800px × 1200px (portrait) or 800px × 1000px</li>
+                        <li><strong>Maximum Width:</strong> 400px (theme renders at max 400px width)</li>
+                        <li><strong>Aspect Ratio:</strong> 2:3 or 4:5 (portrait) recommended</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 300KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Important:</strong></p>
+                    <ul>
+                        <li>Always provide separate mobile images for optimal mobile experience</li>
+                        <li>Mobile images can be cropped differently than desktop (portrait vs landscape)</li>
+                        <li>Theme automatically switches between desktop and mobile images based on screen size</li>
+                    </ul>
+                    
+                    <h3>Video Support</h3>
+                    
+                    <p><strong>Video Formats:</strong></p>
+                    <ul>
+                        <li><strong>Desktop Large Video:</strong> MP4, WebM (for screens 1399px+)</li>
+                        <li><strong>Desktop Video:</strong> MP4, WebM (for screens 750px - 1398px)</li>
+                        <li><strong>Mobile Video:</strong> MP4, WebM (for screens &lt; 750px)</li>
+                    </ul>
+                    
+                    <p><strong>Video Specifications:</strong></p>
+                    <ul>
+                        <li><strong>Resolution:</strong> 1920×1080 (desktop), 1080×1920 (mobile portrait)</li>
+                        <li><strong>Codec:</strong> H.264 (MP4) or VP9 (WebM)</li>
+                        <li><strong>File Size:</strong> Keep under 10MB for optimal performance</li>
+                        <li><strong>Duration:</strong> Recommended 15-60 seconds for background videos</li>
+                    </ul>
+                </section>
+                
+                <section id="image-with-text-section">
+                    <h2>Image with Text Section</h2>
+                    
+                    <p><strong>Section:</strong> <code>image-with-text.liquid</code></p>
+                    
+                    <p><strong>Purpose:</strong> Side-by-side image and text content blocks.</p>
+                    
+                    <h3>Image Specifications</h3>
+                    
+                    <p><strong>Desktop Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1200px × 1200px (square) or 1200px × 800px (landscape)</li>
+                        <li><strong>Aspect Ratio:</strong> Flexible (1:1, 3:2, 4:3, or 16:9)</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 500KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 800px × 800px (square) or 800px × 1200px (portrait)</li>
+                        <li><strong>Aspect Ratio:</strong> Match desktop or use portrait orientation</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 300KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Image Fit Options:</strong></p>
+                    <ul>
+                        <li><strong>Cover:</strong> Image fills container, may crop (default)</li>
+                        <li><strong>Contain:</strong> Full image visible, may have letterboxing</li>
+                        <li><strong>Fill:</strong> Image stretched to fill container</li>
+                    </ul>
+                    
+                    <p><strong>Desktop Image Width Options:</strong></p>
+                    <ul>
+                        <li><strong>Small:</strong> Reduced padding, smaller image area</li>
+                        <li><strong>Normal:</strong> Standard image width (default)</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Image Width Options:</strong></p>
+                    <ul>
+                        <li><strong>Small:</strong> Compact image</li>
+                        <li><strong>Medium:</strong> Medium-sized image</li>
+                        <li><strong>Large:</strong> Full-width image (default)</li>
+                    </ul>
+                    
+                    <p><strong>Background Images:</strong></p>
+                    <ul>
+                        <li><strong>Desktop Background:</strong> Full-width background image (optional)</li>
+                        <li><strong>Mobile Background:</strong> Full-width background image for mobile (optional)</li>
+                        <li><strong>Recommended:</strong> 1920px × 1080px (desktop), 800px × 1200px (mobile)</li>
+                    </ul>
+                </section>
+                
+                <section id="featured-product-section">
+                    <h2>Featured Product Section</h2>
+                    
+                    <p><strong>Section:</strong> <code>featured-product.liquid</code></p>
+                    
+                    <p><strong>Purpose:</strong> Highlights a single featured product with large image and product card.</p>
+                    
+                    <h3>Product Image</h3>
+                    
+                    <p><strong>Desktop Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1400px × 1400px (square)</li>
+                        <li><strong>Maximum Height:</strong> Configurable (default varies)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square) recommended</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 600KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 800px × 800px (square)</li>
+                        <li><strong>Maximum Height:</strong> Configurable (default varies)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square) recommended</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 300KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Background Images:</strong></p>
+                    <ul>
+                        <li><strong>Desktop Background:</strong> Optional full-width background</li>
+                        <li><strong>Mobile Background:</strong> Optional full-width background for mobile</li>
+                        <li><strong>Recommended:</strong> 1920px × 1080px (desktop), 800px × 1200px (mobile)</li>
+                    </ul>
+                    
+                    <p><strong>Product Card Image (within section):</strong></p>
+                    <ul>
+                        <li><strong>Dimensions:</strong> 312px × 234px (display size)</li>
+                        <li><strong>Aspect Ratio:</strong> 1.5:1 (3:2)</li>
+                        <li><strong>Source:</strong> Uses product's featured image</li>
+                        <li><strong>Responsive:</strong> Theme generates 990px width version</li>
+                    </ul>
+                </section>
+                
+                <section id="product-card-images">
+                    <h2>Product Card Images</h2>
+                    
+                    <p><strong>Component:</strong> <code>product-card.liquid</code> (used in collections, search results, product recommendations)</p>
+                    
+                    <p><strong>Purpose:</strong> Product images displayed in product grids and lists.</p>
+                    
+                    <h3>Specifications</h3>
+                    
+                    <p><strong>Recommended Dimensions:</strong></p>
+                    <ul>
+                        <li><strong>Minimum:</strong> 800px × 800px</li>
+                        <li><strong>Recommended:</strong> 1200px × 1200px (square)</li>
+                        <li><strong>Maximum:</strong> 2048px × 2048px</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square) - <strong>CRITICAL for consistent grid layout</strong></li>
+                    </ul>
+                    
+                    <p><strong>Responsive Breakpoints:</strong></p>
+                    <p>Theme generates multiple sizes:</p>
+                    <ul>
+                        <li>493w (small mobile)</li>
+                        <li>600w (mobile)</li>
+                        <li>713w (tablet)</li>
+                        <li>823w (tablet large)</li>
+                        <li>990w (desktop)</li>
+                        <li>1100w (desktop large)</li>
+                        <li>1206w, 1346w, 1426w, 1646w, 1946w (high-DPI)</li>
+                    </ul>
+                    
+                    <p><strong>Display Size:</strong></p>
+                    <ul>
+                        <li><strong>Grid View:</strong> Varies by screen size and grid columns</li>
+                        <li><strong>Card Aspect Ratio:</strong> Maintains 1:1 square ratio</li>
+                    </ul>
+                    
+                    <p><strong>Secondary/Hover Images:</strong></p>
+                    <ul>
+                        <li><strong>Same specifications as primary image</strong></li>
+                        <li><strong>Purpose:</strong> Shows on hover/click for product card</li>
+                        <li><strong>Usage:</strong> Second image in product media gallery</li>
+                    </ul>
+                    
+                    <p><strong>Important:</strong></p>
+                    <ul>
+                        <li><strong>All product images must be square (1:1 aspect ratio)</strong> for consistent grid display</li>
+                        <li>Use same dimensions for all product images across the site</li>
+                        <li>Ensure product is centered and properly framed within square canvas</li>
+                        <li>White or transparent background recommended</li>
+                    </ul>
+                </section>
+                
+                <section id="feature-diagram-section">
+                    <h2>Feature Diagram Section</h2>
+                    
+                    <p><strong>Section:</strong> <code>feature-diagram.liquid</code></p>
+                    
+                    <p><strong>Purpose:</strong> Interactive diagrams with feature points (used on product pages and landing pages).</p>
+                    
+                    <h3>Main Diagram Image</h3>
+                    
+                    <p><strong>Desktop Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1488px × 1488px (square) or 1488px × 992px (3:2)</li>
+                        <li><strong>Maximum Width:</strong> 744px (display size, theme uses 2x for retina)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 or 3:2 recommended</li>
+                        <li><strong>File Format:</strong> WebP (preferred), PNG (for transparency), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 400KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 700px × 700px (square) or 700px × 466px (3:2)</li>
+                        <li><strong>Maximum Width:</strong> 350px (display size, theme uses 2x for retina)</li>
+                        <li><strong>Aspect Ratio:</strong> Match desktop aspect ratio</li>
+                        <li><strong>File Format:</strong> WebP (preferred), PNG (for transparency), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 200KB (optimized)</li>
+                    </ul>
+                    
+                    <h3>Feature Icons</h3>
+                    
+                    <p><strong>Icon Specifications:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 120px × 120px (square)</li>
+                        <li><strong>Maximum Dimensions:</strong> 160px × 160px (configurable via <code>icon_width</code> setting)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square)</li>
+                        <li><strong>File Format:</strong> PNG (with transparency), SVG (preferred for scalability)</li>
+                        <li><strong>File Size:</strong> &lt; 50KB per icon</li>
+                    </ul>
+                    
+                    <p><strong>Icon Positioning:</strong></p>
+                    <ul>
+                        <li>Icons are positioned absolutely on diagram using <code>v_pos</code> (vertical) and <code>h_pos</code> (horizontal) percentages</li>
+                        <li>Icons should be designed to work at various sizes (60px - 160px)</li>
+                    </ul>
+                </section>
+                
+                <section id="collection-banner-images">
+                    <h2>Collection Banner Images</h2>
+                    
+                    <p><strong>Section:</strong> <code>main-collection-banner.liquid</code></p>
+                    
+                    <p><strong>Purpose:</strong> Collection page hero banners.</p>
+                    
+                    <h3>Specifications</h3>
+                    
+                    <p><strong>Desktop Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1920px × 800px (2.4:1 aspect ratio)</li>
+                        <li><strong>Aspect Ratio:</strong> 2:1 to 3:1 (wide landscape)</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 700KB (optimized)</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 800px × 600px (4:3 aspect ratio)</li>
+                        <li><strong>Aspect Ratio:</strong> 4:3 or 16:9</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 300KB (optimized)</li>
+                    </ul>
+                </section>
+                
+                <section id="icon--logo-specifications">
+                    <h2>Icon & Logo Specifications</h2>
+                    
+                    <h3>Header Logo</h3>
+                    
+                    <p><strong>Desktop Logo:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 360px × 180px (2:1 aspect ratio)</li>
+                        <li><strong>Maximum Width:</strong> 180px (configurable in Theme Customizer)</li>
+                        <li><strong>Aspect Ratio:</strong> 2:1 recommended (can vary)</li>
+                        <li><strong>File Format:</strong> PNG (with transparency), SVG (preferred)</li>
+                        <li><strong>File Size:</strong> &lt; 100KB</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Logo:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 340px × 170px (2:1 aspect ratio)</li>
+                        <li><strong>Maximum Width:</strong> 170px (configurable in Theme Customizer)</li>
+                        <li><strong>Sticky Header Width:</strong> 200px × 100px (2:1, configurable)</li>
+                        <li><strong>File Format:</strong> PNG (with transparency), SVG (preferred)</li>
+                        <li><strong>File Size:</strong> &lt; 80KB</li>
+                    </ul>
+                    
+                    <h3>Footer Logo</h3>
+                    
+                    <p><strong>Footer Logo:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 300px × 150px (2:1 aspect ratio)</li>
+                        <li><strong>Maximum Width:</strong> 200px (typical)</li>
+                        <li><strong>Aspect Ratio:</strong> 2:1 recommended</li>
+                        <li><strong>File Format:</strong> PNG (with transparency), SVG (preferred)</li>
+                        <li><strong>File Size:</strong> &lt; 100KB</li>
+                    </ul>
+                    
+                    <h3>Icon Specifications</h3>
+                    
+                    <p><strong>General Icons (Menu, Social, etc.):</strong></p>
+                    <ul>
+                        <li><strong>Dimensions:</strong> 24px × 24px, 32px × 32px, or 48px × 48px</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square)</li>
+                        <li><strong>File Format:</strong> SVG (preferred), PNG (with transparency)</li>
+                        <li><strong>File Size:</strong> &lt; 10KB per icon</li>
+                    </ul>
+                    
+                    <p><strong>Feature Icons (Features List Section):</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 80px × 80px (square)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square)</li>
+                        <li><strong>File Format:</strong> SVG (preferred), PNG (with transparency)</li>
+                        <li><strong>File Size:</strong> &lt; 30KB per icon</li>
+                    </ul>
+                    
+                    <p><strong>Product Card Icons (Free Shipping, Returns, etc.):</strong></p>
+                    <ul>
+                        <li><strong>Dimensions:</strong> 24px × 24px or 32px × 32px</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square)</li>
+                        <li><strong>File Format:</strong> SVG (preferred), PNG (with transparency)</li>
+                        <li><strong>File Size:</strong> &lt; 5KB per icon</li>
+                    </ul>
+                </section>
+                
+                <section id="video-specifications">
+                    <h2>Video Specifications</h2>
+                    
+                    <h3>Background Videos (Image Banner Section)</h3>
+                    
+                    <p><strong>Desktop Video:</strong></p>
+                    <ul>
+                        <li><strong>Resolution:</strong> 1920px × 1080px (Full HD)</li>
+                        <li><strong>Aspect Ratio:</strong> 16:9</li>
+                        <li><strong>Frame Rate:</strong> 30fps</li>
+                        <li><strong>Codec:</strong> H.264 (MP4) or VP9 (WebM)</li>
+                        <li><strong>Bitrate:</strong> 5-8 Mbps</li>
+                        <li><strong>File Size:</strong> &lt; 10MB (15-60 second videos)</li>
+                        <li><strong>Format:</strong> MP4 (primary), WebM (fallback)</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Video:</strong></p>
+                    <ul>
+                        <li><strong>Resolution:</strong> 1080px × 1920px (portrait) or 1080px × 1920px</li>
+                        <li><strong>Aspect Ratio:</strong> 9:16 (portrait) or 16:9</li>
+                        <li><strong>Frame Rate:</strong> 30fps</li>
+                        <li><strong>Codec:</strong> H.264 (MP4)</li>
+                        <li><strong>Bitrate:</strong> 3-5 Mbps</li>
+                        <li><strong>File Size:</strong> &lt; 8MB</li>
+                    </ul>
+                    
+                    <h3>Embedded Videos (YouTube/Vimeo)</h3>
+                    
+                    <p><strong>Supported Platforms:</strong></p>
+                    <ul>
+                        <li>YouTube</li>
+                        <li>Vimeo</li>
+                    </ul>
+                    
+                    <p><strong>Recommended Settings:</strong></p>
+                    <ul>
+                        <li><strong>Resolution:</strong> 1080p or 720p minimum</li>
+                        <li><strong>Aspect Ratio:</strong> 16:9</li>
+                        <li><strong>Embed Type:</strong> Responsive embed (handled by theme)</li>
+                    </ul>
+                </section>
+                
+                <section id="file-format-guidelines">
+                    <h2>File Format Guidelines</h2>
+                    
+                    <h3>WebP (Preferred)</h3>
+                    
+                    <p><strong>When to Use:</strong></p>
+                    <ul>
+                        <li>All product images</li>
+                        <li>All banner images</li>
+                        <li>All section images</li>
+                        <li>Any image where file size optimization is critical</li>
+                    </ul>
+                    
+                    <p><strong>Advantages:</strong></p>
+                    <ul>
+                        <li>25-35% smaller file size than JPG</li>
+                        <li>Better quality at same file size</li>
+                        <li>Supported by all modern browsers</li>
+                        <li>Shopify automatically generates WebP versions</li>
+                    </ul>
+                    
+                    <h3>JPG</h3>
+                    
+                    <p><strong>When to Use:</strong></p>
+                    <ul>
+                        <li>Fallback format</li>
+                        <li>Images with many colors (photographs)</li>
+                        <li>When WebP is not available</li>
+                    </ul>
+                    
+                    <p><strong>Settings:</strong></p>
+                    <ul>
+                        <li>Quality: 80-90%</li>
+                        <li>Progressive: Enabled</li>
+                        <li>Optimize: Yes</li>
+                    </ul>
+                    
+                    <h3>PNG</h3>
+                    
+                    <p><strong>When to Use:</strong></p>
+                    <ul>
+                        <li>Images requiring transparency</li>
+                        <li>Icons and logos</li>
+                        <li>Images with text overlays</li>
+                        <li>Simple graphics with few colors</li>
+                    </ul>
+                    
+                    <p><strong>Settings:</strong></p>
+                    <ul>
+                        <li>Compression: Maximum</li>
+                        <li>Use PNG-8 for simple graphics (&lt; 256 colors)</li>
+                        <li>Use PNG-24 for complex graphics with transparency</li>
+                    </ul>
+                    
+                    <h3>SVG</h3>
+                    
+                    <p><strong>When to Use:</strong></p>
+                    <ul>
+                        <li>Icons</li>
+                        <li>Logos</li>
+                        <li>Simple graphics</li>
+                        <li>Scalable vector graphics</li>
+                    </ul>
+                    
+                    <p><strong>Advantages:</strong></p>
+                    <ul>
+                        <li>Infinitely scalable</li>
+                        <li>Small file size</li>
+                        <li>Crisp at any resolution</li>
+                        <li>Can be styled with CSS</li>
+                    </ul>
+                </section>
+                
+                <section id="optimization-best-practices">
+                    <h2>Optimization Best Practices</h2>
+                    
+                    <h3>Image Optimization</h3>
+                    
+                    <ol>
+                        <li><strong>Compress Before Upload:</strong>
+                            <ul>
+                                <li>Use tools like TinyPNG, ImageOptim, or Squoosh</li>
+                                <li>Target 80-90% quality for JPG</li>
+                                <li>Target 85-95% quality for WebP</li>
+                            </ul>
+                        </li>
+                        <li><strong>Responsive Images:</strong>
+                            <ul>
+                                <li>Shopify automatically generates multiple sizes</li>
+                                <li>Upload at highest needed resolution (2x for retina)</li>
+                                <li>Theme handles responsive delivery</li>
+                            </ul>
+                        </li>
+                        <li><strong>Lazy Loading:</strong>
+                            <ul>
+                                <li>Most images lazy load by default</li>
+                                <li>First image on page should have <code>no_lazy_load</code> enabled for LCP</li>
+                                <li>Use <code>high_fetch_priority</code> for above-the-fold images</li>
+                            </ul>
+                        </li>
+                        <li><strong>File Naming:</strong>
+                            <ul>
+                                <li>Use descriptive, SEO-friendly names</li>
+                                <li>Include product name or purpose</li>
+                                <li>Use hyphens, not underscores</li>
+                                <li>Example: <code>all-purpose-cushion-front-view.webp</code></li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <h3>Performance Targets</h3>
+                    
+                    <p><strong>File Size Guidelines:</strong></p>
+                    <ul>
+                        <li><strong>Product Images:</strong> &lt; 500KB per image</li>
+                        <li><strong>Banner Images:</strong> &lt; 800KB (desktop), &lt; 300KB (mobile)</li>
+                        <li><strong>Icons:</strong> &lt; 50KB per icon</li>
+                        <li><strong>Logos:</strong> &lt; 100KB</li>
+                        <li><strong>Videos:</strong> &lt; 10MB (15-60 seconds)</li>
+                    </ul>
+                    
+                    <p><strong>Page Load Performance:</strong></p>
+                    <ul>
+                        <li><strong>LCP (Largest Contentful Paint):</strong> &lt; 2.5 seconds</li>
+                        <li><strong>Total Page Weight:</strong> Keep images under 2MB total per page</li>
+                        <li><strong>Above-the-Fold Images:</strong> Optimize for immediate display</li>
+                    </ul>
+                    
+                    <h3>Accessibility</h3>
+                    
+                    <ol>
+                        <li><strong>Alt Text:</strong>
+                            <ul>
+                                <li>Always provide descriptive alt text</li>
+                                <li>Describe the image content, not decorative purpose</li>
+                                <li>Include product names, features, or context</li>
+                                <li>Example: "Superfeet All-Purpose Cushion insole, front view showing arch support"</li>
+                            </ul>
+                        </li>
+                        <li><strong>Text Overlays:</strong>
+                            <ul>
+                                <li>Ensure sufficient contrast between text and background images</li>
+                                <li>Use text boxes with background opacity for readability</li>
+                                <li>Test on various screen sizes and brightness levels</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+                
+                <section id="component-specific-specifications">
+                    <h2>Component-Specific Specifications</h2>
+                    
+                    <h3>Product Compare Enhanced Section</h3>
+                    
+                    <p><strong>Product Images:</strong></p>
+                    <ul>
+                        <li><strong>Dimensions:</strong> 400px × 400px (square)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square)</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 200KB per image</li>
+                        <li><strong>Source:</strong> Product featured images</li>
+                    </ul>
+                    
+                    <h3>Shop the Look Section</h3>
+                    
+                    <p><strong>Lifestyle Image:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1920px × 1080px (16:9)</li>
+                        <li><strong>Aspect Ratio:</strong> 16:9 or 4:3</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 600KB</li>
+                    </ul>
+                    
+                    <p><strong>Product Hotspot Images:</strong></p>
+                    <ul>
+                        <li>Uses product featured images (see Product Images section)</li>
+                    </ul>
+                    
+                    <h3>Multicolumn Section</h3>
+                    
+                    <p><strong>Column Images:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 800px × 800px (square) or 800px × 600px (4:3)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 or 4:3</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 300KB per image</li>
+                    </ul>
+                    
+                    <h3>Image Accordion Section</h3>
+                    
+                    <p><strong>Desktop Images:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1200px × 800px (3:2)</li>
+                        <li><strong>Aspect Ratio:</strong> 3:2 or 16:9</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 400KB per image</li>
+                    </ul>
+                    
+                    <p><strong>Mobile Images:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 800px × 600px (4:3)</li>
+                        <li><strong>Aspect Ratio:</strong> 4:3</li>
+                        <li><strong>File Format:</strong> WebP (preferred), JPG</li>
+                        <li><strong>File Size:</strong> &lt; 200KB per image</li>
+                    </ul>
+                    
+                    <h3>UGC (User-Generated Content) Section</h3>
+                    
+                    <p><strong>Customer Photos:</strong></p>
+                    <ul>
+                        <li><strong>Recommended Dimensions:</strong> 1200px × 1200px (square)</li>
+                        <li><strong>Aspect Ratio:</strong> 1:1 (square)</li>
+                        <li><strong>File Format:</strong> JPG, PNG</li>
+                        <li><strong>File Size:</strong> &lt; 500KB per image</li>
+                        <li><strong>Source:</strong> Yotpo UGC gallery (managed via Yotpo app)</li>
+                    </ul>
+                </section>
+                
+                <section id="quick-reference-table">
+                    <h2>Quick Reference Table</h2>
+                    
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Component</th>
+                                <th>Desktop Dimensions</th>
+                                <th>Mobile Dimensions</th>
+                                <th>Aspect Ratio</th>
+                                <th>Format</th>
+                                <th>Max Size</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Product Image</strong></td>
+                                <td>2048×2048px</td>
+                                <td>2048×2048px</td>
+                                <td>1:1 (square)</td>
+                                <td>WebP/JPG</td>
+                                <td>500KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Image Banner</strong></td>
+                                <td>1400×700px</td>
+                                <td>800×1200px</td>
+                                <td>2:1 (desktop), 2:3 (mobile)</td>
+                                <td>WebP/JPG</td>
+                                <td>600KB/300KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Image Banner (Large)</strong></td>
+                                <td>2800×1400px</td>
+                                <td>-</td>
+                                <td>2:1</td>
+                                <td>WebP/JPG</td>
+                                <td>800KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Image with Text</strong></td>
+                                <td>1200×1200px</td>
+                                <td>800×800px</td>
+                                <td>1:1 or flexible</td>
+                                <td>WebP/JPG</td>
+                                <td>500KB/300KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Featured Product</strong></td>
+                                <td>1400×1400px</td>
+                                <td>800×800px</td>
+                                <td>1:1 (square)</td>
+                                <td>WebP/JPG</td>
+                                <td>600KB/300KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Product Card</strong></td>
+                                <td>1200×1200px</td>
+                                <td>1200×1200px</td>
+                                <td>1:1 (square)</td>
+                                <td>WebP/JPG</td>
+                                <td>500KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Feature Diagram</strong></td>
+                                <td>1488×1488px</td>
+                                <td>700×700px</td>
+                                <td>1:1 (square)</td>
+                                <td>WebP/PNG</td>
+                                <td>400KB/200KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Collection Banner</strong></td>
+                                <td>1920×800px</td>
+                                <td>800×600px</td>
+                                <td>2.4:1 (desktop), 4:3 (mobile)</td>
+                                <td>WebP/JPG</td>
+                                <td>700KB/300KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Logo (Header)</strong></td>
+                                <td>360×180px</td>
+                                <td>340×170px</td>
+                                <td>2:1</td>
+                                <td>SVG/PNG</td>
+                                <td>100KB</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Icons</strong></td>
+                                <td>80×80px</td>
+                                <td>80×80px</td>
+                                <td>1:1 (square)</td>
+                                <td>SVG/PNG</td>
+                                <td>50KB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                
+                <section id="additional-resources">
+                    <h2>Additional Resources</h2>
+                    <ul>
+                        <li><strong>Theme Architecture:</strong> <a href="docs/theme-architecture.html">theme-architecture.html</a></li>
+                        <li><strong>Technical User Guide:</strong> <a href="docs/technical-user-guide.html">technical-user-guide.html</a></li>
+                        <li><strong>Shopify Image Guidelines:</strong> <a href="https://help.shopify.com/en/manual/products/product-media" target="_blank">https://help.shopify.com/en/manual/products/product-media</a></li>
+                        <li><strong>WebP Conversion:</strong> <a href="https://squoosh.app/" target="_blank">https://squoosh.app/</a></li>
+                        <li><strong>Image Optimization:</strong> <a href="https://tinypng.com/" target="_blank">https://tinypng.com/</a></li>
+                    </ul>
+                </section>
+                
+                <footer style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--digital-gray-1);">
+                    <p><em>Last Updated: Based on theme exports from November 2025</em></p>
+                </footer>
+            </main>
+        </div>
+    </div>
+    
+    <div id="footer-container"></div>
+    
+    <script src="component-loader.js"></script>
+    <script src="enhanced-toc/enhanced-toc.js"></script>
+</body>
+</html>
+
