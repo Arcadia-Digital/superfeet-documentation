@@ -162,5 +162,5 @@ _site/
 *.rar
 recordings/
 
-# Enhanced TOC development files
-enhanced-toc/
+# Enhanced TOC development files (keeping enhanced-toc.js for production)
+# enhanced-toc/
