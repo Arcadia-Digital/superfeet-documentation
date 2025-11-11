@@ -38,11 +38,21 @@
     
     /**
      * Hide content to prevent flash before authentication
+     * Hides main content containers, not the body (so overlay can still show)
      */
     function hideContent() {
-        if (document.body) {
-            document.body.style.visibility = 'hidden';
-            document.body.style.overflow = 'hidden';
+        const container = document.querySelector('.container');
+        const headerContainer = document.getElementById('header-container');
+        const footerContainer = document.getElementById('footer-container');
+        
+        if (container) {
+            container.style.visibility = 'hidden';
+        }
+        if (headerContainer) {
+            headerContainer.style.visibility = 'hidden';
+        }
+        if (footerContainer) {
+            footerContainer.style.visibility = 'hidden';
         }
     }
     
@@ -50,9 +60,18 @@
      * Show content after authentication
      */
     function showContent() {
-        if (document.body) {
-            document.body.style.visibility = 'visible';
-            document.body.style.overflow = '';
+        const container = document.querySelector('.container');
+        const headerContainer = document.getElementById('header-container');
+        const footerContainer = document.getElementById('footer-container');
+        
+        if (container) {
+            container.style.visibility = 'visible';
+        }
+        if (headerContainer) {
+            headerContainer.style.visibility = 'visible';
+        }
+        if (footerContainer) {
+            footerContainer.style.visibility = 'visible';
         }
     }
     
