@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <title>Data Guide - Superfeet eCommerce Platform Documentation</title>
+    <link rel="icon" type="image/webp" href="assets/favicon.webp">
+    <link rel="stylesheet" href="arcadia-style.css">
+    <style>
+        .toc-sidebar {
+            position: sticky;
+            top: 20px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: var(--newsprint-white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--sage-green);
+        }
+        
+        .toc-sidebar h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--forest-green);
+        }
+        
+        .toc-sidebar ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .toc-sidebar ul ul {
+            padding-left: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .toc-sidebar a {
+            color: var(--charcoal);
+            text-decoration: none;
+            display: block;
+            padding: 0.25rem 0;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        
+        .toc-sidebar a:hover {
+            color: var(--sage-green);
+        }
+        
+        .toc-sidebar a.active {
+            color: var(--forest-green);
+            font-weight: 600;
+            background-color: var(--sage-green);
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            margin: 0.25rem -0.75rem;
+            transition: all 0.3s ease;
+        }
+        
+        .toc-sidebar a.active::before {
+            content: "▶";
+            margin-right: 0.5rem;
+            font-size: 0.8rem;
+        }
+        
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 968px) {
+            .two-column-layout {
+                grid-template-columns: 1fr;
+            }
+            .toc-sidebar {
+                position: relative;
+                top: 0;
+            }
+        }
+        
+        .data-table {
+            width: 100%;
+            margin: 1rem 0;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            background-color: var(--forest-green);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .data-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--digital-gray-1);
+        }
+        
+        .data-table tr:hover {
+            background-color: var(--newsprint-white);
+        }
+        
+        code {
+            background-color: var(--digital-gray-1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        pre {
+            background-color: var(--digital-gray-1);
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        
+        pre code {
+            display: block;
+            padding: 0;
+            background: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-container"></div>
+    
+    <div class="container">
+        <div class="two-column-layout">
+            <nav class="toc-sidebar">
+                <h3>Table of Contents</h3>
+                <ul>
+                    <li><a href="#product-metafields">Product Metafields</a></li>
+                    <li><a href="#variant-metafields">Variant Metafields</a></li>
+                    <li><a href="#collection-metafields">Collection Metafields</a></li>
+                    <li><a href="#page-metafields">Page Metafields</a></li>
+                    <li><a href="#metaobjects">Metaobjects</a></li>
+                    <li><a href="#data-access-patterns">Data Access Patterns</a></li>
+                    <li><a href="#bulk-data-management">Bulk Data Management</a></li>
+                    <li><a href="#data-relationships">Data Relationships</a></li>
+                    <li><a href="#common-use-cases">Common Use Cases</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <section id="introduction">
+                    <h1>Data Guide</h1>
+                    <p><strong>Superfeet Multi-Region Shopify Plus Platform</strong></p>
+                    <p>Complete reference documentation for all metafields, metaobjects, and data structures.</p>
+                </section>
+                
+                <section id="product-metafields">
+                    <h2>Product Metafields</h2>
+                    
+                    <h3>CQL Namespace (<code>cql.*</code>)</h3>
+                    
+                    <p><strong>Product Information:</strong></p>
+                    <ul>
+                        <li><code>cql.arch_height</code> [single_line_text_field] - Arch height (e.g., "Medium", "High")</li>
+                        <li><code>cql.insole_thickness</code> [single_line_text_field] - Insole thickness (e.g., "Mid", "Thin")</li>
+                        <li><code>cql.product_gender</code> [single_line_text_field] - Product gender (e.g., "Unisex", "Men's", "Women's")</li>
+                        <li><code>cql.product_family</code> [single_line_text_field] - Product family (e.g., "All-Purpose", "Run Support")</li>
+                        <li><code>cql.underfoot_cushioning</code> [single_line_text_field] - Cushioning level (e.g., "Soft", "Medium")</li>
+                        <li><code>cql.target_use_activity</code> [single_line_text_field] - Target activity (e.g., "All-Purpose", "Running")</li>
+                        <li><code>cql.fits_best_in</code> [single_line_text_field] - Fit description (e.g., "Roomy to moderate fitting footwear")</li>
+                        <li><code>cql.insole_technology</code> [single_line_text_field] - Technology description (e.g., "A.C.T. (Adaptive Comfort Technology)")</li>
+                        <li><code>cql.insole_heel_cup_depth</code> [single_line_text_field] - Heel cup depth (e.g., "Max")</li>
+                        <li><code>cql.previously_named</code> [single_line_text_field] - Previous product name</li>
+                        <li><code>cql.badge</code> [single_line_text_field] - Badge text (e.g., "Best Seller")</li>
+                        <li><code>cql.best_for</code> [single_line_text_field] - Best use case (e.g., "Everyday footwear, athletic shoes, active use")</li>
+                        <li><code>cql.short_description</code> [multi_line_text_field] - Short product description</li>
+                        <li><code>cql.discount_summary</code> [single_line_text_field] - Discount summary text</li>
+                        <li><code>cql.bundle_type</code> [single_line_text_field] - Bundle type identifier</li>
+                    </ul>
+                    
+                    <p><strong>Size Information:</strong></p>
+                    <ul>
+                        <li><code>cql.kid_sizes</code> [single_line_text_field] - Kids size range</li>
+                        <li><code>cql.men_sizes</code> [single_line_text_field] - Men's size range (e.g., "5.5 - 7, 7.5 - 9, 9.5 - 11, 11.5 - 13")</li>
+                        <li><code>cql.women_sizes</code> [single_line_text_field] - Women's size range (e.g., "4.5 - 6, 6.5 - 8, 8.5 - 10, 10.5 - 12, 12.5 - 14")</li>
+                        <li><code>cql.skate_sizes</code> [single_line_text_field] - Skate size range</li>
+                    </ul>
+                    
+                    <p><strong>Product Attributes:</strong></p>
+                    <ul>
+                        <li><code>cql.vegan</code> [boolean] - Vegan product indicator</li>
+                        <li><code>cql.latex_free</code> [boolean] - Latex-free product indicator</li>
+                        <li><code>cql.low_stock_threshold</code> [number_integer] - Low stock threshold number</li>
+                    </ul>
+                    
+                    <p><strong>Product Relationships:</strong></p>
+                    <ul>
+                        <li><code>cql.comparison_products</code> [list.product_reference] - Related/comparison products</li>
+                        <li><code>cql.shop_for</code> [single_line_text_field] - Shop for category (e.g., "Men, Women, Kids")</li>
+                    </ul>
+                    
+                    <p><strong>Metaobject References:</strong></p>
+                    <ul>
+                        <li><code>cql.faq_group</code> [metaobject_reference] - FAQ group metaobject</li>
+                        <li><code>cql.arch_height_info</code> [metaobject_reference] - Arch height information metaobject</li>
+                        <li><code>cql.thickness_info</code> [metaobject_reference] - Thickness information metaobject</li>
+                        <li><code>cql.cushion_info</code> [metaobject_reference] - Cushion information metaobject</li>
+                    </ul>
+                    
+                    <p><strong>Media:</strong></p>
+                    <ul>
+                        <li><code>cql.image_with_feature</code> [file_reference] - Image with feature overlay</li>
+                    </ul>
+                    
+                    <h3>Custom Namespace (<code>custom.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>custom.feature_diagram</code> [metaobject_reference] - Feature diagram metaobject</li>
+                        <li><code>custom.insole_finder_header_text</code> [single_line_text_field] - Insole Finder header text</li>
+                        <li><code>custom.hsa_fsa_eligible</code> [boolean] - HSA/FSA eligibility indicator</li>
+                    </ul>
+                    
+                    <h3>SEO Namespace (<code>seo.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>seo_title</code> [single_line_text_field] - Custom SEO title</li>
+                        <li><code>seo_desc</code> [single_line_text_field] - Custom SEO description</li>
+                        <li><code>seo.hidden</code> [number_integer] - Hide from search (0 = visible, 1 = hidden)</li>
+                    </ul>
+                    
+                    <h3>Reviews Namespace (<code>reviews.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>reviews.rating_count</code> [number_integer] - Review count</li>
+                        <li><code>reviews.rating</code> [rating] - Average rating</li>
+                    </ul>
+                    
+                    <h3>Yotpo Namespace (<code>yotpo.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>yotpo.reviews_average</code> [single_line_text_field] - Average review rating</li>
+                        <li><code>yotpo.reviews_count</code> [single_line_text_field] - Review count</li>
+                        <li><code>yotpo.richsnippetshtml</code> [single_line_text_field] - Rich snippets HTML</li>
+                    </ul>
+                    
+                    <h3>Google Shopping Namespace (<code>mm-google-shopping.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>mm-google-shopping.custom_product</code> [boolean] - Custom product flag</li>
+                        <li><code>mm-google-shopping.google_product_category</code> [string] - Google product category</li>
+                    </ul>
+                    
+                    <h3>Facebook Namespace (<code>mc-facebook.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>mc-facebook.google_product_category</code> [string] - Facebook product category</li>
+                    </ul>
+                    
+                    <h3>Recharge Namespace (<code>rc_bundles.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>rc_bundles.layout_template</code> [single_line_text_field] - Bundle layout template</li>
+                    </ul>
+                    
+                    <h3>Standard Metafields</h3>
+                    
+                    <ul>
+                        <li><code>title_tag</code> [string] - Page title tag</li>
+                        <li><code>description_tag</code> [string] - Meta description tag</li>
+                    </ul>
+                </section>
+                
+                <section id="variant-metafields">
+                    <h2>Variant Metafields</h2>
+                    
+                    <h3>Google Shopping Variant Metafields (<code>mm-google-shopping.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>mm-google-shopping.custom_label_0</code> [single_line_text_field] - Custom label 0</li>
+                        <li><code>mm-google-shopping.custom_label_1</code> [single_line_text_field] - Custom label 1</li>
+                        <li><code>mm-google-shopping.custom_label_2</code> [single_line_text_field] - Custom label 2</li>
+                        <li><code>mm-google-shopping.custom_label_3</code> [single_line_text_field] - Custom label 3</li>
+                        <li><code>mm-google-shopping.custom_label_4</code> [single_line_text_field] - Custom label 4</li>
+                        <li><code>mm-google-shopping.size_system</code> [single_line_text_field] - Size system</li>
+                        <li><code>mm-google-shopping.size_type</code> [single_line_text_field] - Size type</li>
+                        <li><code>mm-google-shopping.mpn</code> [single_line_text_field] - Manufacturer part number</li>
+                        <li><code>mm-google-shopping.gender</code> [single_line_text_field] - Gender</li>
+                        <li><code>mm-google-shopping.condition</code> [single_line_text_field] - Product condition</li>
+                        <li><code>mm-google-shopping.age_group</code> [single_line_text_field] - Age group</li>
+                    </ul>
+                </section>
+                
+                <section id="collection-metafields">
+                    <h2>Collection Metafields</h2>
+                    
+                    <p>Collection metafields are used for collection-specific configurations and content. Common namespaces include:</p>
+                    <ul>
+                        <li><code>cql.*</code> - Custom collection data</li>
+                        <li><code>custom.*</code> - Custom collection settings</li>
+                        <li><code>seo.*</code> - SEO settings</li>
+                    </ul>
+                    
+                    <p><strong>Note:</strong> Specific collection metafields should be verified in Shopify Admin or via data exports.</p>
+                </section>
+                
+                <section id="page-metafields">
+                    <h2>Page Metafields</h2>
+                    
+                    <h3>CQL Namespace (<code>cql.*</code>)</h3>
+                    
+                    <ul>
+                        <li><code>cql.rx_microsite</code> [boolean] - RX microsite indicator (used for microsite layout)</li>
+                    </ul>
+                    
+                    <p><strong>Note:</strong> Additional page metafields may exist. Verify in Shopify Admin or data exports.</p>
+                </section>
+                
+                <section id="metaobjects">
+                    <h2>Metaobjects</h2>
+                    
+                    <h3>Product Feature Groups</h3>
+                    
+                    <p><strong>Reference:</strong> <code>cql.faq_group</code> [metaobject_reference]</p>
+                    
+                    <p>Product FAQ groups stored as metaobjects for reusable FAQ content.</p>
+                    
+                    <p><strong>Example:</strong> <code>product_feature_groups.ap-cushion</code></p>
+                    
+                    <h3>Arch Height Icons</h3>
+                    
+                    <p><strong>Reference:</strong> <code>cql.arch_height_info</code> [metaobject_reference]</p>
+                    
+                    <p>Arch height information and icon references.</p>
+                    
+                    <p><strong>Example:</strong> <code>arch_height_icons.mid</code></p>
+                    
+                    <h3>Thickness Icons</h3>
+                    
+                    <p><strong>Reference:</strong> <code>cql.thickness_info</code> [metaobject_reference]</p>
+                    
+                    <p>Thickness information and icon references.</p>
+                    
+                    <p><strong>Example:</strong> <code>thickness_icons.medium</code></p>
+                    
+                    <h3>Cushion Icons</h3>
+                    
+                    <p><strong>Reference:</strong> <code>cql.cushion_info</code> [metaobject_reference]</p>
+                    
+                    <p>Cushion information and icon references.</p>
+                    
+                    <p><strong>Example:</strong> <code>cushion_icons.soft</code></p>
+                    
+                    <h3>Feature Diagrams</h3>
+                    
+                    <p><strong>Reference:</strong> <code>custom.feature_diagram</code> [metaobject_reference]</p>
+                    
+                    <p>Feature diagram data for product displays.</p>
+                </section>
+                
+                <section id="data-access-patterns">
+                    <h2>Data Access Patterns</h2>
+                    
+                    <h3>Liquid Template Access</h3>
+                    
+                    <p><strong>Product Metafields:</strong></p>
+                    <pre><code>{% comment %} Single line text {% endcomment %}
+{{ product.metafields.cql.arch_height }}
+
+{% comment %} Boolean {% endcomment %}
+{% if product.metafields.cql.vegan %}
+  <span>Vegan</span>
+{% endif %}
+
+{% comment %} Multi-line text {% endcomment %}
+{{ product.metafields.cql.short_description }}
+
+{% comment %} Number {% endcomment %}
+{{ product.metafields.cql.low_stock_threshold }}
+
+{% comment %} Product reference list {% endcomment %}
+{% for comparison_product in product.metafields.cql.comparison_products.value %}
+  {{ comparison_product.title }}
+{% endfor %}
+
+{% comment %} Metaobject reference {% endcomment %}
+{% assign faq_group = product.metafields.cql.faq_group.value %}
+{{ faq_group.title }}</code></pre>
+                    
+                    <p><strong>Variant Metafields:</strong></p>
+                    <pre><code>{{ variant.metafields.mm-google-shopping.gender }}
+{{ variant.metafields.mm-google-shopping.size_system }}</code></pre>
+                    
+                    <p><strong>Page Metafields:</strong></p>
+                    <pre><code>{% if page.metafields.cql.rx_microsite %}
+  {% assign isMicrositePage = true %}
+{% endif %}</code></pre>
+                    
+                    <p><strong>JSON Metafields:</strong></p>
+                    <pre><code>{% assign json_data = product.metafields.custom.json_field | parse_json %}
+{{ json_data.property }}</code></pre>
+                    
+                    <h3>Checking Metafield Existence</h3>
+                    
+                    <p><strong>Best Practice:</strong> Always check if metafield exists before accessing:</p>
+                    <pre><code>{% if product.metafields.cql.arch_height %}
+  {{ product.metafields.cql.arch_height }}
+{% endif %}</code></pre>
+                </section>
+                
+                <section id="bulk-data-management">
+                    <h2>Bulk Data Management</h2>
+                    
+                    <h3>Matrixify Export/Import</h3>
+                    
+                    <p><strong>Exporting Products with Metafields:</strong></p>
+                    <ol>
+                        <li>Install Matrixify app</li>
+                        <li>Configure export (select Products)</li>
+                        <li>Include all metafield columns</li>
+                        <li>Download CSV/Excel file</li>
+                    </ol>
+                    
+                    <p><strong>Importing Products with Metafields:</strong></p>
+                    <ol>
+                        <li>Modify exported file</li>
+                        <li>Update metafield values</li>
+                        <li>Upload to Matrixify</li>
+                        <li>Preview changes</li>
+                        <li>Import to store</li>
+                    </ol>
+                    
+                    <p><strong>Important:</strong> Always backup before bulk changes!</p>
+                    
+                    <h3>Metafield Updates</h3>
+                    
+                    <p><strong>Via Shopify Admin:</strong></p>
+                    <ol>
+                        <li>Navigate to product/page/collection</li>
+                        <li>Scroll to metafields section</li>
+                        <li>Edit metafield values</li>
+                        <li>Save</li>
+                    </ol>
+                    
+                    <p><strong>Via Matrixify:</strong></p>
+                    <ol>
+                        <li>Export products</li>
+                        <li>Modify metafield columns</li>
+                        <li>Import updated file</li>
+                    </ol>
+                    
+                    <p><strong>Via Shopify API:</strong></p>
+                    <ul>
+                        <li>Use GraphQL Admin API</li>
+                        <li>Update metafield definitions and values</li>
+                        <li>Requires API access</li>
+                    </ul>
+                </section>
+                
+                <section id="data-relationships">
+                    <h2>Data Relationships</h2>
+                    
+                    <h3>Product Relationships</h3>
+                    
+                    <p><strong>Comparison Products:</strong></p>
+                    <ul>
+                        <li>Metafield: <code>cql.comparison_products</code> [list.product_reference]</li>
+                        <li>Links to related products for comparison features</li>
+                    </ul>
+                    
+                    <p><strong>Product Families:</strong></p>
+                    <ul>
+                        <li>Metafield: <code>cql.product_family</code> [single_line_text_field]</li>
+                        <li>Groups products by family (e.g., "All-Purpose", "Run Support")</li>
+                    </ul>
+                    
+                    <h3>Metaobject Relationships</h3>
+                    
+                    <p><strong>FAQ Groups:</strong></p>
+                    <ul>
+                        <li>Products reference FAQ metaobjects</li>
+                        <li>Reusable FAQ content across products</li>
+                    </ul>
+                    
+                    <p><strong>Icon References:</strong></p>
+                    <ul>
+                        <li>Products reference icon metaobjects</li>
+                        <li>Arch height, thickness, cushion icons</li>
+                        <li>Consistent iconography across site</li>
+                    </ul>
+                </section>
+                
+                <section id="common-use-cases">
+                    <h2>Common Use Cases</h2>
+                    
+                    <h3>Product Filtering</h3>
+                    
+                    <p><strong>By Arch Height:</strong></p>
+                    <pre><code>{% if product.metafields.cql.arch_height == "Medium" %}
+  <!-- Display medium arch product -->
+{% endif %}</code></pre>
+                    
+                    <p><strong>By Gender:</strong></p>
+                    <pre><code>{% if product.metafields.cql.product_gender == "Unisex" %}
+  <!-- Display unisex product -->
+{% endif %}</code></pre>
+                    
+                    <h3>Product Display</h3>
+                    
+                    <p><strong>Size Ranges:</strong></p>
+                    <pre><code>{% if product.metafields.cql.men_sizes %}
+  <p>Men's Sizes: {{ product.metafields.cql.men_sizes }}</p>
+{% endif %}</code></pre>
+                    
+                    <p><strong>Product Badges:</strong></p>
+                    <pre><code>{% if product.metafields.cql.badge %}
+  <span class="badge">{{ product.metafields.cql.badge }}</span>
+{% endif %}</code></pre>
+                    
+                    <h3>SEO Optimization</h3>
+                    
+                    <p><strong>Custom SEO Titles:</strong></p>
+                    <pre><code>{% if product.metafields.seo_title %}
+  <title>{{ product.metafields.seo_title }}</title>
+{% else %}
+  <title>{{ product.title }}</title>
+{% endif %}</code></pre>
+                </section>
+                
+                <section id="additional-resources">
+                    <h2>Additional Resources</h2>
+                    <ul>
+                        <li><strong>Theme Architecture:</strong> <a href="docs/theme-architecture.html">theme-architecture.html</a></li>
+                        <li><strong>Technical User Guide:</strong> <a href="docs/technical-user-guide.html">technical-user-guide.html</a></li>
+                        <li><strong>Shopify Metafields:</strong> <a href="https://help.shopify.com/en/manual/metafields" target="_blank">https://help.shopify.com/en/manual/metafields</a></li>
+                    </ul>
+                </section>
+                
+                <footer style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--digital-gray-1);">
+                    <p><em>Last Updated: Based on data exports from October 2025</em></p>
+                </footer>
+            </main>
+        </div>
+    </div>
+    
+    <div id="footer-container"></div>
+    
+    <script src="component-loader.js"></script>
+    <script src="enhanced-toc/enhanced-toc.js"></script>
+</body>
+</html>
+
