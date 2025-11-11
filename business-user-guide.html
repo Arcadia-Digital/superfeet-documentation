@@ -142,6 +142,7 @@
                     <li><a href="#custom-sections">Custom Sections</a></li>
                     <li><a href="#image--media-specifications">Image & Media Specifications</a></li>
                     <li><a href="#multi-store-considerations">Multi-Store Considerations</a></li>
+                    <li><a href="#managing-au-eu-markets-in-theme-customizer">Managing AU & EU Markets in Theme Customizer</a></li>
                     <li><a href="#troubleshooting">Troubleshooting</a></li>
                 </ul>
             </nav>
@@ -1127,12 +1128,76 @@
                     
                     <h3>Independent Stores</h3>
                     
-                    <p>Superfeet operates three independent Shopify stores:</p>
+                    <p>Superfeet operates <strong>three independent transactional Shopify stores</strong>:</p>
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Handle</th>
+                                <th>Domain</th>
+                                <th>Primary Market</th>
+                                <th>Currency</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>US</strong></td>
+                                <td><code>superfeetww</code></td>
+                                <td>superfeet.com</td>
+                                <td>United States</td>
+                                <td>USD</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Canada</strong></td>
+                                <td><code>superfeet-ca</code></td>
+                                <td>superfeet.ca</td>
+                                <td>Canada (English/French bilingual)</td>
+                                <td>CAD</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UK</strong></td>
+                                <td><code>superfeet-uk</code></td>
+                                <td>superfeet.co.uk</td>
+                                <td>UK, EU, Australia</td>
+                                <td>GBP/EUR/AUD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <p><strong>Note:</strong> The UK store (<code>superfeet-uk</code>) uses Shopify Markets to serve three regions: UK (transactional), EU (brochure-only), and Australia (brochure-only). EU and AU are markets within the same store, not separate stores. See <a href="#managing-au-eu-markets-in-theme-customizer">Managing AU & EU Markets in Theme Customizer</a> for details on editing market-specific templates.</p>
+                    
+                    <h3>Store-Specific Data Differences</h3>
+                    
+                    <p><strong>Product Counts (as of November 2025):</strong></p>
                     <ul>
-                        <li><strong>US:</strong> <code>superfeetww</code> (superfeet.com)</li>
-                        <li><strong>Canada:</strong> <code>superfeet-ca</code> (superfeet.ca)</li>
-                        <li><strong>UK:</strong> <code>superfeet-uk</code> (superfeet.co.uk)</li>
+                        <li><strong>US:</strong> 57 products</li>
+                        <li><strong>Canada:</strong> 45 products</li>
+                        <li><strong>UK:</strong> 57 products</li>
                     </ul>
+                    
+                    <p><strong>Collection Counts:</strong></p>
+                    <ul>
+                        <li><strong>US:</strong> 38 collections (18 smart, 20 custom)</li>
+                        <li><strong>Canada:</strong> 32 collections (20 smart, 12 custom)</li>
+                        <li><strong>UK:</strong> 32 collections (21 smart, 11 custom)</li>
+                    </ul>
+                    
+                    <p><strong>Content Counts:</strong></p>
+                    <ul>
+                        <li><strong>US:</strong> 63 pages, 150 blog posts, 259 metaobjects</li>
+                        <li><strong>Canada:</strong> 45 pages, 142 blog posts, 247 metaobjects</li>
+                        <li><strong>UK:</strong> 44 pages, 139 blog posts, 236 metaobjects</li>
+                    </ul>
+                    
+                    <p><strong>Template Counts:</strong></p>
+                    <ul>
+                        <li><strong>US:</strong> 123 templates</li>
+                        <li><strong>Canada:</strong> 82 templates</li>
+                        <li><strong>UK:</strong> 90 templates</li>
+                    </ul>
+                    
+                    <p><strong>Note:</strong> Template counts differ due to store-specific template assignments and regional customizations. Product, collection, and content counts reflect regional inventory and content strategies.</p>
                     
                     <h3>Changes Across Stores</h3>
                     
@@ -1143,25 +1208,282 @@
                         <li>Page content updates</li>
                         <li>Product template assignments</li>
                         <li>Collection template assignments</li>
+                        <li>Product data and inventory (managed per store)</li>
                     </ul>
                     
                     <p><strong>Store-Specific Configurations:</strong></p>
                     <ul>
-                        <li>Header/footer menus (different per store)</li>
-                        <li>Product availability (inventory per store)</li>
-                        <li>Pricing (currency per store)</li>
-                        <li>Apps (some apps US-only, others all stores)</li>
+                        <li>Header/footer menus (different per store - 15 menus per store)</li>
+                        <li>Product availability (inventory managed independently per store)</li>
+                        <li>Pricing (currency per store: USD, CAD, GBP/EUR/AUD)</li>
+                        <li>Apps (some apps US-only, others installed across all stores)</li>
+                        <li>Language/localization settings (CA: English/French, UK: English)</li>
+                        <li>Tax and shipping configurations (regional requirements)</li>
                     </ul>
                     
-                    <h3>Template Counts</h3>
+                    <h3>Regional Considerations</h3>
                     
+                    <p><strong>Canada Store:</strong></p>
                     <ul>
-                        <li><strong>US:</strong> 123 templates</li>
-                        <li><strong>Canada:</strong> 82 templates</li>
-                        <li><strong>UK:</strong> 90 templates</li>
+                        <li>Bilingual support (English/French)</li>
+                        <li>CAD currency</li>
+                        <li>Canadian tax and shipping rules</li>
+                        <li>Fewer products (45 vs 57 in US/UK)</li>
                     </ul>
                     
-                    <p><strong>Note:</strong> Template counts differ due to store-specific template assignments and regional customizations.</p>
+                    <p><strong>UK Store:</strong></p>
+                    <ul>
+                        <li>Serves UK, EU, and Australia markets</li>
+                        <li>Multi-currency support (GBP, EUR, AUD)</li>
+                        <li>Regional shipping and tax compliance</li>
+                        <li>Similar product count to US store (57 products)</li>
+                    </ul>
+                    
+                    <p><strong>US Store:</strong></p>
+                    <ul>
+                        <li>Primary transactional store</li>
+                        <li>Largest content library (150 blog posts, 63 pages)</li>
+                        <li>Most templates (123 templates)</li>
+                        <li>USD currency</li>
+                    </ul>
+                </section>
+                
+                <section id="managing-au-eu-markets-in-theme-customizer">
+                    <h2>Managing AU & EU Markets in Theme Customizer</h2>
+                    
+                    <h3>Understanding Markets in the UK Store</h3>
+                    
+                    <p>The <strong>UK store</strong> (<code>superfeet-uk</code>) uses <strong>Shopify Markets</strong> to serve three different regions:</p>
+                    <ul>
+                        <li><strong>UK Market:</strong> United Kingdom (transactional - shows buy buttons, prices, cart)</li>
+                        <li><strong>EU Market:</strong> European Union (brochure-only - hides buy buttons, prices, cart)</li>
+                        <li><strong>AU Market:</strong> Australia (brochure-only - hides buy buttons, prices, cart)</li>
+                    </ul>
+                    
+                    <p>EU and AU are <strong>markets within the same Shopify store</strong>, not separate stores. This allows the UK store to display different content and functionality based on which market a customer is viewing.</p>
+                    
+                    <h3>Why This Is Confusing</h3>
+                    
+                    <p>Even experienced Shopify admins find market-specific template editing confusing because:</p>
+                    <ol>
+                        <li><strong>Markets vs. Stores:</strong> Markets are not separate stores - they're different views of the same store</li>
+                        <li><strong>Market Context in Customizer:</strong> The Theme Customizer requires you to <strong>select a market context</strong> before editing templates</li>
+                        <li><strong>Template Inheritance:</strong> Market-specific templates inherit from base templates, so changes can affect multiple markets</li>
+                        <li><strong>Hidden by Default:</strong> Market context selection is not obvious - it's in a dropdown that many users miss</li>
+                    </ol>
+                    
+                    <h3>How Market-Specific Templates Work</h3>
+                    
+                    <p><strong>Template Structure:</strong></p>
+                    
+                    <p>The UK store uses <strong>market context files</strong> that override base templates:</p>
+                    <ul>
+                        <li><strong>Base Template:</strong> <code>product.json</code> (used for UK market - shows all blocks including price, buy buttons)</li>
+                        <li><strong>EU Market Override:</strong> <code>product.context.eu.json</code> (inherits from <code>product.json</code> but disables transactional blocks)</li>
+                        <li><strong>AU Market Override:</strong> <code>product.context.au.json</code> (inherits from <code>product.json</code> but disables transactional blocks)</li>
+                    </ul>
+                    
+                    <p><strong>Example: Default Product Template</strong></p>
+                    
+                    <p>The default product template (<code>product.json</code>) includes these blocks for UK customers:</p>
+                    <ul>
+                        <li>Price block</li>
+                        <li>Variant picker</li>
+                        <li>Buy buttons</li>
+                        <li>Product description</li>
+                        <li>Other content blocks</li>
+                    </ul>
+                    
+                    <p>For EU and AU markets, the market context files (<code>product.context.eu.json</code> and <code>product.context.au.json</code>) <strong>disable</strong> these blocks:</p>
+                    <ul>
+                        <li><code>price</code> → <code>disabled: true</code></li>
+                        <li><code>variant_picker</code> → <code>disabled: true</code></li>
+                        <li><code>buy_buttons</code> → <code>disabled: true</code></li>
+                    </ul>
+                    
+                    <p>This allows EU and AU customers to see product information but not purchase directly, while UK customers see the full transactional experience.</p>
+                    
+                    <h3>Editing Templates for Specific Markets</h3>
+                    
+                    <p><strong>Step 1: Open Theme Customizer</strong></p>
+                    <ol>
+                        <li>Go to <strong>Online Store → Themes</strong> in Shopify Admin</li>
+                        <li>Click <strong>Customize</strong> on the active theme</li>
+                        <li>Theme Customizer opens</li>
+                    </ol>
+                    
+                    <p><strong>Step 2: Select Market Context</strong></p>
+                    <ol>
+                        <li>In Theme Customizer, look for the <strong>market selector</strong> dropdown (usually at the top of the left sidebar)</li>
+                        <li>Click the dropdown to see available markets:
+                            <ul>
+                                <li><strong>UK</strong> (default)</li>
+                                <li><strong>EU</strong></li>
+                                <li><strong>AU</strong></li>
+                            </ul>
+                        </li>
+                        <li><strong>Select the market</strong> you want to edit (e.g., "EU" or "AU")</li>
+                    </ol>
+                    
+                    <p><strong>Important:</strong> If you don't select a market context, you're editing the <strong>default template</strong> (UK market). Always verify which market is selected before making changes.</p>
+                    
+                    <p><strong>Step 3: Navigate to Template</strong></p>
+                    <ol>
+                        <li>Use the page selector at the top of Theme Customizer</li>
+                        <li>Navigate to the template you want to edit (e.g., <strong>Products → Default product</strong>)</li>
+                        <li>The template now shows the <strong>market-specific version</strong></li>
+                    </ol>
+                    
+                    <p><strong>Step 4: Edit Blocks and Sections</strong></p>
+                    <ol>
+                        <li>Edit blocks and sections as needed</li>
+                        <li><strong>Disable blocks</strong> for brochure markets (EU/AU):
+                            <ul>
+                                <li>Click on a block (e.g., "Price", "Buy buttons")</li>
+                                <li>Toggle the block <strong>off</strong> (disable it)</li>
+                                <li>This hides the block for that specific market</li>
+                            </ul>
+                        </li>
+                        <li><strong>Enable/configure blocks</strong> as needed</li>
+                        <li>Changes apply <strong>only to the selected market</strong></li>
+                    </ol>
+                    
+                    <p><strong>Step 5: Save and Publish</strong></p>
+                    <ol>
+                        <li>Click <strong>Save</strong> to save changes</li>
+                        <li>Click <strong>Publish</strong> to make changes live</li>
+                        <li>Changes apply only to the market you selected</li>
+                    </ol>
+                    
+                    <h3>Example: Editing Product Template for EU Market</h3>
+                    
+                    <p><strong>Scenario:</strong> You want to hide the buy button and price for EU customers but keep them for UK customers.</p>
+                    
+                    <p><strong>Steps:</strong></p>
+                    <ol>
+                        <li>Open Theme Customizer</li>
+                        <li><strong>Select "EU" from market dropdown</strong> (critical step!)</li>
+                        <li>Navigate to <strong>Products → Default product</strong></li>
+                        <li>Find the <strong>"Buy buttons"</strong> block in the left sidebar</li>
+                        <li>Click on the block</li>
+                        <li>Toggle the block <strong>off</strong> (disable it)</li>
+                        <li>Find the <strong>"Price"</strong> block</li>
+                        <li>Toggle the block <strong>off</strong> (disable it)</li>
+                        <li><strong>Save</strong> and <strong>Publish</strong></li>
+                    </ol>
+                    
+                    <p><strong>Result:</strong></p>
+                    <ul>
+                        <li>EU customers: No buy button, no price (brochure view)</li>
+                        <li>UK customers: Buy button and price still visible (transactional view)</li>
+                        <li>AU customers: Unchanged (unless you also edit AU market context)</li>
+                    </ul>
+                    
+                    <h3>Market-Specific Template Files</h3>
+                    
+                    <p>The UK store has market context files for several templates:</p>
+                    
+                    <p><strong>Product Templates:</strong></p>
+                    <ul>
+                        <li><code>product.context.eu.json</code> - EU market product template</li>
+                        <li><code>product.context.au.json</code> - AU market product template</li>
+                        <li><code>product.apma-approved.context.eu.json</code> - EU market APMA template</li>
+                        <li><code>product.apma-approved.context.au.json</code> - AU market APMA template</li>
+                    </ul>
+                    
+                    <p><strong>Collection Templates:</strong></p>
+                    <ul>
+                        <li><code>collection.context.eu.json</code> - EU market collection template</li>
+                        <li><code>collection.context.au.json</code> - AU market collection template</li>
+                    </ul>
+                    
+                    <p><strong>Page Templates:</strong></p>
+                    <ul>
+                        <li><code>index.context.eu.json</code> - EU market homepage</li>
+                        <li><code>index.context.au.json</code> - AU market homepage</li>
+                        <li><code>index.context.uk.json</code> - UK market homepage</li>
+                        <li><code>404.context.eu.json</code> - EU market 404 page</li>
+                        <li><code>404.context.au.json</code> - AU market 404 page</li>
+                    </ul>
+                    
+                    <p><strong>Note:</strong> If a market context file doesn't exist, that market uses the base template (same as UK).</p>
+                    
+                    <h3>Best Practices</h3>
+                    
+                    <ol>
+                        <li><strong>Always Check Market Context:</strong>
+                            <ul>
+                                <li>Verify which market is selected in Theme Customizer before editing</li>
+                                <li>The market selector shows at the top of the left sidebar</li>
+                                <li>Default is usually "UK" - don't assume you're editing the right market</li>
+                            </ul>
+                        </li>
+                        <li><strong>Test Across Markets:</strong>
+                            <ul>
+                                <li>After making changes, preview the page for each market</li>
+                                <li>Use the market selector to switch between UK, EU, and AU views</li>
+                                <li>Verify that brochure markets (EU/AU) hide transactional elements</li>
+                            </ul>
+                        </li>
+                        <li><strong>Document Market-Specific Changes:</strong>
+                            <ul>
+                                <li>Note which blocks are disabled for which markets</li>
+                                <li>Keep track of market-specific content differences</li>
+                                <li>Document any custom blocks added for specific markets</li>
+                            </ul>
+                        </li>
+                        <li><strong>Understand Template Inheritance:</strong>
+                            <ul>
+                                <li>Market context files inherit from base templates</li>
+                                <li>Changes to base templates may affect all markets</li>
+                                <li>Market-specific overrides only affect that market</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <h3>Common Mistakes</h3>
+                    
+                    <p><strong>Mistake 1:</strong> Editing UK template when you meant to edit EU/AU</p>
+                    <ul>
+                        <li><strong>Solution:</strong> Always select the correct market from the dropdown before editing</li>
+                    </ul>
+                    
+                    <p><strong>Mistake 2:</strong> Assuming changes apply to all markets</p>
+                    <ul>
+                        <li><strong>Solution:</strong> Market-specific changes only apply to the selected market. Edit each market separately if needed.</li>
+                    </ul>
+                    
+                    <p><strong>Mistake 3:</strong> Not disabling transactional blocks for brochure markets</p>
+                    <ul>
+                        <li><strong>Solution:</strong> For EU/AU markets, disable price, variant_picker, and buy_buttons blocks to create brochure experience</li>
+                    </ul>
+                    
+                    <p><strong>Mistake 4:</strong> Forgetting to publish changes</p>
+                    <ul>
+                        <li><strong>Solution:</strong> Always click <strong>Publish</strong> after making market-specific changes, not just Save</li>
+                    </ul>
+                    
+                    <h3>Troubleshooting Market-Specific Issues</h3>
+                    
+                    <p><strong>Problem:</strong> Changes not appearing for specific market</p>
+                    <ul>
+                        <li><strong>Solution:</strong> Verify you selected the correct market context before editing and clicked <strong>Publish</strong></li>
+                    </ul>
+                    
+                    <p><strong>Problem:</strong> Can't find market selector in Theme Customizer</p>
+                    <ul>
+                        <li><strong>Solution:</strong> Market selector is in the left sidebar at the top. If you don't see it, you may not have market-specific templates configured for that page type.</li>
+                    </ul>
+                    
+                    <p><strong>Problem:</strong> Buy buttons showing on EU/AU sites</p>
+                    <ul>
+                        <li><strong>Solution:</strong> Edit the product template for EU or AU market context and disable the "Buy buttons" block</li>
+                    </ul>
+                    
+                    <p><strong>Problem:</strong> Want to add market-specific content</p>
+                    <ul>
+                        <li><strong>Solution:</strong> Edit the template for that specific market context and add/enable blocks as needed. Changes only apply to that market.</li>
+                    </ul>
                 </section>
                 
                 <section id="troubleshooting">
