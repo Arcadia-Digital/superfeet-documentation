@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <title>Integrations Documentation - Superfeet eCommerce Platform Documentation</title>
+    <link rel="icon" type="image/webp" href="assets/favicon.webp">
+    <link rel="stylesheet" href="arcadia-style.css">
+    <style>
+        .toc-sidebar {
+            position: sticky;
+            top: 20px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: var(--newsprint-white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--sage-green);
+        }
+        
+        .toc-sidebar h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--forest-green);
+        }
+        
+        .toc-sidebar ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .toc-sidebar ul ul {
+            padding-left: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .toc-sidebar a {
+            color: var(--charcoal);
+            text-decoration: none;
+            display: block;
+            padding: 0.25rem 0;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        
+        .toc-sidebar a:hover {
+            color: var(--sage-green);
+        }
+        
+        .toc-sidebar a.active {
+            color: var(--forest-green);
+            font-weight: 600;
+            background-color: var(--sage-green);
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            margin: 0.25rem -0.75rem;
+            transition: all 0.3s ease;
+        }
+        
+        .toc-sidebar a.active::before {
+            content: "▶";
+            margin-right: 0.5rem;
+            font-size: 0.8rem;
+        }
+        
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 968px) {
+            .two-column-layout {
+                grid-template-columns: 1fr;
+            }
+            .toc-sidebar {
+                position: relative;
+                top: 0;
+            }
+        }
+        
+        .data-table {
+            width: 100%;
+            margin: 1rem 0;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            background-color: var(--forest-green);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .data-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--digital-gray-1);
+        }
+        
+        .data-table tr:hover {
+            background-color: var(--newsprint-white);
+        }
+        
+        code {
+            background-color: var(--digital-gray-1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        pre {
+            background-color: var(--digital-gray-1);
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        
+        pre code {
+            display: block;
+            padding: 0;
+            background: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-container"></div>
+    
+    <div class="container">
+        <div class="two-column-layout">
+            <nav class="toc-sidebar">
+                <h3>Table of Contents</h3>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#major-apps-youll-use-daily">Major Apps You'll Use Daily</a>
+                        <ul>
+                            <li><a href="#searchspring">SearchSpring</a></li>
+                            <li><a href="#recharge-subscriptions">Recharge Subscriptions</a></li>
+                            <li><a href="#yotpo-product-reviews">Yotpo Product Reviews</a></li>
+                            <li><a href="#osano-cookie-consent">Osano Cookie Consent</a></li>
+                            <li><a href="#insole-finder-quiz">Insole Finder Quiz</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#apps-with-metafield-integration">Apps with Metafield Integration</a></li>
+                    <li><a href="#apps-without-theme-integration">Apps That Run Automatically</a></li>
+                    <li><a href="#apps-with-special-template-requirements">Apps with Special Template Requirements</a></li>
+                    <li><a href="#configuration--setup">Configuration & Setup</a></li>
+                    <li><a href="#troubleshooting">Troubleshooting</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <section id="introduction">
+                    <h1>Integrations Documentation</h1>
+                    <p><strong>Superfeet Multi-Region Shopify Plus Platform</strong></p>
+                    <p>Complete documentation of all third-party apps and how to manage them in your day-to-day work.</p>
+                </section>
+                
+                <section id="major-apps-youll-use-daily">
+                    <h2>Major Apps You'll Use Daily</h2>
+                    
+                    <h3 id="searchspring">SearchSpring</h3>
+                    
+                    <p><strong>What It Does:</strong> Enhanced product search and filtering that's much more powerful than Shopify's default search. Provides better search results, filtering options, and product recommendations.</p>
+                    
+                    <p><strong>Stores:</strong> US, UK, Canada (all three stores)</p>
+                    
+                    <p><strong>How You Use It:</strong></p>
+                    <ol>
+                        <li><strong>Assign SearchSpring Template to Collections:</strong>
+                            <ul>
+                                <li>Go to <strong>Collections</strong> → Select a collection</li>
+                                <li>Scroll to <strong>Search engine listing</strong></li>
+                                <li>Set <strong>Template suffix:</strong> <code>searchspring</code></li>
+                                <li>Save</li>
+                            </ul>
+                        </li>
+                        <li><strong>Configure in SearchSpring Dashboard:</strong>
+                            <ul>
+                                <li>Access SearchSpring dashboard (link in Shopify Apps)</li>
+                                <li>Configure search settings, filters, and recommendations</li>
+                                <li>Product data syncs automatically from Shopify</li>
+                            </ul>
+                        </li>
+                        <li><strong>What Happens:</strong>
+                            <ul>
+                                <li>SearchSpring replaces the default Shopify search on that collection</li>
+                                <li>Customers get better search results and filtering</li>
+                                <li>Product recommendations appear automatically</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <p><strong>Important Notes:</strong></p>
+                    <ul>
+                        <li><strong>Essential A/B Testing app is incompatible</strong> - Don't run A/B tests on SearchSpring-powered collections</li>
+                        <li>SearchSpring has its own dashboard for configuration - you don't configure it in Shopify Admin</li>
+                        <li>Each store (US, UK, CA) has its own SearchSpring instance</li>
+                    </ul>
+                    
+                    <p><strong>When to Use SearchSpring:</strong></p>
+                    <ul>
+                        <li>Main product collections where customers need to filter and search</li>
+                        <li>Collections with many products where filtering is important</li>
+                        <li>When you want advanced product recommendations</li>
+                    </ul>
+                    
+                    <p><strong>When NOT to Use SearchSpring:</strong></p>
+                    <ul>
+                        <li>Simple collections with few products</li>
+                        <li>Collections that don't need advanced search</li>
+                        <li>Collections where you're running A/B tests (Essential A/B Testing conflicts)</li>
+                    </ul>
+                    
+                    <p><strong>Troubleshooting:</strong></p>
+                    <ul>
+                        <li>If search isn't working, check SearchSpring dashboard for sync status</li>
+                        <li>Verify the collection has <code>searchspring</code> template suffix assigned</li>
+                        <li>Contact SearchSpring support if you see sync errors</li>
+                    </ul>
+                    
+                    <h3 id="recharge-subscriptions">Recharge Subscriptions</h3>
+                    
+                    <p><strong>What It Does:</strong> Enables product bundles (customizable product sets) and subscription orders (recurring orders).</p>
+                    
+                    <p><strong>Stores:</strong> US, UK, Canada (all three stores)</p>
+                    
+                    <p><strong>How You Use It:</strong></p>
+                    
+                    <p><strong>For Bundle Products:</strong></p>
+                    <ol>
+                        <li>Go to <strong>Products</strong> → Select product</li>
+                        <li>Set <strong>Template suffix:</strong> <code>recharge-bundle</code></li>
+                        <li>Configure bundle options in <strong>Recharge app dashboard</strong> (not in Shopify)</li>
+                        <li>The bundle widget appears automatically on the product page</li>
+                    </ol>
+                    
+                    <p><strong>For Subscription Products:</strong></p>
+                    <ol>
+                        <li>Go to <strong>Products</strong> → Select product</li>
+                        <li>Set <strong>Template suffix:</strong> <code>subscription</code></li>
+                        <li>Configure subscription options in <strong>Recharge app dashboard</strong></li>
+                        <li>The subscription widget appears automatically on the product page</li>
+                    </ol>
+                    
+                    <p><strong>Important Notes:</strong></p>
+                    <ul>
+                        <li>Bundle and subscription configuration happens in the <strong>Recharge app dashboard</strong>, not in Shopify Admin</li>
+                        <li>The template suffix just tells the theme to show the Recharge widget</li>
+                        <li>Bundle pricing and options are managed in Recharge</li>
+                        <li><strong>Subscriptions are available but not currently activated</strong> - work with ReCharge support team and your development partner when ready to launch</li>
+                    </ul>
+                    
+                    <p><strong>ReCharge Documentation:</strong></p>
+                    <ul>
+                        <li>Bundle documentation: <a href="https://support.getrecharge.com/hc/en-us/sections/6981308041623-Bundles" target="_blank" rel="noopener">https://support.getrecharge.com/hc/en-us/sections/6981308041623-Bundles</a></li>
+                        <li>Subscription management: <a href="https://support.getrecharge.com/hc/en-us/categories/360000578374-Subscription-Management" target="_blank" rel="noopener">https://support.getrecharge.com/hc/en-us/categories/360000578374-Subscription-Management</a></li>
+                    </ul>
+                    
+                    <h3 id="yotpo-product-reviews">Yotpo Product Reviews</h3>
+                    
+                    <p><strong>What It Does:</strong> Manages product reviews and customer photos (user-generated content) across all stores.</p>
+                    
+                    <p><strong>Stores:</strong> US, UK, Canada (all three stores)</p>
+                    
+                    <p><strong>How It Works:</strong></p>
+                    <ul>
+                        <li>Reviews are collected on the <strong>US store</strong></li>
+                        <li><strong>US reviews automatically appear on UK and Canada stores</strong> (this is called "syndication")</li>
+                        <li>ExpertVoice reviews also sync to the US store</li>
+                        <li>Reviews appear automatically on product pages - you don't need to do anything</li>
+                    </ul>
+                    
+                    <p><strong>What You Manage:</strong></p>
+                    <ul>
+                        <li><strong>Review Moderation:</strong> Approve/reject reviews in Yotpo dashboard</li>
+                        <li><strong>Review Settings:</strong> Configure review display, email requests, etc. in Yotpo dashboard</li>
+                        <li><strong>UGC Galleries:</strong> Add Yotpo UGC sections to collection pages in Theme Customizer</li>
+                    </ul>
+                    
+                    <p><strong>Metafields (Automatic):</strong></p>
+                    <ul>
+                        <li><code>yotpo.reviews_average</code> - Average rating (updated automatically)</li>
+                        <li><code>yotpo.reviews_count</code> - Review count (updated automatically)</li>
+                        <li>These are updated automatically - you don't need to manage them</li>
+                    </ul>
+                    
+                    <p><strong>Important Notes:</strong></p>
+                    <ul>
+                        <li>Reviews sync automatically between stores - don't worry about managing this</li>
+                        <li>If reviews aren't showing, check Yotpo dashboard for sync status</li>
+                        <li>Review widgets are built into product templates - they appear automatically</li>
+                        <li>You can add UGC galleries to collection pages via Theme Customizer</li>
+                    </ul>
+                    
+                    <p><strong>Troubleshooting:</strong></p>
+                    <ul>
+                        <li>If reviews aren't appearing, check Yotpo dashboard for sync status</li>
+                        <li>Verify product template includes Yotpo blocks (they should by default)</li>
+                        <li>Contact Yotpo support if you see sync errors</li>
+                    </ul>
+                    
+                    <h3 id="osano-cookie-consent">Osano Cookie Consent</h3>
+                    
+                    <p><strong>What It Does:</strong> Manages cookie consent for GDPR/CCPA compliance. Shows a cookie consent banner to visitors and manages their cookie preferences.</p>
+                    
+                    <p><strong>Stores:</strong> US, UK, Canada (all three stores)</p>
+                    
+                    <p><strong>How It Works:</strong></p>
+                    <ul>
+                        <li>Cookie consent banner appears automatically to visitors</li>
+                        <li>Visitors can accept or customize cookie preferences</li>
+                        <li>Osano manages which cookies are allowed based on consent</li>
+                        <li>Different rules apply based on visitor location (GDPR for EU, CCPA for California, etc.)</li>
+                    </ul>
+                    
+                    <p><strong>What You Manage:</strong></p>
+                    <ul>
+                        <li><strong>Cookie Policy:</strong> Update cookie policy text in Osano dashboard</li>
+                        <li><strong>Consent Settings:</strong> Configure which cookies require consent in Osano dashboard</li>
+                        <li><strong>Regional Rules:</strong> Set up different rules for different regions (EU, US, etc.) in Osano dashboard</li>
+                    </ul>
+                    
+                    <p><strong>Important Notes:</strong></p>
+                    <ul>
+                        <li>Osano runs automatically - the banner appears on all pages</li>
+                        <li>Configuration happens in Osano dashboard, not in Shopify</li>
+                        <li>You don't need to do anything in Shopify Admin for this to work</li>
+                        <li>If the banner isn't appearing, check Osano dashboard for configuration issues</li>
+                    </ul>
+                    
+                    <h3 id="insole-finder-quiz">Insole Finder Quiz</h3>
+                    
+                    <p><strong>What It Does:</strong> Custom quiz that asks customers questions about their feet and activity level, then recommends the best insole products for them.</p>
+                    
+                    <p><strong>Stores:</strong> US, UK, Canada (all three stores)</p>
+                    
+                    <p><strong>How You Use It:</strong></p>
+                    <ol>
+                        <li><strong>Create Insole Finder Page:</strong>
+                            <ul>
+                                <li>Go to <strong>Online Store → Pages</strong></li>
+                                <li>Create new page or edit existing Insole Finder page</li>
+                                <li>Set <strong>Template suffix:</strong> <code>insole-finder-2</code></li>
+                                <li>Save</li>
+                            </ul>
+                        </li>
+                        <li><strong>Configure Quiz in Theme Customizer:</strong>
+                            <ul>
+                                <li>Go to <strong>Theme Customizer</strong></li>
+                                <li>Select the Insole Finder page</li>
+                                <li>Find <strong>Insole Finder 2</strong> section</li>
+                                <li>Configure quiz questions and product recommendations</li>
+                            </ul>
+                        </li>
+                        <li><strong>Link to Quiz:</strong>
+                            <ul>
+                                <li>Add link in navigation menus</li>
+                                <li>Link from product pages</li>
+                                <li>Link from homepage or landing pages</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <p><strong>Important Notes:</strong></p>
+                    <ul>
+                        <li>Quiz logic and product recommendations are managed by a custom app built by Born West & Superfeet</li>
+                        <li>For changes to quiz questions or logic, work with <strong>Michael Sullivan, Heather Allerdice-Gerow, and the team at Born West</strong></li>
+                        <li>The quiz uses a special page template that has a simplified header/footer design</li>
+                        <li>Quiz results link to specific product pages automatically</li>
+                    </ul>
+                </section>
+                
+                <section id="apps-with-metafield-integration">
+                    <h2>Apps with Metafield Integration</h2>
+                    
+                    <h3>Google Shopping (mm-google-shopping)</h3>
+                    
+                    <p><strong>Purpose:</strong> Google Merchant Center product feed integration.</p>
+                    
+                    <p><strong>Metafields:</strong></p>
+                    <ul>
+                        <li>Product: <code>mm-google-shopping.custom_product</code> [boolean]</li>
+                        <li>Product: <code>mm-google-shopping.google_product_category</code> [string]</li>
+                        <li>Variant: <code>mm-google-shopping.custom_label_0-4</code> [single_line_text_field]</li>
+                        <li>Variant: <code>mm-google-shopping.size_system</code> [single_line_text_field]</li>
+                        <li>Variant: <code>mm-google-shopping.size_type</code> [single_line_text_field]</li>
+                        <li>Variant: <code>mm-google-shopping.mpn</code> [single_line_text_field]</li>
+                        <li>Variant: <code>mm-google-shopping.gender</code> [single_line_text_field]</li>
+                        <li>Variant: <code>mm-google-shopping.condition</code> [single_line_text_field]</li>
+                        <li>Variant: <code>mm-google-shopping.age_group</code> [single_line_text_field]</li>
+                    </ul>
+                    
+                    <p><strong>Configuration:</strong></p>
+                    <ul>
+                        <li>Google Merchant Center dashboard</li>
+                        <li>Product feed synchronization</li>
+                        <li>Metafield values populate feed</li>
+                    </ul>
+                    
+                    <h3>Facebook (mc-facebook)</h3>
+                    
+                    <p><strong>Purpose:</strong> Facebook product catalog integration.</p>
+                    
+                    <p><strong>Metafields:</strong></p>
+                    <ul>
+                        <li>Product: <code>mc-facebook.google_product_category</code> [string]</li>
+                    </ul>
+                    
+                    <p><strong>Configuration:</strong></p>
+                    <ul>
+                        <li>Facebook Business Manager</li>
+                        <li>Product catalog synchronization</li>
+                    </ul>
+                </section>
+                
+                <section id="apps-without-theme-integration">
+                    <h2>Apps That Run Automatically</h2>
+                    
+                    <p>These apps are installed and functional but have no theme code integration:</p>
+                    
+                    <h3>Matrixify</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Bulk data import/export and backups</li>
+                        <li><strong>Stores:</strong> US, UK, CA</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                        <li><strong>Usage:</strong> Bulk product updates, inventory management, data backups</li>
+                    </ul>
+                    
+                    <h3>Elevar Conversion Tracking</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Server-side conversion tracking</li>
+                        <li><strong>Stores:</strong> US, UK, CA</li>
+                        <li><strong>Integration:</strong> JavaScript loaded via app (not in theme code)</li>
+                        <li><strong>Connected Services:</strong> GA4, Facebook Pixel, Klaviyo, Google Ads</li>
+                    </ul>
+                    
+                    <h3>Klaviyo</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Email and SMS marketing automation</li>
+                        <li><strong>Stores:</strong> US, UK, CA</li>
+                        <li><strong>Integration:</strong> JavaScript loaded via app (not in theme code)</li>
+                    </ul>
+                    
+                    <h3>Regios Discounts</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Advanced discount logic</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>Geo:Pro Geolocation</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Automatic regional redirection</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> JavaScript-based redirection (app handles)</li>
+                        <li><strong>Note:</strong> Don't implement manual geolocation - Geo:Pro handles this</li>
+                    </ul>
+                    
+                    <h3>Shipfy: Shipping Rules</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Complex shipping rule management</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>StoreRocket Store Locator</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Physical store finder</li>
+                        <li><strong>Stores:</strong> US, UK, CA</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>Avalara Tax Compliance</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Tax calculation</li>
+                        <li><strong>Stores:</strong> US, UK, CA</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>AfterShip Order Tracking</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Order tracking</li>
+                        <li><strong>Stores:</strong> US, UK, CA</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>GOVX ID Exclusive Discounts</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Military/veteran discounts</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>Fraud Control</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Customer service tool for blocking problematic customers</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>Awin</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Affiliate marketing</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                    </ul>
+                    
+                    <h3>Shopcodes</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> QR code generation (evaluating)</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                        <li><strong>Status:</strong> Roadmap - evaluating</li>
+                    </ul>
+                    
+                    <h3>Essential Preorder</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Preorder functionality</li>
+                        <li><strong>Stores:</strong> US only</li>
+                        <li><strong>Integration:</strong> App-only, no theme code</li>
+                        <li><strong>Status:</strong> Roadmap - planned for future product releases</li>
+                    </ul>
+                    
+                    <h3>Forms</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Native Shopify Forms</li>
+                        <li><strong>Stores:</strong> Not in use</li>
+                        <li><strong>Integration:</strong> Not implemented</li>
+                        <li><strong>Status:</strong> Roadmap - would like to replace embedded Cognito forms</li>
+                    </ul>
+                    
+                    <h3>Essential A/B Testing</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> A/B testing for product pages, collections, templates, and themes</li>
+                        <li><strong>Stores:</strong> Installed but incompatible</li>
+                        <li><strong>Integration:</strong> Creates collection templates with "ea-" prefix (e.g., <code>ea-9zkhwx</code>, <code>ea-aklu3g</code>) for A/B test variants</li>
+                        <li><strong>Template Creation:</strong> Automatically creates test variant templates when running A/B tests on collections</li>
+                        <li><strong>Important:</strong> Not compatible with SearchSpring - cannot use Essential A/B Testing on SearchSpring-powered collections</li>
+                        <li><strong>Status:</strong> Looking for alternative</li>
+                        <li><strong>Documentation:</strong> <a href="https://essential-apps.com/essential-shopify-ab-testing-app/" target="_blank" rel="noopener">Essential A/B Testing App</a></li>
+                        <li><strong>Note:</strong> EA-prefixed templates are automatically managed by the app and should not be manually assigned to collections</li>
+                    </ul>
+                    
+                    <h3>Bagpiper Data Export</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Data export (replaced by Matrixify)</li>
+                        <li><strong>Stores:</strong> Not in use</li>
+                        <li><strong>Status:</strong> Replaced by Matrixify, can be removed</li>
+                    </ul>
+                    
+                    <h3>GRIN Influencer Marketing</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Influencer marketing</li>
+                        <li><strong>Stores:</strong> Installed</li>
+                        <li><strong>Status:</strong> May be inactive, replaced by Awin</li>
+                    </ul>
+                    
+                    <h3>Statlas</h3>
+                    <ul>
+                        <li><strong>Purpose:</strong> Unknown</li>
+                        <li><strong>Stores:</strong> Installed</li>
+                        <li><strong>Status:</strong> Needs investigation/documentation</li>
+                    </ul>
+                    
+                    <h3>Shopify Native Apps</h3>
+                    <ul>
+                        <li><strong>Flow</strong> - Automation workflows</li>
+                        <li><strong>Launchpad</strong> - Scheduled sales and promotions</li>
+                        <li><strong>Theme Access</strong> - Theme access management</li>
+                        <li><strong>Shopify GraphiQL App</strong> - GraphQL API testing</li>
+                        <li><strong>Translate & Adapt</strong> - Translation management</li>
+                    </ul>
+                </section>
+                
+                <section id="apps-with-special-template-requirements">
+                    <h2>Apps with Special Template Requirements</h2>
+                    
+                    <p>Some apps require you to assign specific templates to products or collections for them to work properly. Here's a quick reference:</p>
+                    
+                    <h3>SearchSpring</h3>
+                    <ul>
+                        <li><strong>Collection Template:</strong> <code>searchspring</code></li>
+                        <li><strong>Where to Set:</strong> Collections → Search engine listing → Template suffix</li>
+                        <li><strong>What It Does:</strong> Enables SearchSpring search and filtering on that collection</li>
+                    </ul>
+                    
+                    <h3>Recharge</h3>
+                    <ul>
+                        <li><strong>Bundle Products:</strong> Template suffix <code>recharge-bundle</code></li>
+                        <li><strong>Subscription Products:</strong> Template suffix <code>subscription</code></li>
+                        <li><strong>Where to Set:</strong> Products → Search engine listing → Template suffix</li>
+                        <li><strong>What It Does:</strong> Shows Recharge bundle or subscription widget on product page</li>
+                    </ul>
+                    
+                    <h3>Insole Finder</h3>
+                    <ul>
+                        <li><strong>Page Template:</strong> <code>insole-finder-2</code></li>
+                        <li><strong>Where to Set:</strong> Pages → Template suffix</li>
+                        <li><strong>What It Does:</strong> Enables the quiz interface and special layout</li>
+                    </ul>
+                </section>
+                
+                <section id="configuration--setup">
+                    <h2>Configuration & Setup</h2>
+                    
+                    <h3>SearchSpring Setup (For New Collections)</h3>
+                    
+                    <ol>
+                        <li><strong>Assign Template:</strong>
+                            <ul>
+                                <li>Go to <strong>Collections</strong> → Select collection</li>
+                                <li>Set <strong>Template suffix:</strong> <code>searchspring</code></li>
+                                <li>Save</li>
+                            </ul>
+                        </li>
+                        <li><strong>Configure in SearchSpring Dashboard:</strong>
+                            <ul>
+                                <li>Open SearchSpring app from Shopify Apps</li>
+                                <li>Configure search settings, filters, and recommendations</li>
+                                <li>Product data syncs automatically</li>
+                            </ul>
+                        </li>
+                        <li><strong>Verify It's Working:</strong>
+                            <ul>
+                                <li>Visit the collection page on the storefront</li>
+                                <li>You should see SearchSpring's enhanced search and filtering</li>
+                                <li>If you see default Shopify search, check the template suffix</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <h3>Recharge Setup (For Bundle/Subscription Products)</h3>
+                    
+                    <ol>
+                        <li><strong>Assign Template:</strong>
+                            <ul>
+                                <li>Go to <strong>Products</strong> → Select product</li>
+                                <li>Set <strong>Template suffix:</strong> <code>recharge-bundle</code> or <code>subscription</code></li>
+                                <li>Save</li>
+                            </ul>
+                        </li>
+                        <li><strong>Configure in Recharge Dashboard:</strong>
+                            <ul>
+                                <li>Open Recharge app from Shopify Apps</li>
+                                <li>Configure bundle options or subscription settings</li>
+                                <li>Set pricing and product options</li>
+                            </ul>
+                        </li>
+                        <li><strong>Verify It's Working:</strong>
+                            <ul>
+                                <li>Visit the product page on the storefront</li>
+                                <li>You should see the Recharge bundle or subscription widget</li>
+                                <li>If widget doesn't appear, check template suffix and Recharge configuration</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <h3>Yotpo Setup (Usually Already Configured)</h3>
+                    
+                    <ul>
+                        <li>Reviews are already set up and working</li>
+                        <li>Reviews sync automatically between stores</li>
+                        <li>You mainly need to moderate reviews in Yotpo dashboard</li>
+                        <li>To add UGC gallery to a collection page, add Yotpo UGC section in Theme Customizer</li>
+                    </ul>
+                    
+                    <h3>Osano Setup (Usually Already Configured)</h3>
+                    
+                    <ul>
+                        <li>Cookie consent is already configured and working</li>
+                        <li>Banner appears automatically on all pages</li>
+                        <li>Update cookie policy or consent settings in Osano dashboard if needed</li>
+                    </ul>
+                </section>
+                
+                <section id="troubleshooting">
+                    <h2>Troubleshooting</h2>
+                    
+                    <h3>SearchSpring Issues</h3>
+                    
+                    <p><strong>Problem:</strong> Search not working or showing default Shopify search.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li><strong>Check Template Assignment:</strong>
+                            <ul>
+                                <li>Go to Collections → Select the collection</li>
+                                <li>Verify <strong>Template suffix</strong> is set to <code>searchspring</code> (lowercase, no spaces)</li>
+                                <li>Save if needed</li>
+                            </ul>
+                        </li>
+                        <li><strong>Check SearchSpring Dashboard:</strong>
+                            <ul>
+                                <li>Open SearchSpring app</li>
+                                <li>Check sync status - products should be synced</li>
+                                <li>Verify the collection is configured in SearchSpring</li>
+                            </ul>
+                        </li>
+                        <li><strong>Verify App is Active:</strong>
+                            <ul>
+                                <li>Go to <strong>Settings → Apps and sales channels</strong></li>
+                                <li>Find SearchSpring app</li>
+                                <li>Make sure it's installed and active</li>
+                            </ul>
+                        </li>
+                        <li><strong>Still Not Working?</strong>
+                            <ul>
+                                <li>Contact SearchSpring support (they have excellent support)</li>
+                                <li>Provide them with the collection URL and store name</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <h3>Recharge Issues</h3>
+                    
+                    <p><strong>Problem:</strong> Bundle or subscription widget not showing on product page.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li><strong>Check Template Assignment:</strong>
+                            <ul>
+                                <li>Go to Products → Select the product</li>
+                                <li>Verify <strong>Template suffix</strong> is set correctly:
+                                    <ul>
+                                        <li><code>recharge-bundle</code> for bundle products</li>
+                                        <li><code>subscription</code> for subscription products</li>
+                                    </ul>
+                                </li>
+                                <li>Save if needed</li>
+                            </ul>
+                        </li>
+                        <li><strong>Check Recharge Dashboard:</strong>
+                            <ul>
+                                <li>Open Recharge app</li>
+                                <li>Verify the product is configured in Recharge</li>
+                                <li>Check that bundle/subscription options are set up</li>
+                            </ul>
+                        </li>
+                        <li><strong>Verify App is Active:</strong>
+                            <ul>
+                                <li>Go to <strong>Settings → Apps and sales channels</strong></li>
+                                <li>Find Recharge app</li>
+                                <li>Make sure it's installed and active</li>
+                            </ul>
+                        </li>
+                        <li><strong>Still Not Working?</strong>
+                            <ul>
+                                <li>Contact ReCharge support</li>
+                                <li>They can help troubleshoot widget display issues</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <h3>Yotpo Issues</h3>
+                    
+                    <p><strong>Problem:</strong> Reviews not displaying on product pages.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li><strong>Check Yotpo Dashboard:</strong>
+                            <ul>
+                                <li>Open Yotpo app</li>
+                                <li>Check review sync status</li>
+                                <li>Verify reviews exist for the product</li>
+                            </ul>
+                        </li>
+                        <li><strong>Verify Product Has Reviews:</strong>
+                            <ul>
+                                <li>Check if the product has any approved reviews</li>
+                                <li>Reviews need to be approved before they display</li>
+                            </ul>
+                        </li>
+                        <li><strong>Check Template:</strong>
+                            <ul>
+                                <li>Product templates should include Yotpo blocks by default</li>
+                                <li>If reviews still don't show, contact Yotpo support</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <h3>Osano Issues</h3>
+                    
+                    <p><strong>Problem:</strong> Cookie consent banner not appearing.</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li><strong>Check Osano Dashboard:</strong>
+                            <ul>
+                                <li>Open Osano app</li>
+                                <li>Verify banner is enabled</li>
+                                <li>Check regional settings</li>
+                            </ul>
+                        </li>
+                        <li><strong>Clear Browser:</strong>
+                            <ul>
+                                <li>Clear browser cookies</li>
+                                <li>Try incognito/private browsing mode</li>
+                                <li>Banner might not show if you've already accepted cookies</li>
+                            </ul>
+                        </li>
+                        <li><strong>Check Ad Blockers:</strong>
+                            <ul>
+                                <li>Some ad blockers can interfere with cookie consent banners</li>
+                                <li>Try disabling ad blockers to test</li>
+                            </ul>
+                        </li>
+                        <li><strong>Still Not Working?</strong>
+                            <ul>
+                                <li>Contact Osano support</li>
+                                <li>They can help troubleshoot banner display</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+                
+                <section id="additional-resources">
+                    <h2>Additional Resources</h2>
+                    <ul>
+                        <li><strong>Theme Architecture:</strong> <a href="docs/theme-architecture.md">theme-architecture.md</a></li>
+                        <li><strong>Technical User Guide:</strong> <a href="docs/technical-user-guide.md">technical-user-guide.md</a></li>
+                        <li><strong>SearchSpring Documentation:</strong> <a href="https://support.searchspring.com/" target="_blank" rel="noopener">https://support.searchspring.com/</a></li>
+                        <li><strong>Recharge Documentation:</strong> <a href="https://support.rechargepayments.com/" target="_blank" rel="noopener">https://support.rechargepayments.com/</a></li>
+                        <li><strong>Yotpo Documentation:</strong> <a href="https://docs.yotpo.com/" target="_blank" rel="noopener">https://docs.yotpo.com/</a></li>
+                    </ul>
+                </section>
+                
+                <footer style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--digital-gray-1);">
+                    <p><em>Last Updated: Based on theme exports from November 2025</em></p>
+                    <p><em>Documentation follows ARCDIG-DOCS methodology v1.5.0</em></p>
+                </footer>
+            </main>
+        </div>
+    </div>
+    
+    <div id="footer-container"></div>
+    
+    <script src="component-loader.js"></script>
+    <script src="enhanced-toc/enhanced-toc.js"></script>
+</body>
+</html>
+
