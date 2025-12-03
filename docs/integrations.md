@@ -2,204 +2,189 @@
 
 **Superfeet Multi-Region Shopify Plus Platform**
 
-Complete documentation of all third-party app integrations and their theme code implementations.
+Complete documentation of all third-party apps and how to manage them in your day-to-day work.
 
 ---
 
 ## Table of Contents
 
-1. [Apps with Theme Code Integration](#apps-with-theme-code-integration)
-2. [Apps with Metafield Integration](#apps-with-metafield-integration)
-3. [Apps without Theme Integration](#apps-without-theme-integration)
-4. [Integration Code References](#integration-code-references)
+1. [Major Apps You'll Use Daily](#major-apps-youll-use-daily)
+2. [Apps with Special Template Requirements](#apps-with-special-template-requirements)
+3. [Apps with Metafield Integration](#apps-with-metafield-integration)
+4. [Apps That Run Automatically](#apps-that-run-automatically)
 5. [Configuration & Setup](#configuration--setup)
 6. [Troubleshooting](#troubleshooting)
 
 ---
 
-## Apps with Theme Code Integration
+## Major Apps You'll Use Daily
 
 ### SearchSpring
 
-**Purpose:** Enhanced product search and filtering beyond Shopify's default search.
+**What It Does:** Enhanced product search and filtering that's much more powerful than Shopify's default search. Provides better search results, filtering options, and product recommendations.
 
-**Stores:** US (superfeetww), UK (superfeet-uk), Canada (superfeet-ca)
+**Stores:** US, UK, Canada (all three stores)
 
-**Theme Integration:**
+**How You Use It:**
+1. **Assign SearchSpring Template to Collections:**
+   - Go to **Collections** → Select a collection
+   - Scroll to **Search engine listing**
+   - Set **Template suffix:** `searchspring`
+   - Save
 
-**Section:**
-- `sections/searchspring-recommendations.liquid` - SearchSpring product recommendations section
+2. **Configure in SearchSpring Dashboard:**
+   - Access SearchSpring dashboard (link in Shopify Apps)
+   - Configure search settings, filters, and recommendations
+   - Product data syncs automatically from Shopify
 
-**Snippet:**
-- `snippets/searchspring-script.liquid` - SearchSpring JavaScript SDK loader
-
-**Layout Integration:**
-- `layout/theme.liquid` - SearchSpring Intellisuggest script loaded:
-  ```liquid
-  <script type="text/javascript" src="//cdn.searchspring.net/intellisuggest/is.min.js"></script>
-  ```
-
-**Template Usage:**
-- `collection.searchspring.json` - Collection template using SearchSpring
-- `main-collection-product-grid-ss.liquid` - SearchSpring product grid section
-- `main-search.liquid` - Search results using SearchSpring
-
-**Code Reference:**
-```liquid
-{% render 'searchspring-script' %}
-```
-
-**Configuration:**
-- SearchSpring dashboard for product data sync
-- Theme settings: `settings.searchspring_region` for regional configuration
-- SearchSpring JavaScript SDK replaces default Shopify search
+3. **What Happens:**
+   - SearchSpring replaces the default Shopify search on that collection
+   - Customers get better search results and filtering
+   - Product recommendations appear automatically
 
 **Important Notes:**
-- Essential A/B Testing app is **incompatible** with SearchSpring
-- Don't modify SearchSpring integration without understanding full implementation
-- SearchSpring has its own dashboard for configuration
+- **Essential A/B Testing app is incompatible** - Don't run A/B tests on SearchSpring-powered collections
+- SearchSpring has its own dashboard for configuration - you don't configure it in Shopify Admin
+- Each store (US, UK, CA) has its own SearchSpring instance
+
+**When to Use SearchSpring:**
+- Main product collections where customers need to filter and search
+- Collections with many products where filtering is important
+- When you want advanced product recommendations
+
+**When NOT to Use SearchSpring:**
+- Simple collections with few products
+- Collections that don't need advanced search
+- Collections where you're running A/B tests (Essential A/B Testing conflicts)
 
 **Troubleshooting:**
-- Check SearchSpring dashboard for sync status
-- Verify JavaScript SDK is loading (browser console)
-- Check browser console for errors
-- Contact SearchSpring support for integration issues
+- If search isn't working, check SearchSpring dashboard for sync status
+- Verify the collection has `searchspring` template suffix assigned
+- Contact SearchSpring support if you see sync errors
 
 ---
 
 ### Recharge Subscriptions
 
-**Purpose:** Product bundles and subscription orders.
+**What It Does:** Enables product bundles (customizable product sets) and subscription orders (recurring orders).
 
-**Stores:** US (superfeetww), UK (superfeet-uk), Canada (superfeet-ca)
+**Stores:** US, UK, Canada (all three stores)
 
-**Theme Integration:**
+**How You Use It:**
 
-**Snippets:**
-- `snippets/recharge-choose-your-bundle-customizations.liquid` - Bundle customization UI
-- `snippets/recharge-subscription-customizations.liquid` - Subscription customization UI
+**For Bundle Products:**
+1. Go to **Products** → Select product
+2. Set **Template suffix:** `recharge-bundle`
+3. Configure bundle options in **Recharge app dashboard** (not in Shopify)
+4. The bundle widget appears automatically on the product page
 
-**Template Usage:**
-- `product.recharge-bundle.json` - Recharge bundle product template
-- `product.subscription.json` - Subscription product template
+**For Subscription Products:**
+1. Go to **Products** → Select product
+2. Set **Template suffix:** `subscription`
+3. Configure subscription options in **Recharge app dashboard**
+4. The subscription widget appears automatically on the product page
 
-**Code Reference:**
-```liquid
-{% render 'recharge-choose-your-bundle-customizations' %}
-{% render 'recharge-subscription-customizations' %}
-```
+**Important Notes:**
+- Bundle and subscription configuration happens in the **Recharge app dashboard**, not in Shopify Admin
+- The template suffix just tells the theme to show the Recharge widget
+- Bundle pricing and options are managed in Recharge
+- **Subscriptions are available but not currently activated** - work with ReCharge support team and your development partner when ready to launch
 
-**Template Block:**
-```json
-{
-  "type": "shopify://apps/recharge-subscriptions/blocks/bundles-widget/..."
-}
-```
-
-**Configuration:**
-- Recharge app installed via Shopify App Store
-- Subscription products configured in Recharge dashboard
-- Checkout flow modified for subscriptions
-
-**Documentation:** Recharge has extensive documentation for theme customization
+**ReCharge Documentation:**
+- Bundle documentation: https://support.getrecharge.com/hc/en-us/sections/6981308041623-Bundles
+- Subscription management: https://support.getrecharge.com/hc/en-us/categories/360000578374-Subscription-Management
 
 ---
 
 ### Yotpo Product Reviews
 
-**Purpose:** Product reviews and user-generated content.
+**What It Does:** Manages product reviews and customer photos (user-generated content) across all stores.
 
-**Stores:** US (superfeetww), UK (superfeet-uk), Canada (superfeet-ca)
+**Stores:** US, UK, Canada (all three stores)
 
-**Theme Integration:**
+**How It Works:**
+- Reviews are collected on the **US store**
+- **US reviews automatically appear on UK and Canada stores** (this is called "syndication")
+- ExpertVoice reviews also sync to the US store
+- Reviews appear automatically on product pages - you don't need to do anything
 
-**Template Blocks:**
-- Yotpo star rating blocks in product templates:
-  ```json
-  {
-    "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/..."
-  }
-  ```
+**What You Manage:**
+- **Review Moderation:** Approve/reject reviews in Yotpo dashboard
+- **Review Settings:** Configure review display, email requests, etc. in Yotpo dashboard
+- **UGC Galleries:** Add Yotpo UGC sections to collection pages in Theme Customizer
 
-**Template Usage:**
-- Product templates include Yotpo review widgets
-- Collection templates include Yotpo UGC galleries:
-  ```liquid
-  <div class="yotpo yotpo-pictures-widget" data-gallery-id="..."></div>
-  ```
+**Metafields (Automatic):**
+- `yotpo.reviews_average` - Average rating (updated automatically)
+- `yotpo.reviews_count` - Review count (updated automatically)
+- These are updated automatically - you don't need to manage them
 
-**Metafields:**
-- `yotpo.reviews_average` [single_line_text_field] - Average rating
-- `yotpo.reviews_count` [single_line_text_field] - Review count
-- `yotpo.richsnippetshtml` [single_line_text_field] - Rich snippets HTML
-
-**Configuration:**
-- Reviews collected on US store
-- **US reviews automatically syndicated to UK and CA stores**
-- ExpertVoice reviews syndicated to US store
-- Moderation settings in Yotpo dashboard
-
-**Important:** Don't break review syndication when modifying product templates!
+**Important Notes:**
+- Reviews sync automatically between stores - don't worry about managing this
+- If reviews aren't showing, check Yotpo dashboard for sync status
+- Review widgets are built into product templates - they appear automatically
+- You can add UGC galleries to collection pages via Theme Customizer
 
 **Troubleshooting:**
-- Check Yotpo dashboard for review sync status
-- Verify widgets are loading on product pages
-- Check browser console for JavaScript errors
+- If reviews aren't appearing, check Yotpo dashboard for sync status
+- Verify product template includes Yotpo blocks (they should by default)
+- Contact Yotpo support if you see sync errors
 
 ---
 
 ### Osano Cookie Consent
 
-**Purpose:** GDPR/CCPA compliance cookie consent management.
+**What It Does:** Manages cookie consent for GDPR/CCPA compliance. Shows a cookie consent banner to visitors and manages their cookie preferences.
 
-**Stores:** US (superfeetww), UK (superfeet-uk), Canada (superfeet-ca)
+**Stores:** US, UK, Canada (all three stores)
 
-**Theme Integration:**
+**How It Works:**
+- Cookie consent banner appears automatically to visitors
+- Visitors can accept or customize cookie preferences
+- Osano manages which cookies are allowed based on consent
+- Different rules apply based on visitor location (GDPR for EU, CCPA for California, etc.)
 
-**Snippet:**
-- `snippets/osano-shopify.liquid` - Osano Shopify integration
+**What You Manage:**
+- **Cookie Policy:** Update cookie policy text in Osano dashboard
+- **Consent Settings:** Configure which cookies require consent in Osano dashboard
+- **Regional Rules:** Set up different rules for different regions (EU, US, etc.) in Osano dashboard
 
-**Layout Integration:**
-- `layout/theme.liquid` - Osano script loaded:
-  ```liquid
-  <script async src="https://cmp.osano.com/16BR7lSlwnVOl4Jfg/c078783c-4b7d-4855-9d77-f20cbb796003/osano.js"></script>
-  ```
-
-**Code Reference:**
-```liquid
-{% render 'osano-shopify' %}
-```
-
-**Configuration:**
-- Osano dashboard for consent management
-- Cookie policy configuration
-- Regional compliance settings
+**Important Notes:**
+- Osano runs automatically - the banner appears on all pages
+- Configuration happens in Osano dashboard, not in Shopify
+- You don't need to do anything in Shopify Admin for this to work
+- If the banner isn't appearing, check Osano dashboard for configuration issues
 
 ---
 
 ### Insole Finder Quiz
 
-**Purpose:** Custom product recommendation tool guiding customers to the right insole.
+**What It Does:** Custom quiz that asks customers questions about their feet and activity level, then recommends the best insole products for them.
 
-**Stores:** US (superfeetww), UK (superfeet-uk), Canada (superfeet-ca)
+**Stores:** US, UK, Canada (all three stores)
 
-**Theme Integration:**
+**How You Use It:**
+1. **Create Insole Finder Page:**
+   - Go to **Online Store → Pages**
+   - Create new page or edit existing Insole Finder page
+   - Set **Template suffix:** `insole-finder-2`
+   - Save
 
-**Layout:**
-- `layout/theme.insole-finder.liquid` - Dedicated layout for Insole Finder pages
+2. **Configure Quiz in Theme Customizer:**
+   - Go to **Theme Customizer**
+   - Select the Insole Finder page
+   - Find **Insole Finder 2** section
+   - Configure quiz questions and product recommendations
 
-**Section:**
-- `sections/insole-finder-2.liquid` - Insole Finder section
+3. **Link to Quiz:**
+   - Add link in navigation menus
+   - Link from product pages
+   - Link from homepage or landing pages
 
-**Template:**
-- `page.insole-finder-2.json` - Insole Finder page template
-
-**Custom App:** Built by Born West & Superfeet
-
-**Configuration:**
-- Custom app configuration
-- Product recommendation logic
-- Quiz flow management
+**Important Notes:**
+- Quiz logic and product recommendations are managed by a custom app built by Born West & Superfeet
+- For changes to quiz questions or logic, work with **Michael Sullivan, Heather Allerdice-Gerow, and the team at Born West**
+- The quiz uses a special page template that has a simplified header/footer design
+- Quiz results link to specific product pages automatically
 
 ---
 
@@ -361,88 +346,76 @@ These apps are installed and functional but have no theme code integration:
 
 ---
 
-## Integration Code References
+## Apps with Special Template Requirements
 
-### SearchSpring Integration
+Some apps require you to assign specific templates to products or collections for them to work properly. Here's a quick reference:
 
-**Section File:** `sections/searchspring-recommendations.liquid`
+### SearchSpring
+- **Collection Template:** `searchspring`
+- **Where to Set:** Collections → Search engine listing → Template suffix
+- **What It Does:** Enables SearchSpring search and filtering on that collection
 
-**Snippet File:** `snippets/searchspring-script.liquid`
+### Recharge
+- **Bundle Products:** Template suffix `recharge-bundle`
+- **Subscription Products:** Template suffix `subscription`
+- **Where to Set:** Products → Search engine listing → Template suffix
+- **What It Does:** Shows Recharge bundle or subscription widget on product page
 
-**Layout Integration:** `layout/theme.liquid` (line 82)
-```liquid
-<script type="text/javascript" src="//cdn.searchspring.net/intellisuggest/is.min.js"></script>
-```
-
-**Collection Template:** `collection.searchspring.json`
-
-**Search Template:** `main-search.liquid`
-
-### Recharge Integration
-
-**Snippet Files:**
-- `snippets/recharge-choose-your-bundle-customizations.liquid`
-- `snippets/recharge-subscription-customizations.liquid`
-
-**Product Templates:**
-- `product.recharge-bundle.json`
-- `product.subscription.json`
-
-### Yotpo Integration
-
-**Template Blocks:**
-- Product templates include Yotpo app blocks
-- Collection templates include Yotpo UGC widgets
-
-**Example:**
-```json
-{
-  "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf"
-}
-```
-
-### Osano Integration
-
-**Snippet File:** `snippets/osano-shopify.liquid`
-
-**Layout Integration:** `layout/theme.liquid` (line 23)
-```liquid
-<script async src="https://cmp.osano.com/16BR7lSlwnVOl4Jfg/c078783c-4b7d-4855-9d77-f20cbb796003/osano.js"></script>
-```
+### Insole Finder
+- **Page Template:** `insole-finder-2`
+- **Where to Set:** Pages → Template suffix
+- **What It Does:** Enables the quiz interface and special layout
 
 ---
 
 ## Configuration & Setup
 
-### SearchSpring Setup
+### SearchSpring Setup (For New Collections)
 
-1. Install SearchSpring app
-2. Configure in SearchSpring dashboard
-3. Sync product data
-4. Configure search instance per store (US, UK, CA)
-5. Assign `collection.searchspring.json` template to collections
+1. **Assign Template:**
+   - Go to **Collections** → Select collection
+   - Set **Template suffix:** `searchspring`
+   - Save
 
-### Recharge Setup
+2. **Configure in SearchSpring Dashboard:**
+   - Open SearchSpring app from Shopify Apps
+   - Configure search settings, filters, and recommendations
+   - Product data syncs automatically
 
-1. Install Recharge app
-2. Configure subscription products in Recharge dashboard
-3. Assign `product.recharge-bundle.json` or `product.subscription.json` templates
-4. Configure bundle options
+3. **Verify It's Working:**
+   - Visit the collection page on the storefront
+   - You should see SearchSpring's enhanced search and filtering
+   - If you see default Shopify search, check the template suffix
 
-### Yotpo Setup
+### Recharge Setup (For Bundle/Subscription Products)
 
-1. Install Yotpo app
-2. Configure review collection settings
-3. Set up review syndication (US → UK/CA)
-4. Add Yotpo blocks to product templates
-5. Configure UGC galleries for collections
+1. **Assign Template:**
+   - Go to **Products** → Select product
+   - Set **Template suffix:** `recharge-bundle` or `subscription`
+   - Save
 
-### Osano Setup
+2. **Configure in Recharge Dashboard:**
+   - Open Recharge app from Shopify Apps
+   - Configure bundle options or subscription settings
+   - Set pricing and product options
 
-1. Install Osano app
-2. Configure cookie policy
-3. Set regional compliance settings
-4. Osano script loads automatically via theme
+3. **Verify It's Working:**
+   - Visit the product page on the storefront
+   - You should see the Recharge bundle or subscription widget
+   - If widget doesn't appear, check template suffix and Recharge configuration
+
+### Yotpo Setup (Usually Already Configured)
+
+- Reviews are already set up and working
+- Reviews sync automatically between stores
+- You mainly need to moderate reviews in Yotpo dashboard
+- To add UGC gallery to a collection page, add Yotpo UGC section in Theme Customizer
+
+### Osano Setup (Usually Already Configured)
+
+- Cookie consent is already configured and working
+- Banner appears automatically on all pages
+- Update cookie policy or consent settings in Osano dashboard if needed
 
 ---
 
@@ -453,41 +426,91 @@ These apps are installed and functional but have no theme code integration:
 **Problem:** Search not working or showing default Shopify search.
 
 **Solution:**
-1. Check SearchSpring dashboard for sync status
-2. Verify SearchSpring JavaScript is loading (browser console)
-3. Check collection template is `collection.searchspring.json`
-4. Verify SearchSpring app is active
-5. Contact SearchSpring support
+1. **Check Template Assignment:**
+   - Go to Collections → Select the collection
+   - Verify **Template suffix** is set to `searchspring` (lowercase, no spaces)
+   - Save if needed
+
+2. **Check SearchSpring Dashboard:**
+   - Open SearchSpring app
+   - Check sync status - products should be synced
+   - Verify the collection is configured in SearchSpring
+
+3. **Verify App is Active:**
+   - Go to **Settings → Apps and sales channels**
+   - Find SearchSpring app
+   - Make sure it's installed and active
+
+4. **Still Not Working?**
+   - Contact SearchSpring support (they have excellent support)
+   - Provide them with the collection URL and store name
 
 ### Recharge Issues
 
-**Problem:** Bundle or subscription options not showing.
+**Problem:** Bundle or subscription widget not showing on product page.
 
 **Solution:**
-1. Verify product template is `product.recharge-bundle.json` or `product.subscription.json`
-2. Check Recharge dashboard for product configuration
-3. Verify Recharge app is active
-4. Check browser console for JavaScript errors
+1. **Check Template Assignment:**
+   - Go to Products → Select the product
+   - Verify **Template suffix** is set correctly:
+     - `recharge-bundle` for bundle products
+     - `subscription` for subscription products
+   - Save if needed
+
+2. **Check Recharge Dashboard:**
+   - Open Recharge app
+   - Verify the product is configured in Recharge
+   - Check that bundle/subscription options are set up
+
+3. **Verify App is Active:**
+   - Go to **Settings → Apps and sales channels**
+   - Find Recharge app
+   - Make sure it's installed and active
+
+4. **Still Not Working?**
+   - Contact ReCharge support
+   - They can help troubleshoot widget display issues
 
 ### Yotpo Issues
 
-**Problem:** Reviews not displaying or syndication not working.
+**Problem:** Reviews not displaying on product pages.
 
 **Solution:**
-1. Check Yotpo dashboard for review sync status
-2. Verify Yotpo blocks are in product templates
-3. Check browser console for JavaScript errors
-4. Verify review syndication settings in Yotpo
+1. **Check Yotpo Dashboard:**
+   - Open Yotpo app
+   - Check review sync status
+   - Verify reviews exist for the product
+
+2. **Verify Product Has Reviews:**
+   - Check if the product has any approved reviews
+   - Reviews need to be approved before they display
+
+3. **Check Template:**
+   - Product templates should include Yotpo blocks by default
+   - If reviews still don't show, contact Yotpo support
 
 ### Osano Issues
 
-**Problem:** Cookie consent not appearing.
+**Problem:** Cookie consent banner not appearing.
 
 **Solution:**
-1. Verify Osano script is loading (browser console)
-2. Check Osano dashboard for configuration
-3. Clear browser cookies and test
-4. Check if ad blockers are interfering
+1. **Check Osano Dashboard:**
+   - Open Osano app
+   - Verify banner is enabled
+   - Check regional settings
+
+2. **Clear Browser:**
+   - Clear browser cookies
+   - Try incognito/private browsing mode
+   - Banner might not show if you've already accepted cookies
+
+3. **Check Ad Blockers:**
+   - Some ad blockers can interfere with cookie consent banners
+   - Try disabling ad blockers to test
+
+4. **Still Not Working?**
+   - Contact Osano support
+   - They can help troubleshoot banner display
 
 ---
 

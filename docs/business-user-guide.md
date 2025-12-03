@@ -4,6 +4,10 @@
 
 Superfeet-specific customizations and workflows for managing the eCommerce platform.
 
+**Who This Guide Is For:** This guide is written for team members with Shopify Plus experience who manage day-to-day operations, content, and merchandising. It focuses on what you need to know to work effectively in Shopify Admin and Theme Customizer, without requiring technical development knowledge.
+
+**Key Difference from Other Stores:** Superfeet operates **three independent Shopify stores** (US, Canada, UK) rather than a single store with multiple markets. This means many changes need to be made separately in each store. The UK store also uses Shopify Markets to serve EU and Australia as brochure-only sites (non-transactional).
+
 ---
 
 ## Table of Contents
@@ -27,16 +31,16 @@ Superfeet-specific customizations and workflows for managing the eCommerce platf
 
 This table shows exactly which menu setting controls which visible element on the site.
 
-| Visible Element                | Menu Setting Location                      | Theme Customizer Path                                    | Desktop Display      | Mobile Display            |
-| ------------------------------ | ------------------------------------------ | -------------------------------------------------------- | -------------------- | ------------------------- |
-| **Header - Main Desktop Menu** | `section.settings.menu`                    | Theme Customizer → Header → Menu                         | Horizontal menu bar  | Hidden (uses mobile menu) |
-| **Header - Mobile Menu**       | `section.settings.mobile_menu`             | Theme Customizer → Header → Mobile menu                  | Hidden               | Hamburger menu drawer     |
-| **Header - Utility Menu**      | `section.settings.utility_menu`            | Theme Customizer → Header → Utility menu                 | Secondary menu items | Included in mobile drawer |
-| **Announcement Bar Menu**      | `section.settings.announcement_menu`       | Theme Customizer → Announcement bar → Menu               | Top bar links        | Hidden                    |
-| **Footer - Menu Block 1**      | Block: `link_list` → `block.settings.menu` | Theme Customizer → Footer → Add block → Link list → Menu | Footer column        | Accordion                 |
-| **Footer - Menu Block 2**      | Block: `link_list` → `block.settings.menu` | Theme Customizer → Footer → Add block → Link list → Menu | Footer column        | Accordion                 |
-| **Footer - Menu Block 3+**     | Block: `link_list` → `block.settings.menu` | Theme Customizer → Footer → Add block → Link list → Menu | Footer column        | Accordion                 |
-| **Footer - Copyright Menu**    | `section.settings.copyright_menu`          | Theme Customizer → Footer → Copyright → Menu             | Bottom bar links     | Bottom bar links          |
+| Visible Element                | Where to Assign Menu               | Theme Customizer Path                                    | Desktop Display      | Mobile Display            |
+| ------------------------------ | ---------------------------------- | -------------------------------------------------------- | -------------------- | ------------------------- |
+| **Header - Main Desktop Menu** | Direct menu setting                | Theme Customizer → Header → Menu                         | Horizontal menu bar  | Hidden (uses mobile menu) |
+| **Header - Mobile Menu**       | Direct menu setting                | Theme Customizer → Header → Mobile menu                  | Hidden               | Hamburger menu drawer     |
+| **Header - Utility Menu**      | Direct menu setting                | Theme Customizer → Header → Utility menu                 | Secondary menu items | Included in mobile drawer |
+| **Announcement Bar Menu**      | Direct menu setting                | Theme Customizer → Announcement bar → Menu               | Top bar links        | Hidden                    |
+| **Footer - Menu Block 1**      | Footer block (add Link list block) | Theme Customizer → Footer → Add block → Link list → Menu | Footer column        | Accordion                 |
+| **Footer - Menu Block 2**      | Footer block (add Link list block) | Theme Customizer → Footer → Add block → Link list → Menu | Footer column        | Accordion                 |
+| **Footer - Menu Block 3+**     | Footer block (add Link list block) | Theme Customizer → Footer → Add block → Link list → Menu | Footer column        | Accordion                 |
+| **Footer - Copyright Menu**    | Direct menu setting                | Theme Customizer → Footer → Copyright → Menu             | Bottom bar links     | Bottom bar links          |
 
 ### Key Points
 
@@ -118,7 +122,7 @@ The Insole Finder is a custom quiz application that guides customers to the righ
 
 ### How It Works
 
-The Insole Finder uses a dedicated layout file (`theme.insole-finder.liquid`) that provides a custom experience separate from the main site layout.
+The Insole Finder uses a special page template that provides a custom experience separate from the main site layout. When you assign the `insole-finder-2` template to a page, it automatically uses a different header and footer design optimized for the quiz experience.
 
 ### Setting Up Insole Finder Pages
 
@@ -138,13 +142,14 @@ The Insole Finder uses a dedicated layout file (`theme.insole-finder.liquid`) th
 - Link from product pages
 - Link from homepage or landing pages
 
-### Insole Finder Template
+### Insole Finder Template Details
 
-**Template:** `page.insole-finder-2.json`
+**Template Suffix:** `insole-finder-2`
 
-**Section:** `sections/insole-finder-2.liquid`
-
-**Layout:** `layout/theme.insole-finder.liquid` (uses microsite header/footer)
+**What This Means:**
+- When you set the template suffix to `insole-finder-2`, the page uses a special layout
+- This layout uses a simplified header and footer (similar to the RX microsite)
+- The quiz section appears in the Theme Customizer when you're editing an Insole Finder page
 
 ### Important Notes
 
@@ -175,9 +180,9 @@ The Insole Finder uses a dedicated layout file (`theme.insole-finder.liquid`) th
 - ReCharge bundle documentation - https://support.getrecharge.com/hc/en-us/sections/6981308041623-Bundles
 
 **Recharge Bundle Widget Settings:**
-- Theme color: `#00c09e` (default)
+- Theme color: `#00c09e` (default Superfeet green)
 - Items per row: 1 (mobile), 3 (desktop)
-- Configured in product template JSON
+- These settings are pre-configured in the template - you don't need to change them unless working with a developer
 
 ### Subscription Products
 
@@ -237,10 +242,10 @@ Superfeet has **31 product-specific templates** for custom product page layouts.
 
 **Important Notes:**
 - Template suffix is **case-sensitive** and must match exactly (no spaces, use hyphens)
-- If template doesn't exist, default `product.json` template is used
-- Templates can include custom sections, metafield displays, and app integrations
-- Some templates (like `recharge-bundle` and `subscription`) include app-specific widgets
-- Templates are store-specific - verify template exists in your store's theme code
+- If you enter a template suffix that doesn't exist, the page will use the default product template instead
+- Templates control which sections and features appear on the product page
+- Some templates (like `recharge-bundle` and `subscription`) include special app widgets that only work with those templates
+- **Multi-Store Note:** Templates are store-specific. If a template exists in the US store but not in Canada or UK, you'll need to have it created in those stores before you can use it
 
 ### Product Metafields for Display
 
@@ -601,12 +606,12 @@ Superfeet has **28 collection-specific templates** for custom collection page la
 
 **Important Notes:**
 - Template suffix is **case-sensitive** and must match exactly (no spaces, use hyphens)
-- If template doesn't exist, default `collection.json` template is used
-- **SearchSpring template** (`searchspring`) replaces default Shopify search with SearchSpring enhanced search
-- **Native template** (`native`) uses standard Shopify collection functionality (no SearchSpring)
-- Templates can include custom sections, banners, FAQ sections, and product grid configurations
-- Templates are store-specific - verify template exists in your store's theme code
-- **EA-prefixed templates** (e.g., `ea-9zkhwx`) are automatically created by the Essential A/B Testing app when running A/B tests on collections. These templates are test variants and should not be manually assigned. See [Essential A/B Testing documentation](https://essential-apps.com/essential-shopify-ab-testing-app/) for more information.
+- If you enter a template suffix that doesn't exist, the collection will use the default collection template instead
+- **SearchSpring template** (`searchspring`): This replaces the default Shopify search with SearchSpring's enhanced search and filtering. Use this for collections where you want advanced search capabilities.
+- **Native template** (`native`): This uses standard Shopify collection functionality without SearchSpring. Use this for simple collections that don't need advanced search.
+- Templates control which sections appear on the collection page (banners, FAQs, product grids, etc.)
+- **Multi-Store Note:** Templates are store-specific. If a template exists in the US store but not in Canada or UK, you'll need to have it created in those stores before you can use it
+- **EA-prefixed templates** (e.g., `ea-9zkhwx`): These are automatically created by the Essential A/B Testing app when running A/B tests. **Do not manually assign these** - the app manages them. If you see one assigned to a collection, it means an A/B test is running on that collection.
 
 ---
 
@@ -716,15 +721,22 @@ See [Image & Media Specifications Guide](./image-media-specifications.md) for co
 
 ### Independent Stores
 
-Superfeet operates **three independent transactional Shopify stores**:
+Superfeet operates **three independent transactional Shopify stores**. This is different from many Shopify Plus setups that use a single store with multiple markets. Here's what this means for you:
 
-| Store      | Handle         | Domain          | Primary Market                    | Currency    |
-| ---------- | -------------- | --------------- | --------------------------------- | ----------- |
-| **US**     | `superfeetww`  | superfeet.com   | United States                     | USD         |
-| **Canada** | `superfeet-ca` | superfeet.ca    | Canada (English/French bilingual) | CAD         |
-| **UK**     | `superfeet-uk` | superfeet.co.uk | UK, EU, Australia                 | GBP/EUR/AUD |
+| Store      | Handle         | Domain          | Primary Market                    | Currency    | What You Need to Know    |
+| ---------- | -------------- | --------------- | --------------------------------- | ----------- | ------------------------ |
+| **US**     | `superfeetww`  | superfeet.com   | United States                     | USD         | Main store, most content |
+| **Canada** | `superfeet-ca` | superfeet.ca    | Canada (English/French bilingual) | CAD         | Separate admin login     |
+| **UK**     | `superfeet-uk` | superfeet.co.uk | UK, EU, Australia                 | GBP/EUR/AUD | Uses Markets for EU/AU   |
 
-**Note:** The UK store (`superfeet-uk`) uses Shopify Markets to serve three regions: UK (transactional), EU (brochure-only), and Australia (brochure-only). EU and AU are markets within the same store, not separate stores. See [Managing AU & EU Markets in Theme Customizer](#managing-au--eu-markets-in-theme-customizer) for details on editing market-specific templates.
+**Important:** Each store has its own Shopify Admin login. You'll need to log into each store separately to make changes. Changes made in one store do NOT automatically appear in the other stores.
+
+**UK Store Special Case:** The UK store (`superfeet-uk`) uses Shopify Markets to serve three regions:
+- **UK Market:** Full transactional store (shows prices, buy buttons, cart)
+- **EU Market:** Brochure-only (hides prices, buy buttons, cart - customers can't purchase)
+- **AU Market:** Brochure-only (hides prices, buy buttons, cart - customers can't purchase)
+
+EU and AU are **markets within the same store**, not separate stores. This means you edit EU/AU content in the same Shopify Admin, but you need to select the market context in Theme Customizer. See [Managing AU & EU Markets in Theme Customizer](#managing-au--eu-markets-in-theme-customizer) for details.
 
 ### Store-Specific Data Differences
 

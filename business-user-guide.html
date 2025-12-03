@@ -152,6 +152,8 @@
                     <h1>Business User Guide</h1>
                     <p><strong>Superfeet Multi-Region Shopify Plus Platform</strong></p>
                     <p>Superfeet-specific customizations and workflows for managing the eCommerce platform.</p>
+                    <p><strong>Who This Guide Is For:</strong> This guide is written for team members with Shopify Plus experience who manage day-to-day operations, content, and merchandising. It focuses on what you need to know to work effectively in Shopify Admin and Theme Customizer, without requiring technical development knowledge.</p>
+                    <p><strong>Key Difference from Other Stores:</strong> Superfeet operates <strong>three independent Shopify stores</strong> (US, Canada, UK) rather than a single store with multiple markets. This means many changes need to be made separately in each store. The UK store also uses Shopify Markets to serve EU and Australia as brochure-only sites (non-transactional).</p>
                 </section>
                 
                 <section id="menu-to-section-mapping">
@@ -165,7 +167,7 @@
                         <thead>
                             <tr>
                                 <th>Visible Element</th>
-                                <th>Menu Setting Location</th>
+                                <th>Where to Assign Menu</th>
                                 <th>Theme Customizer Path</th>
                                 <th>Desktop Display</th>
                                 <th>Mobile Display</th>
@@ -174,56 +176,56 @@
                         <tbody>
                             <tr>
                                 <td><strong>Header - Main Desktop Menu</strong></td>
-                                <td><code>section.settings.menu</code></td>
+                                <td>Direct menu setting</td>
                                 <td>Theme Customizer → Header → Menu</td>
                                 <td>Horizontal menu bar</td>
                                 <td>Hidden (uses mobile menu)</td>
                             </tr>
                             <tr>
                                 <td><strong>Header - Mobile Menu</strong></td>
-                                <td><code>section.settings.mobile_menu</code></td>
+                                <td>Direct menu setting</td>
                                 <td>Theme Customizer → Header → Mobile menu</td>
                                 <td>Hidden</td>
                                 <td>Hamburger menu drawer</td>
                             </tr>
                             <tr>
                                 <td><strong>Header - Utility Menu</strong></td>
-                                <td><code>section.settings.utility_menu</code></td>
+                                <td>Direct menu setting</td>
                                 <td>Theme Customizer → Header → Utility menu</td>
                                 <td>Secondary menu items</td>
                                 <td>Included in mobile drawer</td>
                             </tr>
                             <tr>
                                 <td><strong>Announcement Bar Menu</strong></td>
-                                <td><code>section.settings.announcement_menu</code></td>
+                                <td>Direct menu setting</td>
                                 <td>Theme Customizer → Announcement bar → Menu</td>
                                 <td>Top bar links</td>
                                 <td>Hidden</td>
                             </tr>
                             <tr>
                                 <td><strong>Footer - Menu Block 1</strong></td>
-                                <td>Block: <code>link_list</code> → <code>block.settings.menu</code></td>
+                                <td>Footer block (add Link list block)</td>
                                 <td>Theme Customizer → Footer → Add block → Link list → Menu</td>
                                 <td>Footer column</td>
                                 <td>Accordion</td>
                             </tr>
                             <tr>
                                 <td><strong>Footer - Menu Block 2</strong></td>
-                                <td>Block: <code>link_list</code> → <code>block.settings.menu</code></td>
+                                <td>Footer block (add Link list block)</td>
                                 <td>Theme Customizer → Footer → Add block → Link list → Menu</td>
                                 <td>Footer column</td>
                                 <td>Accordion</td>
                             </tr>
                             <tr>
                                 <td><strong>Footer - Menu Block 3+</strong></td>
-                                <td>Block: <code>link_list</code> → <code>block.settings.menu</code></td>
+                                <td>Footer block (add Link list block)</td>
                                 <td>Theme Customizer → Footer → Add block → Link list → Menu</td>
                                 <td>Footer column</td>
                                 <td>Accordion</td>
                             </tr>
                             <tr>
                                 <td><strong>Footer - Copyright Menu</strong></td>
-                                <td><code>section.settings.copyright_menu</code></td>
+                                <td>Direct menu setting</td>
                                 <td>Theme Customizer → Footer → Copyright → Menu</td>
                                 <td>Bottom bar links</td>
                                 <td>Bottom bar links</td>
@@ -329,7 +331,7 @@
                     
                     <h3>How It Works</h3>
                     
-                    <p>The Insole Finder uses a dedicated layout file (<code>theme.insole-finder.liquid</code>) that provides a custom experience separate from the main site layout.</p>
+                    <p>The Insole Finder uses a special page template that provides a custom experience separate from the main site layout. When you assign the <code>insole-finder-2</code> template to a page, it automatically uses a different header and footer design optimized for the quiz experience.</p>
                     
                     <h3>Setting Up Insole Finder Pages</h3>
                     
@@ -355,12 +357,15 @@
                         <li>Link from homepage or landing pages</li>
                     </ul>
                     
-                    <h3>Insole Finder Template</h3>
+                    <h3>Insole Finder Template Details</h3>
                     
+                    <p><strong>Template Suffix:</strong> <code>insole-finder-2</code></p>
+                    
+                    <p><strong>What This Means:</strong></p>
                     <ul>
-                        <li><strong>Template:</strong> <code>page.insole-finder-2.json</code></li>
-                        <li><strong>Section:</strong> <code>sections/insole-finder-2.liquid</code></li>
-                        <li><strong>Layout:</strong> <code>layout/theme.insole-finder.liquid</code> (uses microsite header/footer)</li>
+                        <li>When you set the template suffix to <code>insole-finder-2</code>, the page uses a special layout</li>
+                        <li>This layout uses a simplified header and footer (similar to the RX microsite)</li>
+                        <li>The quiz section appears in the Theme Customizer when you're editing an Insole Finder page</li>
                     </ul>
                     
                     <h3>Important Notes</h3>
@@ -399,9 +404,9 @@
                     
                     <p><strong>Recharge Bundle Widget Settings:</strong></p>
                     <ul>
-                        <li>Theme color: <code>#00c09e</code> (default)</li>
+                        <li>Theme color: <code>#00c09e</code> (default Superfeet green)</li>
                         <li>Items per row: 1 (mobile), 3 (desktop)</li>
-                        <li>Configured in product template JSON</li>
+                        <li>These settings are pre-configured in the template - you don't need to change them unless working with a developer</li>
                     </ul>
                     
                     <h3 id="subscription-products">Subscription Products</h3>
@@ -469,10 +474,10 @@
                     <p><strong>Important Notes:</strong></p>
                     <ul>
                         <li>Template suffix is <strong>case-sensitive</strong> and must match exactly (no spaces, use hyphens)</li>
-                        <li>If template doesn't exist, default <code>product.json</code> template is used</li>
-                        <li>Templates can include custom sections, metafield displays, and app integrations</li>
-                        <li>Some templates (like <code>recharge-bundle</code> and <code>subscription</code>) include app-specific widgets</li>
-                        <li>Templates are store-specific - verify template exists in your store's theme code</li>
+                        <li>If you enter a template suffix that doesn't exist, the page will use the default product template instead</li>
+                        <li>Templates control which sections and features appear on the product page</li>
+                        <li>Some templates (like <code>recharge-bundle</code> and <code>subscription</code>) include special app widgets that only work with those templates</li>
+                        <li><strong>Multi-Store Note:</strong> Templates are store-specific. If a template exists in the US store but not in Canada or UK, you'll need to have it created in those stores before you can use it</li>
                     </ul>
                     
                     <h3 id="product-metafields-for-display">Product Metafields for Display</h3>
@@ -985,12 +990,12 @@
                     <p><strong>Important Notes:</strong></p>
                     <ul>
                         <li>Template suffix is <strong>case-sensitive</strong> and must match exactly (no spaces, use hyphens)</li>
-                        <li>If template doesn't exist, default <code>collection.json</code> template is used</li>
-                        <li><strong>SearchSpring template</strong> (<code>searchspring</code>) replaces default Shopify search with SearchSpring enhanced search</li>
-                        <li><strong>Native template</strong> (<code>native</code>) uses standard Shopify collection functionality (no SearchSpring)</li>
-                        <li>Templates can include custom sections, banners, FAQ sections, and product grid configurations</li>
-                        <li>Templates are store-specific - verify template exists in your store's theme code</li>
-                        <li><strong>EA-prefixed templates</strong> (e.g., <code>ea-9zkhwx</code>) are automatically created by the Essential A/B Testing app when running A/B tests on collections. These templates are test variants and should not be manually assigned. See <a href="https://essential-apps.com/essential-shopify-ab-testing-app/" target="_blank" rel="noopener">Essential A/B Testing documentation</a> for more information.</li>
+                        <li>If you enter a template suffix that doesn't exist, the collection will use the default collection template instead</li>
+                        <li><strong>SearchSpring template</strong> (<code>searchspring</code>): This replaces the default Shopify search with SearchSpring's enhanced search and filtering. Use this for collections where you want advanced search capabilities.</li>
+                        <li><strong>Native template</strong> (<code>native</code>): This uses standard Shopify collection functionality without SearchSpring. Use this for simple collections that don't need advanced search.</li>
+                        <li>Templates control which sections appear on the collection page (banners, FAQs, product grids, etc.)</li>
+                        <li><strong>Multi-Store Note:</strong> Templates are store-specific. If a template exists in the US store but not in Canada or UK, you'll need to have it created in those stores before you can use it</li>
+                        <li><strong>EA-prefixed templates</strong> (e.g., <code>ea-9zkhwx</code>): These are automatically created by the Essential A/B Testing app when running A/B tests. <strong>Do not manually assign these</strong> - the app manages them. If you see one assigned to a collection, it means an A/B test is running on that collection.</li>
                     </ul>
                 </section>
                 
@@ -1128,9 +1133,9 @@
                     
                     <h3>Independent Stores</h3>
                     
-                    <p>Superfeet operates <strong>three independent transactional Shopify stores</strong>:</p>
+                    <p>Superfeet operates <strong>three independent transactional Shopify stores</strong>. This is different from many Shopify Plus setups that use a single store with multiple markets. Here's what this means for you:</p>
                     
-                    <table>
+                    <table class="data-table">
                         <thead>
                             <tr>
                                 <th>Store</th>
@@ -1138,6 +1143,7 @@
                                 <th>Domain</th>
                                 <th>Primary Market</th>
                                 <th>Currency</th>
+                                <th>What You Need to Know</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -1147,6 +1153,7 @@
                                 <td>superfeet.com</td>
                                 <td>United States</td>
                                 <td>USD</td>
+                                <td>Main store, most content</td>
                             </tr>
                             <tr>
                                 <td><strong>Canada</strong></td>
@@ -1154,6 +1161,7 @@
                                 <td>superfeet.ca</td>
                                 <td>Canada (English/French bilingual)</td>
                                 <td>CAD</td>
+                                <td>Separate admin login</td>
                             </tr>
                             <tr>
                                 <td><strong>UK</strong></td>
@@ -1161,11 +1169,21 @@
                                 <td>superfeet.co.uk</td>
                                 <td>UK, EU, Australia</td>
                                 <td>GBP/EUR/AUD</td>
+                                <td>Uses Markets for EU/AU</td>
                             </tr>
                         </tbody>
                     </table>
                     
-                    <p><strong>Note:</strong> The UK store (<code>superfeet-uk</code>) uses Shopify Markets to serve three regions: UK (transactional), EU (brochure-only), and Australia (brochure-only). EU and AU are markets within the same store, not separate stores. See <a href="#managing-au-eu-markets-in-theme-customizer">Managing AU & EU Markets in Theme Customizer</a> for details on editing market-specific templates.</p>
+                    <p><strong>Important:</strong> Each store has its own Shopify Admin login. You'll need to log into each store separately to make changes. Changes made in one store do NOT automatically appear in the other stores.</p>
+                    
+                    <p><strong>UK Store Special Case:</strong> The UK store (<code>superfeet-uk</code>) uses Shopify Markets to serve three regions:</p>
+                    <ul>
+                        <li><strong>UK Market:</strong> Full transactional store (shows prices, buy buttons, cart)</li>
+                        <li><strong>EU Market:</strong> Brochure-only (hides prices, buy buttons, cart - customers can't purchase)</li>
+                        <li><strong>AU Market:</strong> Brochure-only (hides prices, buy buttons, cart - customers can't purchase)</li>
+                    </ul>
+                    
+                    <p>EU and AU are <strong>markets within the same store</strong>, not separate stores. This means you edit EU/AU content in the same Shopify Admin, but you need to select the market context in Theme Customizer. See <a href="#managing-au-eu-markets-in-theme-customizer">Managing AU & EU Markets in Theme Customizer</a> for details.</p>
                     
                     <h3>Store-Specific Data Differences</h3>
                     

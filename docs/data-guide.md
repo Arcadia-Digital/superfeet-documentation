@@ -4,6 +4,8 @@
 
 Complete reference documentation for all metafields, metaobjects, and data structures.
 
+**Who This Guide Is For:** This guide helps you understand and manage metafields (custom data fields) in Shopify Admin. You don't need to know code to use this guide - it focuses on how to work with metafields through the Shopify interface and Matrixify for bulk updates.
+
 ---
 
 ## Table of Contents
@@ -187,63 +189,56 @@ Feature diagram data for product displays.
 
 ---
 
-## Data Access Patterns
+## Using Metafields in Shopify Admin
 
-### Liquid Template Access
+### Finding Metafields on Products
 
-**Product Metafields:**
-```liquid
-{% comment %} Single line text {% endcomment %}
-{{ product.metafields.cql.arch_height }}
+**In Product Edit Screen:**
+1. Go to **Products** → Select a product
+2. Scroll down to the **Metafields** section
+3. Metafields are organized by namespace (e.g., all `cql.*` metafields appear together)
+4. Click on a metafield to edit its value
+5. Click **Save** to save changes
 
-{% comment %} Boolean {% endcomment %}
-{% if product.metafields.cql.vegan %}
-  <span>Vegan</span>
-{% endif %}
+### Understanding Metafield Types
 
-{% comment %} Multi-line text {% endcomment %}
-{{ product.metafields.cql.short_description }}
+**Single Line Text Field:**
+- Use for short text values (e.g., "Medium", "High", "Best Seller")
+- Examples: `cql.arch_height`, `cql.badge`, `cql.product_gender`
 
-{% comment %} Number {% endcomment %}
-{{ product.metafields.cql.low_stock_threshold }}
+**Multi-Line Text Field:**
+- Use for longer text content (e.g., product descriptions)
+- Supports basic formatting
+- Example: `cql.short_description`
 
-{% comment %} Product reference list {% endcomment %}
-{% for comparison_product in product.metafields.cql.comparison_products.value %}
-  {{ comparison_product.title }}
-{% endfor %}
+**Boolean (True/False):**
+- Use for yes/no indicators
+- Examples: `cql.vegan`, `cql.latex_free`, `custom.hsa_fsa_eligible`
+- Check the box for "true", leave unchecked for "false"
 
-{% comment %} Metaobject reference {% endcomment %}
-{% assign faq_group = product.metafields.cql.faq_group.value %}
-{{ faq_group.title }}
-```
+**Number:**
+- Use for numeric values
+- Example: `cql.low_stock_threshold` (enter a number like 10)
 
-**Variant Metafields:**
-```liquid
-{{ variant.metafields.mm-google-shopping.gender }}
-{{ variant.metafields.mm-google-shopping.size_system }}
-```
+**Product Reference:**
+- Links to another product
+- Use the product picker to select a product
+- Example: `cql.addon_product`
 
-**Page Metafields:**
-```liquid
-{% if page.metafields.cql.rx_microsite %}
-  {% assign isMicrositePage = true %}
-{% endif %}
-```
+**Product Reference List:**
+- Links to multiple products
+- Click "Add product" to add multiple products
+- Examples: `cql.comparison_products`, `cql.associated_products`
 
-**JSON Metafields:**
-```liquid
-{% assign json_data = product.metafields.custom.json_field | parse_json %}
-{{ json_data.property }}
-```
+**Metaobject Reference:**
+- Links to a metaobject (reusable content)
+- Use the metaobject picker to select
+- Examples: `cql.faq_group`, `cql.arch_height_info`
 
-### Checking Metafield Existence
-
-**Best Practice:** Always check if metafield exists before accessing:
-```liquid
-{% if product.metafields.cql.arch_height %}
-  {{ product.metafields.cql.arch_height }}
-{% endif %}
-```
+**File Reference:**
+- Links to an uploaded file (image, PDF, etc.)
+- Use the file picker to upload or select
+- Example: `cql.image_with_feature`
 
 ---
 
@@ -313,48 +308,57 @@ Feature diagram data for product displays.
 
 ## Common Use Cases
 
-### Product Filtering
+### Product Organization
 
-**By Arch Height:**
-```liquid
-{% if product.metafields.cql.arch_height == "Medium" %}
-  <!-- Display medium arch product -->
-{% endif %}
-```
+**Using Product Family:**
+- Set `cql.product_family` to group related products (e.g., "All-Purpose", "Run Support")
+- Helps organize products for collections and filtering
+- Used internally for product recommendations and related products
 
-**By Gender:**
-```liquid
-{% if product.metafields.cql.product_gender == "Unisex" %}
-  <!-- Display unisex product -->
-{% endif %}
-```
+**Using Product Gender:**
+- Set `cql.product_gender` to categorize products (e.g., "Unisex", "Men's", "Women's")
+- Used for filtering and collection organization
+- Helps customers find gender-specific products
 
-### Product Display
+**Using Arch Height:**
+- Set `cql.arch_height` to specify arch support level (e.g., "Medium", "High", "Low/Medium/High")
+- Displays on product pages with an icon
+- Used for product comparison and filtering
 
-**Size Ranges:**
-```liquid
-{% if product.metafields.cql.men_sizes %}
-  <p>Men's Sizes: {{ product.metafields.cql.men_sizes }}</p>
-{% endif %}
-```
+### Product Display on Storefront
 
 **Product Badges:**
-```liquid
-{% if product.metafields.cql.badge %}
-  <span class="badge">{{ product.metafields.cql.badge }}</span>
-{% endif %}
-```
+- Set `cql.badge` to add badges like "Best Seller", "New", or "Limited Edition"
+- Badge appears as an overlay on product images
+- Use sparingly - only for special promotions or highlights
+
+**Short Description:**
+- Set `cql.short_description` to customize the product description that appears on product pages
+- This replaces the standard product description
+- Supports basic formatting (bold, italic, lists)
+- For Recharge bundles, this displays as an "Includes:" list when configured
+
+**Size Information:**
+- Set `cql.men_sizes`, `cql.women_sizes`, or `cql.kid_sizes` to specify size ranges
+- Used for filtering and product organization
+- Format: "5.5 - 7, 7.5 - 9, 9.5 - 11" (comma-separated ranges)
 
 ### SEO Optimization
 
 **Custom SEO Titles:**
-```liquid
-{% if product.metafields.seo_title %}
-  <title>{{ product.metafields.seo_title }}</title>
-{% else %}
-  <title>{{ product.title }}</title>
-{% endif %}
-```
+- Set `seo_title` to override the default page title for search engines
+- Appears in browser tabs and search engine results
+- If not set, uses the product title
+
+**Custom SEO Descriptions:**
+- Set `seo_desc` to override the default meta description
+- Appears in search engine results below the title
+- Keep it under 160 characters for best results
+
+**Hide from Search:**
+- Set `seo.hidden` to `1` to prevent products from appearing in search results
+- Use for test products, discontinued items, or products not ready for sale
+- Set to `0` or leave empty to show in search
 
 ---
 

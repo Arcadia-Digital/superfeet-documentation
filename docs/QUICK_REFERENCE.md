@@ -4,6 +4,8 @@
 
 Quick lookup tables and common tasks for fast reference.
 
+**Note:** This guide assumes you're familiar with Shopify Admin basics. For detailed explanations and step-by-step workflows, see the [Business User Guide](./business-user-guide.md).
+
 ---
 
 ## Store Information
@@ -254,11 +256,17 @@ shopify theme pull --live --store superfeetww
 
 ## Important Notes
 
-- **URL Redirects:** 4,400+ redirects from Magento - do not modify without careful testing
-- **Multi-Store:** Changes often need to be made across multiple stores
-- **SearchSpring:** Essential A/B Testing app is incompatible
-- **Theme Updates:** Always test on staging before pushing to live
-- **Backups:** Use Matrixify for regular data backups
+- **Multi-Store Setup:** Superfeet uses **three independent Shopify stores** (US, Canada, UK). Changes made in one store do NOT automatically appear in other stores. You must make changes separately in each store.
+
+- **UK Store Markets:** The UK store serves EU and Australia as brochure-only markets (no buy buttons). To edit EU/AU content, select the market in Theme Customizer before making changes.
+
+- **URL Redirects:** 4,400+ redirects from Magento migration - do not modify without careful testing and coordination with development team.
+
+- **SearchSpring:** Essential A/B Testing app is incompatible with SearchSpring. Don't run A/B tests on collections using the `searchspring` template.
+
+- **Template Suffixes:** Always use lowercase, no spaces, hyphens for word separation. Template suffixes are case-sensitive.
+
+- **Backups:** Use Matrixify for regular data backups before making bulk changes.
 
 ---
 
