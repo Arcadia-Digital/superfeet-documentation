@@ -23,6 +23,10 @@ Superfeet operates a sophisticated multi-region eCommerce platform serving custo
 ## Documentation Structure
 
 ### Main Documentation
+- **[Business User Guide](business-user-guide.html)** - Content management workflows for business users
+- **[Data Guide](data-guide.html)** - Complete reference for all metafields and data structures
+- **[Integrations](integrations.html)** - Third-party app documentation and management guides
+- **[Image & Media Specifications](image-media-specifications.html)** - Design specifications and requirements
 - **[Platform Documentation](superfeet-platform-documentation.html)** - Comprehensive guide covering architecture, operations, and management
 - **[Index Page](index.html)** - Navigation hub for all documentation resources
 
