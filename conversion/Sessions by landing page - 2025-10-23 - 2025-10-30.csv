@@ -1,0 +1,840 @@
+"Landing page type","Landing page path","Online store visitors","Sessions","Sessions with cart additions","Sessions that reached checkout"
+"Homepage","/",9914,11033,682,511
+"Custom Page","/pages/insole-finder",2676,3382,257,163
+"Product","/products/all-purpose-support-high-arch",1330,1505,138,92
+"Collection","/collections/all",1164,1203,24,11
+"Product","/products/run-pacer-elite",825,903,79,54
+"Collection","/collections/work",742,869,54,40
+"Collection","/collections/all-insoles",731,810,68,46
+"Collection","/collections/running",633,774,29,18
+"Collection","/collections/pain-relief",622,728,25,17
+"Product","/products/work-cushion",526,647,41,24
+"Product","/products/all-purpose-support-medium-arch",436,529,34,25
+"Collection","/collections/best-sellers",458,514,25,13
+"Product","/products/all-purpose-high-impact-support",417,484,32,24
+"Product","/products/all-purpose-support-low-arch",346,380,23,15
+"Collection","/collections/hiking",316,349,19,16
+"Product","/products/all-purpose-cushion",285,345,35,22
+"Product","/products/casual-pain-relief",291,340,14,8
+"Product","/products/all-purpose-womens-high-impact-support",266,334,28,17
+"Custom Page","/pages/qr-insoles-guide",288,331,4,4
+"Product","/products/run-cushion-high-arch",252,311,24,14
+"Product","/products/hike-support",264,299,15,8
+"Product","/products/run-pain-relief",213,244,13,7
+"Product","/products/sport-ultralight",201,244,7,6
+"Product","/products/all-purpose-wide-fit-support",191,236,10,8
+"Product","/products/hike-cushion",200,231,15,12
+"Product","/products/hike-cushion-2-pack",216,231,1,1
+"Product","/products/all-purpose-memory-foam-support",189,210,7,4
+"Cart","/cart",132,198,41,46
+"Product","/products/casual-womens-easyfit-r",158,187,17,10
+"Product","/products/winter-support",176,184,5,4
+"Collection","/collections/snow-sports",146,168,4,2
+"Product","/products/work-slim-fit-cushion",149,167,9,4
+"Product","/products/run-support-low-arch-new",144,163,7,7
+"Product","/products/run-womens-support",139,154,16,10
+"Collection","/collections/walking",121,153,8,6
+"Product","/products/all-purpose-support-high-arch-4-pack",140,152,5,3
+"Custom Page","/pages/store-locator",116,150,2,1
+"Product","/products/casual-mens-easyfit-r",130,149,14,8
+"Product","/products/work-cushion-2-pack-multipack",132,142,7,3
+"Search","/search",120,138,8,7
+"Collection","/collections/mens",135,136,4,2
+"Custom Page","/pages/personalized-fit",130,135,1,1
+"Collection","/collections/court-sports",122,132,8,5
+"Product","/products/run-cushion-low-arch",114,126,6,4
+"Collection","/collections/all-purpose",112,123,12,6
+"Product","/products/hockey-performance",104,121,3,2
+"Product","/products/run-cushion-medium-arch",103,120,5,5
+"Collection","/collections/dress",112,117,3,2
+"Custom Page","/pages/faqs",103,116,1,1
+"Custom Page","/pages/careers",95,116,0,0
+"Product","/products/casual-easyfit-r-high-heel",96,115,6,3
+"Collection","/collections/bundles",97,111,11,6
+"Custom Page","/pages/size-chart",108,111,1,0
+"Product","/products/ap-support-high-arch-2-pack-multipack",97,104,8,3
+"Blog Article","/blogs/hiking-outdoor/how-to-choose-which-superfeet-insoles-are-right-for-you",98,100,2,0
+"Custom Page","/pages/60-day-guarantee",89,100,2,1
+"Collection","/collections/hockey-skates",95,97,5,3
+"Collection","/collections/cleat-sports",87,95,4,3
+"Collection","/collections/kids",89,90,1,1
+"Product","/products/hockey-cushion",76,87,4,4
+"Product","/products/run-support-high-arch-new",75,87,6,5
+"Blog Article","/blogs/company-news/how-to-choose-the-right-insole-arch-height-for-your-feet",83,87,0,0
+"Product","/products/work-memory-foam",73,84,8,4
+"Collection","/collections/womens",82,82,6,6
+"Custom Page","/pages/returns-and-exchanges",62,81,1,2
+"Collection","/collections/fitness-training",68,72,2,1
+"Custom Page","/pages/the-science-of-superfeet",57,72,0,0
+"Product","/products/winter-thin-support",66,69,3,1
+"Product","/products/casual-support",52,67,2,2
+"Product","/products/run-support-medium-arch-new",60,66,5,3
+"Product","/products/me3d",65,65,0,0
+"Product","/products/ap-support-high-arch-3-pack-multipack",59,64,1,1
+"Blog Article","/blogs/foot-health-podiatry/flat-feet-explained",59,61,0,1
+"Custom Page","/pages/privacy-policy",56,58,1,1
+"Collection","/collections/racquet-sports",53,56,0,1
+"Product","/products/running-starter-pack",42,54,1,1
+"Product","/products/hike-womens-support",47,53,2,0
+"Blog Article","/blogs/health-wellness/soft-vs-firm-insoles-what-is-the-difference-and-how-to-choose-which-experience-is-right-for-you",51,52,0,0
+"Custom Page","/pages/contact",44,50,1,1
+"Product","/products/pain-relief-bundle",44,49,1,1
+"Blog Article","/blogs/company-news/couch-to-5k-running-training-plan-for-beginning-runners",37,40,0,0
+"Blog Article","/blogs/company-news/the-top-10-relay-races-to-have-on-your-radar",34,35,0,0
+"Blog Article","/blogs/foot-health-podiatry/plantar-fasciitis-explained",28,34,1,0
+"Product","/products/work-hard-play-hard-pack",33,33,0,0
+"Custom Page","/pages/why-superfeet",30,31,2,1
+"Blog Article","/blogs/running/running-for-boxing-a-boxers-running-routine-explained",29,29,0,0
+"Custom Page","/pages/pain-relief",28,28,6,5
+"Custom Page","/pages/promotions",27,27,1,0
+"Blog Article","/blogs/hiking-outdoor/carbon-fiber-insoles-use-cases-benefits",26,27,0,1
+"Blog Article","/blogs/foot-health-podiatry/metatarsalgia-explained",26,26,0,0
+"Product","/products/best-sellers-bundle",24,25,2,2
+"Custom Page","/pages/cookie-policy",22,23,0,0
+"Blog Article","/blogs/hiking-outdoor/hiking-insoles-benefits-differences-between-adapt-hike-and-trailblazer",19,23,0,0
+,"/)",23,23,0,0
+"Custom Page","/pages/healthcare-professionals",23,23,0,0
+"Product","/products/gift-card",22,22,1,0
+"Homepage","/shop",20,21,8,8
+"Blog Article","/blogs/foot-health-podiatry/what-are-the-best-insoles-for-plantar-fasciitis-in-2025",18,19,0,0
+"Collection","/collections/golfing",19,19,0,0
+"Blog Article","/blogs/running/lacing-patterns-for-common-foot-issues",18,19,0,0
+"Blog Article","/blogs/hiking-outdoor/mountains-and-the-beach-5-destinations-where-you-can-have-both",16,18,0,0
+"Collection","/collections/discount-eligable",18,18,1,1
+"Custom Page","/pages/workplace-programs",17,17,0,0
+"Blog Article","/blogs/foot-health-podiatry/should-i-put-footbeds-in-my-ski-boots",16,16,0,0
+"Blog Article","/blogs/foot-health-podiatry/work-boot-insoles-that-fight-fatigue-even-on-concrete-floors",15,15,2,1
+"Blog Article","/blogs/foot-health-podiatry/outside-foot-pain-how-to-manage-it-with-superfeet-insoles-and-avoid-surgery",15,15,0,0
+"Blog Article","/blogs/health-wellness/plantar-fasciitis-relief-superfeet-best-sellers",15,15,0,0
+"Blog Article","/blogs/hiking-outdoor/how-to-make-your-shoes-more-comfortable-with-superfeet-insoles",14,14,0,0
+"Blog Article","/blogs/running/running-insoles-benefits-differences-between-the-run-and-adapt-lines",14,14,0,0
+"Blog Index","/blogs/all",14,14,0,0
+"Product","/products/run-support-low-arch",13,13,1,1
+"Blog Article","/blogs/company-news/superfeet-insoles-for-athletes-nurses-and-professionals",10,12,0,0
+"Blog Article","/blogs/health-wellness/structured-heel-cup-a-foot-comfort-gamechanger",12,12,0,0
+"Custom Page","/pages/performance",12,12,0,0
+"Collection","/collections/personalized",11,12,0,0
+"Blog Article","/blogs/foot-health-podiatry/origins-of-orthotic-insoles",11,11,0,0
+"Product","/products/me3d-max",10,11,0,0
+"Blog Index","/blogs/health-wellness",11,11,0,0
+"Blog Article","/blogs/foot-health-podiatry/tailors-bunion-relief-and-prevention-tips-with-superfeet-insoles",11,11,0,0
+"Custom Page","/pages/our-giving",9,10,0,0
+"Blog Article","/blogs/running/innovation-in-action-upgrading-superfeet-run-support-insoles",10,10,3,2
+"Product","/products/hockey-performance-2-pack",10,10,0,0
+"Blog Article","/blogs/foot-health-podiatry/accessory-navicular-syndrome-how-to-reduce-pain-and-improve-foot-function",10,10,0,0
+"Blog Article","/blogs/company-news/10-of-the-best-running-songs-of-all-time",8,10,0,0
+"Product","/products/run-pain-relief-2-pack",10,10,1,1
+"Checkout","/checkouts/cn/hWN4FpTyTA4DRkJSMHAL4kjp/en-us/information",1,10,0,10
+"Product","/products/all-purpose-high-impact-support-3-pack",7,9,0,0
+"Blog Index","/blogs/company-news",9,9,0,0
+"Custom Page","/pages/ccpa-privacy-policy",9,9,0,0
+"Blog Article","/blogs/foot-health-podiatry/it-band-syndrome-explained",9,9,0,0
+"Blog Article","/blogs/foot-health-podiatry/why-high-arches-can-lead-to-high-instep-foot",9,9,0,0
+"Custom Page","/pages/international-distributors",9,9,0,0
+"Blog Article","/blogs/foot-health-podiatry/tarsal-tunnel-syndrome-find-relief-with-superfeet-insoles",9,9,0,0
+"Custom Page","/pages/healthcare-professionals/",8,8,0,0
+"Blog Article","/blogs/foot-health-podiatry/flat-feet-vs-normal-arches-whats-the-real-difference-and-how-to-find-relief",8,8,0,0
+"Blog Article","/blogs/company-news/superfeet-hockey-insoles-the-ultimate-assist",7,8,0,0
+"Blog Article","/blogs/foot-health-podiatry/shin-splints-explained",7,7,0,0
+"Blog Index","/blogs/technology",7,7,0,0
+"Blog Article","/blogs/company-news/6-types-of-running-workouts-and-why-you-need-them",7,7,0,0
+"Blog Article","/blogs/running/foot-stress-fractures-explained",7,7,0,0
+"Blog Index","/blogs/running",7,7,0,0
+,"/en-us/delux-mens-3-4",7,7,0,0
+"Blog Article","/blogs/company-news/welcome-to-the-future-of-superfeet",7,7,0,0
+"Blog Article","/blogs/company-news/superfeet-wins-recognition-in-inc-s-best-workplaces-2025",7,7,0,0
+"Blog Article","/blogs/foot-health-podiatry/mortons-neuroma-explained",6,6,2,0
+"Custom Page","/pages/qr-work-guide",6,6,0,0
+"Blog Article","/blogs/company-news/are-soft-or-firm-insoles-better-for-me",6,6,0,0
+"Blog Index","/blogs/foot-health-podiatry",6,6,0,0
+"Custom Page","/pages/sustainability",6,6,0,0
+"Blog Article","/blogs/health-wellness/tips-to-relieve-tired-and-aching-feet-according-to-a-podiatrist",6,6,0,0
+"Blog Article","/blogs/foot-health-podiatry/strengthen-chronic-ankle-instability-with-superfeet-insoles",6,6,0,0
+"Blog Article","/blogs/foot-health-podiatry/achilles-tendonitis-explained",6,6,0,0
+"Custom Page","/pages/u-s-shipping-policy",6,6,0,0
+"Custom Page","/pages/disclaimer-of-warranty",5,5,0,0
+"Blog Index","/blogs/hiking-outdoor",5,5,0,0
+"Blog Article","/blogs/national-parks/trail-running-in-yosemite-national-park-an-insider-s-guide",4,5,0,0
+,"/en-us/insoles-and-sandals/blue",5,5,0,0
+"Blog Article","/blogs/company-news/performance-insoles-redefined-introducing-run-pacer-elite",5,5,1,1
+"Custom Page","/pages/terms-of-use",5,5,0,0
+"Custom Page","/pages/me3d-store-locator",5,5,0,0
+"Checkout","/checkouts/cn/hWN3vHvAUNBMqGkEX0KZcV29/en-us/information",1,5,0,5
+"Custom Page","/pages/new-product-releases",5,5,1,0
+"Checkout","/checkouts/cn/hWN4X2xYce3C4VhWeADe52W1/en-us/information",1,5,0,5
+"Product","/products/casual-pain-relief-2-pack",5,5,1,1
+"Blog Article","/blogs/foot-health-podiatry/bunions-explained",5,5,0,0
+"Blog Article","/blogs/national-parks/trail-running-in-shenandoah-national-park-an-insider-s-guide",5,5,0,0
+"Blog Article","/blogs/national-parks/backpacking-in-olympic-national-park-an-insider-s-guide",5,5,0,0
+"Checkout","/checkouts/cn/hWN4Uao9E9qOPRgeLWuC3mba/en-us/information",1,4,0,3
+"Custom Page","/pages/contact-us-rx",4,4,0,0
+"Blog Article","/blogs/hiking-outdoor/how-to-take-care-of-your-feet-while-thru-hiking",3,4,0,0
+"Blog Article","/blogs/company-news/introducing-new-superfeet-product-names-and-packaging",4,4,0,0
+"Checkout","/checkouts/o/616e031799594e462160af4a06c9dbbd/en-us/payment",1,4,0,0
+"Blog Article","/blogs/company-news/meet-superfeet-work-support-that-works-as-hard-as-you-do",3,4,0,0
+"Custom Page","/pages/grant-application",4,4,0,0
+"Product","/products/all-purpose-high-impact-support-2-pack",4,4,0,0
+"Blog Article","/blogs/national-parks/backpacking-in-shenandoah-national-park-an-insider-s-guide",4,4,0,0
+,"/checkout/63853461687/cn/hWN4UIgxf6DyR3XIAUzhQdVZ/en-us/shoppay",1,4,1,4
+"Blog Article","/blogs/national-parks/trail-running-in-the-smokies-an-insider-s-guide",4,4,0,0
+"Custom Page","/pages/b2b-personalized-fit",4,4,0,0
+"Checkout","/checkouts/cn/hWN4X9RDbKcdroEVN2H2UUlO/en-us/information",1,4,0,4
+,"/checkout/63853461687/cn/hWN4UzFsCEVYZpTNPouuCEB0/en-us/shoppay",1,4,0,3
+"Checkout","/checkouts/cn/hWN4cZ9NWd4KaYrJLMTJIel6/en-us/information",1,3,0,3
+"Checkout","/checkouts/cn/hWN4FpTyTA4DRkJSMHAL4kjp/en-us/payment",2,3,0,3
+"Blog Article","/blogs/running/6-mid-run-snacks-for-runners-to-reenergize",3,3,0,0
+"Custom Page","/pages/become-an-ambassador",3,3,0,0
+"Checkout","/checkouts/cn/hWN46zNRBOutjIkpKpmJDAx8/en-us/information",1,3,0,3
+"Blog Article","/blogs/technology/how-3d-printed-me3d-personalized-insoles-are-made",3,3,0,0
+"Blog Article","/blogs/foot-health-podiatry/high-arches-explained",3,3,1,0
+"Blog Article","/blogs/foot-health-podiatry/hammer-toes-explained",3,3,0,0
+"Blog Article","/blogs/hiking-outdoor/heres-how-i-prepared-for-the-r2r2r-before-and-after-experience",3,3,0,0
+"Blog Article","/blogs/foot-health-podiatry/haglunds-deformity",3,3,0,0
+,"/foot-health/FHI24.aspx",3,3,0,0
+"Checkout","/checkouts/cn/hWN4XkLbrfks2KzFbe2Wiqx8/en-us/information",1,3,0,3
+,"/policies/shipping-policy",3,3,0,0
+"Custom Page","/pages/alt-size-chart",3,3,0,0
+"Blog Article","/blogs/hiking-outdoor/10-of-the-best-weekend-backpacking-trips-in-the-us",3,3,0,0
+"Blog Article","/blogs/running/best-stretches-and-exercises-for-plantar-fasciitis-relief",3,3,0,0
+"Custom Page","/pages/accessibility-policy",3,3,0,0
+"Blog Article","/blogs/foot-health-podiatry/supination-101-why-the-right-insoles-matter-for-your-foot-health",1,2,0,0
+"Checkout","/checkouts/cn/hWN4QPFTHxDud3YZe1XilSsL/en-us/thank-you",1,2,1,0
+"Product","/products/commuter-essentials-pack",2,2,0,0
+"Blog Article","/blogs/running/best-running-shoes-for-high-arches-where-superfeet-ranks",2,2,0,0
+"Checkout","/checkouts/cn/hWN4ckiUEOXVGn2JAnEupO9I/en-us/information",1,2,0,1
+,"/kr",2,2,0,0
+"Blog Article","/blogs/company-news/2024-superfeet-impact-report",2,2,1,1
+,"/about",2,2,0,0
+"Blog Article","/blogs/hiking-outdoor/the-10-most-memorable-hikes-in-north-america",2,2,0,0
+"Checkout","/checkouts/cn/hWN4c3kjocCg9JPFthAqIfuU/en-us/information",2,2,0,2
+"Blog Article","/blogs/company-news/olympian-colleen-quigley-joins-team-superfeet",2,2,0,0
+,"/en-us/support/returns",2,2,0,0
+"Checkout","/checkouts/cn/hWN4eSKKiewNBPVyq9huPjiK/en-us/information",2,2,0,2
+"Blog Article","/blogs/running/finding-your-stride-lessons-from-a-high-school-cross-country-team",2,2,0,0
+"Blog Article","/blogs/foot-health-podiatry/overpronation-vs-underpronation-finding-the-perfect-balance-with-superfeet-insoles",2,2,0,0
+"Checkout","/checkouts/cn/hWN4c0pYYwXVXFWUmLhFxHuy/en-us/information",2,2,0,2
+"Product","/products/run-comfort-thin",2,2,0,0
+,"/checkout/63853461687/cn/hWN4U5Fs93bN10VWweoNphNo/en-us/shoppay",2,2,0,2
+,"/checkout/63853461687/cn/hWN4RtGtyNQNsm6drqHFhbQm/en-us/shoppay",1,2,0,2
+"Blog Article","/blogs/health-wellness/what-to-do-for-leg-cramps",2,2,0,0
+"Checkout","/checkouts/cn/hWN4e7hhyBg3KSWFnEcJSwlk/en-us/information",2,2,0,2
+"Checkout","/checkouts/cn/hWN4Zz9R5rvPjyAEo6e3zrE8/en-us/information",1,2,0,2
+,"/foot-health/FHI89.aspx",2,2,0,0
+"Checkout","/checkouts/cn/hWN4OFbs3FE72sMYGvAVJKHx/en-us/thank-you",1,2,1,1
+,"/en-us/testimonials",2,2,0,0
+"Product","/products/run-support-high-arch",2,2,0,0
+,"/guarentee",1,2,1,1
+,"/checkout/63853461687/cn/hWN4SPF4LJKYME8iBc5PmtBI/en-us/shoppay",1,2,0,2
+"Checkout","/checkouts/cn/hWN4VBmTN9djXoLYy315HVXV/en-us/information",2,2,0,2
+"Blog Article","/blogs/hiking-outdoor/day-hiking-everything-you-need-to-get-started",2,2,0,0
+"Checkout","/checkouts/cn/hWN4gn5y0FzDF4GlkXihySKg/en-us/information",1,2,0,2
+,"/en-us/insoles-and-sandals/black",2,2,0,0
+"Blog Article","/blogs/company-news/what-is-different-about-superfeet-womens-specific-insoles",2,2,0,0
+"Product","/products/run-support-medium-arch",2,2,0,0
+,"/en-us/customer/account/login/",2,2,0,0
+"Checkout","/checkouts/cn/hWN4blTrZZtcm1KZwYayz5wA/en-us/information",2,2,0,2
+"Collection","/collections/unisex",2,2,0,0
+"Blog Article","/blogs/foot-health-podiatry/how-to-prevent-and-treat-pain-from-high-arch-feet",2,2,0,0
+"Blog Article","/blogs/company-news/news-and-reviews-what-people-are-saying-about-superfeet",2,2,0,0
+"Blog Article","/blogs/running/running-with-purpose-coach-corey-morgan-s-journey-to-his-third-chicago-marathon-with-peace-runners-773",2,2,0,0
+,"/checkout/63853461687/cn/hWN4RhDGRL4i4RYBJGod9iGA/en-us/shoppay",1,2,0,2
+"Checkout","/checkouts/cn/hWN4h8vpUpofT3qAAXa17Tb0/en-us/information",2,2,0,2
+"Checkout","/checkouts/cn/hWN4dk6AERYbZLL6zpkuQOlF/en-us/information",1,2,0,2
+"Blog Article","/blogs/hiking-outdoor/9-trails-that-prove-the-midwest-is-a-hikers-paradise",2,2,0,0
+,"/checkout/63853461687/cn/hWN4iB5akiKPhbrKXsSeJE5h/en-us/stock-problems",2,2,1,2
+"Blog Article","/blogs/foot-health-podiatry/heel-spurs-explained",2,2,0,0
+"Blog Article","/blogs/foot-health-podiatry/what-you-should-know-about-outside-ankle-pain",2,2,0,0
+"Checkout","/checkouts/cn/hWN4UYl9gJhWM82zyttygxBR/en-us/information",2,2,0,2
+,"/research",1,2,0,0
+"Custom Page","/pages/where-to-buy",2,2,0,0
+"Checkout","/checkouts/cn/hWN4gdYvlAlQyRUgV6MLDsng/en-us/information",2,2,0,1
+"Custom Page","/pages/holiday-gift-guide",2,2,0,0
+"Blog Article","/blogs/foot-health-podiatry/peroneal-tendonitis-explained",2,2,0,0
+"Checkout","/checkouts/cn/hWN4Zsg7yPnM2UbGVqVmaPo1/en-us/payment",1,2,0,2
+"Checkout","/checkouts/cn/hWN4StyHMK8DscEWlTBmwETq/en-us/information",1,2,0,2
+,"/en-us/everyday-slim-fit-men",2,2,0,0
+"Checkout","/checkouts/cn/hWN4WKI74Oaow22Yuh6Ua5g2/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ezI3TznlDYrxjci1dcGu/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4emA9SvEy26sHG1LaSpwg/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VBl1Wz95ODitUUZ6LFC5/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4WiFdd2dDztnyovsp4xIg/en-us/information",1,1,1,1
+"Product","/products/green",1,1,0,0
+"Checkout","/checkouts/cn/hWN4eHOOL4siaI4zBG3AeJPd/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4S99oL7HAWu55hw2FjqGG/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Zbm0NIHbf6H2hGOMh51d/en-us/information",1,1,0,1
+"List of Collections","/collections",1,1,0,0
+,"/en-us/insoles/hike-support",1,1,0,0
+"Checkout","/checkouts/cn/hWN4dx48vu6JHt501jAhBPia/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4RyTTCBZFAJusOk2s9V0j/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bObUS6T2LvHitSjvrG8A/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4epUmKAVnM69dB3Cz7ner/en-us/thank-you",1,1,0,0
+,"/en-us/insoles-and-sandals/easyfit-womens-insole",1,1,0,0
+,"/checkout/63853461687/cn/hWN4VIe5nXuYueTaEXwSzS30/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZP0qgc5msX0P3sytaz0z/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4WppONM5I5fQ4AfS4unvl/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4ddfJsATj07ZL0z7aplHW/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4SBPxgYUqAyQhqPOxiCPw/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TL35G8xoGcc6cmTxrt7I/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Sjc8APycMquqGxPVC4me/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bbiePQgWJMiIQaz811wW/en-us/payment",1,1,0,1
+,"/checkout/63853461687/cn/hWN4ZbQOOmXjLiYonePLRbEo/en-us/shoppay_login",1,1,0,0
+"Checkout","/checkouts/cn/hWN4TDTGDOt676iwMT5LFDp2/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZxkNDd3RXgVmCzkMwpH8/en-us/information",1,1,1,1
+,"/checkout/63853461687/cn/hWN4X3o9uCmmBoNW3m15XRKM/en-us/shoppay_login",1,1,0,0
+"Checkout","/checkouts/cn/hWN4hz7uYbWCJ2HwMCHZjgNW/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4ZvoyOwBgNkeGRHudVVDk/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VGvYhSjH7TWYK1zsbSFU/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZwWKxGI18O6ohVXkd1wg/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4XDjT9JyEhEvvSJRRZjYP/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SawQOI13RkQxI27Bo0HZ/en-us/information",1,1,0,1
+"Product","/products/all-purp=",1,1,0,0
+,"/en-us/insoles-and-sandals/run-support-high-arch-insoles",1,1,0,0
+"Checkout","/checkouts/cn/hWN4TXgtFpxbW69olZxtY5JK/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4aDc04AAsxpBuZ2Rv8qgL/en-us/information",1,1,0,1
+,"/en-eu/insoles-and-sandals",1,1,0,0
+"Checkout","/checkouts/cn/hWN4iT7q0GjZdMWw7wKAdwLY/en-us/information",1,1,0,1
+"Blog Article","/blogs/foot-health-podiatry/work-on-your-feet-discover-the-best-insoles-for-long-shifts",1,1,0,0
+"Checkout","/checkouts/cn/hWN4b5cqikSUi4q40HfCteLa/en-us/information",1,1,0,1
+"Collection","/collections/hole-in-the-wall-qr-code-landing-page-success",1,1,0,0
+"Checkout","/checkouts/cn/hWN4VYg5veAL6xxaxP1sqKYS/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cTx7egFlGzQftI14AvUA/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZmsxDw43U5MVoaEhKe0H/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cHzPhUsvJ0yP06bvzi3G/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4aKEfvvwRbfND8aXaaN6n/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SvIO3ZMDVeNY5SKMCO6k/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4gNKugMQvnoFEQaYD6Ows/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4U7SNJpxOg9QDsP7vZSmQ/en-us/information",1,1,0,1
+,"/en-us/insoles-and-sandals/carbon-pro-hockey",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Zlg8rc1PiGgm0yBXdoJe/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4ScsHDkUwtaoXKhvGxhy5/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4UFbqTA1DzrG37LVKEBwW/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bzIeBRc3MFOPvekmXG0A/en-us/thank-you",1,1,1,1
+"Checkout","/checkouts/cn/hWN3mYWSbMXwVghuDpXAaha4/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4T1YnhjmRabYLFcTWdZM0/en-us/information",1,1,0,1
+"Blog Article","/blogs/company-news/a-slice-of-heaven-for-central-florida-runners",1,1,0,0
+"Checkout","/checkouts/cn/hWN4THk85bDaCzkeRs1mEVfd/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4SB5VUS7fJRbwP7AUMZLm/en-us/shoppay",1,1,1,1
+"Custom Page","/pages/contest-rules",1,1,0,0
+"Checkout","/checkouts/cn/hWN4WfaEbRQmPEau9ODxYLsP/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN3xvfiwrkHkpBls2LKFALY/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4f5nUxbgyCd79gEtuXDqa/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VjolXOCTRRR9VLrPdnFg/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4c3kjocCg9JPFthAqIfuU/en-us/payment",1,1,0,1
+"Checkout","/checkouts/cn/hWN4YU120OZj3WnjqcESXzAm/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4T53hEpf9uFIbGoN61EJu/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4Q7yTzDPeGbg9hHzfyPJq/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4V1r7tBtDSg0rf1I3AuS0/en-us/information",1,1,0,0
+"Blog Index","/blogs/running/articles",1,1,0,0
+,"/checkout/63853461687/ac/hWN4V3EHcmWeGNfNZDa23M1g/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4UlpXdq5o4YwXFxaGQDvM/en-us/payment",1,1,0,0
+"Checkout","/checkouts/cn/hWN4W8rEuJqCibDjBU4wT7B5/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4RnMoAoW42PW3KGmPfffe/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4SiIL5wA9Oq59kaE3FWIj/en-us/information",1,1,0,1
+"Custom Page","/pages/me3d",1,1,0,0
+,"/a7yj623tzw/YjE2YmYxY2",1,1,0,0
+"Blog Article","/blogs/national-parks/trail-running-in-olympic-national-park-an-insider-s-guide",1,1,0,0
+"Checkout","/checkouts/cn/hWN4VclrKTZn6SU9mwYwFa0G/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4URaEoGS99gWnkqLoifsg/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4X3dgN0o9qWmaH4h3RuZm/en-us/information",1,1,0,1
+,"/en-ca/blog/five-ways-to-get-more-backcountry-turns-with-david-powder-steele",1,1,0,0
+"Checkout","/checkouts/cn/hWN4aRceZEH5tEmN8XNi3WZ6/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eqxlhjyphuQ9K6fmI6TK/en-us/information",1,1,0,1
+,"/faq/general.aspx",1,1,0,0
+"Checkout","/checkouts/cn/hWN4VT9x6N3sDmnEX1tHpAhU/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4Uk4Bbeyhj0ray6W2xhIu/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4X0l1gNoRa251OGkGuBt3/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4hqXztrk0SDiUjH95N2iQ/en-us/shipping",1,1,0,0
+"Blog Article","/blogs/health-wellness/relief-from-common-anterior-knee-pain",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Rl3gZeehTJhmPFaQKgN8/en-us/shipping",1,1,0,1
+"Checkout","/checkouts/cn/hWN4aJXIpnBZV11lwZbBC2VE/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VPwWIOh8MurjoK9W3Zyc/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VZuOj9rYpqSTweye0rkG/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ceQhLoQak93pcSPqnpVY/en-us/information",1,1,0,1
+"Blog Article","/blogs/company-news/10-best-hikes-in-boulder",1,1,0,0
+"Checkout","/checkouts/cn/hWN4bamA4an3nyLoBBkBlmy8/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN3snQOnn2biJmG5BxWAEoU/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4Zic7ccksUV3bV0kAu39k/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4RbOK0H5d9VJXTptVYjCc/en-us/information",1,1,0,1
+,"/775xcxsjea/OTk5MTQwOW",1,1,0,0
+,"/checkout/63853461687/cn/hWN4hEOWSbnywD0OJ5EBH2ig/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4dbt1IFDeO9PppzLcuZyj/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4UQYnbheGLEVl8SPITSlU/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VXmpGpyAh9cOkGYGePCy/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eCA07nBJT6cfaQ82Be0P/en-us/information",1,1,0,1
+,"/en-us/news/achilles-tendonitis-explained",1,1,0,0
+,"/checkout/63853461687/cn/hWN4Qy0bhNhBsdMtp2RBZ4iH/en-us/shoppay_login",1,1,0,1
+,"/checkout/63853461687/cn/hWN4Sb2SWgPbpyDYz3xOP0Yq/en-us/shoppay",1,1,0,0
+"Blog Article","/blogs/company-news/15-of-colorados-most-scenic-trail-running-destinations",1,1,0,0
+,"/en-us/insoles-and-sandals/green",1,1,0,0
+,"/checkout/63853461687/cn/hWN4XplGwj8qVAJxKnFeW2Gv/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XSLdV7J8c7fXOmGzgnBQ/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Xzl24OnndKm8dHMmq5Ae/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4c9W00GSijOLOwEy1fTaK/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4c2nJgjf5PP6xTXADiLa5/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4X5JslOC5Fg86mG82Y3KE/en-us/shoppay_login",1,1,0,1
+"Checkout","/checkouts/cn/hWN4g1NIAHaBr91CsWLParUW/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/cn/hWN4EoFfEBx7v10Xr42aoCWX/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Z93EjfDh292LmuPneDTO/en-us/payment",1,1,0,1
+,"/checkout/63853461687/ac/hWN4JJJhdlOiXOh9dXRR5UuI/en-us/shoppay",1,1,0,0
+,"/checkout/63853461687/cn/hWN4SHbwkeSg4ExPRIGF254L/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4RkdfqyfM1jv7QyqTE9Ok/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZRmDEQy0VS88cqRSjMuY/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4XiGibIs46dlHCAlvWonh/en-us/shoppay",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SEnnNW5OAtGrBbNKAjxp/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bxMVq2ZXXWbDzdq5QsWg/en-us/information",1,1,0,1
+"Checkout","/checkouts/ac/hWN4Uk5UOLGWT6lImUmzt1Yg/en-us/information",1,1,0,0
+,"/checkout/63853461687/cn/hWN4Ia01BKUIKC3DVwjk3xGD/en-us/shoppay",1,1,1,1
+,"/checkout/63853461687/cn/hWN4T8VnaSW3ib9AtKcQs1Hl/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4ezQK0Rjae274jVyoiWKg/en-us/thank-you",1,1,0,0
+"Blog Article","/blogs/company-news/introducing-superfeet-winter-insoles",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SomUOI7k8kbkrM1s4I6c/en-us/shipping",1,1,0,1
+,"/fr-fr",1,1,0,0
+"Checkout","/checkouts/cn/hWN4e36f9jKVl9nzFTvq0AnY/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Sfi6vpTApSDhB3qooVY0/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Y62KmZuma32jy4aCQLwn/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4T5ya0xROenG5lhgclmcc/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4Jd1PfMRPXJqPIYzTQctu/en-us/thank-you",1,1,0,0
+"Blog Article","/blogs/running/why-comfort-is-key-when-it-comes-to-runners-and-footwear",1,1,0,0
+"Checkout","/checkouts/cn/hWN4cgvcwfZ1fNuuvt3A3i3s/en-us/shipping",1,1,0,0
+,"/checkout/63853461687/cn/hWN4f3NMPSWOey2XqQbEYrQu/en-us/shoppay_login",1,1,0,1
+"Checkout","/checkouts/cn/hWN4epmMlr2YKhJhdmqPYxRC/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4UzTdYFpr75raRKD26fhZ/en-us/information",1,1,0,1
+,"/store",1,1,0,0
+,"/wpm@9f017859w3e2d8f07pb5314abam9a646b7e/custom/web-pixel-shopify-custom-pixel@0220/sandbox/modern",1,1,0,0
+"Checkout","/checkouts/cn/hWN4V2xZDuwHskCrVgGg9QHa/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4e2Myorp4dFvvfq6tIPCS/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4fu8rLXK6mw7dxAZGr8vS/en-us/information",1,1,0,1
+"Checkout","/checkouts/o/b0f5bdea13aa74f1e0405e53874a0b28/en-us/payment",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gctW0XfwZLyrUxihP2zI/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VyQHD8oRmtr5fkagpkRu/en-us/information",1,1,0,1
+,"/en-ca/blogs/company-news/10-of-the-best-running-songs-of-all-time",1,1,0,0
+"Checkout","/checkouts/cn/hWN4V28TB2XrUOGDEKsuk7lq/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SIs8g2S5iBUyv9K7IKAc/en-us/information",1,1,1,1
+,"/fr-fr/p/superfeet-green",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SrJiAggZPkAovH775dHW/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VF6ClTa8uW7KhrKF0nw8/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4gsAis3r2WRfEvQqQGOKg/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4g8K67bXTvXLdqokUqXIX/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4eczSnUrQp5h6ru4b9TV3/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VcchqTH6z9SXiTV3zXO5/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Rl2W7m7TyAYFSxbcjMyA/en-us/thank-you",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eE52lvr2zsP0NkBRXmSu/en-us/information",1,1,0,1
+"Product","/products/active-support-high-arch",1,1,0,0
+"Collection","/collections/run-support-sale",1,1,1,1
+"Checkout","/checkouts/cn/hWN4VRBFuEDSWbZsTme0JrYA/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4S9zWSF1AME2oL3DkjbcY/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SUH0Ppwf8owse21pFlD8/en-us/information",1,1,0,1
+,"/en-ca/ccpa-personal-information-request-form",1,1,0,0
+,"/checkout/63853461687/cn/hWN4VWWTvohagj5o7suArq9B/en-us/stock-problems",1,1,0,1
+"Custom Page","/pages/work-memory-foam-size-chart",1,1,0,0
+,"/checkout/63853461687/cn/hWN4cujVQWIfZIDCwvwWB5wv/en-us/shoppay",1,1,0,0
+,"/en-gb/blog/avoiding-road-trip-pitfalls",1,1,0,0
+"Checkout","/checkouts/cn/hWN4fClaF3zyFaaksfqnuC7G/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4V78hqBFsF7pAqei1ktvu/en-us/information",1,1,0,1
+,"/register",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gOPdSsKuzq0nWCS8dSO0/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4bOtzzlAp6JdGkzDHkgbZ/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4e3ULB8MdI43wEaLD1JAX/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4hCXgOLSWaAcOtBHeQvgY/en-us/information",1,1,1,1
+,"/superfeet-shape)",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ZK1ihUpIRS875CwMDmfR/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4eeAupNxqOagCQIr7WT0z/en-us/shoppay",1,1,0,1
+"Custom Page","/pages/data-privacy",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ZbD92gINVe53FdjXbaSe/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Qmrs6WSBtlMjDoko4vek/en-us/information",1,1,0,1
+"Blog Article","/blogs/running/speed-up-your-recovery-with-these-stretches-for-runners",1,1,0,0
+"Checkout","/checkouts/cn/hWN4aHG7E20d1y6GoeHRAyFs/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4gHVgMQVg3en6jLiZOFPE/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4c5AaO10qVJop1g7tYtAv/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4ZFb9uprWGdwVYPpqi9fs/en-us/shoppay",1,1,0,1
+,"/en-us/news/yoga-poses-for-runners-to-do-pre-and-post-run",1,1,0,0
+"Checkout","/checkouts/cn/hWN4dhxmNXM8VlV5gl7yUuhE/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VgA0Q7o8LnGJDnDETYtF/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4PIwbdyMIxPhxNIbHoRqU/en-us/payment",1,1,0,1
+"Checkout","/checkouts/cn/hWN4fIGJvzXzIULhqASWVzKq/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/o/8a7dfb829f5ea54d727ae882d1079fb4/en-us/shoppay",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ajZdJwS2YKQI7JkMpD6O/en-us/information",1,1,1,1
+,"/checkout/63853461687/cn/hWN4SpKqFCfzR0m12rmPWw5K/en-us/shoppay_login",1,1,0,1
+,"/en-us/how-to-choose-insole-arch-height",1,1,0,0
+"Checkout","/checkouts/cn/hWN4enezmKxubegrHrVgPi2T/en-us/payment",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZWhNEsKSBpLL5lcCF2DC/en-us/information",1,1,0,1
+,"/en-ca/blogs/hiking-outdoors",1,1,0,0
+,"/dealers_usa/foot-health",1,1,0,0
+"Checkout","/checkouts/cn/hWN4TOZUyff6AnHPOOBLii3E/en-us/information",1,1,0,1
+,"/en-us/hockey-comfort",1,1,0,0
+"Checkout","/checkouts/cn/hWN4dwwkpBWRtuuhopkpGYv2/en-us/shipping",1,1,0,1
+"Blog Article","/blogs/company-news/how-superfeet-is-making-sustainable-strides-forward",1,1,0,0
+,"/checkout/63853461687/cn/hWN4SaUVZkfGNCLeaoGO9WJl/en-us/shoppay",1,1,0,1
+,"/en-eu/customer/account/login/referer/aHR0cHM6Ly93d3cuc3VwZXJmZWV0LmNvbS9lbi1ldS9zaG9wP2luc29sZV90aGlja25lc3M9NTQ3NyZwcmljZT0wLTEwMA%2C%2C/me3d-insoles",1,1,0,0
+"Checkout","/checkouts/cn/hWN4UoWsqtWYlBvkx6KwFHnu/en-us/information",1,1,0,1
+,"/en-gb/ambassador-application",1,1,0,0
+"Checkout","/checkouts/cn/hWN4TDTGDOt676iwMT5LFDp2/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/cn/hWN4UOVz24WFa8ZrworwTGHC/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VoLe83jl3TRx8m14UPpQ/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4dyQ879kkmxn2DLyIOpAf/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4hYxnfBIxcTwFrlSA1pis/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4SZKQDFWzNZRAekvMPEJu/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cUst1Pf3QHh5IOUe7No8/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4S9gJMdcZ2StJA1nspiYj/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SV9TNubUzdlKIRyqGpTm/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4iOd2KPtYXVWrEQ3S17TE/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4UVXIZPAXxvl4hRTLSuTI/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Vfkbs7ruWbCMuNGHnuK2/en-us/information",1,1,0,1
+"Checkout","/checkouts/o/e77db506cd019a09d89d57159b832b27/en-us/payment",1,1,0,0
+"Custom Page","/pages/privacy-policy/",1,1,0,0
+,"/checkout/63853461687/cn/hWN4TClG9s32rUrPU1xBGBW6/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VPsPXXP3Mt0GYgTvhs0I/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4U5OOcqx2SDFgbQxJgcOQ/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4fkSxxVfJXUOYG87Uztns/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Ss0hkAG2aKeBKdUYod3Y/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4aI8ojIZudFYNNmddPUHg/en-us/shoppay",1,1,0,1
+,"/en-us/redhot",1,1,0,0
+,"/en-eu/catalogsearch/result/",1,1,0,0
+"Checkout","/checkouts/cn/hWN4acsHn4NDEegs1BKeETys/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4IfnBwzt8qE420UOvM12Y/en-us/thank-you",1,1,0,1
+"Checkout","/checkouts/cn/hWN4e3ULB8MdI43wEaLD1JAX/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4geGMcldMLbuzfHyloVWb/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4iOtMmschJIdY7Wsnm7En/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4fF9yBnF21LKyGozKJMHA/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4aQLDcBDUVaQjZVaeSivg/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4UxkygPDYiOFKpQeFDQbS/en-us/information",1,1,0,1
+,"/en-us/story/60-day-guarantee",1,1,0,0
+"Checkout","/checkouts/cn/hWN4TnpIN8T6HocKY57rTCvx/en-us/information",1,1,1,1
+,"/checkout/63853461687/o/4982e1ef05e6a71c5c1f70202ed5ab89/en-us/shoppay",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ZTWY9XZ8QXslTEu5VK1Y/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SLDIPjk3KyJjWNSGgook/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4UbCyuKiVQRdwEkcqCwUs/en-us/thank-you",1,1,0,0
+"Product","/products/hockey-insoles",1,1,0,0
+,"/checkout/63853461687/cn/hWN4YqcqsvP3bJnYMVNbAJ7a/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4bmzAPB67hKf8izRp7o9p/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4ZreYJ03ysg9zt8KJZB7C/en-us/shoppay_login",1,1,0,0
+"Checkout","/checkouts/ac/hWN4eea0fNSWvIhNYAbnfxcv/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4cnIh7bqj9nkBkBTlzDmC/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4S0EONG9A5J3jl3dVgE3G/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/ac/hWN4GwUS2C78NG2omi85Dhh4/en-us/shoppay",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gnT5NVlT32d7KOenjEPQ/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cZ4SsZgIQ5r4p1X1UXuq/en-us/stock-problems",1,1,1,1
+"Checkout","/checkouts/cn/hWN4SyF0fdXE2vbmV1SZVLXt/en-us/information",1,1,0,1
+"Blog Article","/blogs/company-news/superfeet-named-one-of-outside-magazine-s-best-places-to-work-in-2024",1,1,0,0
+"Collection","/collections/running-pack-easyfit",1,1,0,0
+"Checkout","/checkouts/cn/hWN4bHrKp2mG3siiCn27fOd8/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cmip0281l9eVj4bcHX3I/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SdcHfYSMwjLK4ZBUXMh8/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4iMm0csnMUV4VydBVKsEL/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZzoNUpbABQqp0KkwHPom/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4eJDQOEZc7GAgUGk8MUIU/en-us/shoppay",1,1,1,1
+,"/checkout/63853461687/cn/hWN4VOnwCat4aQHqdZHWty6s/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bbiePQgWJMiIQaz811wW/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN3mYWQOW9FbSniFv2po5Jw/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4egMOkDY9FVUAVfGfRoJe/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4eF9rqSOXW7wvJbOAkVq4/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4fy81QRsCL4Z3tQRAwIHh/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VbR0f9ohtdBjjIH5SkCI/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SnCzJLoTNUx5oC7bLZZq/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4e1uodd4ugHmVTO61Ryjq/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4f3dTq7OgCLLwgK3UL1k1/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ckwlOf4bz2Yh2IjNbIAi/en-us/shipping",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TCKniuaP2TxOFWJxtVpK/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XWgFP29hqjBJMvFhoMLK/en-us/payment",1,1,0,1
+"Checkout","/checkouts/cn/hWN4h8vpUpofT3qAAXa17Tb0/en-us/shipping",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eKAuVExJBTBXMrIMN90r/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4h6JfSAyJkJpRW4IPJEXK/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4Z8jg4YhQodlfGMdCs7Xu/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cMa23m1r9PzKta4bzJou/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4dvBhpVkT9y9ZMyLmIBGc/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4UHpGlWjv1qM3d6zhU53J/en-us/thank-you",1,1,0,0
+,"/en-us/blog/how-your-job-affects-your-feet",1,1,0,0
+"Checkout","/checkouts/cn/hWN4TA8wT6jQDis7RTvTkzfV/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4S8B5gd5Ao0TtH7Q5cuX3/en-us/shipping",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SWTnOfinjFyejvu1Konh/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XoftUZilPn7yGbeOJ92v/en-us/information",1,1,1,1
+,"/checkout/63853461687/cn/hWN4UuTg0uWNUyKCYtK3gePp/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4WnKLjlrEeH6fUGyyYD2X/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4c59pksSuGufzCnK7Qvuj/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4i9DDEutBFloKvck27sX3/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SMnmfpGlXJq9QgdGqUu0/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eTo3bLZtU4IvNOfsagyu/en-us/information",1,1,1,1
+,"/foot-health/FHI28.aspx",1,1,0,0
+,"/en-ca/test-practice-page",1,1,0,0
+,"/foot-health/FHI23.aspx",1,1,0,0
+"Checkout","/checkouts/cn/hWN4X6gWeie7adn1w9h3v4i1/en-us/information",1,1,0,1
+,"/en-us/retailers-and-dealers/",1,1,0,0
+,"/en-us/reward-points",1,1,0,0
+"Checkout","/checkouts/cn/hWN4cNmHyqakFt3jRJ2fy2Py/en-us/information",1,1,0,1
+"Custom Page","/pages/manufacturing-code-of-conduct",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Sg4CBcjJ6esz891EQpjW/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XPvwJ7htfnVqlBYm1Iqf/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VIe5nXuYueTaEXwSzS30/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/o/42974ed3d903b983df0d59b57b8ccbe3/en-us/payment",1,1,0,0
+,"/checkout/63853461687/cn/hWN4fzqZCNERjPUkqvUXXMbi/en-us/shoppay",1,1,0,1
+,"/en-eu/blog/10-ways-to-winterize-yourself",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ejsyKxm1EJoE2MySRZZK/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Sh2Pm8GubDR71HggsyZe/en-us/information",1,1,0,1
+"Checkout","/checkouts/ac/hWN4Z8jg4YhQodlfGMdCs7Xu/en-us/information",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Wdixe2DTfL9dDFjjh6Ju/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SVG4zYJ4f0O99tZFE0VW/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Vkg7eZ9r5iV1O7Ds3UXZ/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TZS7Zra1PX7NhDNjKVMY/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4dwmOXBQQrvZ6id0zRZNh/en-us/shoppay",1,1,0,1
+,"/de/",1,1,0,0
+"Checkout","/checkouts/cn/hWN4XtfZ2cKI4QIt6Vu5JrJR/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4gWh1sTY4bzY02bRsf5KU/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4a2gGR4fiV3IrWVjUa7fO/en-us/information",1,1,1,1
+"Product","/products/demo-gift-card",1,1,0,0
+"Checkout","/checkouts/cn/hWN4iPEklCyzWjWv6FLWOHtB/en-us/thank-you",1,1,0,0
+"Product","/products/work-cushion-2-pac=",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gJL2S5ZdiIvqLlp3kQGP/en-us/thank-you",1,1,0,0
+,"/en-us/customer/account/login/referer/aHR0cHM6Ly93d3cuc3VwZXJmZWV0LmNvbS9lbi11cy9zaG9wL2luc29sZXM_YXJjaF90eXBlPTU2MTEmY2F0PTE5JmdlbmRlcj01NjE2Jmluc29sZV90aGlja25lc3M9NTQ3NiZwcmljZT01MC02MA~~",1,1,0,0
+"Checkout","/checkouts/cn/hWN4R7CYhLnB3beXcSitQnwO/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4g2CaSfXBUHTZ9pEfzoKw/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4ZAnt2dWSoTpP80JB8PVB/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4iFimTu3OUUQpz5qBbV34/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4g68IZckkwIRU5jI92a5y/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4f4IXgJLisZAxgYzRkOZE/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4bxdzV6bGCehGrdBaAnMW/en-us/information",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Sz4XUoMCTX8rQezxxnvt/en-us/payment",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Z2vNMMXlcVvtRlzz8JIm/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4V1iGgd7CoMVaz3KRWVbW/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4by0MI2Vs4MkcRtHkgMWv/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4gxTHgSxxYMT7jwBGpf5c/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TCgINoTXHJ4UwYr9nC3s/en-us/information",1,1,0,1
+"Checkout","/checkouts/ac/hWN4eea0fNSWvIhNYAbnfxcv/en-us/information",1,1,0,0
+"Checkout","/checkouts/cn/hWN4V7e1y245rMhYaFrQiv7C/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4ZbY8QkMntIp9cAgAUzsG/en-us/shoppay_login",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SuhELLXZhP19YO2hgbkg/en-us/shipping",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XDH2LgLCQ6C33zn0VUOI/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ec7YCFcDV3ywJHeVBhOk/en-us/information",1,1,0,1
+,"/en-us/insoles-and-sandals/outside-bison/",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ZsQh4X487mQXV7RY9O3m/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VZ8TKlyVxMjS8a802ook/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4Z6tlXeCsOcFVtg9WYgAU/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4XkdZvEnI7AWREpPKgFg9/en-us/shoppay",1,1,0,0
+"Blog Article","/blogs/national-parks/trail-running-in-rocky-mountain-national-park-an-insider-s-guide",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Wvwv1rTHwGAxorD3nmGQ/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4cJRjUfLf3NpG9Hewrgm8/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SujiTr5OTWkbyI15J0rQ/en-us/thank-you",1,1,0,1
+"Checkout","/checkouts/cn/hWN4WswLIe163B9ctX4oFM38/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4X9q5vJZld92zKxkZEL3q/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4beuyO7sgJ7qEHuJP2TrN/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/cn/hWN4eYCULbjxgntM9vmKqKx7/en-us/shoppay",1,1,0,1
+,"/ee/images/uploads/b2b/13SF-ProductBroch-FINAL_V2_lowrez.pdf",1,1,0,0
+,"/de/hallux-valgus",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Vf7kubY5lhx8N9V6ttZa/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Sbl2BuNlE4RGik1RDhdy/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4X1rOE3IRUQeyEEuF4Q1B/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4U9IjQ9in6cn1inRNx7xZ/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4evyaVcBCpPdfFFeROekK/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TPp5WsNOVgm6ntba3OBs/en-us/information",1,1,0,1
+,"/en-us/insoles-and-sandals/delux-mens-3-4",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gd8pAem6twFB33rctuzQ/en-us/payment",1,1,0,1
+,"/checkout/63853461687/cn/hWN4VRBFuEDSWbZsTme0JrYA/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bprCkElhlZ2pXQ3gKbmk/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eTgeunPSQO9WdeKSB7pa/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/ac/hWN4c3k9Z4pq6VG4VANZatOb/en-us/shoppay",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Sq3qmnU2LGdm6hoDHJf0/en-us/information",1,1,0,1
+,"/en-gb/blog/7-tips-for-buying-hiking-shoes-and-boots",1,1,0,0
+,"/checkout/63853461687/cn/hWN4RzugtwcAlA5KobW3Dqfx/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XvV6pzCOJagLGA2JOvYo/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/cn/hWN4YYSHxHoIIra0XY8zUqoy/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4WEZIDPpnnFEk6dyWokdd/en-us/shoppay",1,1,1,1
+,"/checkout/63853461687/cn/hWN4bDkJh6KH3cvkZe1R65Cc/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4buL4eGMavBQU8tRI1aKY/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4eYnbiWYk3lzeUU6ZNWDZ/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cJqE0h8WUtOIju9IFpsQ/en-us/information",1,1,0,1
+"Product","/products/all-purpose-support-h=",1,1,0,0
+"Checkout","/checkouts/cn/hWN4a02E8tKyrx1TOBpaE3qk/en-us/shipping",1,1,0,0
+,"/checkout/63853461687/cn/hWN4T6gKXJPMsrTxpHqK2M54/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4evB6lLW2ga5cMEl34Uin/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4hI3hwog3YfYOr8MeZvf7/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4gLzE0EAm5lqzVi1bfaKu/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4TbB5gjDnGxOuMk56WqSg/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TH0U832mMGanuQI2G3jl/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4bH9TqzfvStdbWf0CVloX/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Uq9rcromN4GHFzsSUNei/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4X0l1gNoRa251OGkGuBt3/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4c0pYYwXVXFWUmLhFxHuy/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4aIIolY5xrRueigc4Hqe9/en-us/information",1,1,0,1
+,"/en-us/insoles-and-sandals/everyday/green",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gaGDngoAW26Dj1rhEQPh/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/cn/hWN4QZK4X89k28woOdi04dcI/en-us/shoppay",1,1,0,1
+"Blog Article","/blogs/company-news/superfeet-2024-year-in-review",1,1,0,0
+,"/basket",1,1,0,0
+"Checkout","/checkouts/cn/hWN4aicBLjYqpCcjLMQdTcjy/en-us/information",1,1,0,1
+,"/privacy-policy)",1,1,0,0
+"Checkout","/checkouts/cn/hWN4S7g8DVDUX3O7HwOn5mgq/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eCAfrq9EwCIDxOsfPS4O/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4gCCEhHuF4WdCptuFhkxe/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4a7Dy4BiAtJAHlomkE528/en-us/stock-problems",1,1,0,1
+,"/checkout/63853461687/cn/hWN4VGLiWDhkp8zoAxy4c3JC/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4hOpzFkk30UPeO6mPcBzm/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4gLH3u1m26HzR7fS4RFTO/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4Rl2W7m7TyAYFSxbcjMyA/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SxzwMrEal7W3pcJzUC5S/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XPHE6qpibsHGpAwZn5Mo/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SGvt2DkmHuD4ysmmfbkI/en-us/information",1,1,0,1
+,"/en-gb/test-widget-add",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SXOKcVrpK0yWFDkzeEc6/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bkiw6d8CZziLiyCOSMy8/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ULR9iETC2S9U3uCrR6IM/en-us/payment",1,1,0,1
+,"/foot-health/FHI11.aspx",1,1,0,0
+"Checkout","/checkouts/cn/hWN47iCyUTG7lHfkXJXKIrUP/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4SerqNTBBv0ghqLeP2Ib4/en-us/shoppay_login",1,1,0,0
+"Checkout","/checkouts/cn/hWN4cuXWGV89EBQEo323YSzi/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ZXnPutmRg2JtGDacVWQD/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4WdhJqrRqjqy5XaNz4xyz/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cpc0Kp6ZTGgcVm9NudDs/en-us/information",1,1,0,1
+,"/en-gb/blog/6-simple-ways-to-make-every-run-more-fun",1,1,0,0
+,"/en-eu/blog/super-squad-secrets-tips-for-getting-back-on-your-feet",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SomUOI7k8kbkrM1s4I6c/en-us/information",1,1,0,1
+"Custom Page","/pages/store-locator-1",1,1,0,0
+"Checkout","/checkouts/cn/hWN4bFh4wg1b56hdzLHPrADi/en-us/information",1,1,0,1
+,"/checkout/63853461687/ac/hWN4YttNreUKC5jSdE2279sX/en-us/shoppay",1,1,0,0
+"Product","/products/active-cushion-high-arch",1,1,0,0
+"Checkout","/checkouts/cn/hWN4TOTdHtFYK5O9dGIhGKLo/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cUmlC2fDVOX0tKq124Sf/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4eS7dln4dZSHW5vUiNQEj/en-us/shoppay",1,1,1,1
+,"/en-ca/blogs/company-news/8-reasons-to-explore-olympic-national-park",1,1,0,0
+,"/en-ca/insoles-and-sandals",1,1,0,0
+"Blog Article","/blogs/foot-health-podiatry/the-best-ways-to-relieve-foot-pain-from-standing-at-work",1,1,0,0
+"Checkout","/checkouts/cn/hWN4X5B2TzeeKMDVNyW5EZjm/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Sbl2BuNlE4RGik1RDhdy/en-us/information",1,1,0,1
+,"/QR",1,1,0,0
+,"/en-eu/collections/personalized",1,1,0,0
+,"/en-us/insoles-and-sandals/redhot",1,1,0,0
+,"/login",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gViC5eaXVbYnHI2Yf9wv/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4UI4w498trOMtJyjYQZ5G/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4Y8FVYAZUj5LsYH0FEp62/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4g0rIybmfrkzIKimmfMCA/en-us/shoppay",1,1,0,1
+,"/en-us/blog/article/carbon-the-lightweight-evolution",1,1,0,0
+,"/en-us/store-locator/0D2FFB7B3A/",1,1,0,0
+"Checkout","/checkouts/cn/hWN4UQYnbheGLEVl8SPITSlU/en-us/shipping",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VYg5veAL6xxaxP1sqKYS/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gCn1IcLz4j4yWbi3tUYS/en-us/information",1,1,0,1
+"Blog Article","/blogs/company-news/superfeet-is-now-the-official-insole-partner-of-the-kitchener-rangers",1,1,0,0
+,"/en-us/insoles-and-sandals/easyfit-women",1,1,0,0
+"Checkout","/checkouts/cn/hWN4bejGSLsDqoNHisXpSKXA/en-us/information",1,1,0,1
+,"/en-us/guarantee",1,1,0,0
+,"/en-ca/products/run-support-low-arch",1,1,0,0
+"Checkout","/checkouts/cn/hWN4USmWB73ZftFlfXpxpcKP/en-us/thank-you",1,1,0,1
+"Checkout","/checkouts/cn/hWN4S5S1HvbG2KCK1fjFh7g1/en-us/thank-you",1,1,0,0
+,"/en-gb/shop-men-s-template",1,1,0,0
+"Checkout","/checkouts/cn/hWN4g9P5vSJYk62sj2uEob8k/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cajeL9I7fGKToQyLHfho/en-us/information",1,1,0,1
+,"/gaurantee",1,1,0,0
+,"/en-eu/customer/account/login/referer/aHR0cHM6Ly93d3cuc3VwZXJmZWV0LmNvbS9lbi1ldS9ibG9nL2EtcXVpY2stZ3VpZGUtdG8tY2hhcmxlc3RvbnMtdG9wLXJ1bm5pbmctY2x1YnM%2C/",1,1,0,0
+"Product","/products/ap-suppor=",1,1,0,0
+"Blog Article","/blogs/company-news/8-reasons-to-explore-olympic-national-park",1,1,0,0
+"Checkout","/checkouts/cn/hWN4dfHA5mDxn7ATvryXUDIH/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VgA0Q7o8LnGJDnDETYtF/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VMPTrMDMuOT0BppXPZUA/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4GGftRxCdI8dCBZOWKUSX/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eEjzJJnsuvaOD7XHtZ8K/en-us/thank-you",1,1,0,0
+,"/pricing",1,1,0,0
+"Checkout","/checkouts/cn/hWN4fh3kthHZiUn6Df3sMQpl/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN3mgI0b696J2p8CqwT0CLo/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4gEZaz7RVvt8dyFyHFxwn/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4CAexfcVKjqPBF5k2sTXW/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4dfHA5mDxn7ATvryXUDIH/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4KuqcZVqRvucmWXElKUNd/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4emM41Z48m3h0gFKEZm12/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4ey5pPCjTTXs8gxEig9xZ/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TOtl8w8MbOc9MszGkpqk/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SiCfsNUZZmp5MkVx1gXK/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SqQzn4euD8IHiNDpRbWs/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4eHMSNhlLW6i29ml3GNHt/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4TL35G8xoGcc6cmTxrt7I/en-us/payment",1,1,0,1
+,"/checkout/63853461687/cn/hWN4Uvafe1Dh5EZOG24sNK8Q/en-us/shoppay",1,1,0,1
+"Product","/products/all-purpose-support-high-arch-green",1,1,0,0
+"Custom Page","/pages/the-science-inside",1,1,0,0
+"Blog Index","/blogs/foot-health-podiatry/articles",1,1,0,0
+"Checkout","/checkouts/cn/hWN4UI4w498trOMtJyjYQZ5G/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4a89x6yrVq4RFYOGTasd8/en-us/information",1,1,0,1
+,"/en-eu/de-gb/news/10-of-americas-best-hikes-leading-to-gorgeous-lakes",1,1,0,0
+"Checkout","/checkouts/cn/hWN4UV5VXs5bf44PtyxiVFK6/en-us/information",1,1,0,1
+,"/en-us/2019-holidays",1,1,0,0
+"Checkout","/checkouts/cn/hWN4YEqkHFDrVWYwoNYRCdEu/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Ud4segIoqVjMfnYGpkUa/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4XJTdq9c08A25J978mOBN/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZuKNVT0nc3IjnJFh1yXC/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4RhDGRL4i4RYBJGod9iGA/en-us/thank-you",1,1,0,0
+,"/en-eu/blog/best-adventure-movies-to-inspire-you-to-get-outside",1,1,0,0
+,"/checkout/63853461687/cn/hWN4TDBWU9mdMEy2UsttnhaM/en-us/shoppay",1,1,1,1
+,"/checkout/63853461687/cn/hWN4XlMfQjGjxi5QeGH6gs12/en-us/shoppay_login",1,1,0,1
+"Checkout","/checkouts/cn/hWN4hFBKpkJlU8ShUhLtXquW/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4S7xKAwYpoD04MdcCPI7F/en-us/shipping",1,1,0,1
+,"/checkout/63853461687/cn/hWN4XyvwmdnzGGvV0tZ80dlg/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bSPy1df6hn85SDXt1a7u/en-us/information",1,1,1,1
+,"/checkout/63853461687/cn/hWN4SVCCEUieDSwwlyuKat2G/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4SG7esuXDWVUr1QkNvZZK/en-us/shoppay_login",1,1,0,1
+,"/checkout/63853461687/cn/hWN4hG5WXIqGHDLUuhE0q0Zd/en-us/shoppay",1,1,0,1
+"Blog Article","/blogs/running/how-to-eat-like-an-elite-athlete-inside-an-elite-athletes-diet",1,1,0,0
+,"/en-gb/insoles-and-sandals",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gYf2eiLr66obrLrz298E/en-us/information",1,1,1,1
+,"/checkout/63853461687/cn/hWN3ZxSUQz0trdH9UvLttkGI/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4gRQGbnhmK4baQugPaGR8/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4dwwkpBWRtuuhopkpGYv2/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4cgcncCalBEWzBtsiWSQ5/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4hF5o9SSSOdfJzy2DBOrQ/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4dMwapOe7W21Czw39eX6P/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4OEszQIwS8hzTdZQXgup8/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ST57IKARzTS3dUREijXm/en-us/thank-you",1,1,0,1
+,"/media/catalog/product/g/r/green_pdp_03.jpg",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gkeYoGsPXApdy1wrr15V/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4U37CYVbFY5boGOIeROwk/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4aIIolY5xrRueigc4Hqe9/en-us/shoppay_login",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SXIw0WTaKP9oKdLfwXuE/en-us/payment",1,1,0,1
+"Checkout","/checkouts/cn/hWN4SdvCcyh1tN4JNTh6Yea0/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4TC6Yxy9wwKJhFTeergNm/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4ZbY8QkMntIp9cAgAUzsG/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Z8YUfhdUpSzxhwWwsRqE/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4R3JLQoK2kVjy6Xgd8VtA/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4QyLZuzVD3tt0YRJo60NV/en-us/information",1,1,0,1
+,"/en-us/insoles-and-sandals/fin-go-hh",1,1,0,0
+,"/en-gb/insoles-and-sandals/by-collection/custom-collection/custom-carbon-winter",1,1,0,0
+,"/en-us/blog/10-meditation-tips-for-beginners",1,1,0,0
+"Checkout","/checkouts/cn/hWN4a5DZNpPgc9KEl1PRoyDo/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4JdluSRGOz8XdGeUAmXTU/en-us/shoppay",1,1,0,1
+,"/signup",1,1,0,0
+,"/en-us/insoles-and-sandals/linden-black",1,1,0,0
+"Product","/products/run-comfort-insoles",1,1,0,0
+"Checkout","/checkouts/cn/hWN4ZgyTpgueSvbY31LZbkwM/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4VCpCLCxGvZhZmJCbO4wS/en-us/stock-problems",1,1,0,1
+,"/en-us/news/the-8-best-trail-runs-within-30-miles-of-nashville",1,1,0,0
+,"/checkout/63853461687/cn/hWN4ULIVvDgldCk0InlQQX5O/en-us/shoppay",1,1,0,1
+,"/checkout/63853461687/cn/hWN4R5oiunPiCsltXhXjyv8a/en-us/stock-problems",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Y9XCUAgqaZ5fGYAYIACX/en-us/information",1,1,0,1
+"Custom Page","/pages/new-size-chart",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SIi3EXFwqjDpM3DGFgFM/en-us/information",1,1,0,1
+"Blog Article","/blogs/technology/the-unique-benefits-of-me3d-personalized-insoles",1,1,0,0
+"Checkout","/checkouts/cn/hWN4bklYg0Xn7J1VpKb8KJOi/en-us/information",1,1,0,1
+,"/en-eu/contest-rules-dev",1,1,0,0
+"Checkout","/checkouts/cn/hWN4gx5PDTZ5FEQNSP05Z4Qk/en-us/information",1,1,1,1
+"Checkout","/checkouts/cn/hWN4UqgdINIfQiUzP4T2nIHa/en-us/information",1,1,0,1
+,"/checkout/63853461687/cn/hWN4TCrzUTLtwgfbXcSYOrHm/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4YwU9IZwCXCLHBWWD6StW/en-us/payment",1,1,0,1
+"Checkout","/checkouts/cn/hWN4Z1RiYrcaS3PQs9FByb9G/en-us/stock-problems",1,1,1,1
+,"/checkout/63853461687/cn/hWN4bxdzV6bGCehGrdBaAnMW/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/o/422e3f8f459da9f3efa6e24bbc4e0881/en-us/payment",1,1,0,0
+"Checkout","/checkouts/cn/hWN4Xr4lnNtJb6zQREZGiDVI/en-us/thank-you",1,1,0,0
+"Checkout","/checkouts/cn/hWN4XYW0AasCq3JnUM9AoUGv/en-us/shipping",1,1,0,0
+"Checkout","/checkouts/cn/hWN4VCpCLCxGvZhZmJCbO4wS/en-us/information",1,1,1,1
+,"/checkout/63853461687/cn/hWN4g2Ig1ZVcwkFwJMqSAsLa/en-us/shoppay",1,1,1,1
+"Checkout","/checkouts/cn/hWN4SHePGY7ZzA5rCWEvbfqa/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4VoDofDfNLJwNggYlHdBK/en-us/shipping",1,1,0,1
+,"/en-us/insoles-and-sandals/fin-go-comfort",1,1,0,0
+"Checkout","/checkouts/cn/hWN4QYWWrLJmLNrsjJ0Zsv5e/en-us/information",1,1,0,1
+"Custom Page","/pages/national-parks",1,1,0,0
+,"/locations",1,1,0,0
+"Checkout","/checkouts/cn/hWN4SqLfvjFplK3OGdjiZduE/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4c8OR5YhlE8GUwvX8rAOH/en-us/stock-problems",1,1,0,1
+,"/en-us/shop/insoles/men-s",1,1,0,0
+"Checkout","/checkouts/cn/hWN4UlpXdq5o4YwXFxaGQDvM/en-us/information",1,1,0,1
+"Checkout","/checkouts/o/064351f6c95ddd99a0c7371262991fe6/en-us/payment",1,1,0,0
+"Checkout","/checkouts/cn/hWN4eo3xRA9oGHSKIjyKot7A/en-us/information",1,1,0,0
+"Checkout","/checkouts/cn/hWN4hQ9uOWpKVU2CxUOKeHBQ/en-us/information",1,1,0,1
+"Checkout","/checkouts/cn/hWN4XDjT9JyEhEvvSJRRZjYP/en-us/thank-you",1,1,0,0
+,"/checkout/63853461687/cn/hWN4T6Q9mBWvnKhoVLNs0XPm/en-us/shoppay",1,1,0,1
+"Checkout","/checkouts/cn/hWN4bo0vFfydqSyvs4jP0ftR/en-us/information",1,1,0,1
+,"/help",1,1,0,0
+"Checkout","/checkouts/cn/hWN4bKjQ6RHc8UDcbLdYIOoM/en-us/information",1,1,0,1

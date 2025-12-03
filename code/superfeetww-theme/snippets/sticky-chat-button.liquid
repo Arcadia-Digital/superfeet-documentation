@@ -1,0 +1,431 @@
+{% comment %}
+  Sticky Chat Button
+  Replaces Microsoft Omnichannel widget with custom sticky button
+{% endcomment %}
+
+<button 
+  type="button" 
+  class="sticky-chat-button" 
+  id="sticky-chat-button"
+  aria-label="Open chat"
+  data-chat-action="{{ settings.chat_action | default: 'widget' }}"
+  data-chat-url="{{ settings.contact_chat | default: '' }}"
+>
+  <span class="sticky-chat-button__icon">
+    <img 
+      src="https://superfeet-web-resources.s3.us-east-1.amazonaws.com/Product+Images/25SF_Brand_Launch_Social_Accounts_logo.png" 
+      alt="Chat" 
+      class="sticky-chat-button__icon-image"
+      loading="lazy"
+    />
+  </span>
+  <span class="sticky-chat-button__label">Chat</span>
+  <span class="sticky-chat-button__close" aria-hidden="true">×</span>
+</button>
+
+<style>
+  /* Hide the original Microsoft Omnichannel widget launcher button PERMANENTLY */
+  /* Use very specific selectors to catch all variations */
+  [id*="Microsoft_Omnichannel"]:not([id*="Chat_Iframe"]):not([id*="Chat_Window"]) {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Hide any buttons or launchers within Microsoft widget containers */
+  [id*="Microsoft_Omnichannel"] button,
+  [id*="Microsoft_Omnichannel"] [role="button"],
+  [id*="Microsoft_Omnichannel"] .lcw-launcher,
+  [id*="Microsoft_Omnichannel"] .lcw-launcher-button,
+  [id*="Microsoft_Omnichannel"] .lcw-launcher-container,
+  [id*="Microsoft_Omnichannel"] .omnichannel-launcher {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  /* Hide the widget iframe/container by default */
+  #Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window,
+  iframe[id*="Microsoft_Omnichannel"] {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Show ONLY the chat window when active */
+  .chat-widget-active #Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window,
+  .chat-widget-active iframe[id*="Microsoft_Omnichannel"] {
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 1000 !important;
+  }
+
+  /* Ensure launcher stays hidden even when widget is active */
+  .chat-widget-active [id*="Microsoft_Omnichannel"]:not([id*="Chat_Iframe"]):not([id*="Chat_Window"]),
+  .chat-widget-active [id*="Microsoft_Omnichannel"] button,
+  .chat-widget-active [id*="Microsoft_Omnichannel"] [role="button"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Sticky Chat Button Styles */
+  .sticky-chat-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.2rem 1.6rem;
+    background-color: var(--color-styleguide-carbon, #28292a);
+    color: var(--color-styleguide-white, #ffffff);
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-family: var(--font-body-family);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+    min-height: 4.8rem;
+  }
+
+  .sticky-chat-button:hover {
+    background-color: var(--color-styleguide-carbon, #28292a);
+    opacity: 0.9;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .sticky-chat-button:active {
+    transform: translateY(0);
+  }
+
+  .sticky-chat-button:focus-visible {
+    outline: 0.2rem solid var(--color-foreground);
+    outline-offset: 0.3rem;
+    box-shadow: 0 0 0 0.3rem var(--color-background), 0 0 0.5rem 0.4rem var(--color-foreground);
+  }
+
+  .sticky-chat-button__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    flex-shrink: 0;
+  }
+
+  .sticky-chat-button__icon-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .sticky-chat-button__label {
+    display: block;
+    line-height: 1;
+  }
+
+  .sticky-chat-button__close {
+    display: none;
+    font-size: 2rem;
+    line-height: 1;
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sticky-chat-button--minimized .sticky-chat-button__icon,
+  .sticky-chat-button--minimized .sticky-chat-button__label {
+    display: none;
+  }
+
+  .sticky-chat-button--minimized .sticky-chat-button__close {
+    display: flex;
+  }
+
+  /* Mobile Styles */
+  @media screen and (max-width: 749px) {
+    .sticky-chat-button {
+      right: 15px;
+      bottom: 90px; /* Position above Add to Cart button */
+      padding: 1rem 1.4rem;
+      min-height: 4.4rem;
+      font-size: 1.2rem;
+    }
+
+    .sticky-chat-button__icon {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    /* On product pages, ensure Add to Cart button has spacing */
+    .template-product .product-form__buttons {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    /* Adjust widget position on mobile */
+    .chat-widget-active #Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window,
+    .chat-widget-active iframe[id*="Microsoft_Omnichannel"] {
+      bottom: 90px !important;
+      right: 15px !important;
+    }
+  }
+
+  /* Hide on very small screens if needed */
+  @media screen and (max-width: 360px) {
+    .sticky-chat-button__label {
+      display: none;
+    }
+
+    .sticky-chat-button {
+      padding: 1rem;
+      border-radius: 50%;
+      width: 4.4rem;
+      height: 4.4rem;
+      justify-content: center;
+    }
+  }
+
+  /* Ensure button doesn't overlap with cart drawer or other fixed elements */
+  .cart-drawer[open] ~ .sticky-chat-button,
+  .cart-notification[open] ~ .sticky-chat-button {
+    z-index: 998;
+  }
+</style>
+
+<script>
+(function() {
+  const chatButton = document.getElementById('sticky-chat-button');
+  if (!chatButton) return;
+
+  const chatAction = chatButton.getAttribute('data-chat-action') || 'widget';
+  const chatUrl = chatButton.getAttribute('data-chat-url') || '';
+
+  // Toggle minimized state
+  function toggleMinimized() {
+    chatButton.classList.toggle('sticky-chat-button--minimized');
+    const isMinimized = chatButton.classList.contains('sticky-chat-button--minimized');
+    localStorage.setItem('chatButtonMinimized', isMinimized);
+    
+    if (isMinimized) {
+      chatButton.setAttribute('aria-label', 'Open chat');
+      document.body.classList.remove('chat-widget-active');
+    } else {
+      chatButton.setAttribute('aria-label', 'Minimize chat');
+    }
+  }
+
+  // Function to find and click the Microsoft widget launcher button
+  function triggerMicrosoftWidget() {
+    // Method 1: Try Microsoft Omnichannel API
+    if (window.Microsoft && 
+        window.Microsoft.Omnichannel && 
+        window.Microsoft.Omnichannel.LCWWidget) {
+      try {
+        // Try different API methods
+        if (typeof window.Microsoft.Omnichannel.LCWWidget.open === 'function') {
+          window.Microsoft.Omnichannel.LCWWidget.open();
+          return true;
+        }
+        if (typeof window.Microsoft.Omnichannel.LCWWidget.show === 'function') {
+          window.Microsoft.Omnichannel.LCWWidget.show();
+          return true;
+        }
+        if (typeof window.Microsoft.Omnichannel.LCWWidget.startChat === 'function') {
+          window.Microsoft.Omnichannel.LCWWidget.startChat();
+          return true;
+        }
+      } catch (e) {
+        console.log('Microsoft API error:', e);
+      }
+    }
+
+    // Method 2: Find and click the launcher button programmatically
+    // Search for all possible button selectors
+    const selectors = [
+      '[id*="Microsoft_Omnichannel"] button',
+      '[id*="Microsoft_Omnichannel"] [role="button"]',
+      '[id*="Microsoft_Omnichannel"] .lcw-launcher',
+      '[id*="Microsoft_Omnichannel"] .lcw-launcher-button',
+      '[id*="Microsoft_Omnichannel"] .omnichannel-launcher',
+      'button[id*="Microsoft_Omnichannel"]',
+      '[id*="LCWidget"][id*="launcher"]',
+      '[id*="LCWidget"][id*="button"]'
+    ];
+
+    for (let selector of selectors) {
+      const elements = document.querySelectorAll(selector);
+      for (let element of elements) {
+        // Skip if it's the chat window/iframe
+        if (element.id && (element.id.includes('Chat_Iframe') || element.id.includes('Chat_Window'))) {
+          continue;
+        }
+        
+        // Try to click it
+        try {
+          // Temporarily make it visible and clickable to ensure click works
+          const originalDisplay = element.style.display;
+          const originalVisibility = element.style.visibility;
+          const originalOpacity = element.style.opacity;
+          const originalPointerEvents = element.style.pointerEvents;
+          const originalPosition = element.style.position;
+          const originalLeft = element.style.left;
+          
+          element.style.display = 'block';
+          element.style.visibility = 'visible';
+          element.style.opacity = '1';
+          element.style.pointerEvents = 'auto';
+          element.style.position = 'fixed';
+          element.style.left = '-9999px';
+          element.style.zIndex = '9999';
+          
+          // Click it
+          element.click();
+          
+          // Restore original styles after a brief delay
+          setTimeout(function() {
+            element.style.display = originalDisplay;
+            element.style.visibility = originalVisibility;
+            element.style.opacity = originalOpacity;
+            element.style.pointerEvents = originalPointerEvents;
+            element.style.position = originalPosition;
+            element.style.left = originalLeft;
+          }, 100);
+          
+          return true;
+        } catch (e) {
+          console.log('Error clicking element:', e);
+        }
+      }
+    }
+
+    // Method 3: Try to dispatch events on the widget container
+    const widgetContainer = document.querySelector('[id*="Microsoft_Omnichannel"]');
+    if (widgetContainer) {
+      try {
+        // Try different event types
+        const events = ['click', 'mousedown', 'mouseup', 'touchstart'];
+        for (let eventType of events) {
+          const event = new MouseEvent(eventType, {
+            bubbles: true,
+            cancelable: true,
+            view: window
+          });
+          widgetContainer.dispatchEvent(event);
+        }
+        return true;
+      } catch (e) {
+        console.log('Error dispatching events:', e);
+      }
+    }
+
+    return false;
+  }
+
+  // Open chat and initialize Microsoft widget
+  function openChat() {
+    // If minimized, just restore the button
+    if (chatButton.classList.contains('sticky-chat-button--minimized')) {
+      toggleMinimized();
+      return;
+    }
+
+    // If URL action, open in new tab
+    if (chatAction === 'url' && chatUrl) {
+      window.open(chatUrl, '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    // For widget action, trigger the Microsoft widget
+    if (chatAction === 'widget') {
+      // Show the widget container
+      document.body.classList.add('chat-widget-active');
+      
+      // Try to trigger the widget with multiple attempts
+      let triggered = false;
+      
+      // Immediate attempt
+      triggered = triggerMicrosoftWidget();
+      
+      // If that didn't work, try again after a short delay (widget might still be loading)
+      if (!triggered) {
+        setTimeout(function() {
+          triggerMicrosoftWidget();
+        }, 300);
+      }
+      
+      // One more attempt after longer delay
+      setTimeout(function() {
+        if (!document.body.classList.contains('chat-widget-active') || 
+            !document.querySelector('#Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window')?.offsetParent) {
+          triggerMicrosoftWidget();
+        }
+      }, 1000);
+    }
+  }
+
+  // Event listeners
+  chatButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    // If clicking the close button or button is minimized, toggle minimized state
+    if (chatButton.classList.contains('sticky-chat-button--minimized') || 
+        e.target.classList.contains('sticky-chat-button__close')) {
+      toggleMinimized();
+    } else {
+      // Otherwise, open chat
+      openChat();
+    }
+  });
+
+  // Restore minimized state from localStorage
+  if (localStorage.getItem('chatButtonMinimized') === 'true') {
+    chatButton.classList.add('sticky-chat-button--minimized');
+    chatButton.setAttribute('aria-label', 'Open chat');
+  }
+
+  // Optional: Auto-minimize on scroll down, show on scroll up
+  let lastScrollTop = 0;
+  let scrollTimeout;
+  
+  window.addEventListener('scroll', function() {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(function() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      if (scrollTop > lastScrollTop && scrollTop > 200) {
+        // Scrolling down
+        if (!chatButton.classList.contains('sticky-chat-button--minimized')) {
+          chatButton.style.opacity = '0.7';
+        }
+      } else {
+        // Scrolling up
+        chatButton.style.opacity = '1';
+      }
+      
+      lastScrollTop = scrollTop;
+    }, 100);
+  });
+})();
+</script>
+

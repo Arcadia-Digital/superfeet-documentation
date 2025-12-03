@@ -32,6 +32,16 @@ Superfeet operates a sophisticated multi-region eCommerce platform serving custo
 - **[Client Artifacts](artifacts/)** - Project presentations and materials
 - **[Downloads](downloads/)** - Additional resources and process documents
 
+### Project Analysis & Case Studies
+- **[Superfeet Case Study](SUPERFEET_CASE_STUDY.md)** - Comprehensive analysis of the migration project and business outcomes
+- **[Project Retrospective](SUPERFEET_RETROSPECTIVE.md)** - Internal analysis of project execution, challenges, and process improvements
+- **[ARCDIG-DOCS Improvements](ARCDIG_DOCS_IMPROVEMENTS.md)** - Process enhancements based on Superfeet project learnings
+
+### Offboarding & Handoff Documentation
+- **[Offboarding Checklist](OFFBOARDING_CHECKLIST.md)** - Comprehensive checklist for project handoff covering third-party services, access transfer, documentation, and knowledge transfer
+- **[AI Handoff Documentation](handoff-documentation/ai-handoff.md)** - Technical context for AI coding assistants (Cursor, Claude Code, GitHub Copilot)
+- **[Developer Handoff Documentation](handoff-documentation/developer-handoff.md)** - Detailed technical documentation for developers taking over platform maintenance
+
 ## Key Features
 
 ### Multi-Region Architecture
@@ -72,6 +82,16 @@ open index.html
 2. Test changes locally
 3. Commit and push to main branch
 4. Changes auto-deploy via GitHub Pages
+
+## Documentation Tasks
+
+### Pending Documentation
+- [ ] **FraudControl App Documentation**
+  - [ ] Record Loom video demonstrating app functionality
+  - [ ] Document installation rationale and business case
+  - [ ] Document current usage patterns and effectiveness
+  - [ ] Create integration guide for technical team
+  - [ ] Add to main platform documentation
 
 ## Contact
 
