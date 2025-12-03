@@ -441,6 +441,9 @@ The theme uses event delegation and pub/sub patterns:
 - **Flickity:** Carousel/slider functionality
 - **Swiper:** Alternative carousel library
 - **SearchSpring Bundle:** Search and recommendations
+  - **Important:** `searchspring.bundle.js` is modified by the build system for each store
+  - Each store has a different SearchSpring instance configuration
+  - Do not manually modify this file - use the build system
 
 **JavaScript Best Practices:**
 - Use modern JavaScript (ES6+) when possible
@@ -1488,20 +1491,40 @@ The section checks for feature diagram metafields on the current template object
 
 ### Theme Sync Methods
 
-**Method 1: Manual File Copy**
+**Method 1: Build System (Primary Method)**
+
+Superfeet uses a **build system** that processes a single shared codebase and generates store-specific theme files for each region:
+
+- Takes the shared Superfeet codebase as input
+- Adjusts code for `superfeet-ca` (Canada) and `superfeet-uk` (UK) stores
+- Modifies assets including `searchspring.bundle.js` for each store's SearchSpring instance
+- Generates store-specific theme files ready for deployment
+
+**Important Note:** The build system code is not currently available in this repository, but this is the primary mechanism for theme synchronization across stores. When the build system is available, it should be used for standard deployments.
+
+**Pros:** 
+- Automated, consistent
+- Handles SearchSpring bundle modifications automatically
+- Ensures store-specific configurations are correct
+
+**Cons:** 
+- Requires build system access
+- Build system code not currently available in this repo
+
+**Method 2: Manual File Copy**
 - Copy changed files between stores
 - Update via Shopify CLI or admin
 - **Pros:** Selective, controlled
-- **Cons:** Time-consuming, error-prone
+- **Cons:** Time-consuming, error-prone, doesn't handle SearchSpring bundle modifications
 
-**Method 2: Matrixify**
+**Method 3: Matrixify**
 - Export theme from one store
 - Import to other stores
 - Preserves settings
 - **Pros:** Complete sync, preserves settings
-- **Cons:** Requires Matrixify app, may overwrite store-specific changes
+- **Cons:** Requires Matrixify app, may overwrite store-specific changes, doesn't handle SearchSpring bundle modifications
 
-**Method 3: Shopify CLI**
+**Method 4: Shopify CLI**
 ```bash
 # Push to multiple stores
 shopify theme push --store superfeetww
@@ -1509,12 +1532,15 @@ shopify theme push --store superfeet-ca
 shopify theme push --store superfeet-uk
 ```
 - **Pros:** Fast, reliable
-- **Cons:** Pushes entire theme, may overwrite store-specific changes
+- **Cons:** Pushes entire theme, may overwrite store-specific changes, doesn't handle SearchSpring bundle modifications
 
 **Recommended Approach:**
-- Use Shopify CLI for new sections/snippets (shared code)
+- **Use Build System** when available (primary method for standard deployments)
+- Use Shopify CLI for new sections/snippets (shared code) when build system unavailable
 - Use manual copy for store-specific templates
-- Use Matrixify for complete theme syncs (major updates)
+- Use Matrixify for complete theme syncs (major updates) when build system unavailable
+
+**Note:** When manually syncing themes, remember that `searchspring.bundle.js` needs to be configured differently for each store (US, UK, CA-EN, CA-FR). The build system handles this automatically.
 
 ### Store-Specific Considerations
 
