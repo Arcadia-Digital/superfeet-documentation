@@ -19,8 +19,8 @@
     // CLIENT-SIDE AUTHENTICATION
     // ============================================
     
-    const PASSWORD = 'arcadia'; // REPLACE WITH ACTUAL PASSWORD
-    const AUTH_KEY = 'docs_authenticated'; // Change this if you want a unique key per project
+    const PASSWORD = 'superfeet'; // REPLACE WITH ACTUAL PASSWORD
+    const AUTH_KEY = 'superfet_docs_authenticated'; // Change this if you want a unique key per project
     
     /**
      * Check if user is authenticated
