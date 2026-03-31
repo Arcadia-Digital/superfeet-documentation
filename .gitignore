@@ -158,6 +158,9 @@ _site/
 
 # Archive files
 *.zip
+# Allow ZIPs under resources/ (client handoff payloads)
+!resources/*.zip
+!resources/**/*.zip
 *.tar.gz
 *.rar
 recordings/
