@@ -1,0 +1,38 @@
+{% comment %}
+  Renders an headline element with styling.
+
+  Accepts:
+  - text: {text} Text to display
+  - (Optional) text_style: {select option} Style to apply to text.
+  - (Optional) text_color: {color} Color to apply to text.
+  - (Optional) class: {string} Class attribute for headline.
+
+  Usage:
+  {% render 'headline',
+  text: block.settings.text,
+  text_style: block.settings.text_style,
+  text_color: block.settings.text_color,
+  type: block.settings.heading_type,
+  class: "section-name__headline"
+  %}
+{% endcomment %}
+
+{% unless text == blank %}
+  {% if type == 'h1' %}
+    <h1 class="{{ class }} {{ text_style }} {% unless section.settings.animation contains 'No' %} animated{% endunless%} {{ section.settings.animation }}" style="color: {{ text_color }};" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ text }}
+    </h1>
+  {% elsif type == 'h2' %}
+    <h2 class="{{ class }} {{ text_style }} {% unless section.settings.animation contains 'No' %} animated{% endunless%} {{ section.settings.animation }}" style="color: {{ text_color }};" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ text }}
+    </h2>
+  {% elsif type == 'h3' %}
+    <h3 class="{{ class }} {{ text_style }} {% unless section.settings.animation contains 'No' %} animated{% endunless%} {{ section.settings.animation }}" style="color: {{ text_color }};" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ text }}
+    </h3>
+  {% elsif type == 'text' %}
+    <p class="{{ class }} {{ text_style }} {% unless section.settings.animation contains 'No' %} animated{% endunless%} {{ section.settings.animation }}" style="color: {{ text_color }};" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ text }}
+    </p>
+  {% endif %}
+{% endunless %}

@@ -1,0 +1,3 @@
+# Keep Matrixify exports as extracted CSV folders in Git.
+# Omit raw .zip downloads to avoid duplicating the same export twice.
+*.zip

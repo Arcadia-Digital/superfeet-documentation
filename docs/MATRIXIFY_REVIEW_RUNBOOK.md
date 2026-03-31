@@ -2,41 +2,41 @@
 
 Use this when a new Matrixify export arrives so documentation stays aligned with live store data.
 
-**Storage:** Keep Matrixify CSV folders outside this documentation repository (internal drive, secure share, or vendor workspace). This repo intentionally does not track large data exports.
+## Where exports live
 
-## Suggested baseline naming
+Commit **unzipped** CSV folders under **`data/`** (see [data/README.md](../data/README.md)). Zip downloads are gitignored inside `data/` to avoid duplicating the same export; extract before committing.
 
-Use clear folder names per store and date, for example:
+## Baseline naming
 
 | Region | Example folder name |
 |--------|---------------------|
-| US | `SFUS-EVERYTHING-Export_YYYY-MM-DD` |
-| CA | `SFCA_EVERYTHING_Export_YYYY-MM-DD` |
-| UK | `SFUK_Export_YYYY-MM-DD` |
+| US | `SFUS-EVERYTHING-Export_YYYY-MM-DD_*` |
+| CA | `SFCA_EVERYTHING_Export_YYYY-MM-DD_*` |
+| UK | `SFUK_Export_YYYY-MM-DD_*` |
 
-## Comparing two exports (optional)
-
-If you copy `scripts/diff_matrixify_exports.py` into a workspace that contains two export folders:
+## Comparing two exports
 
 ```bash
 python3 scripts/diff_matrixify_exports.py \
-  path/to/OLDER_EXPORT_FOLDER \
-  path/to/NEWER_EXPORT_FOLDER \
-  > matrixify-delta-notes.md
+  data/OLDER_EXPORT_FOLDER \
+  data/NEWER_EXPORT_FOLDER \
+  > docs/internal_MATRIXIFY_DELTA_US.md
 ```
 
-The script summarizes row counts and header differences per CSV. Interpret row counts carefully (Matrixify often expands discounts, collection membership, etc. into many rows).
+Interpret row counts carefully (Matrixify expands discounts, collection membership, etc.). For catalog **facts** (products, collections, blogs), count **unique resource IDs** in the CSVs or use [Export Summary](Export%20Summary.csv) rows where appropriate.
 
-## What to do with the diff
+Full end-to-end refresh (theme + docs + HTML): [DOCUMENTATION_REFRESH_RUNBOOK.md](./DOCUMENTATION_REFRESH_RUNBOOK.md).
 
-1. **Row deltas** — Large swings in `Products.csv`, `Metaobjects.csv`, `Pages.csv`, or `Menus.csv` usually deserve a quick sanity check in Admin, not necessarily doc edits.
-2. **New columns** — Update [data-guide.md](./data-guide.md) when new metafield namespaces or important columns appear in product or metaobject exports.
-3. **Cross-check theme** — Spot-check metafields and metaobject types against the current theme (export from **Online Store → Themes** or your development pipeline).
-4. **Hub metrics** — If [README.md](../README.md) or [business-user-guide.md](./business-user-guide.md) cite product/collection counts as facts, refresh them from the new export or label them “as of &lt;date&gt;”.
+## After the diff
+
+1. **Row deltas** — Sanity-check large swings in Admin.
+2. **New columns** — Update [data-guide.md](./data-guide.md) when metafield namespaces change.
+3. **Theme** — Cross-check against the latest theme under `code/`.
+4. **Hub metrics** — Update [README.md](../README.md) and [business-user-guide.md](./business-user-guide.md) (and HTML mirrors).
 
 ## Deliverable
 
-- A short delta note (markdown or ticket) describing material catalog or schema changes
-- Edits to `docs/data-guide.md` and matching `data-guide.html` when workflows or namespaces change
+- `docs/internal_MATRIXIFY_*.md` (optional but useful)
+- Edits to `docs/data-guide.md` / `data-guide.html` when schema or import workflows change
 
-*Last Updated: March 2026*
+*Last updated: March 2026*

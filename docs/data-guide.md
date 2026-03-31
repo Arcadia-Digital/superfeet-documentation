@@ -369,7 +369,8 @@ Feature diagram data for product displays.
 - **Theme Architecture:** [theme-architecture.md](./theme-architecture.md)
 - **Technical User Guide:** [technical-user-guide.md](./technical-user-guide.md)
 - **Shopify Metafields:** https://help.shopify.com/en/manual/metafields
-- **Matrixify export review:** [MATRIXIFY_REVIEW_RUNBOOK.md](./MATRIXIFY_REVIEW_RUNBOOK.md) — compare new dumps and update metrics
+- **Matrixify export review:** [MATRIXIFY_REVIEW_RUNBOOK.md](./MATRIXIFY_REVIEW_RUNBOOK.md) — compare new dumps under `data/`
+- **Full documentation refresh (theme + Matrixify + HTML):** [DOCUMENTATION_REFRESH_RUNBOOK.md](./DOCUMENTATION_REFRESH_RUNBOOK.md)
 
 ---
 

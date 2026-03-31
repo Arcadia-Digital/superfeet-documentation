@@ -32,9 +32,19 @@ Superfeet operates a multi-region eCommerce platform serving customers across No
 
 ### Supporting Resources
 - **[Markdown sources](docs/)** - Canonical `.md` copies of major guides for editing and version control
-- **[Matrixify review runbook](docs/MATRIXIFY_REVIEW_RUNBOOK.md)** - How to compare new Matrixify exports and refresh metrics
+- **[Documentation refresh runbook](docs/DOCUMENTATION_REFRESH_RUNBOOK.md)** - Theme + Matrixify + hub update workflow (Python scripts included)
+- **[Matrixify review runbook](docs/MATRIXIFY_REVIEW_RUNBOOK.md)** - Comparing exports under `data/`
+- **[Theme exports (`code/`)](code/README.md)** - Where US/regional theme snapshots live
+- **[Store data exports (`data/`)](data/README.md)** - Where Matrixify CSV folders live
+- **[Handout files (`resources/`)](resources/)** - One-off PDFs, decks, and checklists (not linked from the public HTML hub)
 
-**Not in this repository:** Theme source exports, Matrixify CSV dumps, and large project artifacts are kept outside Git (local secure storage or Shopify Admin export). Use Admin or your implementation partner for theme and bulk data files.
+## Maintaining this repository
+
+When Shopify or catalog data changes materially:
+
+1. Add the new **theme** folder under `code/` and/or **Matrixify** folder under `data/` (see READMEs there; zips inside those dirs stay untracked by design).
+2. Run `scripts/diff_theme_exports.py` and/or `scripts/diff_matrixify_exports.py` as in [docs/DOCUMENTATION_REFRESH_RUNBOOK.md](docs/DOCUMENTATION_REFRESH_RUNBOOK.md).
+3. Update `docs/*.md` and the matching root `.html` pages, then commit and push.
 
 ## Key Features
 
@@ -67,9 +77,11 @@ cd superfeet-documentation
 open index.html
 ```
 
-### Updating documentation
+### Updating documentation (content only)
 1. Prefer editing files under `docs/*.md`, then mirror changes into the matching root `.html` pages (or edit HTML directly if that is your workflow)
 2. Test locally, then commit and push
+
+For **evidence-backed** updates after a new theme or Matrixify export, follow the **Maintaining this repository** steps above.
 
 ## Documentation Tasks
 

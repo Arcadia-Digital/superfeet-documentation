@@ -1,0 +1,1309 @@
+ID,Handle,Command,Title,Body HTML,Created At,Updated At,Published,Published At,Template Suffix,Metafield: title_tag [string],Metafield: description_tag [string],Metafield: custom.ugc_gallery [metaobject_reference],Metafield: cql.featured_image [file_reference],Metafield: cql.faq_group [metaobject_reference],Metafield: cql.rx_microsite [boolean],Metafield: custom.feature_diagram [metaobject_reference],Metafield: french.page_title [single_line_text_field],Metafield: cql.excerpt [single_line_text_field],Metafield: french.excerpt [single_line_text_field],Metafield: seo.hidden [number_integer],Metafield: custom.password [single_line_text_field]
+100423565449,60-day-guarantee,MERGE,60-Day Satisfaction Guarantee,"<p data-mce-fragment=""1"">At Superfeet, we stand behind our products and quality controls. If you are not satisfied with your new Superfeet Premium Insoles purchased from Superfeet Worldwide LLC; Superfeet Canada, ULC; Superfeet Worldwide UK Limited; or one of Superfeet’s authorized sellers in the United States, Canada, or United Kingdom, return them with your receipt within 60 days to your place of purchase for a credit or refund. If you are unable to reach a satisfactory resolution with the seller from whom you purchased the product, please contact Superfeet directly. Please note that because we are unable to control the quality of our products sold by unauthorized sellers, unless otherwise prohibited by law, the Superfeet 60-Day Satisfaction Guarantee is not available for products purchased from unauthorized sellers.</p>
+<p data-mce-fragment=""1"">Only valid with purchase. <span data-mce-fragment=""1"">Not valid for misused, abused or improperly cleaned Superfeet products. </span>This guarantee is also limited to the original, end-user purchaser. To the extent you return your product under this guarantee to a retailer, this guarantee is also subject to the retailer’s return policy. You must submit your guarantee request within 60 days of the date of purchase. This guarantee is not valid for discontinued products, or products that have been customized or modified improperly by the Retailer.</p>
+<p data-mce-fragment=""1"">To make a claim under the guarantee, please contact the authorized seller from whom you purchased the product. If you are unable to return the product to that seller, please complete the Contact Superfeet at<span data-mce-fragment=""1""> </span><a data-mce-fragment=""1"" href=""https://www.superfeet.com/en-us/contact-us"" tabindex=""0"" data-mce-tabindex=""0"" data-mce-href=""https://www.superfeet.com/en-us/contact-us""><span data-mce-fragment=""1"">https://www.superfeet.com/contact-us</span></a>. Please have order information available if you purchased your product from Superfeet, or receipt or other proof of purchase if you purchased your product from a Superfeet authorized seller.</p>
+<p data-mce-fragment=""1"">Superfeet reserves the right to verify information, require that you mail the product for which you are making your guarantee claim to Superfeet, require a valid proof of purchase, and to deny guarantee requests in its discretion in cases of suspected fraud or if a customer has abused the Superfeet 60-Day Satisfaction Guarantee. Please note that you are responsible for the shipping costs of any items you mailed to Superfeet.</p>
+<p data-mce-fragment=""1"">If you have any questions regarding whether a seller is a Superfeet authorized seller, please contact us at <span data-mce-fragment=""1""><a data-mce-fragment=""1"" href=""https://www.superfeet.com/en-us/contact-us"" tabindex=""0"" data-mce-tabindex=""0"" data-mce-href=""https://www.superfeet.com/en-us/contact-us"">https://www.superfeet.com/contact-us</a></span><span data-mce-fragment=""1""> </span>or call:</p>
+<p data-mce-fragment=""1"">US: (800) 634-6618</p>
+<p data-mce-fragment=""1"">Canada: (800) 538-5471</p>",2024-09-27 14:06:40 -0400,2024-11-08 08:44:32 -0500,true,2024-09-16 13:49:38 -0400,,60-Day Guarantee,Superfeet offers a 60-day satisfaction guarantee on Superfeet Premium Insoles. Customers can return orders with a receipt within 60 days for a credit or refund.,,,,,,Garantie de 60 jours,,,,
+100423532681,accessibility-policy,MERGE,Accessibility Policy,"<p><em>Updated: September 2020. </em></p>
+<p>At Superfeet Worldwide, LLC. our purpose is to make a positive difference in the lives we touch by shaping a strong foundation. We believe every person has the right to live with dignity and independence, in equality and comfort. We strive to deliver inclusive brand experiences by:</p>
+<ul>
+<li>Putting people first</li>
+<li>Honoring consumer privacy</li>
+<li>Anticipating consumer needs</li>
+<li>Providing equal access to our online environment</li>
+</ul>
+<p>To reach these goals, Superfeet Worldwide, LLC., is investing in resources to help ensure its website, superfeet.com, is easy to use and accessible for people with disabilities.</p>
+<p>Superfeet.com makes frequent efforts to improve the accessibility of its site and services in the belief it is our collective moral obligation to allow accessible and unhindered use to those with disabilities. </p>
+<p>Despite our efforts to make all pages and content on superfeet.com fully accessible, some content may not yet be fully adapted to the strictest accessibility standards.</p>
+<h2>Here for You</h2>
+<p>If you are experiencing difficulty with content on superfeet.com or require assistance with any part of our site, please contact us Monday through Friday, during normal business hours.</p>
+<table>
+<tbody>
+<tr>
+<td width=""263"">
+<p>Superfeet United States</p>
+<p>Call:<span> </span><a href=""tel:123-456-7890"" tabindex=""0"">800.634.6618</a></p>
+<p>Email:<span> </span><a href=""mailto:customercare@superfeet.com"" tabindex=""0"">customercare@superfeet.com</a></p>
+<p>Hours: Monday - Friday</p>
+<p>6:30am - 5pm PST</p>
+</td>
+<td width=""220"">
+<p>Superfeet Canada</p>
+<p>Call:<span> </span><a href=""tel:800-538-5471"" tabindex=""0"">(800) 538-5471</a></p>
+<p>Email:<span> </span><a href=""mailto:canada@superfeet.com"" tabindex=""0"">canada@superfeet.com</a></p>
+<p>Hours: Monday - Friday</p>
+<p>7am - 4:30pm PST</p>
+</td>
+<td width=""261"">
+<p>Superfeet UK and Europe</p>
+<p>Call:<span> </span><a href=""tel:44-0-1206-266-992"" tabindex=""0"">+44 (0) 1206 266 992</a></p>
+<p>Email:<span> </span><a href=""mailto:customercare@superfeet.co.uk"" tabindex=""0"">customercare@superfeet.co.uk</a></p>
+<p>Hours: Monday - Friday</p>
+<p>9am - 5pm GMT</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Contact Us</h2>
+<p>If you wish to report an accessibility issue, have any questions or need assistance, please contact superfeet.com Customer Care at: <a href=""https://www.superfeet.com/contact-us"" tabindex=""0"">Superfeet Customer Care and Support</a></p>",2024-09-27 14:06:40 -0400,2024-10-14 11:04:56 -0400,true,2024-09-27 09:58:28 -0400,,Accessibility Policy,Review the online accessiblity policy from Superfeet for more information on how we manage user accessbility. Contact Superfeet to learn more.,,,,,,Politique d'accessibilité,,,,
+98045821065,contact,MERGE,Contact Us,"<h2>Got Questions?</h2>
+
+<p>You can also find answers to many common questions on our <a href=""https://superfeet-ca.myshopify.com/pages/faqs"" title=""Link to Superfeet FAQs"">FAQ</a>. If you don't find what you're looking for select and submit one of the forms below and we'll make sure your question gets to the right person.</p>
+<p><a title=""Superfeet Return Form"" href=""https://www.cognitoforms.com/SuperfeetWorldwideLLC/CanadaReturnForm"" target=""_blank""><button style=""background: #000; color: #fff;"" class=""button button-primary"">Make a Return</button></a></p>
+<p><a title=""Superfeet Exchange Form"" href=""https://www.cognitoforms.com/SuperfeetWorldwideLLC/CanadaExchangeForm"" target=""_blank""><button style=""background: #000; color: #fff;"" class=""button button-primary"">Make an Exchange</button></a></p>
+<p><a title=""Superfeet Get a Recommendation Form"" href=""https://www.cognitoforms.com/SuperfeetWorldwideLLC/CanadaAskAQuestionOrGetARecommendation"" target=""_blank""><button style=""background: #000; color: #fff;"" class=""button button-primary"">Ask a Question or Get a Recommendation</button></a></p>
+<p><a title=""Superfeet Retail Partner Application Request Form"" href=""https://www.cognitoforms.com/SuperfeetWorldwideLLC/CanadaApplyToBeARetailPartner"" target=""_blank""><button style=""background: #000; color: #fff;"" class=""button button-primary"">Apply to be a Superfeet Retail Partner</button></a></p>",2024-07-10 12:06:55 -0400,2025-09-19 17:02:02 -0400,true,2024-03-21 08:16:46 -0400,,Contact Us,"Contact the footcare experts at Superfeet today for more information on our insoles, supports, and personalized footcare products. Shop Superfeet today!",,,,,,Contactez-nous,,,,
+99449045129,store-locator,MERGE,Store Locator,"<br>
+<div data-storerocket-id=""wzpAya6pdD"" data-storerocket-env=""p"" style=""width: 100%;"" id=""storerocket-widget"">
+<p style=""text-align: center; font-size: 13px; padding: 10px;"">Store locator is loading from StoreRocket <a style=""font-size: 13px;"" href=""https://storerocket.io"" target=""_blank"">Store Locator App</a>..</p>
+</div>
+<script>(function(){var a=document.createElement('script');a.type='text/javascript';a.async=!0;a.src='https://cdn.storerocket.io/js/widget.js';var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);}());</script>",2024-08-29 10:54:43 -0400,2024-10-14 11:05:02 -0400,true,2024-06-12 13:17:46 -0400,,Store Locator,"Find your local Superfeet dealer today for the best insoles, athletic supports, and custom foot care products possible. Shop Superfeet today!",,67bbcf5a9dff719eb0c3cb30bd5dd278.jpg,,,,Localisateur de magasin,,,,
+100423598217,affiliates,MERGE,Affiliates,"<a href=""https://account.shareasale.com/shareasale.cfm?merchantID=92793&amp;storeID=1"" data-mce-fragment=""1"" data-mce-href=""https://account.shareasale.com/shareasale.cfm?merchantID=92793&amp;storeID=1"">ShareASale.com and Superfeet</a>",2024-09-27 14:06:40 -0400,2024-10-24 17:21:08 -0400,true,2024-09-27 10:03:53 -0400,,Affiliates,Learn more about becoming a Superfeet affiliate and supporting foot health for your customers. Contact Superfeet today!,,,,,,Affiliés,,,,
+100423630985,become-an-ambassador,MERGE,Become an Ambassador,<p>Need updated content</p>,2024-09-27 14:06:40 -0400,2024-10-14 11:04:55 -0400,true,2024-09-27 10:03:37 -0400,,Become an Ambassador,Learn how to become an ambassador for Superfeet insoles and supports. Contact Superfeet today for more information!,,,,,,Devenez ambassadeur,,,,
+100423663753,careers,MERGE,Careers,,2024-09-27 14:06:41 -0400,2025-06-23 21:38:05 -0400,true,2024-09-27 10:06:53 -0400,careers,Careers,"Find information on new openings and positions with Superfeet, the top suppliers of quality custom insoles and footwear supports. Visit Superfeet today!",,,faq_group.hiring-faq,,,Carrières,,,,
+100423696521,book-a-demo,MERGE,Book a Demo,"<div><iframe style=""border: 0;"" src=""https://outlook.office365.com/owa/calendar/SuperfeetRxDemo@superfeet.com/bookings/s/GaNWaDWrVkmKEXjLOr-qEw2"" width=""100%"" height=""2275px"" scrolling=""no""><span data-mce-type=""bookmark"" style=""display: inline-block; width: 0px; overflow: hidden; line-height: 0;"" class=""mce_SELRES_start"">﻿</span></iframe></div>
+Mobile: 
+<div><iframe style=""border: 0;"" src=""https://outlook.office365.com/owa/calendar/SuperfeetRxDemo@superfeet.com/bookings/s/GaNWaDWrVkmKEXjLOr-qEw2"" width=""100%"" height=""2800px"" scrolling=""no""><span data-mce-type=""bookmark"" style=""display: inline-block; width: 0px; overflow: hidden; line-height: 0;"" class=""mce_SELRES_start"">﻿</span></iframe></div>",2024-09-27 14:06:41 -0400,2024-10-14 11:04:56 -0400,true,2024-07-03 13:45:32 -0400,,Book a Demo,Book an in-office demonstration of Superfeet's custom insoles and supports for your business or practice. Contact Superfeet today to learn more!,,,,,,Réservez une démo,,,,
+100423729289,ccpa-privacy-policy,MERGE,CCPA Privacy Policy,"<h1 style=""font-weight: 300;"">California Consumer Privacy Act (CCPA) Privacy Policy</h1>
+<p>This<span> </span><b><strong>California Privacy Notice</strong></b><span> </span>applies to California residents who use the services provided by Superfeet Worldwide, LLC. a company incorporated in the State of Washington in the United States of America and having its registered office at 1820 Scout Place, Ferndale, WA 98248.<br><br>This California Privacy Notice is intended to supplement the Privacy Policy located<span> </span><a href=""https://www.superfeet.com/en-us/privacy-policy/""><b><strong>here</strong></b></a>. The California Consumer Privacy Act (“CCPA”) provides some California residents (“you” or “your”) with the following rights, including the right to: (i) request information about the personal information we have collected about you; (ii) request information about our sale or disclosure for business purposes of your personal information to third parties; (iii) opt-out of the sale of your personal information to third parties; and (iv) not be discriminated against for exercising any of these rights.<br><br>To exercise your rights under the CCPA, please submit a request via email to<span> </span><a href=""mailto:customercare@superfeet.com."">Superfeet Customer Care</a><span> </span>or our Consumer Data Privacy Rights Form<span> </span><a href=""https://www.superfeet.com/en-us/data-privacy/"">https://www.superfeet.com/data-privacy<span> </span></a>and submitting to us via email.<span> </span><b><strong>IF YOU INTEND TO ONLY REQUEST US TO NOT SELL YOUR PERSONAL INFORMATION WE COLLECT PLEASE USE THIS LINK HERE TO MAKE YOUR REQUEST USING<span> </span><a href=""https://www.superfeet.com/en-us/ccpa-personal-information-request-form/"">THIS FORM</a>.</strong></b><br><br>We will review any request via email or otherwise as provided by us to verify your identity. We reserve the right to additional information to verify your request, such as providing us personal information already maintained by us. We will not use this additional information for anything other than handling your request. You may designate an authorized agent to make a request in certain circumstances on your behalf. Such authorized agent must be registered with the California Secretary of State.<br><br>We will endeavor to fulfill your request within 45 days of receiving that request. If we require additional time, we will inform you of the reason and extension period in writing through email or such other method we may determine.<br><br><b><strong>IMPORTANT NOTICE:<br>As a California resident, California Civil Code Section 1798.83 permits you to make a request, once a year, for information regarding the disclosure of your personal information to third parties for those third parties’ direct marketing purposes. To make this request, please submit a request via email to<span> </span><a href=""mailto:customercare@superfeet.com."">Superfeet Customer Care</a></strong></b>.<br><br></p>
+<p><b><strong>CCPA Provides You the Following Privacy Rights</strong></b></p>
+<ul>
+<li>
+<b><strong>Right to Know What Personal Information we collect</strong></b><span> </span>(see table below)<br>You have the right to request that we disclose what personal information we collect, use, disclose and sell. You also have the right to request what personal information we have collected about you, as well as information about our sale or disclosure for business purposes of your personal data to third parties. Once we receive, verify and confirm your consumer request, we will endeavor to disclose to you the information you have requested.</li>
+<li>
+<b><strong>Right to Know How We Use Personal Information we collect</strong></b><span> </span>(see table below)</li>
+<li>
+<b><strong>Right to Delete Personal Information we collect</strong></b><br>You have the right to request the deletion of any of your personal information that we have collected from you and retained. Please note that this is a limited right as we may be able to retain certain personal information subject to an exception under the CCPA or another lawful obligation. Once we receive, verify and confirm your request, we will delete (and direct our service providers to delete) your personal information from our records, unless an exception applies.</li>
+<li>
+<b><strong>Right to Opt-Out of Sale of Personal Information we collect</strong></b><br>You have the right to opt-out of the sale of your personal information to third parties. Under the CCPA, “sell” includes the transfer or communication of personal information to another business in such a way that conveys value to the recipient business, even if that value is not monetary. This means that sharing for a number of common business activities may be considered a “sale” under the CCPA, even if there is no exchange of money. If you would like to opt-out of the sale of your personal information to third parties, please submit a request via email to<span> </span><a href=""mailto:customercare@superfeet.com."">Superfeet Customer Care</a>.<br><b><strong>We do not knowingly sell the personal information of consumers under the age of 16 without affirmative authorization.</strong></b>
+</li>
+<li>
+<b><strong>Right to Non-Discrimination</strong></b><br>You have the right to not be discriminated against for exercising any of your rights under the CCPA.</li>
+</ul>
+<p>The foregoing rights are explained further in the information below.</p>
+<p><b><strong>What is your Personal Information?</strong></b><br>For purposes of this California Privacy Notice, “personal information” means information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.<br><br><b><strong>Information We Collect</strong></b><br>California residents have the right to know the categories of personal information we collect, the purpose for collecting such personal information, and the categories of third parties to whom the personal information was shared for a business purpose or sold.</p>
+<table width=""777"">
+<tbody>
+<tr>
+<td>
+<p><b><strong>Category of Personal Information</strong></b></p>
+</td>
+<td>
+<p><b><strong>How We Share It</strong></b></p>
+</td>
+</tr>
+<tr>
+<td>
+<ol>
+<li>
+<b><strong>Identifiers<span> </span></strong></b>(such as name, alias, postal address, unique personal identifier, online identifier, Internet Protocol address, email address, account name, cookie information or other similar identifiers)</li>
+<li>
+<b><strong>Personal Information categories listed in the California Customer Records statute Cal. Civ. Code § 1798.80(e)</strong></b><span> </span>(such as name, physical characteristics or description, address, or telephone number)</li>
+<li>
+<b><strong>Protected classification characteristics under California or federal law</strong></b><span> </span>(such as age, national origin, medical condition, sex, marital status or disability)</li>
+<li>
+<b><strong>Commercial information</strong></b><span> </span>(such as products or services purchased, obtained or considered, or other purchasing or consuming histories or tendencies)</li>
+<li>
+<b><strong>Internet or other similar network activity</strong></b><span> </span>(such as browsing history, search history, information on a consumer’s interaction with a website, application or advertisement)</li>
+<li>
+<b><strong>Geolocation data</strong></b><span> </span>(such as your physical location)</li>
+<li>
+<b><strong>Inferences drawn from other personal information</strong></b><span> </span>(such as a profile reflecting a person’s preferences, characteristics, psychological trends, predispositions, behavior, and attitudes)</li>
+</ol>
+</td>
+<td>
+<p><b><strong>For a legitimate consumer business purpose:</strong></b></p>
+<ul>
+<li>Within Superfeet Worldwide, LLC. companies including, its affiliated companies Superfeet Worldwide UK Limited and Superfeet Canada, ULC</li>
+<li>With service providers who process personal information on our behalf in order to help us provide our services and sale of Superfeet products</li>
+<li>With advertisers and advertising networks that require the data to select and serve relevant advertising to you</li>
+<li>With public agencies and regulatory authorities in the United States and foreign countries and their subcontractors, for any legally required purpose</li>
+<li>With law enforcement agencies, public or regulatory authorities or where such disclosure may be reasonably necessary to comply with any legal obligation, to enforce our rights and to prevent fraud or technical issues with use of the Superfeet website<br><br><b><strong>Selling:</strong></b><span> </span>To selected partners to enable them to better tailor offers, promotions and other direct marketing to you through the Superfeet website or other partner websites</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b><strong>Sources for Information We Collect</strong></b></p>
+<table width=""777"">
+<tbody>
+<tr>
+<td>
+<p><b><strong>Sources of Information</strong></b></p>
+</td>
+<td>
+<ul>
+<li>Directly from you or persons authorized by you to act on your behalf;</li>
+<li>Collected automatically and indirectly from you;</li>
+<li>Within Superfeet Worldwide, LLC. companies including, its affiliated companies Superfeet Worldwide UK Limited and Superfeet Canada, ULC;</li>
+<li>From service providers that provide services to you on our behalf; and</li>
+<li>From third party sources, such as social media platforms when you interact with our social media channels or analytics providers.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b><strong>Use of Personal Information</strong></b></p>
+<table width=""777"">
+<tbody>
+<tr>
+<td>
+<p><b><strong>Used for Legitimate Business Purposes which Include:</strong></b></p>
+</td>
+<td>
+<ul>
+<li>To provide and improve the manner in which we provide our products and services;</li>
+<li>To process and assist you with any transactions related to your purchasing of our products and services, including orders for our products at the Superfeet website;</li>
+<li>To maintain your Superfeet website account;</li>
+<li>To notify you about changes to our services or other updates;</li>
+<li>To administer and improve the Superfeet website;</li>
+<li>To respond to your inquiries;</li>
+<li>For security and fraud prevention;</li>
+<li>For marketing and advertising; and</li>
+<li>For statistical analysis</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>",2024-09-27 14:06:41 -0400,2025-09-24 09:24:05 -0400,true,2024-09-27 09:47:52 -0400,,CCPA Privacy Policy,Review the CCPA privacy policy from Superfeet for more information on how we manage user privacy. Contact Superfeet to learn more.,,,,,,Politique de confidentialité du CCPA,,,,
+100423762057,cookie-policy,MERGE,Cookie Policy,"<p data-mce-fragment=""1"">This Cookies Policy is issued on behalf of each of the following Superfeet entities. When we use the terms “Superfeet”, ""we"", ""us"" or ""our"" in this Cookies Policy, we are referring to all of the following Superfeet entities:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">Superfeet Worldwide, LLC., a company incorporated in the State of Washington in the United States of America and having its registered office at 1820 Scout Place, Ferndale, WA 98248</li>
+<li data-mce-fragment=""1"">Superfeet Worldwide UK Limited, a company registered in England and Wales with the company number 07886500, with its registered office at The Pinnacle, 170 Midsummer Boulevard, Central Milton Keynes, Buckinghamshire, MK9 1BP</li>
+</ul>
+<h2 data-mce-fragment=""1"">Cookie Information</h2>
+<ol data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">""Cookies"" are small pieces of information that some websites store on your computer's hard drive when you visit them.</li>
+<li data-mce-fragment=""1"">We use cookies to provide us with information relating to the sources of our website traffic, and to maintain session integrity as you navigate throughout our websites.</li>
+<li data-mce-fragment=""1"">Most Web browsers automatically accept cookies but allow you to modify security settings so you can approve or reject cookies on a case-by-case basis.</li>
+<li data-mce-fragment=""1"">Our websites require that cookies be enabled to allow full use of the websites. If you reject cookies from our websites, you will not be able to access the websites or it may hamper the extent of your usage.</li>
+</ol>
+<h2 data-mce-fragment=""1"">Cookies Used by our Websites</h2>
+<p data-mce-fragment=""1"">We use the following types of cookies:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">Strictly necessary cookies. These are cookies that are required for the operation of our websites.</li>
+<li data-mce-fragment=""1"">Analytical/performance cookies. They allow us to recognize and count the number of visitors and to see how visitors move around our websites when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily.</li>
+<li data-mce-fragment=""1"">Targeting cookies. These cookies record your visit to our websites, the pages you have visited and the links you have followed. We will use this information to make our website and the advertising displayed on it more relevant to your interests.</li>
+</ul>
+<p data-mce-fragment=""1"">In particular we use:<br data-mce-fragment=""1"">Google Analytics<br data-mce-fragment=""1"">Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network. You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js and dc.js) from sharing information with Google Analytics about visits activity.</p>
+<p data-mce-fragment=""1"">Remarketing<br data-mce-fragment=""1"">We use remarketing services to advertise on third party websites to you after you visited our Service. We and our third-party vendors use cookies to inform, optimize and serve ads based on your past visits to our Service.</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">Google Ads (AdWords)<br data-mce-fragment=""1"">Google Ads (AdWords) remarketing service is provided by Google Inc.</li>
+<li data-mce-fragment=""1"">Bing Ads Remarketing<br data-mce-fragment=""1"">Bing Ads remarketing service is provided by Microsoft Inc.</li>
+<li data-mce-fragment=""1"">Twitter<br data-mce-fragment=""1"">Twitter remarketing service is provided by Twitter Inc.</li>
+<li data-mce-fragment=""1"">Facebook remarketing service is provided by Facebook Inc.</li>
+<li data-mce-fragment=""1"">Pinterest<br data-mce-fragment=""1"">Pinterest remarketing service is provided by Pinterest Inc.</li>
+<li data-mce-fragment=""1"">AdRoll<br data-mce-fragment=""1"">AdRoll remarketing service is provided by Semantic Sugar, Inc.</li>
+</ul>
+<p data-mce-fragment=""1"">Most Internet browsers allow users to control the acceptance of cookies via the browser’s settings. Visit allaboutcookies.org to find out how to configure these settings on a number of major browsers.</p>
+<p data-mce-fragment=""1"">Changes to this Cookie Policy<br data-mce-fragment=""1"">We keep our Cookie Policy under regular review. This Cookie Policy was last updated in November 2019.</p>",2024-09-27 14:06:42 -0400,2025-09-24 09:48:47 -0400,true,2024-09-27 09:49:22 -0400,,Cookie Policy,Review the cookie policy from Superfeet for more information on how we manage cookies and browser data. Contact Superfeet to learn more.,,,,,,Politique en matière de cookies,,,,
+100423827593,disclaimer-of-warranty,MERGE,Disclaimer Of Warranty,"<div data-mce-fragment=""1"" data-was-processed=""true"" class=""page-title mf-initial"">
+<p data-mce-fragment=""1"">Superfeet provides its products “AS IS AND WITH ALL FAULTS”. Superfeet makes no other express or implied warranty with respect to its products other than the limited 60-Day warranty set forth in the Owner’s Manual. Superfeet disclaims all implied warranties, including the implied warranties of merchantability, noninfringement, and fitness for a particular purpose, and the liability of Superfeet, if any, for damages relating to any allegedly defective product shall under any tort, contract, or other legal theory be limited to the actual price paid for such product and shall in no event include incidental, consequential, special, or indirect damages of any kind even if Superfeet is aware of the possibility of such damages. Some states do not allow limitation on how long an implied warranty lasts or the exclusion or limitation of incidental or consequential damages, so the above limitations or exclusions may not apply to you.</p>
+</div>
+<p data-mce-fragment=""1""> </p>
+<p data-mce-fragment=""1"">Superfeet is not a health care provider and the contents of Superfeet’s website, written materials, or product information is not medical advice. Never avoid or delay obtaining medical advice from a qualified health care provider based upon something you have seen or read in Superfeet materials.</p>",2024-09-27 14:06:42 -0400,2024-10-14 11:04:58 -0400,true,2024-09-27 09:51:18 -0400,,Disclaimer Of Warranty,Review the dislaimer of warranty policy from Superfeet for more information on how we manage warranty claims. Contact Superfeet to learn more.,,,,,,Exclusion de garantie,,,,
+100423794825,contest-rules,MERGE,Contest Rules,"<main id=""maincontent"" class=""page-main"" data-mce-fragment=""1"">
+<div class=""columns mf-initial"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div class=""column main mf-initial"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div data-content-type=""row"" data-appearance=""contained"" data-element=""main"" class=""mf-initial"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div data-enable-parallax=""0"" data-parallax-speed=""0.5"" data-background-images=""{}"" data-background-type=""image"" data-video-loop=""true"" data-video-play-only-visible=""true"" data-video-lazy-load=""true"" data-video-fallback-src="""" data-element=""inner"" data-pb-style=""CIU8C62"" class=""mf-initial"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div data-content-type=""html"" data-appearance=""default"" data-element=""main"" data-pb-style=""PC6UV63"" data-decoded=""true"" class=""mf-initial"" data-was-processed=""true"" data-mce-fragment=""1"">
+<h1 data-mce-fragment=""1"">Contest Rules</h1>
+<p data-mce-fragment=""1"">These are the rules governing all contests by Superfeet Worldwide, LLC. and on the Superfeet.com website, unless otherwise specified. In the following rules, ""Superfeet"" means Superfeet Worldwide, LLC., which owns Superfeet.com:</p>
+<ol data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">No purchase is necessary to enter any Superfeet contest.</li>
+<li data-mce-fragment=""1"">To be eligible to win any prize on Superfeet.com you must not have won anything on Superfeet.com in the past 30 days or any prize valued at $600 or more in the past 6 months. Only one winner per household is permitted within 30 days after a household has a winner. Any prize awarded to an ineligible household winner will be deemed null and void, and an alternate eligible winner may be named.</li>
+<li data-mce-fragment=""1"">As a winner of a Superfeet contest your name and/or picture may be used for promotional, publication, or internet purposes without any compensation to you.</li>
+<li data-mce-fragment=""1"">Prizes awarded are not redeemable for cash. No prize is transferable. No substitution for a prize will be made at the request of a winner. Superfeet reserves the right to substitute a prize of similar value.</li>
+<li data-mce-fragment=""1"">All winners of all contests are responsible for all taxes on prize awarded. All winners of a prize valued at $600 or more will be required to complete the appropriate tax forms at Superfeet.com prior to claiming prize. All winners will be sent a 1099 MISC federal tax form if in one calendar year the prize value of all prizes won exceeds $600.</li>
+<li data-mce-fragment=""1"">In the event the winner is subject to or the subject of any order or legal process issued by any governmental agency having jurisdiction over the affairs of the winner (i.e. garnishment, child support order, judgment, lien, and the like), Superfeet's delivery of the prize to the official representative of the governmental entity claiming a right to the prize shall be thus deemed as (Superfeet) awarding the prize to the winner. Superfeet shall be entitled to rely in good faith, upon any documents presented by the representative seeking to collect the prize in lieu of the winner. Superfeet shall not be liable for any claim by any winner for damages incidental thereto.</li>
+<li data-mce-fragment=""1"">All Superfeet contests are open to all eligible residents 18 or over (unless otherwise specified) living within the United States. Contestants must possess a valid form of identification bearing the picture of the contestant acceptable to Superfeet that will be submitted to Superfeet and must be accepted by Superfeet before the prize is awarded. Employees of Superfeet, it's advertising agencies, affiliates, contest sponsors, employees and immediate families of each are not eligible to win any contest. Immediate family includes the spouse, great-grandparents, grandparents, parents, brothers, sisters, children, grandchildren, and great-grandchildren of the employee and his/her spouse. This also includes individuals for whom the employee is current legal guardian.</li>
+<li data-mce-fragment=""1"">Winners will be expected to submit a valid form of identification within 30 days of being notified that they are winners, unless there is an earlier expiration date on a prize, which will be specifically stated.</li>
+<li data-mce-fragment=""1"">All federal, state, and local laws and regulations apply. Contest is void where prohibited.</li>
+<li data-mce-fragment=""1"">Superfeet reserves the right to disqualify any entrant if any contest rules are violated in any way.</li>
+<li data-mce-fragment=""1"">Superfeet assumes no liability for situations, repairs, or incidents arising from any aspect of any prize awarded in any contest. Superfeet, its advertising agencies, affiliates, contest sponsors, employees, and immediate families of each are absolved and shall be held harmless from any action or liability arising from any contest or prize awarded in any contest.</li>
+<li data-mce-fragment=""1"">Superfeet reserves the right to interrupt and/or discontinue any contest or promotion (and not award the offered prize) at the discretion of Superfeet management if world events, the national mood, or public safety so warrant.</li>
+<li data-mce-fragment=""1"">Superfeet reserves the right to amend the rules to any contest at any time. Superfeet's decision is always final.</li>
+<li data-mce-fragment=""1"">For any contest requiring email entry you must use only the following email address unless otherwise specified: contest@superfeet.com. Superfeet has the final decision as to who is the winner.</li>
+<li data-mce-fragment=""1"">Superfeet shall have no responsibility for contestant's inability or failure to participate, failure to win or claim any prize based on malfunction or difficulties with cell phone, texting, email, or internet access, or any other circumstances in any contest beyond Superfeet's control.</li>
+<li data-mce-fragment=""1"">For any contest involving on-line voting: If an entrant receives irregular votes, including but not limited to, votes generated by a robotic, programmed, script, macro, or other automated means, Superfeet reserves the right to disqualify the entrant in its sole discretion and/or use another means to determine the winner(s), ex. – random selection or appointing a panel of judges.</li>
+<li data-mce-fragment=""1"">The following are specifically related to E-contests and E-Mail promotions on Superfeet.com:
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">All appropriate information in required fields must be entered correctly and completely or you will be disqualified.</li>
+<li data-mce-fragment=""1"">To win a prize you must reside within the United States.</li>
+<li data-mce-fragment=""1"">Any problems with the internet or email are not Superfeet's responsibility.</li>
+<li data-mce-fragment=""1"">Contestants who register to participate on our website may be required to produce a printed copy of proof of registration before being allowed to participate in the contest.</li>
+</ul>
+</li>
+</ol>
+<ol start=""18"" data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">PRIZES/ODDS: The prize(s) available in any Superfeet.com contest are listed on the landing page for that Superfeet.com contest. No cash alternative or prize substitutions will be allowed, except in Superfeet's discretion; Superfeet may award a substitute of comparable or greater value if any prize listed becomes unavailable for any reason. Odds of winning in any Superfeet.com contest depend on the number of eligible entries received for that specific Superfeet.com contest; provided that, if a particular Superfeet.com contest has a maximum limit on the number of entries to be accepted, such limit will be disclosed on the landing page for that Superfeet.com contest. To determine the odds of winning a sweepstakes prize, you divide the total number of sweepstakes entries by the number of entries you've submitted and by the number of prizes being awarded. So the formula looks like this:</li>
+</ol>
+<p data-mce-fragment=""1"">Total Entries / Your Entries / Total Number of Prizes</p>
+<p data-mce-fragment=""1"">Example: if you enter one time into a contest with two prizes, and 999 other people enter, too, your odds would be 1,000/1/2, which equals 1 in 500.</p>
+<ol data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">A copy of these rules is available during business hours at Superfeet Worldwide, LLC. headquarters 1820 Scout Pl., Ferndale, Washington 98248 between 8:00am – 4:30pm PST, Monday through Friday (excluding holidays)</li>
+</ol>
+<p data-mce-fragment=""1"">Updated May 23, 2019</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main><footer class=""page-footer"" data-mce-fragment=""1"">
+<div class=""footer content"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div class=""mobile-wrap"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div data-content-type=""row"" data-appearance=""contained"" data-element=""main"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div data-enable-parallax=""0"" data-parallax-speed=""0.5"" data-background-images=""{}"" data-video-fallback-src="""" data-element=""inner"" data-pb-style=""YXCYDB2"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div data-content-type=""html"" data-appearance=""default"" data-element=""main"" data-pb-style=""EFOBMVX"" data-decoded=""true"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div class=""footer-wrapper"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div class=""mobile-wrap-left"" data-was-processed=""true"" data-mce-fragment=""1"">
+<div class=""footer-link-section address-and-phone"" data-was-processed=""true"" data-mce-fragment=""1""></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>",2024-09-27 14:06:42 -0400,2024-10-14 11:04:57 -0400,true,2024-09-27 09:53:47 -0400,,Contest Rules,Review the rules and regulations regardings contests and giveaways managed by Superfeet and its affiliates. Contact Superfeet today to learn more.,,,,,,Règlements du concours,,,,
+100423860361,insole-finder-old,MERGE,Insole Finder - OLD,"<div class=""insoles-finder-embedded page-width"">
+</div>
+
+<script>
+(function(c,a,r,t,f,u,l){c[u]=c[u]||function(){(c[u].q=c[u].q||[]).push(arguments)},l=a.createElement(r),l.async=1,l.id=u+""scr"",l.src=f,a[t].appendChild(l)})(window,document,""script"",""body"",""//embed.cartfulsolutions.com/superfeet-insoles/recommendation.min.js"",""cfl630"");
+</script>",2024-09-27 14:06:42 -0400,2025-05-06 16:31:02 -0400,false,,page,,Try out the custom insole finder from Superfeet today to pick out the perfect pair of supports for your unique feet. Shop Superfeet now!,,,,,,Recherche de semelles intérieures,,,,
+100423958665,international-distributors,MERGE,International distributors,,2024-09-27 14:06:43 -0400,2025-05-27 11:00:27 -0400,true,2024-09-27 10:08:10 -0400,international-distributor,International distributors,Become an international distributor for Superfeet insoles and support products today! Reach out to the footcare experts at Superfeet to start today.,,,,,,Distributeurs internationaux,,,,
+100423991433,personalized-fit,MERGE,Personalized Fit,,2024-09-27 14:06:43 -0400,2024-10-14 11:05:01 -0400,true,2024-08-05 08:04:33 -0400,personalized-fit,Personalized Fit,Learn more about the personalized fit technology available for insoles & supports from Superfeet. Shop Superfeet today!,,,,,,Ajustement personnalisé,,,,
+100423893129,healthcare-professionals,MERGE,Healthcare Professionals,,2024-09-27 14:06:43 -0400,2024-10-14 11:04:59 -0400,true,2024-07-11 14:58:48 -0400,rx-otc-orthotics,Healthcare Professionals,"Check out articles, blogs, and informational guides on footcare for healthcare professionals from Superfeet. Shop Superfeet today!",,,,true,product_feature_groups.rx-otc-orthotics,Professionnels de la santé,,,,
+100424024201,national-parks,MERGE,National Parks,"<h2 style=""text-align: center;"">The Parks</h2>
+<p style=""text-align: center;"">From the surreal glaciers of the Olympics, to the endless valleys of the Shenandoah, to the craggy terrain of Yosemite, there's an immense amount to explore in our public lands. <span>Here’s your guide to catching our favorite hikes, best trail runs, and can't miss spots in six of the top National Parks.</span></p>",2024-09-27 14:06:44 -0400,2024-10-14 11:05:00 -0400,true,2024-09-24 09:06:55 -0400,,National Parks,"Check out articles, blogs, and informational guides on activities at National Parks from Superfeet. Shop Superfeet today!",,,,,,Parcs nationaux,,,,
+100423925897,faqs,MERGE,FAQs,,2024-09-27 14:06:43 -0400,2024-10-14 11:04:58 -0400,true,2024-07-25 08:18:31 -0400,faqs,FAQs,"Find answers to frequenty asked questions about Superfeet's selection of insoles, supports, and foot care products. Contact Superfeet today to learn more!",,,faq_group.basics,,,FAQ,,,,
+100424089737,privacy-policy,MERGE,Privacy Policy,"<p data-mce-fragment=""1"">Privacy Policy</p>
+<p data-mce-fragment=""1"">Effective date: November 30, 2019</p>
+<p data-mce-fragment=""1"">Superfeet Worldwide, LLC, a company incorporated in the State of Washington in the United States of America and having its registered office at 1820 Scout Place, Ferndale, WA 98248 and Superfeet Worldwide UK Limited, a company registered in England and Wales with the company number 07886500, with its registered office at The Pinnacle, 170 Midsummer Boulevard, Central Milton Keynes, Buckinghamshire, MK9 1BP (together ""Superfeet"", ""us"", ""we"", or ""our"") operate the https://www.superfeet.com, https://www.superfeet.com/en-gb, https://www.superfeet.com/en-us, https://www.superfeet.com/en-ca, https://www.superfeet.com/en-eu, https://www.superfeet.com/de-us, https://www.superfeet.com/de-ca, https://www.superfeet.com/de-gb, https://www.superfeet.com/de-eu, https://www.superfeet.com/fr-us, https://www.superfeet.com/fr-ca, https://www.superfeet.com/fr-gb, and https://www.superfeet.com/fr-eu websites (hereinafter together referred to as the ""Service"").</p>
+<p data-mce-fragment=""1"">We strive to protect the privacy of all personally identifiable information collected during the course of our activities and it is important for you to know how we process your data. We will process your personal information under the terms of this policy and in accordance with any agreement with you.</p>
+<p data-mce-fragment=""1"">This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our Service and the choices and rights you have associated with that data.</p>
+<p data-mce-fragment=""1"">We need to process personal data relating to Service Users to provide and improve the Service and for marketing and promotional purposes. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://www.superfeet.com.</p>
+<h2 data-mce-fragment=""1"">Definitions</h2>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">
+<strong data-mce-fragment=""1"">Service</strong>
+<p data-mce-fragment=""1"">Services are the https://www.superfeet.com, https://www.superfeet.com/en-gb, https://www.superfeet.com/en-us, https://www.superfeet.com/en-ca, https://www.superfeet.com/en-eu, https://www.superfeet.com/de-us, https://www.superfeet.com/de-ca, https://www.superfeet.com/de-gb, https://www.superfeet.com/de-eu, https://www.superfeet.com/fr-us, https://www.superfeet.com/fr-ca, https://www.superfeet.com/fr-gb, and https://www.superfeet.com/fr-eu websites operated by us.</p>
+</li>
+<li data-mce-fragment=""1"">
+<strong data-mce-fragment=""1"">Personal Data</strong>
+<p data-mce-fragment=""1"">Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</p>
+</li>
+<li data-mce-fragment=""1"">
+<strong data-mce-fragment=""1"">Usage Data</strong>
+<p data-mce-fragment=""1"">Usage Data is data collected automatically either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
+</li>
+<li data-mce-fragment=""1"">
+<strong data-mce-fragment=""1"">Cookies</strong>
+<p data-mce-fragment=""1"">Cookies are small files stored on your device (computer or mobile device).</p>
+</li>
+<li data-mce-fragment=""1"">
+<strong data-mce-fragment=""1"">Data Controller</strong>
+<p data-mce-fragment=""1"">Data Controller means the natural or legal person who (either alone or jointly or in common with other persons) determines the purposes for which and the manner in which any personal information are, or are to be, processed.</p>
+<p data-mce-fragment=""1"">We are a ""data controller"" in terms under European Union and United Kingdom data protection law (including the EU General Data Protection Regulation 2016 and the Data Protection Act 2018).</p>
+</li>
+<li data-mce-fragment=""1"">
+<strong data-mce-fragment=""1"">Data Processors (or Service Providers)</strong>
+<p data-mce-fragment=""1"">Data Processor (or Service Provider) means any natural or legal person who processes the data on behalf of the Data Controller.</p>
+<p data-mce-fragment=""1"">We may use the services of various Service Providers in order to process your data more effectively.</p>
+</li>
+<li data-mce-fragment=""1"">
+<strong data-mce-fragment=""1"">Data Subject (or User)</strong>
+<p data-mce-fragment=""1"">Data Subject is any living individual who is using our Service and is the subject of Personal Data.</p>
+</li>
+</ul>
+<h2 data-mce-fragment=""1"">Information Collection and Use</h2>
+<p data-mce-fragment=""1"">We collect several different types of information for various purposes to provide and improve our Service to you and for marketing and promotional purposes.</p>
+<h2 data-mce-fragment=""1"">Types of Data Collected</h2>
+<p data-mce-fragment=""1"">This list includes all the ways we may use your personal information, and which of the reasons we rely on to do so. This is where we tell you what our legitimate interests are.</p>
+<table border=""1"" width=""777"" cellspacing=""0"" cellpadding=""0"" data-mce-fragment=""1"">
+<tbody data-mce-fragment=""1"">
+<tr data-mce-fragment=""1"">
+<td valign=""top"" data-mce-fragment=""1"">
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">Personal Information We May Process:</strong></p>
+</td>
+<td valign=""top"" data-mce-fragment=""1"">
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">Our Reasons for Processing</strong></p>
+</td>
+<td valign=""top"" data-mce-fragment=""1"">
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">Our Legitimate Interests</strong></p>
+</td>
+</tr>
+<tr data-mce-fragment=""1"">
+<td valign=""top"" data-mce-fragment=""1"">
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">Email address</li>
+<li data-mce-fragment=""1"">First name and last name</li>
+<li data-mce-fragment=""1"">Phone number</li>
+<li data-mce-fragment=""1"">Address, State, Province, ZIP/Postal code, City</li>
+<li data-mce-fragment=""1"">Cookies and Usage Data</li>
+</ul>
+</td>
+<td valign=""top"" data-mce-fragment=""1"">
+<ul type=""disc"" data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">Fulfilling contracts</li>
+<li data-mce-fragment=""1"">Our legitimate interests</li>
+<li data-mce-fragment=""1"">Consent</li>
+</ul>
+</td>
+<td valign=""top"" data-mce-fragment=""1"">
+<ul type=""disc"" data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">To send marketing information to potential customers in compliance with any applicable laws relating to marketing.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p data-mce-fragment=""1"">If you have purchased goods or services via our Service or if you have signed up to receive marketing and promotional materials we may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or the instructions provided in any email we send.</p>
+<p data-mce-fragment=""1"">We will obtain this information from you directly.</p>
+<h2 data-mce-fragment=""1"">Usage Data</h2>
+<p data-mce-fragment=""1"">We may also collect information on how the Service is accessed and used (""Usage Data""). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+<h2 data-mce-fragment=""1"">Location Data</h2>
+<p data-mce-fragment=""1"">We may use and store information about your location if you give us permission to do so (""Location Data""). We use this data to provide features of our Service, to improve and customize our Service.</p>
+<p data-mce-fragment=""1"">You can enable or disable location services when you use our Service at any time by way of your device settings.</p>
+<h2 data-mce-fragment=""1"">Tracking &amp; Cookies Data</h2>
+<p data-mce-fragment=""1"">We use cookies and similar tracking technologies to track the activity on our Service and we hold certain information.</p>
+<p data-mce-fragment=""1"">Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Other tracking technologies are also used such as beacons, tags and scripts to collect and track information and to improve and analyze our Service.</p>
+<p data-mce-fragment=""1"">You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service. For more information please see our Cookie Policy<span data-mce-fragment=""1""> </span><a title=""Link to Superfeet Cookie Policy"" href=""https://www.superfeet.com/en-us/cookie-policy/"" data-mce-fragment=""1"" data-mce-href=""https://www.superfeet.com/en-us/cookie-policy/"" target=""_blank"">here</a> at https://www.superfeet.com/cookie-policy.</p>
+<h2 data-mce-fragment=""1"">Use of Data</h2>
+<p data-mce-fragment=""1"">We use the collected data for various purposes:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">To provide and maintain our Service</li>
+<li data-mce-fragment=""1"">To notify you about changes to our Service</li>
+<li data-mce-fragment=""1"">To allow you to participate in interactive features of our Service when you choose to do so</li>
+<li data-mce-fragment=""1"">To provide customer support</li>
+<li data-mce-fragment=""1"">To gather analysis or valuable information so that we can improve our Service</li>
+<li data-mce-fragment=""1"">To monitor the usage of our Service</li>
+<li data-mce-fragment=""1"">To detect, prevent and address technical issues</li>
+<li data-mce-fragment=""1"">To provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information</li>
+</ul>
+<h2 data-mce-fragment=""1"">Who do we share your information with?</h2>
+<p data-mce-fragment=""1"">The information you provide to us may be accessed by our staff, our auditors, our professional advisors and carefully selected third parties in the course of providing goods and/or services to us under suitable obligations of confidentiality.</p>
+<p data-mce-fragment=""1"">We may also use information in aggregate, where personally identifiable information is removed, for marketing and strategic development to improve and support our activities.</p>
+<h2 data-mce-fragment=""1"">Security</h2>
+<p data-mce-fragment=""1"">We employ administrative, electronic and physical security measures to ensure that the information that we collect about you is protected from access by unauthorized persons and protected against unlawful processing, accidental loss, destruction and damage.</p>
+<h2 data-mce-fragment=""1"">Retention of Data</h2>
+<p data-mce-fragment=""1"">We will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy.</p>
+<p data-mce-fragment=""1"">Our typical retention periods are as follows:</p>
+<table border=""1"" cellspacing=""0"" cellpadding=""0"" data-mce-fragment=""1"">
+<tbody data-mce-fragment=""1"">
+<tr data-mce-fragment=""1"">
+<td valign=""top"" width=""299"" data-mce-fragment=""1"">
+<p align=""center"" data-mce-fragment=""1""><strong data-mce-fragment=""1"">Type Of Personal Data</strong></p>
+</td>
+<td valign=""top"" width=""299"" data-mce-fragment=""1"">
+<p align=""center"" data-mce-fragment=""1""><strong data-mce-fragment=""1"">Retention Period</strong></p>
+</td>
+</tr>
+<tr data-mce-fragment=""1"">
+<td valign=""top"" width=""299"" data-mce-fragment=""1"">
+<p data-mce-fragment=""1"">Personal Data collected when a Data Subject uses our Service</p>
+</td>
+<td valign=""top"" width=""299"" data-mce-fragment=""1"">
+<p data-mce-fragment=""1"">[7] years from the last time the Data Subject used the Service</p>
+</td>
+</tr>
+<tr data-mce-fragment=""1"">
+<td valign=""top"" width=""299"" data-mce-fragment=""1"">
+<p data-mce-fragment=""1"">Personal Data within promotional and marketing databases</p>
+</td>
+<td valign=""top"" width=""299"" data-mce-fragment=""1"">
+<p data-mce-fragment=""1"">[7] years from the date the data subject actively responded to marketing or promotional correspondence</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p data-mce-fragment=""1"">We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes and enforce our legal agreements and policies.</p>
+<p data-mce-fragment=""1"">We will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer periods.</p>
+<h2 data-mce-fragment=""1"">Transfer of Data</h2>
+<p data-mce-fragment=""1"">Your information, including Personal Data, may be transferred to - and maintained on - computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.</p>
+<p data-mce-fragment=""1"">If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to United States and process it there. Superfeet Worldwide UK Limited may send personal data to Superfeet Worldwide, LLC, based in the USA. If and when this occurs, there will be protections in place to ensure the recipient protects the data to the same standard as the European Economic Area (""EEA""). The protections include:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">putting in place a contract with the recipient that means they must protect personal data to the same standards as the EEA; and/or</li>
+<li data-mce-fragment=""1"">transferring personal data to organisations in the USA that are part of Privacy Shield. This is a framework that sets privacy standards for personal data sent between the US and EEA countries which makes sure standards are similar to what is used within the EEA.</li>
+</ul>
+<p data-mce-fragment=""1"">We will take all the steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organisation or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+<h2 data-mce-fragment=""1"">Disclosure of Data</h2>
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">Business Transaction</strong></p>
+<p data-mce-fragment=""1"">If we are involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice via email before your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">Disclosure for Law Enforcement</strong></p>
+<p data-mce-fragment=""1"">Under certain circumstances, we may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">Legal Requirements</strong></p>
+<p data-mce-fragment=""1"">Superfeet may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">To comply with a legal obligation</li>
+<li data-mce-fragment=""1"">To protect and defend the rights or property of Superfeet Worldwide, LLC.</li>
+<li data-mce-fragment=""1"">To prevent or investigate possible wrongdoing in connection with the Service</li>
+<li data-mce-fragment=""1"">To protect the personal safety of Users of the Service or the public</li>
+<li data-mce-fragment=""1"">To protect against legal liability</li>
+</ul>
+<h2 data-mce-fragment=""1"">Security of Data</h2>
+<p data-mce-fragment=""1"">The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+<p data-mce-fragment=""1"">Our Policy on ""Do Not Track"" Signals under the California Online Protection Act (CCPA)</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">We do not support Do Not Track (""DNT""). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.</li>
+<li data-mce-fragment=""1"">You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.</li>
+</ul>
+<p data-mce-fragment=""1"">Your Data Protection Rights under the General Data Protection Regulation (GDPR)</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">If you are a resident of the EEA, you have certain data protection rights. We aim to take reasonable steps to allow you to correct, amend, delete or limit the use of your Personal Data.</li>
+<li data-mce-fragment=""1"">If you wish to be informed about what Personal Data we hold about you and if you want it to be removed from our systems, please contact us by using the email address noted at the end of this policy.</li>
+</ul>
+<p data-mce-fragment=""1"">In certain circumstances, you have the following data protection rights:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">The right to access, update or delete the information we have on you. Whenever made possible, you can access, update or request deletion of your Personal Data directly within your account settings section. If you are unable to perform these actions yourself, please contact us to assist you.</li>
+<li data-mce-fragment=""1"">The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete.</li>
+<li data-mce-fragment=""1"">The right to object. You have the right to object to our processing of your Personal Data.</li>
+<li data-mce-fragment=""1"">The right of restriction. You have the right to request that we restrict the processing of your personal information.</li>
+<li data-mce-fragment=""1"">The right to data portability. You have the right to be provided with a copy of the information we have on you in a structured, machine-readable and commonly used format.</li>
+<li data-mce-fragment=""1"">The right to withdraw consent. You also have the right to withdraw your consent at any time where Superfeet Worldwide, LLC. relied on your consent to process your personal information.</li>
+</ul>
+<p data-mce-fragment=""1"">Please note that we may ask you to verify your identity before responding to such requests.</p>
+<p data-mce-fragment=""1"">You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the EEA.</p>
+<h2 data-mce-fragment=""1"">Service Providers</h2>
+<p data-mce-fragment=""1"">We may employ third party companies and individuals to facilitate our Service (""Service Providers""), provide the Service on our behalf, perform Service-related services or assist us in analysing how our Service is used.</p>
+<p data-mce-fragment=""1"">These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+<p data-mce-fragment=""1"">Such carefully selected third parties that we contract with, may send personal data to countries outside the European Economic Area (‘EEA'). If and when this occurs, there will be protections in place to ensure the recipient protects the data to the same standard as the EEA. The protections include:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">transferring to a non-EEA country with privacy laws that give the same protection as the EEA;</li>
+<li data-mce-fragment=""1"">putting in place a contract with the recipient that means they must protect personal data to the same standards as the EEA; and/or</li>
+<li data-mce-fragment=""1"">transfer personal data to organisations in the USA that are part of Privacy Shield. This is a framework that sets privacy standards for personal data sent between the US and EEA countries which makes sure standards are similar to what is used within the EEA.</li>
+</ul>
+<h2 data-mce-fragment=""1"">Analytics</h2>
+<p data-mce-fragment=""1"">We may use third-party Service Providers to monitor and analyse the use of our Service.</p>
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">Payments</strong></p>
+<p data-mce-fragment=""1"">We may provide paid products and/or services within the Service. In that case, we use third-party services for payment processing (e.g. payment processors).</p>
+<p data-mce-fragment=""1"">We will not store or collect your payment card details. That information is provided directly to our third-party payment processors whose use of your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.</p>
+<p data-mce-fragment=""1"">The payment processor we work with is Authorize.net. Please refer to its privacy notice if required.</p>
+<h2 data-mce-fragment=""1"">Links to Other Sites</h2>
+<p data-mce-fragment=""1"">Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p data-mce-fragment=""1"">We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+<h2 data-mce-fragment=""1"">Children's Privacy</h2>
+<p data-mce-fragment=""1"">Our Service does not address anyone under the age of 18 (""Children"").</p>
+<p data-mce-fragment=""1"">We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<h2 data-mce-fragment=""1"">Changes to This Privacy Policy</h2>
+<p data-mce-fragment=""1"">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p data-mce-fragment=""1"">We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the ""effective date"" at the top of this Privacy Policy.</p>
+<p data-mce-fragment=""1"">You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+<h2 data-mce-fragment=""1"">Contact Us</h2>
+<p data-mce-fragment=""1"">If you have any questions about this Privacy Policy, please contact us:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">By email:<span data-mce-fragment=""1""> </span><a href=""mailto:customercare@superfeet.com"" data-mce-fragment=""1"" data-mce-href=""mailto:customercare@superfeet.com"">Customer Care</a>
+</li>
+<li data-mce-fragment=""1"">By visiting this page on our website:<span data-mce-fragment=""1""> </span><a href=""https://www.superfeet.com/data-privacy"" data-mce-fragment=""1"" data-mce-href=""https://www.superfeet.com/data-privacy"">Data Privacy</a>
+</li>
+</ul>",2024-09-27 14:06:44 -0400,2024-10-14 11:05:02 -0400,true,2024-09-27 09:46:23 -0400,,Privacy Policy,Review the online privacy policy from Superfeet for more information on how we manage user privacy. Contact Superfeet to learn more.,,,,,,politique de confidentialité,,,,
+100424122505,returns-and-exchanges,MERGE,Returns and Exchanges,"<h2>WHAT DO I DO IF I WANT TO CHANGE OR CANCEL MY ORDER AFTER I HAVE PLACED IT?</h2>
+<p>Please call Customer Care at 1-800-538-5471 between 7am-4:30pm PST, Monday-Friday or email Customer Care at canada@superfeet.com.</p>
+<h2>WHAT SHIP METHODS ARE AVAILABLE?</h2>
+<p><strong>Our current ship methods are:</strong></p>
+<ul>
+<li>Ground</li>
+</ul>
+<h2>WHAT IS YOUR RETURN POLICY?</h2>
+<p>If you purchased directly from Superfeet please contact Superfeet at 1-800-538-5471 to process your refund and/or exchange.  All exchanges/refunds must occur within 60 days of your original purchase date. If you purchased your insoles somewhere other than Superfeet.com please take your receipt and your insoles back to the original place of purchase for an exchange/refund. All exchanges/refunds must occur within 60 days of your original purchase date.<br><br>If you purchased a Shaped by Superfeet™ product, like a New Balance, Trek, Bontrager or Calloway branded insole, contact your place of purchase for return instructions.</p>
+<h2>IS THERE A RESTOCKING FEE OR FREIGHT CHARGE WHEN RETURNING PRODUCT?</h2>
+<p>We do not charge a restocking fee. You will be responsible for the cost of mailing the insoles back to Superfeet if it is required.</p>
+<p>If you purchased from a retail store or online please fill out the form below to expedite your return inquiry.</p>
+<p><a title=""Superfeet Return Form"" href=""https://www.cognitoforms.com/SuperfeetWorldwideLLC/CanadaReturnForm"" target=""_blank""><button style=""background: #000; color: #fff;"" class=""button button-primary"">Make a Return</button></a></p>
+<p><a title=""Superfeet Exchange Form"" href=""https://www.cognitoforms.com/SuperfeetWorldwideLLC/CanadaExchangeForm"" target=""_blank""><button style=""background: #000; color: #fff;"" class=""button button-primary"">Make an Exchange</button></a></p>",2024-09-27 14:06:44 -0400,2025-09-24 09:21:15 -0400,true,2024-09-16 15:47:41 -0400,,Returns and Exchanges,"Learn more about returns & exchanges on Superfeet's selection of insoles, supports, and athletic foot care products. Shop Superfeet today!",,,,,,Retours et échanges,,,,
+100424056969,me3d,MERGE,ME3D,,2024-09-27 14:06:44 -0400,2024-10-14 11:04:59 -0400,true,2024-08-22 11:04:44 -0400,me3d,ME3D,Custom-printed ME3D insoles offer personalized support for all situations. Learn more about creating custom insoles & supports with Superfeet!,ugc_galleries.me-3-d-gallery,,,,,ME3D,,,,
+100424155273,ai-generated-content-page-testing,MERGE,Pete Testing,"<p data-mce-fragment=""1"">Hey there, fellow internet wanderer! Welcome to this quirky corner of the web where we're all about the lorem ipsum. Now, you might be wondering what on earth is ""lorem ipsum""? Well, let me enlighten you in the most entertaining way possible!</p>
+<p data-mce-fragment=""1"">Picture this: you're designing a website, and you need some placeholder text to fill in the gaps. But you don't want to use boring old ""blah blah blah"" or ""lorem ipsum dolor sit amet."" No, no, no! You want something that will make people chuckle and keep them entertained while you work your magic.</p>
+<p data-mce-fragment=""1"">That's where our lorem ipsum comes in! It's like the life of the party, the jester of the web design world. It's a nonsensical mishmash of Latin words that have been scrambled and rearranged to create a hilarious and completely meaningless text. It's the perfect way to add a touch of whimsy to your website while you're still in the creative process.</p>
+<p data-mce-fragment=""1"">But wait, there's more! Our lorem ipsum is not just any ordinary lorem ipsum. Oh no, it's a special blend of wit and humor that will leave your visitors in stitches. We've carefully crafted each word and phrase to tickle your funny bone and keep you entertained. It's like a comedy show in text form!</p>
+<p data-mce-fragment=""1"">So, whether you're a web designer in need of some laughter-inducing filler text or just a curious soul who stumbled upon this page, we invite you to embrace the joy of lorem ipsum. It's the secret ingredient that will make your website stand out from the crowd and bring a smile to everyone's face.</p>
+<p data-mce-fragment=""1"">Remember, when life gives you lorem ipsum, make your website a whole lot more fun!</p>",2024-09-27 14:06:45 -0400,2024-10-07 12:03:26 -0400,false,,,,,,67bbcf5a9dff719eb0c3cb30bd5dd278.jpg,,,,Pete teste,,,,
+100424188041,sms-signup-test,MERGE,SMS Signup Test,"<script src=""//r2.dotdigital-pages.com/resources/sharing/embed.js?sharing=lp-embed&amp;domain=r2.dotdigital-pages.com&amp;id=4P1L-8TN%2Fsign-up-to-our-newsletter%22&amp;description=""></script>",2024-09-27 14:06:45 -0400,2024-10-07 18:13:50 -0400,true,2024-07-31 17:12:10 -0400,,,,,,,,,Test d'inscription par SMS,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum odio. Morbi dignissim est non ultricies sagittis. Vestibulum ac euismod orci. Integer sit amet arcu sit amet eros aliquet porta nec quis libero. Sed ac quam ac nunc interdum laoreet. Aliquam erat volutpat. Nunc non justo id lacus varius tincidunt ac et nisi. Etiam at augue id eros egestas pellentesque.","FRENCH Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum odio. Morbi dignissim est non ultricies sagittis. Vestibulum ac euismod orci. Integer sit amet arcu sit amet eros aliquet porta nec quis libero. Sed ac quam ac nunc interdum laoreet. Aliquam erat volutpat. Nunc non justo id lacus varius tincidunt ac et nisi. Etiam at augue id eros egestas pellentesque.",,
+100424220809,size-chart,MERGE,Size Chart,"<style>
+  /* ===== Superfeet Size Chart (scoped) ===== */
+  .sf-size-chart {
+    --sf-radius: 0px;
+    --sf-border: #e5e7eb;           /* light gray border */
+    --sf-text: #111827;             /* near-black text */
+    --sf-muted: #6b7280;            /* slate */
+    --sf-bg: #ffffff;
+    --sf-sticky-bg: #ffffff;
+    --sf-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+    color: var(--sf-text);
+  }
+
+  .sf-size-chart h2 {
+    margin: 0 0 .25rem;
+    font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+    line-height: 1.2;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+  }
+
+  .sf-size-chart .sf-note {
+    margin: 0 0 .75rem;
+    color: var(--sf-muted);
+    font-size: .95rem;
+  }
+
+  .sf-size-chart .sf-table-wrap {
+    background: var(--sf-bg);
+    border: 1px solid var(--sf-border);
+    border-radius: var(--sf-radius);
+    box-shadow: var(--sf-shadow);
+    overflow: hidden;
+  }
+
+  /* Scroll container (for mobile) */
+  .sf-size-chart .sf-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable both-edges;
+  }
+
+  /* Optional scroll shadows for UX */
+  .sf-size-chart .sf-scroll {
+    background:
+      linear-gradient(to right, rgba(0,0,0,.06), rgba(0,0,0,0)) left/16px 100% no-repeat,
+      linear-gradient(to left, rgba(0,0,0,.06), rgba(0,0,0,0)) right/16px 100% no-repeat;
+    background-attachment: local, local;
+  }
+
+  .sf-size-chart table {
+    width: 100%;
+    min-width: 980px; /* ensures columns stay readable; enables horizontal scroll on small screens */
+    border-collapse: separate;
+    border-spacing: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+/* First column: header + row labels (sticky, centered, wrapping allowed) */
+.sf-size-chart thead th:first-child,
+.sf-size-chart tbody th[scope=""row""] {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: var(--sf-sticky-bg);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  text-align: center;      /* center text like original source */
+  padding: .875rem 1rem;   /* keep comfortable spacing */
+  white-space: normal;     /* allow wrapping if needed */
+  min-width: 9.5rem;       /* ensures room for “Superfeet Size” */
+}
+
+  .sf-size-chart th,
+  .sf-size-chart td {
+    padding: .875rem .75rem;
+    text-align: center;
+    white-space: nowrap;
+    border-right: 1px solid var(--sf-border);
+    border-bottom: 1px solid var(--sf-border);
+  }
+  .sf-size-chart th:last-child,
+  .sf-size-chart td:last-child { border-right: 0; }
+
+  /* First column: row headers (sticky) */
+  .sf-size-chart tbody th[scope=""row""] {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    text-align: center;
+    background: var(--sf-sticky-bg);
+    white-space: normal;
+    min-width: 9.5rem;
+  }
+
+  /* Zebra rows for readability */
+  .sf-size-chart tbody tr:nth-child(odd) td { background: #fafafa; }
+  .sf-size-chart tbody tr:nth-child(odd) th[scope=""row""] { background: #fafafa; }
+
+  /* Tighten spacing on very small screens */
+  @media (max-width: 420px) {
+    .sf-size-chart th, .sf-size-chart td { padding: .75rem .5rem; font-size: .95rem; }
+    .sf-size-chart tbody th[scope=""row""] { min-width: 8.5rem; }
+    .sf-size-chart table {min-width:420px;}
+  }
+
+  @media (max-width: 360px) {
+  .sf-size-chart thead th:first-child,
+  .sf-size-chart tbody th[scope=""row""] {
+    white-space: normal;   /* allow wrap below 360px */
+  }
+}
+  /* Respect dark themes if your shop uses prefers-color-scheme */
+  /*@media (prefers-color-scheme: dark) {
+    .sf-size-chart {
+      --sf-border: #2b2f36;
+      --sf-text: #e5e7eb;
+      --sf-muted: #a1a1aa;
+      --sf-bg: #0b0c10;
+      --sf-sticky-bg: #0b0c10;
+      --sf-shadow: none;
+    }
+    .sf-size-chart tbody tr:nth-child(odd) td,
+    .sf-size-chart tbody tr:nth-child(odd) th[scope=""row""] { background: #0f1116; }
+  }*/
+
+  /* Screen-reader only helper */
+  .sf-size-chart .sr-only {
+    position: absolute !important;
+    height: 1px; width: 1px; overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); white-space: nowrap;
+  }
+</style>
+<div aria-labelledby=""sf-size-chart-title"" role=""region"" class=""sf-size-chart"">
+<p class=""sf-note"">Our insoles are trim-to-fit, so if you are between sizes or unsure, we recommend sizing half a size up.</p>
+<div class=""sf-table-wrap"">
+<div aria-label=""Scrollable size chart"" class=""sf-scroll"" tabindex=""0"">
+<table aria-describedby=""sf-size-chart-title"">
+<caption class=""sr-only"">Superfeet insole size chart by letter size (J–H) with US Men’s, Women’s, Youth, Skates, UK, and Euro conversions.</caption>
+<thead>
+<tr>
+<th style=""text-align: center;"" scope=""col"">Superfeet Size</th>
+<th scope=""col"">J</th>
+<th scope=""col"">A</th>
+<th scope=""col"">B</th>
+<th scope=""col"">C</th>
+<th scope=""col"">D</th>
+<th scope=""col"">E</th>
+<th scope=""col"">F</th>
+<th scope=""col"">G</th>
+<th scope=""col"">H</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope=""row"">Men’s</th>
+<td></td>
+<td></td>
+<td></td>
+<td>5.5 – 7</td>
+<td>7.5 – 9</td>
+<td>9.5 – 11</td>
+<td>11.5 – 13</td>
+<td>13.5 – 15</td>
+<td>15.5 – 17</td>
+</tr>
+<tr>
+<th scope=""row"">Women’s</th>
+<td></td>
+<td></td>
+<td>4.5 – 6</td>
+<td>6.5 – 8</td>
+<td>8.5 – 10</td>
+<td>10.5 – 12</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope=""row"">Youth</th>
+<td>
+<meta charset=""utf-8"">11.5 – 13</td>
+<td>
+<meta charset=""utf-8"">13.5 – 2</td>
+<td>
+<meta charset=""utf-8"">2.5 – 4</td>
+<td>
+<meta charset=""utf-8"">
+<span data-teams=""true"">4.5 - 6</span>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope=""row"">Skates</th>
+<td>Y 12 – 13</td>
+<td>Jr 1 – 2</td>
+<td>Jr 3 – 4</td>
+<td>5 – 6</td>
+<td>7 – 8</td>
+<td>9 – 10</td>
+<td>11 – 12</td>
+<td>13 – 14</td>
+<td></td>
+</tr>
+<tr>
+<th scope=""row"">UK</th>
+<td>11 – 12.5</td>
+<td>13 – 1.5</td>
+<td>2 – 3.5</td>
+<td>4 – 5.5</td>
+<td>6 – 7.5</td>
+<td>8 – 9.5</td>
+<td>10 – 11.5</td>
+<td>12 – 13.5</td>
+<td>14 – 15.5</td>
+</tr>
+<tr>
+<th scope=""row"">Euro</th>
+<td>29 – 31</td>
+<td>32 – 33.5</td>
+<td>34 – 36</td>
+<td>37 – 38.5</td>
+<td>39 – 41</td>
+<td>42 – 44</td>
+<td>45 – 46.5</td>
+<td>47 – 49</td>
+<td>50 – 52</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>",2024-09-27 14:06:45 -0400,2025-09-12 10:06:58 -0400,true,2024-07-22 12:22:33 -0400,,,,,,,,,Tableau des tailles,,,,
+100424286345,test-rx-microsite-page,MERGE,TEST RX microsite Page,,2024-09-27 14:06:46 -0400,2024-10-07 18:13:36 -0400,true,2024-07-09 15:39:39 -0400,,,,,,,true,,Page du microsite TEST RX,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum odio. Morbi dignissim est non ultricies sagittis. Vestibulum ac euismod orci. Integer sit amet arcu sit amet eros aliquet porta nec quis libero. Sed ac quam ac nunc interdum laoreet. Aliquam erat volutpat. Nunc non justo id lacus varius tincidunt ac et nisi. Etiam at augue id eros egestas pellentesque.","FRENCH lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum odio. Morbi dignissim est non ultricies sagittis. Vestibulum ac euismod orci. Integer sit amet arcu sit amet eros aliquet porta nec quis libero. Sed ac quam ac nunc interdum laoreet. Aliquam erat volutpat. Nunc non justo id lacus varius tincidunt ac et nisi. Etiam at augue id eros egestas pellentesque.",,
+100424253577,styleguide,MERGE,Styleguide (unpublish before launch),,2024-09-27 14:06:46 -0400,2024-12-05 13:07:27 -0500,false,,styleguide,,,,,,,,Guide de style (dépublier avant le lancement),,,,
+100424319113,shipping-policy,MERGE,Canada Shipping Policy,"<p data-content-type=""heading"" data-appearance=""default"" data-element=""main"" data-mce-fragment=""1"">Thank you for visiting and shopping at Superfeet.com. Following are the terms and conditions that constitute our Shipping Policy.</p>
+<div data-content-type=""text"" data-appearance=""default"" data-element=""main"" class=""mf-initial"" data-was-processed=""true"" data-mce-fragment=""1"">
+<h2 data-mce-fragment=""1"">Domestic Shipping Policy</h2>
+<h3 data-mce-fragment=""1"">Shipment processing time</h3>
+<p data-mce-fragment=""1""><meta charset=""utf-8""><span>Superfeet Canada shipping hours of operation are M - F 7 am - 4:30 pm PST.</span></p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">All orders are processed within 2-3 business days.</li>
+<li data-mce-fragment=""1"">Orders are not shipped on weekends or holidays.</li>
+</ul>
+<p data-mce-fragment=""1"">If we are experiencing a high volume of orders, shipments may be delayed by a few days. Please allow additional days in transit for delivery. If there will be a significant delay in shipment of your order, we may contact you via email or telephone.</p>
+<h3 data-mce-fragment=""1"">Shipping rates &amp; delivery estimates</h3>
+<p data-mce-fragment=""1"">Shipping charges for your order will be calculated and displayed at checkout.</p>
+<table border=""1"">
+<tbody>
+<tr>
+<td><strong>Shipment method</strong></td>
+<td><strong> </strong></td>
+<td><strong>Estimated delivery time</strong></td>
+<td><strong>Shipment cost</strong></td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Alberta</td>
+<td>2 -5 business days</td>
+<td>$15.00 - $20.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>British Columbia</td>
+<td>1 - 4 business days</td>
+<td>$12.50 - $20.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Manitoba</td>
+<td>3 - 6 business days</td>
+<td>$15.00 - $30.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Newfoundland and Labrador</td>
+<td>6 - 7+ business days</td>
+<td>$20.00 - $40.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>New Brunswick</td>
+<td>6 business days</td>
+<td>$20.00 - $40.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Nova Scotia</td>
+<td>6 business days</td>
+<td>$20.00 - $40.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Northwest Territories</td>
+<td>7 business days</td>
+<td>$20.00 - $35.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Nunavut</td>
+<td>11 business days</td>
+<td>$20.00 - $35.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Ontario</td>
+<td>4 - 7+ business days</td>
+<td>$17.50 - $40.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Prince Edward Island</td>
+<td>6 business days</td>
+<td>$20.00 - $40.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Saskatchewan</td>
+<td>4 - 6 business days</td>
+<td>$15.00 - $30.00</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Yukon Territory</td>
+<td>7 business days</td>
+<td>$20.00 - $35.00</td>
+</tr>
+</tbody>
+</table>
+<p data-mce-fragment=""1"">Delivery delays can occasionally occur.</p>
+<p data-mce-fragment=""1"">FedEx has informed us that they are currently experiencing shipping delays at some hubs around the country.</p>
+</div>",2024-09-27 14:06:47 -0400,2025-09-24 09:49:31 -0400,true,2024-09-27 09:52:32 -0400,,Shipping Policy,Review the Canada Shipping Policy from Superfeet for more information on how we manage shipping of all orders. Contact Superfeet today.,,,,,,Politique d'expédition américaine,,,,
+100424351881,terms-of-use,MERGE,Terms Of Use,"<p data-mce-fragment=""1"">BEFORE USING THIS WEBSITE, PLEASE READ THE TERMS OF USE SET FORTH BELOW.</p>
+<p data-mce-fragment=""1"">These Terms of Use constitute a legally binding agreement made by and between Superfeet Worldwide, LLC. and its affiliates and subsidiaries (hereafter ""we"" or ""us"")</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">Superfeet Worldwide, LLC. a company incorporated in the State of Washington in the United States of America and having its registered office at 1820 Scout Place, Ferndale, WA 98248; and</li>
+<li data-mce-fragment=""1"">Superfeet Worldwide UK Limited, a company registered in England and Wales with the company number 07886500, with its registered office at The Pinnacle, 170 Midsummer Boulevard, Central Milton Keynes, Buckinghamshire, MK9 1BP</li>
+</ul>
+<p data-mce-fragment=""1"">and you, whether personally or on behalf of an entity (""you""). These Terms of Use govern your use of the https://www.superfeet.com, https://www.superfeet.com/en-gb, https://www.superfeet.com/en-us, https://www.superfeet.com/en-ca, https://www.superfeet.com/en-eu, https://www.superfeet.com/de-us, https://www.superfeet.com/de-ca, https://www.superfeet.com/de-gb, https://www.superfeet.com/de-eu, https://www.superfeet.com/fr-us, https://www.superfeet.com/fr-ca, https://www.superfeet.com/fr-gb, and https://www.superfeet.com/fr-eu websites (the ""website""), so please read them carefully. Other terms and conditions apply to the purchase of our products.</p>
+<p data-mce-fragment=""1"">BY CLICKING THE ""I AGREE"" BUTTON OR ACCESSING OR USING ANY PART OF THIS WEBSITE, YOU AGREE THAT YOU HAVE READ, UNDERSTAND AND AGREE TO COMPLY BY THESE TERMS OF USE. IF YOU DO NOT AGREE TO COMPLY, DO NOT ACCESS OR USE THIS WEBSITE.</p>
+<p data-mce-fragment=""1"">INTERNET TECHNOLOGY AND THE APPLICABLE LAWS, RULES AND REGULATIONS CHANGE FREQUENTLY. ACCORDINGLY, WE RESERVE THE RIGHT TO MAKE CHANGES TO THESE TERMS OF USE AT ANY TIME. YOUR CONTINUED USE OF THE WEBSITE CONSTITUTES ASSENT TO ANY NEW PROVISIONS OF THIS TERMS OF USE THAT MAY BE POSTED.</p>
+<p data-mce-fragment=""1"">1. NO REPRESENTATIONS OR WARRANTIES</p>
+<p data-mce-fragment=""1"">The services provided on this website and the content, information, documents, graphics and images published at this website could include inaccuracies, typographical errors or other errors. We make no commitment, however, to update what is contained in this website. Furthermore, we reserve the right to temporarily, or permanently, modify, alter, discontinue or delete the same without prior notice.</p>
+<p data-mce-fragment=""1"">TO THE EXTENT PERMITTED BY LAW, THE SERVICES AND INFORMATION ON THIS WEBSITE ARE PROVIDED ""AS IS,"" AND WITHOUT WARRANTY, AND ALL WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT, ARE HEREBY DISCLAIMED, AND YOU HEREBY WAIVE ALL SUCH WARRANTIES. THE INFORMATION CONTAINED ON OR PROVIDED THROUGH THIS WEBSITE IS INTENDED FOR GENERAL CONSUMER UNDERSTANDING AND EDUCATION. ANY ACCESS TO THIS SITE IS VOLUNTARY. WE WILL REGARD ALL ACCESS AS VOLUNTARY AND AT THE SOLE RISK OF THE USER. WE DO NOT REPRESENT OR WARRANT THAT THE WEBSITE OR ITS USE (I) WILL BE UNINTERRUPTED, (II) WILL BE FREE OF DEFECTS, INACCURACIES OR ERRORS, (III) WILL MEET YOUR REQUIREMENTS, OR (IV) WILL OPERATE IN THE CONFIGURATION OR WITH OTHER HARDWARE OR SOFTWARE YOU USE. YOU ARE RESPONSIBLE FOR ENSURING THAT ALL PERSONS WHO ACCESS OUR WEBSITE THROUGH YOUR INTERNET CONNECTION ARE AWARE OF THESE TERMS OF USE AND OTHER APPLICABLE TERMS AND CONDITIONS, AND THAT THEY COMPLY WITH THEM.</p>
+<p data-mce-fragment=""1"">2. USE FOR CONSUMER AND EDUCATIONAL PURPOSES ONLY</p>
+<p data-mce-fragment=""1"">This site and its services are (i) for consumer educational use and (ii) to facilitate the purchase of our products, only. Nothing contained in this site is or should be considered, or used as a substitute for, medical advice, diagnosis or treatment. This site and its services do not constitute the practice of any medical, nursing or other professional health care advice, diagnosis or treatment. We advise users to always seek the advice of a physician or other qualified health care provider with any questions regarding personal health or medical conditions. Never disregard, avoid or delay in obtaining medical advice from your doctor or other qualified health care provider because of something you have read on this website. If you have or suspect that you have a medical problem or condition, please contact a qualified health care professional immediately.</p>
+<p data-mce-fragment=""1"">3. PRIVACY POLICY</p>
+<p data-mce-fragment=""1"">The information that we obtain through your use of our website, is subject to our<span data-mce-fragment=""1""> </span><a href=""https://www.superfeet.com/en-us/privacy-policy/"" data-mce-fragment=""1"" data-mce-href=""https://www.superfeet.com/en-us/privacy-policy/"" target=""_blank"">Privacy Policy</a>. Our Privacy Policy contains terms and conditions that govern our collection and use of the information you provide use and our respective rights relative to that information. Please review our Privacy Policy before you use our website.</p>
+<p data-mce-fragment=""1"">4. SECURITY</p>
+<p data-mce-fragment=""1"">You may have an account and password. You are responsible for maintaining the confidentiality of your password and account information and are fully responsible for all conduct carried out under this password and account. We are not liable for any loss of confidentiality or for any damages arising from your failure to comply with this term. You will promptly report any unauthorised use of your password to us.</p>
+<p data-mce-fragment=""1"">5. WE ARE NOT RESPONSIBLE FOR ANY CONTENT ON ANY WEBSITES WE LINK TO</p>
+<p data-mce-fragment=""1"">Where our website contains links to other sites and resources provided by third parties, these links are provided for your information only. Such links should not be interpreted as approval by us of those linked websites or information you may obtain from them.</p>
+<p data-mce-fragment=""1"">We have no control over the contents of those sites or resources.</p>
+<p data-mce-fragment=""1"">This website may include information and materials uploaded by other users of the site, including to bulletin boards and chat rooms. This information and these materials have not been verified or approved by us. The views expressed by other users on our site do not represent our views or values.</p>
+<p data-mce-fragment=""1"">6. INTELLECTUAL PROPERTY; LIMITED USE OF CONTENT</p>
+<p data-mce-fragment=""1"">As far as we are aware, we are the owner or the licensee of all intellectual property rights in our site, and in the material published on it. Those works are protected by copyright laws and treaties around the world. All such rights are reserved.</p>
+<p data-mce-fragment=""1"">You may print off one copy, and may download extracts, of any page(s) from our site for your personal use and you may draw the attention of others within your organisation to content posted on our site.</p>
+<p data-mce-fragment=""1"">You must not modify the paper or digital copies of any materials you have printed off or downloaded in any way, and you must not use any illustrations, photographs, video or audio sequences or any graphics separately from any accompanying text.</p>
+<p data-mce-fragment=""1"">Our status (and that of any identified contributors) as the authors of content on our site must always be acknowledged.</p>
+<p data-mce-fragment=""1"">You must not use any part of the content on our site for commercial purposes without obtaining a licence to do so from us or our licensors.</p>
+<p data-mce-fragment=""1"">If you print off, copy or download any part of our site in breach of these terms of use, your right to use our site will cease immediately and you must, at our option, return or destroy any copies of the materials you have made.</p>
+<p data-mce-fragment=""1"">7. USE OF COOKIES</p>
+<p data-mce-fragment=""1"">""Cookies"" are small pieces of information that some websites store on your computer's hard drive when you visit them. We use cookies to provide us with information relating to the sources of our site traffic, and to maintain session integrity as you navigate throughout the website. Most Web browsers automatically accept cookies but allow you to modify security settings so you can approve or reject cookies on a case-by-case basis. Our site requires that cookies be enabled. If you reject cookies from this website, you will not be able to access the site. Please see our<span data-mce-fragment=""1""> </span><a href=""https://www.superfeet.com/en-us/cookie-policy/"" data-mce-fragment=""1"" data-mce-href=""https://www.superfeet.com/en-us/cookie-policy/"" target=""_blank"">Cookie Policy</a><span data-mce-fragment=""1""> </span>for further information.</p>
+<p data-mce-fragment=""1"">8. OUR RESPONSIBILITY FOR LOSS OR DAMAGE SUFFERED BY YOU</p>
+<p data-mce-fragment=""1"">Whether you are a consumer or a business user:</p>
+<p data-mce-fragment=""1"">We do not exclude or limit in any way our liability to you where it would be unlawful to do so. This includes liability for death or personal injury caused by our negligence or the negligence of our employees, agents or subcontractors and for fraud or fraudulent misrepresentation.</p>
+<p data-mce-fragment=""1"">Different limitations and exclusions of liability will apply to liability arising as a result of the supply of any products to you, which will be set out separately in our [Purchase of Goods Terms &amp; Conditions].</p>
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">If you are a business user:</strong></p>
+<p data-mce-fragment=""1"">We exclude all implied conditions, warranties, representations or other terms that may apply to our website or any content on it.</p>
+<p data-mce-fragment=""1"">We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">use of, or inability to use, our website; or</li>
+<li data-mce-fragment=""1"">use of or reliance on any content displayed on our website.</li>
+</ul>
+<p data-mce-fragment=""1"">In particular, we will not be liable for:</p>
+<ul data-mce-fragment=""1"">
+<li data-mce-fragment=""1"">loss of profits, sales, business, or revenue;</li>
+<li data-mce-fragment=""1"">business interruption;</li>
+<li data-mce-fragment=""1"">loss of anticipated savings;</li>
+<li data-mce-fragment=""1"">loss of business opportunity, goodwill or reputation; or</li>
+<li data-mce-fragment=""1"">any indirect or consequential loss or damage.</li>
+</ul>
+<p data-mce-fragment=""1""><strong data-mce-fragment=""1"">If you are a consumer user:</strong></p>
+<p data-mce-fragment=""1"">Please note that we only provide our website for domestic and private use. You agree not to use our website for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.</p>
+<p data-mce-fragment=""1"">If defective digital content that we have supplied, damages a device or digital content belonging to you and this is caused by our failure to use reasonable care and skill, we will either repair the damage or pay you compensation. However, we will not be liable for damage that you could have avoided by following our advice to apply an update offered to you free of charge or for damage that was caused by you failing to correctly follow installation instructions or to have in place the minimum system requirements advised by us.</p>
+<p data-mce-fragment=""1"">9. VIRUSES</p>
+<p data-mce-fragment=""1"">While we make every effort to ensure the security and safety of our website, we do not guarantee that our website will be completely secure or free from bugs or viruses.</p>
+<p data-mce-fragment=""1"">You are responsible for configuring your information technology, computer programmes and platform to access our site. You should use your own virus protection software.</p>
+<p data-mce-fragment=""1"">You must not misuse our website by knowingly introducing viruses, trojans, worms, logic bombs or other material that is malicious or technologically harmful. You must not attempt to gain unauthorised access to our site, the server on which our site is stored or any server, computer or database connected to our website. You must not attack our site via a denial-of-service attack or a distributed denial-of service attack. We will report any such breach to the relevant law enforcement authorities and we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use our website will cease immediately.</p>
+<p data-mce-fragment=""1"">10. WHICH COUNTRY'S LAWS APPLY TO ANY DISPUTES?</p>
+<p data-mce-fragment=""1"">If you are a EEA consumer, please note that these terms of use, their subject matter and their formation, are governed by English law. You and we both agree that the courts of England and Wales will have exclusive jurisdiction except that if you are a resident of Northern Ireland you may also bring proceedings in Northern Ireland, and if you are resident of Scotland, you may also bring proceedings in Scotland.</p>
+<p data-mce-fragment=""1"">If you are a business, these terms of use, their subject matter and their formation (and any non-contractual disputes or claims) are governed by English law. We both agree to the exclusive jurisdiction of the courts of England and Wales.</p>
+<p data-mce-fragment=""1"">11. GENERAL TERMS</p>
+<p data-mce-fragment=""1"">We do not guarantee continuous, uninterrupted or secure access to our services, and operation of this website may be interfered with by numerous factors outside of our control.</p>
+<p data-mce-fragment=""1"">We may transfer our rights and obligations under these terms to another organisation. We will always tell you in writing if this happens and we will ensure that the transfer will not affect your rights under the contract.</p>
+<p data-mce-fragment=""1"">All notices required or permitted to be given under these Terms of Use will be in writing and delivered to the other party by any of the following methods: (i) hand delivery, (ii) recorder delivery, (iii) overnight courier, or (iv) electronic mail. If you give notice to us, you must use the following address: 1820 Scout Place, Ferndale, Washington 98248 or customercare@superfeet.com. All notices will be deemed received as follows: (i) if by hand delivery, on the date of delivery, (ii) if by delivery by recorded delivery, on the date of receipt appearing on a return receipt card, (iii) if by overnight courier, on the date receipt is confirmed by such courier service, or (iv) if by electronic mail, 24 hours after the message was sent, if no ""system error"" or other notice of non-delivery is generated. Each party agrees that any notice that it receives from the other party electronically satisfies any legal requirement that such communications be in writing.</p>
+<p data-mce-fragment=""1"">Our failure to act with respect to a breach by you or others of these Terms of Use does not waive our right to act with respect to subsequent or similar breaches.</p>
+<p data-mce-fragment=""1"">These Terms of Use set forth the entire understanding and agreement between us and any website user with respect to the website, its uses and services and supersedes all prior and contemporaneous agreements and understandings between us regarding its subject matter.</p>
+<p data-mce-fragment=""1"">THIS DOCUMENT LAST UPDATED: DECEMBER 2019</p>",2024-09-27 14:06:47 -0400,2024-10-14 11:05:03 -0400,true,2024-09-27 09:50:13 -0400,,Terms Of Use,Review the terms of use policy from Superfeet for more information on how we manage site usage. Contact Superfeet to learn more.,,,,,,Conditions d'utilisation,,,,
+100424384649,why-superfeet,MERGE,Why Superfeet,,2024-09-27 14:06:47 -0400,2025-01-03 13:57:39 -0500,true,2024-08-01 07:18:11 -0400,why-superfeet,Why Superfeet?,Learn how the Superfeet team has created the world's most reliable insoles and supports for everyone from athletes to office works. Shop Superfeet today!,,,,,,Pourquoi SuperFeet,,,,
+100424417417,workplace-programs,MERGE,Workplace Programs,,2024-09-27 14:06:47 -0400,2024-10-14 11:05:04 -0400,true,2024-07-30 11:33:59 -0400,,Workplace Programs,Superfeet insoles and supports are an excellent way to care for and protect your workforce. Contact Superfeet today to learn more.,,,,,,Programmes en milieu de travail,,,,
+100835950729,our-giving,MERGE,Our Giving,,2024-10-11 08:45:19 -0400,2024-10-14 11:05:00 -0400,true,2024-10-11 08:45:19 -0400,our-giving,Our Giving - Superfeet Community Support,Superfeet is proud to support and give back to our community and industry. Visit Superfeet today for more information on how we give back.,,,,,,,,,,
+100836016265,sustainability,MERGE,Sustainability,,2024-10-11 08:46:04 -0400,2025-05-05 12:11:47 -0400,true,2024-10-11 08:46:04 -0400,sustainability,Sustainability in Manufacturing,Superfeet is dedicated to sustainability and quality manufacturing practices for our insoles and supports. Visit Superfeet today to learn more.,,,,,,,,,,
+100836049033,careers-1,MERGE,Careers,"<script src=""https://superfeet.hireology.com/javascripts/jobs.js"" type=""text/javascript""></script> <script type=""text/javascript"">// <![CDATA[
+addJobs(""
+https://superfeet.hireology.com/"");
+// ]]></script>",2024-10-11 08:47:15 -0400,2025-06-25 12:18:53 -0400,false,,,Careers & Open Positions,"Find information on new openings and positions with Superfeet, the top suppliers of quality custom insoles and footwear supports. Visit Superfeet today!",,,,,,,,,,
+100836114569,grant-application,MERGE,Grant Application,"<div>
+<h2 dir=""ltr""><span>Superfeet 2025 Local Grant Application Requirements </span></h2>
+<p dir=""ltr""><span>At Superfeet, our commitment to supporting people goes beyond insoles. Every year, we dedicate 1% of sales and countless volunteer hours to organizations shaping a strong foundation for a healthy future. Through our Local Grants Program, we’re honored to support non-profit organizations right here in the Pacific Northwest — the place we’ve proudly called home for over 40 years.  </span></p>
+<p dir=""ltr""><span>Please read through the following information: </span></p>
+<ul>
+<li dir=""ltr"" aria-level=""1""><span>For 2025, Superfeet will be awarding $100,000 in grants, with grants being awarded in $2,500 - $10,000 amounts.</span></li>
+<li dir=""ltr"" aria-level=""1""><span>The Superfeet local grant application period opens Monday, July 21, 2025, and closes Friday, August 8, 2025.</span></li>
+<li dir=""ltr"" aria-level=""1""><span>All grant recipients will be notified of awards by September 1, 2025, with planned payment distributed in the 4th quarter of 2025. </span></li>
+<li dir=""ltr"" aria-level=""1""><span>Applications are reviewed, and grant recipients are selected by a committee made up of Superfeet employees.</span></li>
+<li dir=""ltr"" aria-level=""1""><span>Preference is typically given to organizations making an impact in Washington state. </span></li>
+</ul>
+<p dir=""ltr""><strong>Applicants must be a registered 501(c)3 non-profit organization. We are unable to consider any applications from non-501(c)3 organizations.  </strong></p>
+<p dir=""ltr""><strong>2025 Local Grant Funding Priorities </strong></p>
+<p dir=""ltr""><span>At Superfeet, we believe in investing in the well-being of our communities and the health of our planet. That’s why we offer local grants to nonprofit organizations and community projects that are creating meaningful, lasting impact where we live and work. </span></p>
+<p dir=""ltr""><span>To be considered for a local grant, your organization should align with one or more of the following focus areas: </span></p>
+<ul>
+<li dir=""ltr"" aria-level=""1""><span><strong>Meeting Basic Needs</strong>: We support programs that fulfill essential needs such as food security, access to clean water, physical and mental health care, housing, education, and protection from harm or abuse. </span></li>
+<li dir=""ltr"" aria-level=""1""><span><strong>Securing Outdoor Places for Recreation</strong>: We fund efforts that remove barriers and increase inclusive access to green spaces, nature, and recreational opportunities. This includes building, renovating, or improving outdoor spaces—such as parks, sports fields, turf areas, and community recreation sites—that encourage people of all ages and abilities to get outside, be active, and connect with others.</span></li>
+<li dir=""ltr"" aria-level=""1""><span><strong>Protecting the Planet</strong>: We support projects focused on protecting, preserving, or restoring natural environments and promoting sustainability. This includes the protection and conservation of clean air, water, and wild landscapes.</span></li>
+<li dir=""ltr"" aria-level=""1""><span><strong>Providing Equitable Access to the Outdoors and Recreation</strong>: We seek to empower youth, women, and underserved communities by supporting initiatives that provide equitable access to outdoor recreation and sports. We value programs that foster inclusiveness, promote diversity in the outdoors, and serve traditionally underserved populations. </span></li>
+</ul>
+<p dir=""ltr""><span>This includes sports scholarships that help remove financial barriers for individuals to participate in team or individual sports, encouraging physical activity, confidence, and long-term engagement with outdoor and recreational spaces. </span></p>
+<p dir=""ltr""><span>If your request falls within the scope outlined above, complete the following form and upload any relevant documentation. Please submit all information by Friday, August 8, 2025. </span></p>
+<p dir=""ltr""><span>NOTE: There is no way to save work-in-progress on this grant application form. Please be prepared to submit all information in one sitting (It's a good idea to save your answers in a word doc or text file and just copy and paste!). You should receive a confirmation email within an hour of submitting your form. If you do not, please email giving@superfeet.com to check the status of your application. </span></p>
+<p dir=""ltr""><span>NOTE: Regrettably, requests for help greatly outpace our resources. As a result, we strive to meet the needs of the requests that fall within our giving focus, as outlined above. </span></p>
+<p dir=""ltr""><span>We are unlikely to support the following:</span></p>
+<ul>
+<li aria-level=""1"" dir=""ltr""><span>Animal rescues and/or shelters</span></li>
+<li aria-level=""1"" dir=""ltr""><span>Professional association meetings</span></li>
+<li aria-level=""1"" dir=""ltr""><span>Government agencies or political organizations or causes </span></li>
+</ul>
+<p dir=""ltr""><a href=""https://superfeet.wufoo.com/forms/w2fqo8i1jz0bhx/""><span>Superfeet 2025 Local Grant Application (wufoo.com)</span></a></p>
+</div>
+<div data-content-type=""text"" data-appearance=""default"" data-element=""main"" data-pb-style=""XKL64R5"" class=""mf-initial"" data-was-processed=""true""><br></div>",2024-10-11 08:48:38 -0400,2025-07-18 17:19:27 -0400,true,2024-10-11 08:48:38 -0400,,Superfeet Grant Application,Learn more about Superfeet's online grant application and what Superfeet can do to help support foot health in your workplace or business. Visit Superfeet today!,,,,,,,,,,
+100835983497,the-science-of-superfeet,MERGE,The Science of Superfeet,,2024-10-11 08:45:44 -0400,2025-05-05 16:36:55 -0400,true,2024-10-11 08:45:44 -0400,comfort-science,"Science of Superfeet: Engineered Insoles for Comfort, Support & Performance","Since 1977, Superfeet insoles redefine comfort & support with science-backed innovation, premium materials & eco-friendly design. Shop now & move better!",,,,,product_feature_groups.why-superfeet,,,,,
+100839882889,the-science-inside,MERGE,The Science Inside,,2024-10-11 11:31:45 -0400,2024-10-14 11:05:03 -0400,true,2024-10-11 11:31:45 -0400,,The Science Inside Our Inserts,Learn more about how Superfeet uses science and technology to create the best-possible inserts and supports for your feet. Shop Superfeet today!,,,,,,,,,,
+101138989193,contact-us-rx,MERGE,Contact Us RX,"<script src=""https://www.cognitoforms.com/f/seamless.js"" data-key=""K3b4ikeds02yMFq56JgzAQ"" data-form=""35""></script>",2024-10-21 09:39:37 -0400,2024-12-11 09:26:04 -0500,true,2024-10-21 09:39:37 -0400,,,,,,,true,,,,,,
+101841830025,promotions,MERGE,Promotions,"<div class=""ql-block"" data-block-id=""block-ab3a92ef-5d49-40bb-af25-539ed1ab7dd7"">
+<h4 data-block-id=""block-ab3a92ef-5d49-40bb-af25-539ed1ab7dd7"" class=""ql-block""><strong><em>25% off all insoles</em></strong></h4>
+<em><em>Valid on qualifying purchases made online at <a href=""https://superfeet.ca/"" title=""https://superfeet.ca/"" target=""_blank"">superfeet.ca</a> for CA Consumer orders only. Promotion Period: 05/16/25 at 12:00:01am to 06/5/25 at 11:59:59pm (U.S. ET).  <i>Discounted prices are as marked. Exclusions apply – ME3D Custom Insole items not eligible. </i>Promotion cannot be combined with any other offers or promotions and is valid for in-stock items only (no rain checks). Returns are governed by Superfeet’s Returns and Exchange policy at <a href=""https://superfeet.ca/pages/returns-and-exchanges"" title=""https://superfeet.ca/pages/returns-and-exchanges"" target=""_blank"">www.superfeet.ca/pages/returns-and-exchanges. </a>Promotion not valid on prior purchases and non-transferable. Taxes apply where applicable. Not valid for cash or credit. VOID WHERE PROHIBITED OR RESTRICTED BY LAW.  Superfeet reserves the right to modify or cancel the promotion at any time. </em></em>
+<p class=""ql-block"" data-block-id=""block-ab3a92ef-5d49-40bb-af25-539ed1ab7dd7""> </p>
+<em></em>
+</div>
+<h4 class=""ql-block"" data-block-id=""block-ab3a92ef-5d49-40bb-af25-539ed1ab7dd7""><em><strong>Free Shipping $75+ </strong></em></h4>
+<div class=""ql-block"" data-block-id=""block-ab3a92ef-5d49-40bb-af25-539ed1ab7dd7""><i><span data-olk-copy-source=""MessageBody""><span data-teams=""true"">Orders that total $75 or more before any taxes or fees will receive Free Standard Shipping. Discount will be applied automatically in cart during checkout of online orders at <a aria-label=""Link superfeet.ca"" id=""menur1ei7"" href=""https://superfeet.ca/"" rel=""noreferrer noopener"" class=""fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn"" title=""https://superfeet.ca/"" target=""_blank"">superfeet.ca</a> for CA delivery through 06/5/25. Returns are governed by Superfeet’s Returns and Exchange policy at <a aria-label=""Link www.superfeet.ca/pages/returns-and-exchanges"" id=""menur1eia"" href=""http://www.superfeet.ca/pages/returns-and-exchanges"" rel=""noreferrer noopener"" class=""fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn"" title=""http://www.superfeet.ca/pages/returns-and-exchanges"" target=""_blank"">www.superfeet.ca/pages/returns-and-exchanges</a>. Superfeet reserves the right to modify or cancel the promotion at any time.</span></span></i></div>",2024-11-12 11:21:31 -0500,2025-05-15 23:40:00 -0400,true,2025-05-15 23:39:48 -0400,,Superfeet Promotions and Coupons,,,,,,,,,,,
+105836839049,manufacturing-code-of-conduct,MERGE,Manufacturing Code of Conduct,"<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""1""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">The code of conduct </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">identifies</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> the basic requirements that business partners must meet to do business with </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">.  </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> is committed to promoting fair, safe, and non-discriminatory working environments for the workers producing our products. The Code of Conduct supports our commitment and </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">identifies</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> requirements for doing business with </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">. This Code of Conduct is based on the International Labor Organization principles and internationally accepted fair labor practices. Where industry or </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> standards are higher than required by law, employers will apply the higher standards. </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> encourages </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">an</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> application of continuous improvement</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">.  </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> encourages our business partners to take ownership of their social compliance program to build momentum for positive change in global working conditions. </span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Transparency</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Business partners must provide </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> with open and forthright communication about their business practices. This includes </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">maintaining</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> and providing, upon request, </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">accurate</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> and complete payroll and employee records and full disclosure of locations producing </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> goods. </span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Compliance with Laws and Workplace Regulations</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">Business partners shall </span><span class=""NormalTextRun SCXW32647652 BCX8"">maintain</span><span class=""NormalTextRun SCXW32647652 BCX8""> full compliance with the laws that safeguard </span><span class=""NormalTextRun SCXW32647652 BCX8"">employee’s</span><span class=""NormalTextRun SCXW32647652 BCX8""> rights of their respective countries. All other applicable international, </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"">nation</span><span class=""NormalTextRun SCXW32647652 BCX8""> and local laws rules and regulations shall be met that support workplace rights. </span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Non-Discrimination</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">No person shall be subject to any discrimination in employment, including but not limited to recruitment, hiring, compensation, promotion, discipline, termination or retirement, based on gender, race, religion, age, disability, sexual orientation, nationality, marital status, pregnancy, parental status, political opinion or affiliation, union membership, social group or ethnic origin. </span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Harassment or Abuse</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></strong></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">You must provide a work environment free of sexual and other harassment or abuse. Further, any retaliation against an individual who has complained about sexual or other harassment or abuse, or retaliation against individuals for cooperating with an investigation of a harassment or abuse complaint is similarly unlawful and will not be tolerated. All steps necessary must be taken to prevent and </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">eliminate</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> unlawful harassment and abuse. </span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Child Labor</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></strong></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">No person shall work in the </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8""> supply chain under the age </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"">for</span><span class=""NormalTextRun SCXW32647652 BCX8""> 16 or under the age for completion of compulsory education whichever is higher. All business partners shall </span><span class=""NormalTextRun SCXW32647652 BCX8"">maintain</span><span class=""NormalTextRun SCXW32647652 BCX8""> </span><span class=""NormalTextRun SCXW32647652 BCX8"">an official</span><span class=""NormalTextRun SCXW32647652 BCX8""> documentation allowing for verification of each employee’s date of birth. Business partners must follow all law’s regulations </span><span class=""NormalTextRun SCXW32647652 BCX8"">regarding</span><span class=""NormalTextRun SCXW32647652 BCX8""> the employment </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"">for</span><span class=""NormalTextRun SCXW32647652 BCX8""> young workers. These regulations include but are not limited to types of work, scheduled and labor intensity. </span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Forced Labor</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">There shall be no use of forced labor, including but not limited to prison labor, indentured labor, bonded labor, and other forms of coerced labor.</span><span class=""NormalTextRun SCXW32647652 BCX8""> All work must be voluntary, and workers must be free to </span><span class=""NormalTextRun SCXW32647652 BCX8"">terminate</span><span class=""NormalTextRun SCXW32647652 BCX8""> their employment at any time, without penalty. Business partners shall adopt policies and procedures to ensure there is no human trafficking in the </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"">Superfeet</span><span class=""NormalTextRun SCXW32647652 BCX8""> supply chain.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Health and Safety</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">Business partners will provide a safe, healthy, and hygienic working environment, with systems, policies, and training programs in place to prevent workplace accidents, injuries, and protect the health and well-being of workers. All the same safety and health standards shall be applied to all residential housing that is provided for workers.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Working Hours</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></strong></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Business partners shall </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">comply with</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> all applicable laws and </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">maintain</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> a regular work week of </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">40 hours</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> plus maximum overtime of 12 hours, except under exceptional unforeseen circumstances.</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Business partners shall provide employees with at least 24 consecutive hours of rest in every seven-day </span><span class=""NormalTextRun SpellingErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">period. Employees</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> may refuse overtime without </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">threat</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> of penalty, punishment, or dismissal</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">.  </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">All hours worked must be fully and accurately documented.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Wages and Benefits</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></strong></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">Business partners shall pay employees </span><span class=""NormalTextRun SCXW32647652 BCX8"">in a timely manner</span><span class=""NormalTextRun SCXW32647652 BCX8""> for all work completed and shall pay at least the minimum wage required by law or the prevailing industry wage, whichever is greater. This </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"">wage</span><span class=""NormalTextRun SCXW32647652 BCX8""> defined as a living wage, should always be enough to meet basic needs and to provide some discretionary income. Overtime shall be compensated appropriately according to law.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">Business partners shall pay all legally mandated benefits including holiday, </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"">sick</span><span class=""NormalTextRun SCXW32647652 BCX8""> and annual leave.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">Clear and transparent documentation shall be </span><span class=""NormalTextRun SCXW32647652 BCX8"">maintained</span><span class=""NormalTextRun SCXW32647652 BCX8""> by the employer and provided to the workers for hours worked, rates of pay, and the calculation of legal deductions. No unauthorized or improper deduction from pay may be taken. Deductions from wages as a disciplinary measure shall not be </span><span class=""NormalTextRun SCXW32647652 BCX8"">permitted</span><span class=""NormalTextRun SCXW32647652 BCX8"">. All disciplinary measures should be recorded.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Freedom of Association and Collective Bargaining</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">Business partners </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">shall</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> respect the employees for </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">the freedom</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> of association and collective bargaining. If freedom of association and the right to collective bargaining is restricted by law, employees shall be free to raise any workplace grievances </span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong"">regarding</span><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-charstyle=""Strong""> wages, hours, or other terms or conditions of employment they may have without penalty and ensure effective communication with employees and their representatives.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-parastyle=""heading 2"">Environment</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">Business partners will </span><span class=""NormalTextRun SCXW32647652 BCX8"">comply with</span><span class=""NormalTextRun SCXW32647652 BCX8""> all applicable environmental laws and regulations including air emissions, water emissions and hazardous waste. Business partners </span><span class=""NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW32647652 BCX8"">shall</span><span class=""NormalTextRun SCXW32647652 BCX8""> adopt reliable measures to mitigate negative impacts on human health and the environment.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8"" role=""heading"" aria-level=""2""><strong><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"" data-ccp-parastyle=""heading 2"">Community</span></span></strong><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""134245418"":true,""134245529"":true,""335551550"":6,""335551620"":6,""335559738"":200}'> </span></p>
+</div>
+<div class=""OutlineElement Ltr SCXW32647652 BCX8"">
+<p class=""Paragraph SCXW32647652 BCX8""><span data-contrast=""none"" lang=""EN-US"" class=""TextRun SCXW32647652 BCX8""><span class=""NormalTextRun SCXW32647652 BCX8"">Business partners are encouraged to engage directly or through partnerships in projects that improve the social well-being of employees and their families in the local community.</span></span><span class=""EOP SCXW32647652 BCX8"" data-ccp-props='{""335551550"":6,""335551620"":6}'> </span></p>
+</div>",2025-02-25 08:38:19 -0500,2025-02-25 08:38:51 -0500,true,2025-02-25 08:38:44 -0500,page,Manufacturing Code of Conduct |Superfeet,"The code of conduct identifies the basic requirements that business partners must meet to do business with Superfeet. Superfeet is committed to promoting fair, safe, and non-discriminatory working environments for the workers producing our products. Learn more at Superfeet.com.",,,,,,,,,,
+108730384521,insole-finder,MERGE,Insole Finder,,2025-04-28 14:01:00 -0400,2025-05-06 16:30:54 -0400,true,2025-05-04 11:50:25 -0400,insole-finder-2,,,,,,,,,,,,
+109002293385,new-product-releases,MERGE,New Product Releases,,2025-05-05 09:31:53 -0400,2025-05-07 15:30:24 -0400,true,2025-05-07 15:29:48 -0400,new-product-releases,Coming Soon: Superfeet’s Exclusive Sneak Peek at New Releases,Discover the future of foot support! Sneak peek at new Superfeet insoles — Sport Ultralight for team sports & Run Pacer Elite for running. Coming soon! ,,,,,,,,,,
+106607247497,qr-insoles-guide,MERGE,Welcome to Your Superfeet Insoles,,2025-03-14 05:32:46 -0400,2025-03-14 16:39:41 -0400,true,2025-03-14 06:51:00 -0400,qr-pages,"Welcome & Guide: Superfeet Insoles Trimming, FAQs & Care Tips","Learn to trim, clean, and care for your Superfeet insoles, including all-purpose, casual, hike, hockey, run, and more. Find FAQs and detailed instructions for a perfect fit.",,,faq_group.qr-code-pages-insole-fa-qs,,,,,,,
+106607476873,qr-work-guide,MERGE,QR Work,,2025-03-14 05:34:11 -0400,2025-03-14 16:39:58 -0400,true,2025-03-14 06:51:41 -0400,qr-work,"Welcome & Guide: Superfeet Work Insoles Trimming, FAQs & Care Tips","Discover how to trim, clean, and care for your Superfeet work insoles. Find FAQs and detailed instructions to ensure a perfect fit and long-lasting comfort.",,,faq_group.work-insole-fa-qs,,,,,,,
+113208000649,insole-finder-preview,MERGE,Insole Finder Preview,,2025-08-12 02:58:20 -0400,2025-09-10 08:22:36 -0400,true,2025-08-12 13:17:11 -0400,insole-finder-2,,,,,,,,,,,,aqrqZLlOXXMz1PE
+114606145673,new-size-chart,MERGE,New Size Chart,"<style>
+  /* ===== Superfeet Size Chart (scoped) ===== */
+  .sf-size-chart {
+    --sf-radius: 0px;
+    --sf-border: #e5e7eb;           /* light gray border */
+    --sf-text: #111827;             /* near-black text */
+    --sf-muted: #6b7280;            /* slate */
+    --sf-bg: #ffffff;
+    --sf-sticky-bg: #ffffff;
+    --sf-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+    color: var(--sf-text);
+  }
+
+  .sf-size-chart h2 {
+    margin: 0 0 .25rem;
+    font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+    line-height: 1.2;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+  }
+
+  .sf-size-chart .sf-note {
+    margin: 0 0 .75rem;
+    color: var(--sf-muted);
+    font-size: .95rem;
+  }
+
+  .sf-size-chart .sf-table-wrap {
+    background: var(--sf-bg);
+    border: 1px solid var(--sf-border);
+    border-radius: var(--sf-radius);
+    box-shadow: var(--sf-shadow);
+    overflow: hidden;
+  }
+
+  /* Scroll container (for mobile) */
+  .sf-size-chart .sf-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable both-edges;
+  }
+
+  /* Optional scroll shadows for UX */
+  .sf-size-chart .sf-scroll {
+    background:
+      linear-gradient(to right, rgba(0,0,0,.06), rgba(0,0,0,0)) left/16px 100% no-repeat,
+      linear-gradient(to left, rgba(0,0,0,.06), rgba(0,0,0,0)) right/16px 100% no-repeat;
+    background-attachment: local, local;
+  }
+
+  .sf-size-chart table {
+    width: 100%;
+    min-width: 980px; /* ensures columns stay readable; enables horizontal scroll on small screens */
+    border-collapse: separate;
+    border-spacing: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+/* First column: header + row labels (sticky, centered, wrapping allowed) */
+.sf-size-chart thead th:first-child,
+.sf-size-chart tbody th[scope=""row""] {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: var(--sf-sticky-bg);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  text-align: center;      /* center text like original source */
+  padding: .875rem 1rem;   /* keep comfortable spacing */
+  white-space: normal;     /* allow wrapping if needed */
+  min-width: 9.5rem;       /* ensures room for “Superfeet Size” */
+}
+
+  .sf-size-chart th,
+  .sf-size-chart td {
+    padding: .875rem .75rem;
+    text-align: center;
+    white-space: nowrap;
+    border-right: 1px solid var(--sf-border);
+    border-bottom: 1px solid var(--sf-border);
+  }
+  .sf-size-chart th:last-child,
+  .sf-size-chart td:last-child { border-right: 0; }
+
+  /* First column: row headers (sticky) */
+  .sf-size-chart tbody th[scope=""row""] {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    text-align: center;
+    background: var(--sf-sticky-bg);
+    white-space: normal;
+    min-width: 9.5rem;
+  }
+
+  /* Zebra rows for readability */
+  .sf-size-chart tbody tr:nth-child(odd) td { background: #fafafa; }
+  .sf-size-chart tbody tr:nth-child(odd) th[scope=""row""] { background: #fafafa; }
+
+  /* Tighten spacing on very small screens */
+  @media (max-width: 420px) {
+    .sf-size-chart th, .sf-size-chart td { padding: .75rem .5rem; font-size: .95rem; }
+    .sf-size-chart tbody th[scope=""row""] { min-width: 8.5rem; }
+    .sf-size-chart table {min-width:420px;}
+  }
+
+  @media (max-width: 360px) {
+  .sf-size-chart thead th:first-child,
+  .sf-size-chart tbody th[scope=""row""] {
+    white-space: normal;   /* allow wrap below 360px */
+  }
+}
+  /* Respect dark themes if your shop uses prefers-color-scheme */
+  /*@media (prefers-color-scheme: dark) {
+    .sf-size-chart {
+      --sf-border: #2b2f36;
+      --sf-text: #e5e7eb;
+      --sf-muted: #a1a1aa;
+      --sf-bg: #0b0c10;
+      --sf-sticky-bg: #0b0c10;
+      --sf-shadow: none;
+    }
+    .sf-size-chart tbody tr:nth-child(odd) td,
+    .sf-size-chart tbody tr:nth-child(odd) th[scope=""row""] { background: #0f1116; }
+  }*/
+
+  /* Screen-reader only helper */
+  .sf-size-chart .sr-only {
+    position: absolute !important;
+    height: 1px; width: 1px; overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); white-space: nowrap;
+  }
+</style>
+<div aria-labelledby=""sf-size-chart-title"" role=""region"" class=""sf-size-chart"">
+<p class=""sf-note"">Our insoles are trim-to-fit, so if you are between sizes or unsure, we recommend sizing half a size up.</p>
+<div class=""sf-table-wrap"">
+<div aria-label=""Scrollable size chart"" class=""sf-scroll"" tabindex=""0"">
+<table aria-describedby=""sf-size-chart-title"">
+<caption class=""sr-only"">Superfeet insole size chart by letter size (J–H) with US Men’s, Women’s, Youth, Skates, UK, and Euro conversions.</caption>
+<thead>
+<tr>
+<th style=""text-align: center;"" scope=""col"">Superfeet Size</th>
+<th scope=""col"">J</th>
+<th scope=""col"">A</th>
+<th scope=""col"">B</th>
+<th scope=""col"">C</th>
+<th scope=""col"">D</th>
+<th scope=""col"">E</th>
+<th scope=""col"">F</th>
+<th scope=""col"">G</th>
+<th scope=""col"">H</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope=""row"">Men’s</th>
+<td></td>
+<td></td>
+<td></td>
+<td>5.5 – 7</td>
+<td>7.5 – 9</td>
+<td>9.5 – 11</td>
+<td>11.5 – 13</td>
+<td>13.5 – 15</td>
+<td>15.5 – 17</td>
+</tr>
+<tr>
+<th scope=""row"">Women’s</th>
+<td></td>
+<td></td>
+<td>4.5 – 6</td>
+<td>6.5 – 8</td>
+<td>8.5 – 10</td>
+<td>10.5 – 12</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope=""row"">Youth</th>
+<td>
+<meta charset=""utf-8"">11.5 – 13</td>
+<td>
+<meta charset=""utf-8"">13.5 – 2</td>
+<td>
+<meta charset=""utf-8"">2.5 – 4</td>
+<td>
+<meta charset=""utf-8"">
+<span data-teams=""true"">4.5 - 6</span>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope=""row"">Skates</th>
+<td>Y 12 – 13</td>
+<td>Jr 1 – 2</td>
+<td>Jr 3 – 4</td>
+<td>5 – 6</td>
+<td>7 – 8</td>
+<td>9 – 10</td>
+<td>11 – 12</td>
+<td>13 – 14</td>
+<td></td>
+</tr>
+<tr>
+<th scope=""row"">UK</th>
+<td>11 – 12.5</td>
+<td>13 – 1.5</td>
+<td>2 – 3.5</td>
+<td>4 – 5.5</td>
+<td>6 – 7.5</td>
+<td>8 – 9.5</td>
+<td>10 – 11.5</td>
+<td>12 – 13.5</td>
+<td>14 – 15.5</td>
+</tr>
+<tr>
+<th scope=""row"">Euro</th>
+<td>29 – 31</td>
+<td>32 – 33.5</td>
+<td>34 – 36</td>
+<td>37 – 38.5</td>
+<td>39 – 41</td>
+<td>42 – 44</td>
+<td>45 – 46.5</td>
+<td>47 – 49</td>
+<td>50 – 52</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>",2025-09-12 09:52:29 -0400,2025-09-12 09:57:54 -0400,true,2025-09-12 09:57:38 -0400,page,,,,,,,,,,,,

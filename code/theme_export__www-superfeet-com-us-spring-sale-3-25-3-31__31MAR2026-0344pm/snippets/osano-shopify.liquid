@@ -1,0 +1,27 @@
+<script>
+window.Shopify.loadFeatures([{
+name: 'consent-tracking-api',   
+version: '0.1',
+}], function(error){
+if (!error) {
+  try {
+    window.Osano.cm.ready('shopify');
+  } catch (error) {
+    console.error('Osano must be loaded before initializing the Shopify API.');
+  }
+}
+}); 
+</script>
+
+<style> 
+    .osano-cm-widget {
+      opacity: 0 !important;       /* Makes it invisible */
+      pointer-events: none !important; /* Prevents accidental clicks on the invisible box */
+      width: 1px !important;       /* Shrinks it to prevent layout issues */
+      height: 1px !important;
+      position: absolute !important;
+      bottom: 0 !important;
+      left: 0 !important;
+      z-index: -1 !important;      /* Puts it behind everything else */
+    }
+</style>

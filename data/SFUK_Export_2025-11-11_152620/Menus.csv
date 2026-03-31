@@ -1,0 +1,109 @@
+ID,Handle,Command,Title,Is Default,Top Row,Row #,Menu Item: ID,Menu Item: Title,Menu Item: Command,Menu Item: Resource Type,Menu Item: Resource ID,Menu Item: Resource Handle,Menu Item: Collection Tags,Menu Item: URL,Menu Item: Parent ID,Menu Item: Parent Title,Menu Item: Position
+205570179254,footer,MERGE,Footer,true,true,1,480863223990,Search,MERGE,SEARCH,,,,/search,,,1
+211942768822,customer-account-main-menu,MERGE,Customer account main menu,true,true,2,508846866614,Shop,MERGE,FRONTPAGE,,,,/,,,1
+211942768822,customer-account-main-menu,MERGE,Customer account main menu,true,,3,501882126518,Orders,MERGE,CUSTOMER_ACCOUNT_PAGE,47363489974,orders,,https://shopify.com/65667793078/account/orders,,,2
+212904378550,announcement-bar-menu,MERGE,Announcement Bar Menu,,true,4,491065540790,Shop Insoles,MERGE,COLLECTION,335745581238,all-insoles,,/collections/all-insoles,,,1
+212904378550,announcement-bar-menu,MERGE,Announcement Bar Menu,,,5,491065573558,Healthcare Professionals,MERGE,PAGE,100751900854,healthcare-professionals,,/pages/healthcare-professionals,,,2
+212904542390,footer-about-rx,MERGE,Footer - About RX,,true,6,491066032310,OTC Programs,MERGE,PAGE,100751900854,healthcare-professionals,,/pages/healthcare-professionals,,,1
+212904542390,footer-about-rx,MERGE,Footer - About RX,,,7,491066065078,Contact Us,MERGE,PAGE,101267701942,contact-us-rx,,/pages/contact-us-rx,,,2
+212904607926,footer-for-businesses,MERGE,Footer - For Businesses,,true,8,491066359990,For Healthcare Professionals,MERGE,PAGE,100751900854,healthcare-professionals,,/pages/healthcare-professionals,,,1
+212904607926,footer-for-businesses,MERGE,Footer - For Businesses,,,9,529042014390,Become a Retailer,MERGE,HTTP,,,,https://www.cognitoforms.com/superfeetworldwidellc/ukapplytobearetailpartner,,,2
+212904771766,footer-partners,MERGE,Footer - Partners,,true,10,510360453302,Affiliate Program,MERGE,HTTP,,,,https://account.shareasale.com/shareasale.cfm?merchantID=92793&storeID=1,,,1
+212904771766,footer-partners,MERGE,Footer - Partners,,,11,491066720438,International Distributors,MERGE,PAGE,100751933622,international-distributors,,/pages/international-distributors,,,2
+212904411318,footer-about,MERGE,Footer - About,,true,12,491065606326,Why Superfeet,MERGE,PAGE,100752392374,why-superfeet,,/pages/why-superfeet,,,1
+212904411318,footer-about,MERGE,Footer - About,,,13,491065639094,The Science of Superfeet,MERGE,PAGE,101058445494,the-science-of-superfeet,,/pages/the-science-of-superfeet,,,2
+212904411318,footer-about,MERGE,Footer - About,,,14,491065671862,Sustainability,MERGE,PAGE,101058412726,sustainability,,/pages/sustainability,,,3
+212904411318,footer-about,MERGE,Footer - About,,,15,491065704630,Giving Back,MERGE,PAGE,101058478262,our-giving,,/pages/our-giving,,,4
+212904411318,footer-about,MERGE,Footer - About,,,16,491065737398,Find a Retailer,MERGE,PAGE,100752162998,store-locator,,/pages/store-locator,,,5
+212904411318,footer-about,MERGE,Footer - About,,,17,533019001014,Careers,MERGE,PAGE,100751704246,careers,,/pages/careers,,,6
+212904804534,footer-support,MERGE,Footer - Support,,true,18,491066753206,FAQ,MERGE,PAGE,100751868086,faqs,,/pages/faqs,,,1
+212904804534,footer-support,MERGE,Footer - Support,,,19,491066785974,Return Policy,MERGE,PAGE,100752097462,returns-and-exchanges,,/pages/returns-and-exchanges,,,2
+212904804534,footer-support,MERGE,Footer - Support,,,20,491066818742,Start a Return,MERGE,PAGE,100752097462,returns-and-exchanges,,/pages/returns-and-exchanges,,,3
+212904804534,footer-support,MERGE,Footer - Support,,,21,491066851510,60-Day Guarantee,MERGE,PAGE,100751605942,60-day-guarantee,,/pages/60-day-guarantee,,,4
+212904804534,footer-support,MERGE,Footer - Support,,,22,491066884278,Contact Us,MERGE,PAGE,98932523190,contact,,/pages/contact,,,5
+212904804534,footer-support,MERGE,Footer - Support,,,23,532362625206,Order Tracking,MERGE,HTTP,,,,https://tracking.superfeet.co.uk/,,,6
+212905001142,rx-main-menu,MERGE,RX Main Menu,,true,24,,,,,,,,,,,
+212905132214,rx-main-menu-mobile,MERGE,RX Main Menu - Mobile,,true,25,,,,,,,,,,,
+212905263286,rx-utility-menu-mobile,MERGE,RX Utility Menu- Mobile,,true,26,491068096694,Account,MERGE,PAGE,98932523190,contact,,/pages/contact,,,1
+212905263286,rx-utility-menu-mobile,MERGE,RX Utility Menu- Mobile,,,27,491068129462,Shop Superfeet,MERGE,FRONTPAGE,,,,/,,,2
+212905296054,utility-menu-mobile,MERGE,Utility Menu- Mobile,,true,28,491068162230,Account,MERGE,HTTP,,,,/account,,,1
+212905296054,utility-menu-mobile,MERGE,Utility Menu- Mobile,,,29,491068194998,Help,MERGE,PAGE,100751868086,faqs,,/pages/faqs,,,2
+212905296054,utility-menu-mobile,MERGE,Utility Menu- Mobile,,,30,491068227766,Find a Retailer,MERGE,PAGE,100752162998,store-locator,,/pages/store-locator,,,3
+212905296054,utility-menu-mobile,MERGE,Utility Menu- Mobile,,,31,491068260534,Healthcare Professionals,MERGE,PAGE,100751900854,healthcare-professionals,,/pages/healthcare-professionals,,,4
+212904575158,footer-copyright,MERGE,Footer - Copyright,,true,32,491066130614,Privacy Policy,MERGE,PAGE,100752064694,privacy-policy,,/pages/privacy-policy,,,1
+212904575158,footer-copyright,MERGE,Footer - Copyright,,,33,491066163382,CCPA Privacy Policy,MERGE,PAGE,100751638710,ccpa-privacy-policy,,/pages/ccpa-privacy-policy,,,2
+212904575158,footer-copyright,MERGE,Footer - Copyright,,,34,491066196150,Cookie Policy,MERGE,PAGE,100751802550,cookie-policy,,/pages/cookie-policy,,,3
+212904575158,footer-copyright,MERGE,Footer - Copyright,,,35,491066228918,Accessibility Policy,MERGE,PAGE,100751573174,accessibility-policy,,/pages/accessibility-policy,,,4
+212904575158,footer-copyright,MERGE,Footer - Copyright,,,36,491066261686,Terms of Use,MERGE,PAGE,100752359606,terms-of-use,,/pages/terms-of-use,,,5
+212904575158,footer-copyright,MERGE,Footer - Copyright,,,37,491066294454,Disclaimer of Warranty,MERGE,PAGE,100751737014,disclaimer-of-warranty,,/pages/disclaimer-of-warranty,,,6
+212904575158,footer-copyright,MERGE,Footer - Copyright,,,38,491066327222,UK Shipping Policy,MERGE,PAGE,100752326838,u-k-shipping-policy,,/pages/u-k-shipping-policy,,,7
+212904575158,footer-copyright,MERGE,Footer - Copyright,,,39,522195435702,Manufacturing Code of Conduct,MERGE,PAGE,104438792374,manufacturing-code-of-conduct,,/pages/manufacturing-code-of-conduct,,,8
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,true,40,491067244726,Shop All,MERGE,COLLECTION,335745581238,all-insoles,,/collections/all-insoles,,,1
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,41,539229585590,Bundles,MERGE,COLLECTION,367374008502,bundles,,/collections/bundles,,,2
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,42,491067277494,Best Sellers,MERGE,COLLECTION,335745515702,best-sellers,,/collections/best-sellers,,,3
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,43,491067310262,By Activity,MERGE,CATALOG,,,,/collections/all,,,4
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,44,491127406774,Running,MERGE,COLLECTION,335745646774,running,,/collections/running,491067310262,By Activity,1
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,45,491127439542,Hiking,MERGE,COLLECTION,335745843382,hiking,,/collections/hiking,491067310262,By Activity,2
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,46,491127472310,Walking,MERGE,COLLECTION,335745712310,walking,,/collections/walking,491067310262,By Activity,3
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,47,510367400118,Football & Rugby,MERGE,COLLECTION,335746433206,football-rugby,,/collections/football-rugby,491067310262,By Activity,4
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,48,491127505078,Golf,MERGE,COLLECTION,335746007222,golfing,,/collections/golfing,491067310262,By Activity,5
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,49,491127537846,Ski & Snowboard,MERGE,COLLECTION,335746105526,ski-snowboard,,/collections/ski-snowboard,491067310262,By Activity,6
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,50,491127570614,Hockey & Skates,MERGE,COLLECTION,335745908918,hockey-skates,,/collections/hockey-skates,491067310262,By Activity,7
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,51,491127603382,Fitness & Training,MERGE,COLLECTION,335746465974,fitness-training,,/collections/fitness-training,491067310262,By Activity,8
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,52,491127636150,"Racquet Sports::Badminton, Pickleball, Racquetball, Squash, Tennis",MERGE,COLLECTION,335746171062,racquet-sports,,/collections/racquet-sports,491067310262,By Activity,9
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,53,491127668918,"Court Sports::Basketball, Handball, Volleyball",MERGE,COLLECTION,335746367670,court-sports,,/collections/court-sports,491067310262,By Activity,10
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,54,491067343030,Every Day,MERGE,CATALOG,,,,/collections/all,,,5
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,55,491127898294,All Purpose,MERGE,COLLECTION,335746564278,all-purpose,,/collections/all-purpose,491067343030,Every Day,1
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,56,491127931062,Casual & Dress,MERGE,COLLECTION,335746695350,dress,,/collections/dress,491067343030,Every Day,2
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,57,491127963830,Work,MERGE,COLLECTION,335746728118,work,,/collections/work,491067343030,Every Day,3
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,58,491127996598,"Pain Relief::Plantar Fasciitis, High Arches,  Flat Feet, Metatarsalgia",MERGE,COLLECTION,335746629814,pain-relief,,/collections/pain-relief,491067343030,Every Day,4
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,59,491067375798,Insole Finder,MERGE,PAGE,106100621494,insole-finder,,/pages/insole-finder,,,6
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,60,491067408566,Custom,MERGE,CATALOG,,,,/collections/all,,,7
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,61,491128029366,BLANK,MERGE,FRONTPAGE,,,,/,491067408566,Custom,1
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,62,491067441334,Learn,MERGE,CATALOG,,,,/collections/all,,,8
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,63,491128291510,Why Superfeet,MERGE,PAGE,100752392374,why-superfeet,,/pages/why-superfeet,491067441334,Learn,1
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,64,504045207734,The Science of Superfeet,MERGE,PAGE,101058445494,the-science-of-superfeet,,/pages/the-science-of-superfeet,491067441334,Learn,2
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,65,491128357046,Sustainability,MERGE,PAGE,101058412726,sustainability,,/pages/sustainability,491067441334,Learn,3
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,66,491128324278,Giving Back,MERGE,PAGE,101058478262,our-giving,,/pages/our-giving,491067441334,Learn,4
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,67,528898162870,Upcoming Product Releases,MERGE,PAGE,106263085238,new-product-releases,,/pages/new-product-releases,491067441334,Learn,5
+212904968374,main-menu-mobile,MERGE,Main Menu - Mobile,,,68,491128389814,Blog,MERGE,BLOG,88266014902,news,,/blogs/news,491067441334,Learn,6
+205570146486,main-menu,MERGE,Main menu,true,true,69,491066949814,Shop,MERGE,COLLECTION,335745581238,all-insoles,,/collections/all-insoles,,,1
+205570146486,main-menu,MERGE,Main menu,true,,70,491124195510,BLANK,MERGE,FRONTPAGE,,,,/,491066949814,Shop,1
+205570146486,main-menu,MERGE,Main menu,true,,71,491124457654,Shop All,MERGE,COLLECTION,335745581238,all-insoles,,/collections/all-insoles,491124195510,BLANK,1
+205570146486,main-menu,MERGE,Main menu,true,,72,539229552822,Bundles,MERGE,COLLECTION,367374008502,bundles,,/collections/bundles,491124195510,BLANK,2
+205570146486,main-menu,MERGE,Main menu,true,,73,491124490422,Best Sellers,MERGE,COLLECTION,335745515702,best-sellers,,/collections/best-sellers,491124195510,BLANK,3
+205570146486,main-menu,MERGE,Main menu,true,,74,491124523190,Insole Finder,MERGE,PAGE,106100621494,insole-finder,,/pages/insole-finder,491124195510,BLANK,4
+205570146486,main-menu,MERGE,Main menu,true,,75,491124555958,ME3D: Custom Insole,MERGE,PAGE,100751966390,personalized-fit,,/pages/personalized-fit,491124195510,BLANK,5
+205570146486,main-menu,MERGE,Main menu,true,,76,491125276854,By Activity,MERGE,CATALOG,,,,/collections/all,491066949814,Shop,2
+205570146486,main-menu,MERGE,Main menu,true,,77,491125309622,Running,MERGE,COLLECTION,335745646774,running,,/collections/running,491125276854,By Activity,1
+205570146486,main-menu,MERGE,Main menu,true,,78,491125342390,Hiking,MERGE,COLLECTION,335745843382,hiking,,/collections/hiking,491125276854,By Activity,2
+205570146486,main-menu,MERGE,Main menu,true,,79,491125375158,Walking,MERGE,COLLECTION,335745712310,walking,,/collections/walking,491125276854,By Activity,3
+205570146486,main-menu,MERGE,Main menu,true,,80,491125604534,Football & Rugby,MERGE,COLLECTION,335746433206,football-rugby,,/collections/football-rugby,491125276854,By Activity,4
+205570146486,main-menu,MERGE,Main menu,true,,81,491125407926,Golf,MERGE,COLLECTION,335746007222,golfing,,/collections/golfing,491125276854,By Activity,5
+205570146486,main-menu,MERGE,Main menu,true,,82,491125440694,Ski & Snowboard,MERGE,COLLECTION,335746105526,ski-snowboard,,/collections/ski-snowboard,491125276854,By Activity,6
+205570146486,main-menu,MERGE,Main menu,true,,83,491125473462,Hockey & Skates,MERGE,COLLECTION,335745908918,hockey-skates,,/collections/hockey-skates,491125276854,By Activity,7
+205570146486,main-menu,MERGE,Main menu,true,,84,491125506230,Fitness & Training,MERGE,COLLECTION,335746465974,fitness-training,,/collections/fitness-training,491125276854,By Activity,8
+205570146486,main-menu,MERGE,Main menu,true,,85,491125538998,"Racquet Sports::Badminton, Pickleball, Racquetball, Squash, Tennis",MERGE,COLLECTION,335746171062,racquet-sports,,/collections/racquet-sports,491125276854,By Activity,9
+205570146486,main-menu,MERGE,Main menu,true,,86,491125571766,"Court Sports::Basketball, Handball, Volleyball",MERGE,COLLECTION,335746367670,court-sports,,/collections/court-sports,491125276854,By Activity,10
+205570146486,main-menu,MERGE,Main menu,true,,87,491125670070,Everyday,MERGE,CATALOG,,,,/collections/all,491066949814,Shop,3
+205570146486,main-menu,MERGE,Main menu,true,,88,491125702838,All Purpose,MERGE,COLLECTION,335746564278,all-purpose,,/collections/all-purpose,491125670070,Everyday,1
+205570146486,main-menu,MERGE,Main menu,true,,89,491125735606,Casual & Dress,MERGE,COLLECTION,335746695350,dress,,/collections/dress,491125670070,Everyday,2
+205570146486,main-menu,MERGE,Main menu,true,,90,491125768374,Work,MERGE,COLLECTION,335746728118,work,,/collections/work,491125670070,Everyday,3
+205570146486,main-menu,MERGE,Main menu,true,,91,491125801142,"Pain Relief::Plantar Fasciitis, High Arches,  Flat Feet, Metatarsalgia",MERGE,COLLECTION,335746629814,pain-relief,,/collections/pain-relief,491125670070,Everyday,4
+205570146486,main-menu,MERGE,Main menu,true,,92,491066982582,Insole Finder,MERGE,PAGE,106100621494,insole-finder,,/pages/insole-finder,,,2
+205570146486,main-menu,MERGE,Main menu,true,,93,491067015350,Custom,MERGE,PAGE,100751966390,personalized-fit,,/pages/personalized-fit,,,3
+205570146486,main-menu,MERGE,Main menu,true,,94,491067048118,Learn,MERGE,PAGE,100752392374,why-superfeet,,/pages/why-superfeet,,,4
+205570146486,main-menu,MERGE,Main menu,true,,95,491125866678,BLANK,MERGE,FRONTPAGE,,,,/,491067048118,Learn,1
+205570146486,main-menu,MERGE,Main menu,true,,96,491125899446,Why Superfeet,MERGE,PAGE,100752392374,why-superfeet,,/pages/why-superfeet,491125866678,BLANK,1
+205570146486,main-menu,MERGE,Main menu,true,,97,504045011126,The Science of Superfeet,MERGE,PAGE,101058445494,the-science-of-superfeet,,/pages/the-science-of-superfeet,491125866678,BLANK,2
+205570146486,main-menu,MERGE,Main menu,true,,98,491125964982,Sustainability,MERGE,PAGE,101058412726,sustainability,,/pages/sustainability,491125866678,BLANK,3
+205570146486,main-menu,MERGE,Main menu,true,,99,491125932214,Giving Back,MERGE,PAGE,101058478262,our-giving,,/pages/our-giving,491125866678,BLANK,4
+205570146486,main-menu,MERGE,Main menu,true,,100,528898195638,Upcoming Product Releases,MERGE,PAGE,106263085238,new-product-releases,,/pages/new-product-releases,491125866678,BLANK,5
+205570146486,main-menu,MERGE,Main menu,true,,101,491127111862,Blog,MERGE,BLOG,88266014902,news,,/blogs/news,491067048118,Learn,2
+205570146486,main-menu,MERGE,Main menu,true,,102,491127144630,All Blogs,MERGE,BLOG,88266014902,news,,/blogs/news,491127111862,Blog,1
+205570146486,main-menu,MERGE,Main menu,true,,103,491127177398,Company News,MERGE,HTTP,,,,/blogs/company-news?view=articles&afilter.type=company-news,491127111862,Blog,2
+205570146486,main-menu,MERGE,Main menu,true,,104,491127210166,Foot Health & Podiatry,MERGE,HTTP,,,,/blogs/foot-health-podiatry?view=articles&afilter.type=foot-health-podiatry,491127111862,Blog,3
+205570146486,main-menu,MERGE,Main menu,true,,105,491127275702,Hiking & Outdoor,MERGE,HTTP,,,,/blogs/hiking-outdoor?view=articles&afilter.type=hiking-outdoor,491127111862,Blog,4
+205570146486,main-menu,MERGE,Main menu,true,,106,504155046070,National Parks,MERGE,HTTP,,,,https://blogs/national-parks?view=articles&afilter.type=national-parks,491127111862,Blog,5
+205570146486,main-menu,MERGE,Main menu,true,,107,491127308470,Running,MERGE,HTTP,,,,/blogs/running?view=articles&afilter.type=running,491127111862,Blog,6
+205570146486,main-menu,MERGE,Main menu,true,,108,491127341238,Technology,MERGE,HTTP,,,,/blogs/technology?view=articles&afilter.type=technology,491127111862,Blog,7

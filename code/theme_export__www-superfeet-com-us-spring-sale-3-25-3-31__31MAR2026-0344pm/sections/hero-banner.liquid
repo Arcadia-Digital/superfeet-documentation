@@ -1,0 +1,941 @@
+{% comment %}
+  Reusable hero section supporting 1-up, 2-up, or 3-up layouts via multiple hero_block blocks.
+{% endcomment %}
+{% render 'styleguide' %}
+{{ 'section-hero-banner.css' | asset_url | stylesheet_tag }}
+
+{%- comment -%} Variables {%- endcomment -%}
+{%- assign section_bg = section.settings.section_background_color | default: '#ffffff' -%}
+{%- assign section_bg_mobile = section.settings.section_background_color_mobile | default: section_bg -%}
+{%- assign section_max_width = section.settings.section_max_width | default: '100' | append: '%' -%}
+
+<section id="shopify-section-{{ section.id }}"
+         class="hero-banner-section custom-hero hero-banner--{{ section.blocks.size }} {{ section.settings.extra_classes }}"
+         style="padding-top: {{ section.settings.padding_top | default: 0 | times: 0.1 | round: 2 }}rem;
+                padding-bottom: {{ section.settings.padding_bottom | default: 0 | times: 0.1 | round: 2 }}rem;
+                padding-left: {{ section.settings.padding_left_desktop | default: 0 | times: 0.1 | round: 2 }}rem;
+                padding-right: {{ section.settings.padding_right_desktop | default: 0 | times: 0.1 | round: 2 }}rem;
+                background-color: {{ section_bg }};
+                max-width: {{ section_max_width }}">
+  <div class="hero-banner__inner custom-hero-inner grid-cols-{{ section.blocks.size | at_most: 3 }}">
+    {% for block in section.blocks %}
+      <div class="custom-hero-banner__block">
+        {% render 'hero-block', 
+            block: block, 
+            border_radius_desktop: section.settings.border_radius_desktop, 
+            border_radius_mobile: section.settings.border_radius_mobile %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  #shopify-section-{{ section.id }} .custom-hero-inner {
+    gap: {{ section.settings.block_gap_desktop | default: 0 | times: 0.1 | round: 2 }}rem;
+  }
+
+  @media (max-width: 749px) {
+    .hero-banner--{{ section.blocks.size }} {
+      padding-top: {{ section.settings.padding_top_mobile | default: 0 | times: 0.1 | round: 2 }}rem !important;
+      padding-bottom: {{ section.settings.padding_bottom_mobile | default: 0 | times: 0.1 | round: 2 }}rem !important;
+      padding-left: {{ section.settings.padding_left_mobile | default: 0 | times: 0.1 | round: 2 }}rem !important;
+      padding-right: {{ section.settings.padding_right_mobile | default: 0 | times: 0.1 | round: 2 }}rem !important;
+      background-color: {{ section_bg_mobile }} !important;
+    }
+    #shopify-section-{{ section.id }} .custom-hero-inner {
+      gap: {{ section.settings.block_gap_mobile | default: 0 | times: 0.1 | round: 2 }}rem;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Hero Banner",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "range",
+      "id": "section_max_width",
+      "label": "Max Width(Desktop)",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "type": "header",
+      "content": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "Section background color (desktop)"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color_mobile",
+      "label": "Section background color (mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Desktop Inset Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_left_desktop",
+      "label": "Left padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_right_desktop",
+      "label": "Right padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "block_gap_desktop",
+      "label": "Block gap",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_desktop",
+      "label": "Border radius (desktop)",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Inset Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Top padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Bottom padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_left_mobile",
+      "label": "Left padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_right_mobile",
+      "label": "Right padding",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "block_gap_mobile",
+      "label": "Block gap",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "border_radius_mobile",
+      "label": "Border radius (mobile)",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "hero_block",
+      "name": "Hero Block",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "desktop_large_image",
+          "label": "Desktop Wide image"
+        },
+        {
+          "type": "image_picker",
+          "id": "desktop_image",
+          "label": "Desktop image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile image"
+        },
+        {
+          "type": "url",
+          "id": "background_link",
+          "label": "Background link"
+        },
+        {
+          "type": "checkbox",
+          "id": "disable_image_animation",
+          "label": "Disable image zoom animation on hover",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Video settings"
+        },
+        {
+          "type": "video",
+          "id": "desktop_large_video",
+          "label": "Desktop Wide video"
+        },
+        {
+          "type": "video",
+          "id": "desktop_video",
+          "label": "Desktop video"
+        },
+        {
+          "type": "video",
+          "id": "mobile_video",
+          "label": "Mobile video"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_video",
+          "label": "Use video background in place of image"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_hover_video",
+          "label": "Enable image to video hover effect",
+          "default": false,
+          "info": "When enabled, video will play on hover if both image and video are present"
+        },
+        {
+          "type": "checkbox",
+          "id": "play_pause_button",
+          "label": "Show play/pause button"
+        },
+        {
+          "type": "select",
+          "id": "play_pause_position",
+          "label": "Play/pause button placement (desktop)",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "top_right"
+        },
+        {
+          "type": "select",
+          "id": "play_pause_position_mobile",
+          "label": "Play/pause button placement (mobile)",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "top_right"
+        },
+        {
+          "type": "header",
+          "content": "Layout & background"
+        },
+        {
+          "type": "color",
+          "id": "section_background_color",
+          "label": "Block background color"
+        },
+        {
+          "type": "range",
+          "id": "desktop_max_height",
+          "label": "Desktop frame height (px)",
+          "min": 200,
+          "max": 1200,
+          "default": 600,
+          "step": 10
+        },
+        {
+          "type": "range",
+          "id": "mobile_max_height",
+          "label": "Mobile frame height (px)",
+          "min": 200,
+          "max": 1200,
+          "default": 500,
+          "step": 10
+        },
+        {
+          "type": "header",
+          "content": "Content layout"
+        },
+        {
+          "type": "select",
+          "id": "desktop_content_alignment",
+          "label": "Desktop content alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "mobile_content_alignment",
+          "label": "Mobile content alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "desktop_content_position",
+          "label": "Desktop content position",
+          "options": [
+            {
+              "value": "top-left",
+              "label": "Top left"
+            },
+            {
+              "value": "top-center",
+              "label": "Top center"
+            },
+            {
+              "value": "top-right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle-left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle-center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle-right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom-left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom-center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom-right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "middle-center"
+        },
+        {
+          "type": "select",
+          "id": "mobile_content_position",
+          "label": "Mobile content position",
+          "options": [
+            {
+              "value": "top",
+              "label": "Top"
+            },
+            {
+              "value": "middle",
+              "label": "Middle"
+            },
+            {
+              "value": "bottom",
+              "label": "Bottom"
+            }
+          ],
+          "default": "middle"
+        },
+        {
+          "type": "range",
+          "id": "content_background_opacity",
+          "label": "Content background opacity (%)",
+          "min": 0,
+          "max": 100,
+          "default": 80
+        },
+        {
+          "type": "color",
+          "id": "content_background_color",
+          "label": "Content background color"
+        },
+        {
+          "type": "range",
+          "id": "padding_top_desktop",
+          "label": "Content Padding Top (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom_desktop",
+          "label": "Content Padding Bottom (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_left_desktop",
+          "label": "Content Padding Left (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_right_desktop",
+          "label": "Content Padding Right (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_top_desktop",
+          "label": "Content Margin Top (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom_desktop",
+          "label": "Content Margin Bottom (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "margin_left_desktop",
+          "label": "Content Margin Left (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "margin_right_desktop",
+          "label": "Content Margin Right (desktop px)",
+          "min": 0,
+          "max": 100,
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "content_box_max_width",
+          "label": "Content Box Max Width (desktop %)",
+          "min": 0,
+          "max": 100,
+          "default": 100
+        },
+        {
+          "type": "range",
+          "id": "padding_top_mobile",
+          "label": "Content Padding Top (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom_mobile",
+          "label": "Content Padding Bottom (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_left_mobile",
+          "label": "Content Padding Left (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_right_mobile",
+          "label": "Content Padding Right (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "margin_top_mobile",
+          "label": "Content Margin Top (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 30
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom_mobile",
+          "label": "Content Margin Bottom (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 30
+        },
+        {
+          "type": "range",
+          "id": "margin_left_mobile",
+          "label": "Content Margin Left (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "margin_right_mobile",
+          "label": "Content Margin Right (mobile px)",
+          "min": 0,
+          "max": 100,
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "content_box_max_width_mobile",
+          "label": "Content Box Max Width (mobile %)",
+          "min": 0,
+          "max": 100,
+          "default": 100
+        },
+        {
+          "type": "header",
+          "content": "Eyebrow"
+        },
+        {
+          "type": "text",
+          "id": "eyebrow",
+          "label": "Eyebrow text",
+          "default": "Tis The Season"
+        },
+        {
+          "type": "select",
+          "id": "eyebrow_style",
+          "label": "Eyebrow style (desktop)",
+          "options": [
+            {
+              "value": "uppercase",
+              "label": "Uppercase"
+            },
+            {
+              "value": "normal",
+              "label": "Normal"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "eyebrow_style_mobile",
+          "label": "Eyebrow style (mobile)",
+          "options": [
+            {
+              "value": "uppercase",
+              "label": "Uppercase"
+            },
+            {
+              "value": "normal",
+              "label": "Normal"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "eyebrow_color_desktop",
+          "label": "Eyebrow color (desktop)",
+          "default": "#2D2D2D"
+        },
+        {
+          "type": "color",
+          "id": "eyebrow_color_mobile",
+          "label": "Eyebrow color (mobile)",
+          "default": "#2D2D2D"
+        },
+        {
+          "type": "range",
+          "id": "eyebrow_font_size",
+          "label": "Eyebrow font size (px)",
+          "min": 8,
+          "max": 80,
+          "default": 14
+        },
+        {
+          "type": "range",
+          "id": "eyebrow_font_size_mobile",
+          "label": "Eyebrow font size (mobile px)",
+          "min": 8,
+          "max": 80,
+          "default": 12
+        },
+        {
+          "type": "header",
+          "content": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "THE GIFT OF GOING FURTHER"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "label": "Heading size (desktop)",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            }
+          ],
+          "default": "h1"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Heading Tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "h1"
+            },
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            },
+            {
+              "value": "h5",
+              "label": "h5"
+            },
+            {
+              "value": "h6",
+              "label": "h6"
+            }
+          ],
+          "default": "h2",
+          "info": "Set what element this will be semantically."
+        },
+        {
+          "type": "color",
+          "id": "heading_color_desktop",
+          "label": "Heading color (desktop)",
+          "default": "#2D2D2D"
+        },
+        {
+          "type": "select",
+          "id": "heading_size_mobile",
+          "label": "Heading size (mobile)",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "heading_color_mobile",
+          "label": "Heading color (mobile)",
+          "default": "#2D2D2D"
+        },
+        {
+          "type": "header",
+          "content": "Body text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text content",
+          "default": "<p>Our high-performance team gear is a testament to dedication, precision, and a relentless pursuit of excellence. Outfit your team and gear up for winning.</p>"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Text style (desktop)",
+          "options": [
+            {
+              "value": "body",
+              "label": "Body"
+            },
+            {
+              "value": "subtitle",
+              "label": "Subtitle"
+            }
+          ],
+          "default": "body"
+        },
+        {
+          "type": "select",
+          "id": "text_style_mobile",
+          "label": "Text style (mobile)",
+          "options": [
+            {
+              "value": "body",
+              "label": "Body"
+            },
+            {
+              "value": "subtitle",
+              "label": "Subtitle"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "text_color_desktop",
+          "label": "Text color (desktop)",
+          "default": "#2D2D2D"
+        },
+        {
+          "type": "color",
+          "id": "text_color_mobile",
+          "label": "Text color (mobile)",
+          "default": "#2D2D2D"
+        },
+        {
+          "type": "header",
+          "content": "Button 1 options"
+        },
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "label": "Primary button label",
+          "default": "Shop All"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "Primary button link"
+        },
+        {
+          "type": "text",
+          "id": "button_aria_label_1",
+          "label": "Primary button aria label"
+        },
+        {
+          "type": "select",
+          "id": "button_style_desktop_1",
+          "label": "Primary button style",
+          "options": [
+            {
+              "value": "primary",
+              "label": "Primary"
+            },
+            {
+              "value": "secondary",
+              "label": "Secondary"
+            }
+          ],
+          "default": "primary"
+        },
+        {
+          "type": "color",
+          "id": "button_1_background_color",
+          "label": "Primary button background color",
+          "default": "#2D2D2D"
+        },
+        {
+          "type": "color",
+          "id": "button_1_text_color",
+          "label": "Primary button text color"
+        },
+        {
+          "type": "header",
+          "content": "Button 2 options"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "Secondary button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "Secondary button link"
+        },
+        {
+          "type": "text",
+          "id": "button_aria_label_2",
+          "label": "Secondary button aria label"
+        },
+        {
+          "type": "select",
+          "id": "button_style_desktop_2",
+          "label": "Secondary button style",
+          "options": [
+            {
+              "value": "primary",
+              "label": "Primary"
+            },
+            {
+              "value": "secondary",
+              "label": "Secondary"
+            }
+          ],
+          "default": "secondary"
+        },
+        {
+          "type": "color",
+          "id": "button_2_background_color",
+          "label": "Secondary button background color"
+        },
+        {
+          "type": "color",
+          "id": "button_2_text_color",
+          "label": "Secondary button text color",
+          "default": "#2D2D2D"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner",
+      "blocks": [
+        {
+          "type": "hero_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

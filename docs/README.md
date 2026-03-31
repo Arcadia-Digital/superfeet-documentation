@@ -11,7 +11,8 @@ Markdown sources for the Superfeet platform documentation hub. Root-level `.html
 5. **integrations.md** - Installed apps and integrations
 6. **image-media-specifications.md** - Media specifications
 7. **QUICK_REFERENCE.md** - Quick lookup
-8. **MATRIXIFY_REVIEW_RUNBOOK.md** - Reconciling Matrixify exports with these docs
+8. **MATRIXIFY_REVIEW_RUNBOOK.md** — Reconciling Matrixify exports under `data/`
+9. **DOCUMENTATION_REFRESH_RUNBOOK.md** — Full cycle: theme + Matrixify + hub HTML
 
 ## Theme inventory baseline (US, March 2026)
 

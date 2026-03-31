@@ -169,18 +169,13 @@ recordings/
 # enhanced-toc/
 
 # =============================================================================
-# Client handoff — keep this repo as published documentation + sources only.
-# Large exports, theme code, internal Arcadia materials live locally (not in Git).
+# Client repo: documentation + optional evidence (theme / Matrixify exports).
+# Use code/README.md, data/README.md, and docs/DOCUMENTATION_REFRESH_RUNBOOK.md.
 # =============================================================================
 
-# Theme exports & binaries (zip/tar already covered above)
-code/
-
-# Matrixify / data dumps and conversion workspaces
-data/
 conversion/
 
-# Project artifacts not needed for the documentation site
+# Project artifacts not bundled with the documentation site
 artifacts/
 downloads/
 recordings/
@@ -189,11 +184,8 @@ recordings/
 jira-export-*.*
 accessibility/
 
-# Arcadia agent knowledge pack (Custom GPT / internal AI workflows)
+# Arcadia agent knowledge pack (optional; restore from Arcadia if using Custom GPT)
 agent/
-
-# Internal diffs and working notes (regenerate locally if needed)
-docs/internal_*.md
 
 # Arcadia process, handoff, and retrospective (local copies only)
 handoff-documentation/
@@ -215,6 +207,3 @@ docs/superfeet-general-notes.md
 # Redundant or dev-only site pages (primary docs are non-backup HTML + docs/*.md)
 superfeet-platform-documentation-backup.html
 development-changelog.html
-
-# Maintenance scripts (optional tooling — omitted from client documentation repo)
-scripts/

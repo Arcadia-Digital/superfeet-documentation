@@ -1,0 +1,3 @@
+# Keep theme exports as extracted Shopify folders in Git.
+# Store .zip archives elsewhere or download from Shopify when needed.
+*.zip
