@@ -14,10 +14,10 @@ Superfeet operates a sophisticated multi-region eCommerce platform serving custo
 - **Australia:** superfeet.com.au (Brochure site)
 
 ### Key Metrics
-- **57 Active Products** - Insoles and footcare accessories
-- **38 Collections** - Smart and custom collections
+- **64 Active Products (US)** - Insoles and footcare accessories ([Matrixify Mar 2026](docs/internal_MATRIXIFY_DELTA_US_2026-03-31.md))
+- **44 Collections (US)** - 23 smart + 21 custom ([Matrixify Mar 2026](docs/internal_MATRIXIFY_DELTA_US_2026-03-31.md))
 - **29 Installed Apps** - SearchSpring, Klaviyo, Yotpo, Recharge, and more
-- **150 Blog Posts** - Foot health and product education content
+- **168 Blog Posts (US)** - Foot health and product education content ([Matrixify Mar 2026](docs/internal_MATRIXIFY_DELTA_US_2026-03-31.md))
 - **4,400 URL Redirects** - Preserved from Magento migration
 
 ## Documentation Structure
@@ -31,8 +31,9 @@ Superfeet operates a sophisticated multi-region eCommerce platform serving custo
 - **[Index Page](index.html)** - Navigation hub for all documentation resources
 
 ### Supporting Resources
-- **[Data Exports](data/)** - Complete Matrixify export from US store
-- **[Theme Source Code](code/)** - All three regional theme exports
+- **[Data Exports](data/)** - Matrixify exports including **US forAI Mar 2026** (`EVERYTHING-Export-forAI_2026-03-31_154533`) and older full US/CA/UK baselines
+- **[Theme Source Code](code/)** - Regional theme exports; **latest US review:** [docs/internal_THEME_DELTA_MAR2026.md](docs/internal_THEME_DELTA_MAR2026.md)
+- **[Matrixify review runbook](docs/MATRIXIFY_REVIEW_RUNBOOK.md)** - Steps when the next data dump arrives
 - **[Client Artifacts](artifacts/)** - Project presentations and materials
 - **[Downloads](downloads/)** - Additional resources and process documents
 
@@ -62,7 +63,7 @@ Superfeet operates a sophisticated multi-region eCommerce platform serving custo
 
 ### Content Management
 - Custom CQL Propel theme (v24.3.0)
-- 101+ theme sections for flexible page building
+- 103 theme sections (US March 2026 export) for flexible page building
 - Extensive metafields for product data
 - Multi-language support (50+ languages)
 
@@ -105,4 +106,4 @@ For questions about this documentation or the Superfeet platform:
 
 ---
 
-*Last Updated: October 17, 2025 | Arcadia Digital*
+*Last Updated: March 2026 | Arcadia Digital*

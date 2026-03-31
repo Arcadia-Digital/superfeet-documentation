@@ -1,0 +1,82 @@
+# Tools Manifest for SuperfeetGPT
+# Defines capabilities and tool integrations
+
+client_id: superfeet
+platform: shopify-plus
+theme: cql-propel-v24.3.0
+
+capabilities:
+  - theme-development
+  - metafield-management
+  - integration-setup
+  - troubleshooting
+  - multi-store-management
+  - data-management
+
+shopify_tools:
+  - shopify_cli:
+      description: "Shopify CLI for theme development"
+      commands:
+        - "shopify theme dev --store {store}"
+        - "shopify theme push --unpublished --store {store}"
+        - "shopify theme pull --live --store {store}"
+        - "shopify theme check --store {store}"
+      stores:
+        - superfeetww
+        - superfeet-ca
+        - superfeet-uk
+
+  - shopify_admin:
+      description: "Shopify Admin API access"
+      capabilities:
+        - product_management
+        - metafield_management
+        - collection_management
+        - template_assignment
+        - app_configuration
+
+platform_adapters:
+  - chatgpt:
+      description: "ChatGPT Custom GPT"
+      setup_file: "CUSTOM_GPT_SETUP.md"
+      knowledge_file: "dist/superfeet-knowledge-pack.md"
+
+  - claude:
+      description: "Claude (Anthropic)"
+      knowledge_files: "agent/*.md"
+
+  - gemini:
+      description: "Google Gemini"
+      knowledge_files: "agent/*.md"
+
+  - cursor:
+      description: "Cursor IDE"
+      knowledge_files: "agent/*.md"
+      context_files: "docs/*.md"
+
+integrations:
+  - searchspring:
+      type: theme-integrated
+      configuration: app_dashboard
+      template_requirement: "searchspring suffix"
+
+  - recharge:
+      type: theme-integrated
+      configuration: app_dashboard
+      template_requirements:
+        - "recharge-bundle suffix"
+        - "subscription suffix"
+
+  - yotpo:
+      type: theme-integrated
+      configuration: app_dashboard
+      auto_sync: true
+
+  - matrixify:
+      type: backend-only
+      purpose: bulk_data_management
+      capabilities:
+        - product_export
+        - product_import
+        - metafield_bulk_update
+        - theme_export_import

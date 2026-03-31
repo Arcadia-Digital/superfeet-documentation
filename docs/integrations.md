@@ -524,6 +524,6 @@ Some apps require you to assign specific templates to products or collections fo
 
 ---
 
-*Last Updated: Based on theme exports from November 2025*  
+*Last Updated: March 2026 (theme export context; verify app versions in Admin)*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

@@ -261,6 +261,8 @@ Feature diagram data for product displays.
 
 **Important:** Always backup before bulk changes!
 
+**US export presets (March 2026):** The repo includes Matrixify folder `data/EVERYTHING-Export-forAI_2026-03-31_154533` for **superfeetww**. It uses a lighter column preset than the Oct 2025 full export: fewer inventory/category columns, and additional Shopify standard product metafields (e.g. `Metafield: shopify.color-pattern [list.metaobject_reference]`, `shopify.shoe-size`, `shopify.target-gender`), plus `Metafield: avalara.taxcode`, `Metafield: custom.personalized_option_media`, and `Variant Metafield: custom.material`. Full delta: [internal_MATRIXIFY_DELTA_US_2026-03-31.md](./internal_MATRIXIFY_DELTA_US_2026-03-31.md).
+
 ### Metafield Updates
 
 **Via Shopify Admin:**
@@ -367,9 +369,11 @@ Feature diagram data for product displays.
 - **Theme Architecture:** [theme-architecture.md](./theme-architecture.md)
 - **Technical User Guide:** [technical-user-guide.md](./technical-user-guide.md)
 - **Shopify Metafields:** https://help.shopify.com/en/manual/metafields
+- **Matrixify export review:** [MATRIXIFY_REVIEW_RUNBOOK.md](./MATRIXIFY_REVIEW_RUNBOOK.md) — compare new dumps to baselines in `data/`
+- **Latest US diff (Matrixify):** [internal_MATRIXIFY_DELTA_US_2026-03-31.md](./internal_MATRIXIFY_DELTA_US_2026-03-31.md)
 
 ---
 
-*Last Updated: Based on data exports from October 2025*  
+*Last Updated: March 2026. US catalog and metafield export columns aligned to `EVERYTHING-Export-forAI_2026-03-31_154533`.*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

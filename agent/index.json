@@ -1,0 +1,220 @@
+{
+  "theme": {
+    "layout": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "layout-system",
+      "description": "Main theme layout structure"
+    },
+    "header": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "layout-system",
+      "description": "Header system and navigation"
+    },
+    "footer": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "layout-system",
+      "description": "Footer system"
+    },
+    "sections": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "section-architecture",
+      "description": "Section architecture and structure"
+    },
+    "snippets": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "snippet-system",
+      "description": "Snippet system and reusable components"
+    },
+    "templates": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "template-system",
+      "description": "Template system and page structure"
+    },
+    "assets": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "asset-architecture",
+      "description": "CSS and JavaScript architecture"
+    },
+    "insole-finder": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "custom-features",
+      "description": "Insole Finder quiz custom layout"
+    },
+    "multi-region": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "multi-region-architecture",
+      "description": "Multi-region architecture and build system"
+    }
+  },
+  "data": {
+    "cql-namespace": {
+      "source": "docs/data-guide.md",
+      "section": "product-metafields",
+      "namespace": "cql",
+      "type": "metafield",
+      "description": "CQL namespace product metafields"
+    },
+    "custom-namespace": {
+      "source": "docs/data-guide.md",
+      "section": "product-metafields",
+      "namespace": "custom",
+      "type": "metafield",
+      "description": "Custom namespace metafields"
+    },
+    "seo-namespace": {
+      "source": "docs/data-guide.md",
+      "section": "product-metafields",
+      "namespace": "seo",
+      "type": "metafield",
+      "description": "SEO metafields"
+    },
+    "yotpo-namespace": {
+      "source": "docs/data-guide.md",
+      "section": "product-metafields",
+      "namespace": "yotpo",
+      "type": "metafield",
+      "description": "Yotpo review metafields (auto-generated)"
+    },
+    "faq-groups": {
+      "source": "docs/data-guide.md",
+      "section": "metaobjects",
+      "namespace": "cql",
+      "type": "metaobject",
+      "description": "FAQ group metaobjects"
+    },
+    "arch-height-icons": {
+      "source": "docs/data-guide.md",
+      "section": "metaobjects",
+      "namespace": "cql",
+      "type": "metaobject",
+      "description": "Arch height icon metaobjects"
+    },
+    "thickness-icons": {
+      "source": "docs/data-guide.md",
+      "section": "metaobjects",
+      "namespace": "cql",
+      "type": "metaobject",
+      "description": "Thickness icon metaobjects"
+    },
+    "cushion-icons": {
+      "source": "docs/data-guide.md",
+      "section": "metaobjects",
+      "namespace": "cql",
+      "type": "metaobject",
+      "description": "Cushion icon metaobjects"
+    },
+    "feature-diagrams": {
+      "source": "docs/data-guide.md",
+      "section": "metaobjects",
+      "namespace": "custom",
+      "type": "metaobject",
+      "description": "Feature diagram metaobjects"
+    }
+  },
+  "integrations": {
+    "searchspring": {
+      "source": "docs/integrations.md",
+      "section": "major-apps-youll-use-daily",
+      "type": "theme-integrated",
+      "themeFiles": [
+        "assets/searchspring.bundle.js",
+        "templates/collection.searchspring.json"
+      ],
+      "description": "SearchSpring enhanced search and filtering"
+    },
+    "recharge": {
+      "source": "docs/integrations.md",
+      "section": "major-apps-youll-use-daily",
+      "type": "theme-integrated",
+      "themeFiles": [
+        "templates/product.recharge-bundle.json",
+        "templates/product.subscription.json"
+      ],
+      "description": "Recharge bundles and subscriptions"
+    },
+    "yotpo": {
+      "source": "docs/integrations.md",
+      "section": "major-apps-youll-use-daily",
+      "type": "theme-integrated",
+      "themeFiles": [
+        "templates/product.json"
+      ],
+      "description": "Yotpo product reviews"
+    },
+    "insole-finder": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "custom-features",
+      "type": "theme-integrated",
+      "themeFiles": [
+        "layout/theme.insole-finder.liquid"
+      ],
+      "description": "Insole Finder quiz custom app"
+    },
+    "elevar": {
+      "source": "docs/integrations.md",
+      "section": "apps-without-theme-integration",
+      "type": "backend-only",
+      "description": "Elevar conversion tracking"
+    },
+    "klaviyo": {
+      "source": "docs/integrations.md",
+      "section": "apps-without-theme-integration",
+      "type": "backend-only",
+      "description": "Klaviyo email and SMS marketing"
+    },
+    "osano": {
+      "source": "docs/integrations.md",
+      "section": "apps-without-theme-integration",
+      "type": "backend-only",
+      "description": "Osano cookie consent"
+    },
+    "matrixify": {
+      "source": "docs/integrations.md",
+      "section": "apps-without-theme-integration",
+      "type": "backend-only",
+      "description": "Matrixify bulk data import/export"
+    }
+  },
+  "concepts": {
+    "multi-region-architecture": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "multi-region-architecture",
+      "description": "Multi-region store architecture and synchronization"
+    },
+    "build-system": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "multi-region-architecture",
+      "description": "Build system for generating store-specific themes"
+    },
+    "template-suffix": {
+      "source": "docs/technical-user-guide-v2.md",
+      "section": "template-system",
+      "description": "Template suffix system for app integration"
+    },
+    "metafield-access": {
+      "source": "docs/data-guide.md",
+      "section": "data-access-patterns",
+      "description": "How to access metafields in Liquid templates"
+    },
+    "development-workflow": {
+      "source": "docs/technical-user-guide-v2.md",
+      "section": "theme-development-workflow",
+      "description": "Development workflow and best practices"
+    },
+    "section-development": {
+      "source": "docs/technical-user-guide-v2.md",
+      "section": "section-development",
+      "description": "How to develop and modify sections"
+    },
+    "snippet-development": {
+      "source": "docs/technical-user-guide-v2.md",
+      "section": "snippet-development",
+      "description": "How to develop and modify snippets"
+    },
+    "uk-markets": {
+      "source": "docs/theme-architecture-v2.md",
+      "section": "regional-theme-differences",
+      "description": "UK store markets architecture (UK/EU/AU)"
+    }
+  }
+}

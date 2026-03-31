@@ -33,10 +33,10 @@ theme-root/
 │   └── theme.insole-finder.liquid  # Insole Finder custom layout
 ├── locales/          # Translation files (52 languages)
 │   └── *.json
-├── sections/          # Page sections (101+ files)
+├── sections/          # Page sections (103 in US Mar 2026 export)
 │   ├── *.liquid       # Section Liquid files
 │   └── *.json         # Section JSON configuration
-├── snippets/          # Reusable components (143+ files)
+├── snippets/          # Reusable components (144 in US Mar 2026 export)
 │   └── *.liquid
 └── templates/         # Page templates
     ├── *.liquid       # Liquid templates
@@ -47,11 +47,11 @@ theme-root/
 
 | Store                 | Sections | Snippets | Templates |
 | --------------------- | -------- | -------- | --------- |
-| US (superfeetww)      | 101      | 143      | 123       |
-| Canada (superfeet-ca) | 101      | 143      | 82        |
-| UK (superfeet-uk)     | 101      | 143      | 90        |
+| US (superfeetww)      | 103      | 144      | 135       |
+| Canada (superfeet-ca) | 101      | 143      | 75        |
+| UK (superfeet-uk)     | 101      | 143      | 84        |
 
-**Note:** Template counts differ between stores due to store-specific template assignments and configurations. US store template count updated November 2025.
+**Note:** US counts from March 2026 export; CA/UK template counts from theme folders in `code/` (Oct 2025 exports). See [internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md).
 
 ---
 
@@ -71,8 +71,8 @@ Superfeet uses **independent Shopify stores** for each region rather than a sing
 
 **Common Elements:**
 - Same base theme (CQL Propel v24.3.0)
-- Same section and snippet structure
-- Same layout files
+- Shared Propel patterns; US Mar 2026 export in `code/` is ahead of older CA/UK folders here until those themes are re-exported
+- Layout files follow the same structure across stores (verify when merging changes)
 
 **Regional Variations:**
 - Template assignments differ per store
@@ -136,7 +136,7 @@ The main theme layout (`layout/theme.liquid`) provides the base structure for al
 
 Sections are the building blocks of Shopify themes. They can be added, removed, and reordered in the Theme Customizer.
 
-**Total Sections:** 101+ per store
+**Total Sections:** 103 in US Mar 2026 export; re-export other regions to confirm.
 
 **Section Categories:**
 
@@ -462,17 +462,17 @@ Templates are assigned in Shopify Admin:
 ## Regional Theme Differences
 
 ### US Store (superfeetww)
-- 126 templates (most comprehensive)
+- 135 JSON templates (March 2026 export)
 - Full feature set
 - All integrations active
 
 ### Canada Store (superfeet-ca)
-- 82 templates
+- 75 templates (`code/superfeet-ca-theme`, Oct 2025 export in repo)
 - Bilingual support (English/French)
 - Regional pricing and shipping
 
 ### UK Store (superfeet-uk)
-- 90 templates
+- 84 templates (`code/superfeet-uk-theme`, Oct 2025 export in repo)
 - UK/EU/AU customer focus
 - Regional pricing and shipping
 

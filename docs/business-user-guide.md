@@ -740,25 +740,25 @@ EU and AU are **markets within the same store**, not separate stores. This means
 
 ### Store-Specific Data Differences
 
-**Product Counts (as of November 2025):**
-- **US:** 57 products
+**Product Counts (US Mar 2026 Matrixify; CA/UK from prior regional exports unless noted):**
+- **US:** 64 products (Matrixify `EVERYTHING-Export-forAI_2026-03-31_154533`)
 - **Canada:** 45 products
-- **UK:** 57 products
+- **UK:** 57 products (last from regional export in repo—not refreshed with Mar 2026 US run)
 
 **Collection Counts:**
-- **US:** 38 collections (18 smart, 20 custom)
+- **US:** 44 collections (23 smart, 21 custom)
 - **Canada:** 32 collections (20 smart, 12 custom)
 - **UK:** 32 collections (21 smart, 11 custom)
 
 **Content Counts:**
-- **US:** 63 pages, 150 blog posts, 259 metaobjects
+- **US:** 67 pages, 168 blog posts, 277 metaobjects
 - **Canada:** 45 pages, 142 blog posts, 247 metaobjects
 - **UK:** 44 pages, 139 blog posts, 236 metaobjects
 
 **Template Counts:**
-- **US:** 123 templates
-- **Canada:** 82 templates
-- **UK:** 90 templates
+- **US:** 135 templates (March 2026 US theme export)
+- **Canada:** 75 templates (`code/superfeet-ca-theme`, Oct 2025 export in repo)
+- **UK:** 84 templates (`code/superfeet-uk-theme`, Oct 2025 export in repo)
 
 **Note:** Template counts differ due to store-specific template assignments and regional customizations. Product, collection, and content counts reflect regional inventory and content strategies.
 
@@ -786,18 +786,18 @@ EU and AU are **markets within the same store**, not separate stores. This means
 - Bilingual support (English/French)
 - CAD currency
 - Canadian tax and shipping rules
-- Fewer products (45 vs 57 in US/UK)
+- Fewer products (45 vs 64 in US; UK count not refreshed Mar 2026)
 
 **UK Store:**
 - Serves UK, EU, and Australia markets
 - Multi-currency support (GBP, EUR, AUD)
 - Regional shipping and tax compliance
-- Similar product count to US store (57 products)
+- Similar product count to US store historically (verify; US 64 as of Mar 2026 Matrixify)
 
 **US Store:**
 - Primary transactional store
-- Largest content library (150 blog posts, 63 pages)
-- Most templates (123 templates)
+- Largest content library (168 blog posts, 67 pages in US Mar 2026 export)
+- Most templates (135 templates in US export)
 - USD currency
 
 ---
@@ -1051,5 +1051,5 @@ The UK store has market context files for several templates:
 
 ---
 
-*Last Updated: Based on theme exports from November 2025*  
+*Last Updated: Theme structure March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*

@@ -22,14 +22,14 @@ Quick lookup tables and common tasks for fast reference.
 
 ## Platform Metrics
 
-- **57 Active Products**
-- **38 Collections** (Smart and Custom)
+- **64 Active Products (US, Mar 2026 Matrixify)**
+- **44 Collections (US)** — 23 smart, 21 custom
 - **29 Installed Apps**
-- **150 Blog Posts**
+- **168 Blog Posts (US)**
 - **4,400 URL Redirects** (from Magento migration)
-- **101+ Theme Sections**
-- **143+ Theme Snippets**
-- **123 Templates** (US store, November 2025)
+- **103 Theme Sections** (US Mar 2026 export)
+- **144 Theme Snippets**
+- **135 Templates** (US store, all `templates/**/*.json`, March 2026)
 
 ---
 
@@ -270,6 +270,6 @@ shopify theme pull --live --store superfeetww
 
 ---
 
-*Last Updated: November 2025*  
+*Last Updated: March 2026 (US theme export)*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

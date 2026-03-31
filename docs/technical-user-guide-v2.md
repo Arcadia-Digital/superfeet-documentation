@@ -247,9 +247,9 @@ shopify theme push --live --store superfeetww
 See [Theme Architecture Documentation](./theme-architecture.md) for complete structure.
 
 **Key Directories:**
-- `sections/` - Page building blocks (101+ files)
-- `snippets/` - Reusable components (143+ files)
-- `templates/` - Page templates (123+ files in US store)
+- `sections/` - Page building blocks (103 files in US Mar 2026 export)
+- `snippets/` - Reusable components (144 files in US Mar 2026 export)
+- `templates/` - Page templates (135 JSON files in US store, recursive under `templates/`)
 - `assets/` - CSS, JavaScript, images, fonts
 - `config/` - Theme settings
 - `layout/` - Base layouts
@@ -1485,7 +1485,7 @@ The section checks for feature diagram metafields on the current template object
 4. **Test on each store** after deployment
 
 **Why US First?**
-- US store has most comprehensive template set (123 templates)
+- US store has most comprehensive template set (135 templates, Mar 2026 export)
 - Most features are developed/tested on US first
 - US store is primary reference for other stores
 
@@ -1551,7 +1551,7 @@ shopify theme push --store superfeet-uk
 - Store-specific branding may differ
 
 **Template Differences:**
-- **US Store:** 123 templates (most comprehensive)
+- **US Store:** 135 templates (most comprehensive, Mar 2026 export)
 - **Canada Store:** 82 templates
 - **UK Store:** 90 templates
 - Store-specific template assignments
@@ -2593,6 +2593,6 @@ shopify theme info --store superfeetww
 
 ---
 
-*Last Updated: Based on theme exports from November 2025*  
+*Last Updated: Based on US theme export March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

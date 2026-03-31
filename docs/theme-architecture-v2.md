@@ -40,14 +40,14 @@ Superfeet operates a multi-region eCommerce platform using the **CQL Propel Them
 
 ### Key Platform Metrics
 
-- **57 Active Products** - Insoles and footcare accessories
-- **38 Collections** - Smart and custom collections
+- **64 Active Products (US)** - Insoles and footcare accessories (Matrixify Mar 2026)
+- **44 Collections (US)** - 23 smart + 21 custom (Matrixify Mar 2026)
 - **29 Installed Apps** - SearchSpring, Klaviyo, Yotpo, Recharge, and more
-- **150 Blog Posts** - Foot health and product education content
+- **168 Blog Posts (US)** - Foot health and product education content (Matrixify Mar 2026)
 - **4,400 URL Redirects** - Preserved from Magento migration
-- **101+ Theme Sections** - Flexible page building blocks
-- **143+ Theme Snippets** - Reusable components
-- **123 Templates** - US store (November 2025)
+- **103 Theme Sections** - Flexible page building blocks (US export, March 2026)
+- **144 Theme Snippets** - Reusable components
+- **135 Templates** - US store (March 2026; all `templates/**/*.json`)
 
 ### Architecture Principles
 
@@ -181,10 +181,10 @@ theme-root/
 │   └── theme.insole-finder.liquid  # Insole Finder custom layout
 ├── locales/          # Translation files (52 languages)
 │   └── *.json        # Language-specific translations
-├── sections/          # Page sections (101+ files)
+├── sections/          # Page sections (103 in US Mar 2026 export)
 │   ├── *.liquid       # Section Liquid files (markup and logic)
 │   └── *.json         # Section JSON configuration (for section groups)
-├── snippets/          # Reusable components (143+ files)
+├── snippets/          # Reusable components (144 in US Mar 2026 export)
 │   └── *.liquid       # Snippet files (reusable markup)
 └── templates/         # Page templates
     ├── *.liquid       # Liquid templates (legacy, rarely used)
@@ -193,13 +193,13 @@ theme-root/
 
 ### File Counts by Store
 
-| Store                 | Sections | Snippets | Templates | Notes                           |
-| --------------------- | -------- | -------- | --------- | ------------------------------- |
-| US (superfeetww)      | 101      | 143      | 123       | Most comprehensive, reference   |
-| Canada (superfeet-ca) | 101      | 143      | 82        | Bilingual support               |
-| UK (superfeet-uk)     | 101      | 143      | 90        | Markets for UK/EU/AU            |
+| Store                 | Sections | Snippets | Templates | Notes                         |
+| --------------------- | -------- | -------- | --------- | ----------------------------- |
+| US (superfeetww)      | 103      | 144      | 135       | US theme export Mar 31, 2026 (reference) |
+| Canada (superfeet-ca) | 101      | 143      | 75        | Folder `code/superfeet-ca-theme` (Oct 2025 export in repo) |
+| UK (superfeet-uk)     | 101      | 143      | 84        | Folder `code/superfeet-uk-theme` (Oct 2025 export in repo) |
 
-**Note:** Template counts differ between stores due to store-specific template assignments and configurations. US store template count updated November 2025.
+**Note:** Template totals are recursive `templates/**/*.json`. US counts follow [internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md). CA/UK folders in this repo predate the Mar 2026 US refresh—re-export regional themes to confirm parity.
 
 ### File Naming Conventions
 
@@ -235,10 +235,10 @@ Superfeet uses **independent Shopify stores** for each region rather than a sing
 - **Separate Admin Access:** Different logins and permissions
 - **Independent Scaling:** Each store can scale separately
 
-| Store  | Handle         | Domain          | Purpose        | Transactional | Markets                    |
-| ------ | -------------- | --------------- | -------------- | ------------- | -------------------------- |
-| US     | `superfeetww`  | superfeet.com   | Primary        | Yes           | US only                    |
-| Canada | `superfeet-ca` | superfeet.ca    | English/French | Yes           | Canada (EN/FR)              |
+| Store  | Handle         | Domain          | Purpose        | Transactional | Markets                              |
+| ------ | -------------- | --------------- | -------------- | ------------- | ------------------------------------ |
+| US     | `superfeetww`  | superfeet.com   | Primary        | Yes           | US only                              |
+| Canada | `superfeet-ca` | superfeet.ca    | English/French | Yes           | Canada (EN/FR)                       |
 | UK     | `superfeet-uk` | superfeet.co.uk | UK/EU/AU       | Yes           | UK (transactional), EU/AU (brochure) |
 
 ### Theme Synchronization Strategy
@@ -461,7 +461,7 @@ The main theme layout (`layout/theme.liquid`) provides the base structure for al
 
 Sections are the building blocks of Shopify themes. They can be added, removed, and reordered in the Theme Customizer.
 
-**Total Sections:** 101+ per store
+**Total Sections:** 103 in the Mar 2026 US export; regional theme folders in repo may lag until the next export.
 
 ### Section Categories
 
@@ -1453,23 +1453,23 @@ window.Resources.colorMap
 ### US Store (superfeetww)
 
 **Characteristics:**
-- 123 templates (most comprehensive)
+- 135 templates (most comprehensive)
 - Full feature set
 - All integrations active
 - Primary development store
 - Reference for other stores
 
-**Template Count:** 123 (November 2025)
+**Template Count:** 135 (March 2026 US export)
 
 ### Canada Store (superfeet-ca)
 
 **Characteristics:**
-- 82 templates
+- 75 templates (recursive JSON in `code/superfeet-ca-theme`, Oct 2025 export in repo)
 - Bilingual support (English/French)
 - Regional pricing and shipping
 - CA-specific customizations
 
-**Template Count:** 82
+**Template Count:** 75 (re-export to confirm current)
 
 **Language Support:**
 - English (primary)
@@ -1479,12 +1479,12 @@ window.Resources.colorMap
 ### UK Store (superfeet-uk)
 
 **Characteristics:**
-- 90 templates
+- 84 templates (recursive JSON in `code/superfeet-uk-theme`, Oct 2025 export in repo)
 - UK/EU/AU customer focus
 - Regional pricing and shipping
 - Market context files for EU/AU
 
-**Template Count:** 90
+**Template Count:** 84 (re-export to confirm current)
 
 **Market Support:**
 - UK Market: Transactional
@@ -1495,12 +1495,12 @@ window.Resources.colorMap
 
 **Common:**
 - Same base theme (CQL Propel v24.3.0)
-- Same sections (101) and snippets (143)
 - Same layout files
 - Same core functionality
 
 **Different:**
-- Template counts vary (123 vs 82 vs 90)
+- Section counts: US Mar 2026 export has 103 sections / 144 snippets vs 101 / 143 in older regional exports in this repo until themes are synced.
+- Template counts vary by store (US 135 vs CA 75 vs UK 84 in current repo folders—see table above)
 - Settings configurations differ
 - Language/localization settings
 - Store-specific customizations
@@ -1625,6 +1625,6 @@ window.Resources.colorMap
 
 ---
 
-*Last Updated: Based on theme exports from November 2025*  
+*Last Updated: Based on US theme export March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

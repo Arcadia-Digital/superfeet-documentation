@@ -569,6 +569,6 @@ Theme generates multiple sizes:
 
 ---
 
-*Last Updated: Based on theme exports from November 2025*  
+*Last Updated: March 2026. Theme geometry: verify against latest sections in US export ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

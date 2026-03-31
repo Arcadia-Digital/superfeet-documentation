@@ -47,9 +47,9 @@ All documentation files are located in the `docs/` directory:
 ## Theme Code Source
 
 **US Store Documentation:** Built using theme code from:
-- `code/superfeetww-theme-NOV2025/` (November 2025 theme package)
+- `code/theme_export__www-superfeet-com-us-spring-sale-3-25-3-31__31MAR2026-0344pm/` (March 31, 2026 US theme export)
 
-**Note:** Template count updated to 123 (from 120) based on new theme package.
+**Note:** Inventory diff vs November 2025 baseline: [internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md). US store: **135** JSON templates, **103** sections, **144** snippets (recursive counts).
 
 ---
 
@@ -75,5 +75,5 @@ All documentation files are located in the `docs/` directory:
 ---
 
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*  
-*Last Updated: November 2025*
+*Last Updated: March 2026*
 

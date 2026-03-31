@@ -1,0 +1,113 @@
+# Evaluation Questions for SuperfeetGPT
+# Test questions covering all capability areas
+
+questions:
+  - category: theme-architecture
+    question: "How does the Superfeet theme layout system work? What is the main layout file and how does it load sections?"
+    expected_sources:
+      - "docs/theme-architecture-v2.md - Layout System"
+      - "agent/20-theme-map.md"
+    expected_answer_elements:
+      - "layout/theme.liquid as main layout"
+      - "Header and footer groups"
+      - "Microsite detection"
+      - "Section loading mechanism"
+
+  - category: data-model
+    question: "What metafields are available for products in the cql namespace? How do I access them in Liquid templates?"
+    expected_sources:
+      - "docs/data-guide.md - Product Metafields"
+      - "agent/30-data-model.md"
+    expected_answer_elements:
+      - "cql.* namespace metafields"
+      - "Liquid access pattern: product.metafields.cql.*"
+      - "Common metafields like arch_height, product_gender, badge"
+
+  - category: integrations
+    question: "How do I set up SearchSpring on a collection? What template suffix do I need to use?"
+    expected_sources:
+      - "docs/integrations.md - SearchSpring"
+      - "agent/40-integrations-map.md"
+    expected_answer_elements:
+      - "searchspring template suffix"
+      - "Collection template assignment"
+      - "SearchSpring dashboard configuration"
+      - "Store-specific SearchSpring instances"
+
+  - category: multi-region
+    question: "How does the multi-region architecture work? What are the differences between US, Canada, and UK stores?"
+    expected_sources:
+      - "docs/theme-architecture-v2.md - Multi-Region Architecture"
+      - "agent/10-client-overview.md"
+    expected_answer_elements:
+      - "Three independent stores"
+      - "Build system for synchronization"
+      - "Store-specific configurations"
+      - "UK markets architecture (UK/EU/AU)"
+
+  - category: troubleshooting
+    question: "SearchSpring isn't working on a collection. What should I check?"
+    expected_sources:
+      - "docs/integrations.md - Troubleshooting"
+      - "agent/50-runbooks.md"
+    expected_answer_elements:
+      - "Template suffix verification"
+      - "SearchSpring dashboard sync status"
+      - "App activation check"
+      - "Collection configuration"
+
+  - category: development-workflow
+    question: "What's the workflow for making a simple text change to the theme?"
+    expected_sources:
+      - "docs/technical-user-guide-v2.md - Quick Start"
+      - "agent/50-runbooks.md"
+    expected_answer_elements:
+      - "shopify theme dev command"
+      - "Section file location"
+      - "Staging deployment"
+      - "Testing process"
+
+  - category: metafields
+    question: "How do I update product metafields in bulk? What tool should I use?"
+    expected_sources:
+      - "docs/data-guide.md - Bulk Data Management"
+      - "agent/30-data-model.md"
+    expected_answer_elements:
+      - "Matrixify app"
+      - "Export/import workflow"
+      - "Backup before changes"
+      - "CSV/Excel modification"
+
+  - category: template-system
+    question: "What template suffixes are used for Recharge products? How do I assign them?"
+    expected_sources:
+      - "docs/integrations.md - Recharge Subscriptions"
+      - "agent/40-integrations-map.md"
+    expected_answer_elements:
+      - "recharge-bundle suffix"
+      - "subscription suffix"
+      - "Product template assignment"
+      - "Recharge dashboard configuration"
+
+  - category: metaobjects
+    question: "What metaobjects are used in the Superfeet platform? How are they referenced?"
+    expected_sources:
+      - "docs/data-guide.md - Metaobjects"
+      - "agent/30-data-model.md"
+    expected_answer_elements:
+      - "FAQ groups"
+      - "Arch height icons"
+      - "Thickness icons"
+      - "Cushion icons"
+      - "Metaobject reference metafields"
+
+  - category: uk-markets
+    question: "How does the UK store handle different markets (UK, EU, AU)? What are market context files?"
+    expected_sources:
+      - "docs/theme-architecture-v2.md - UK Store Markets Architecture"
+      - "agent/20-theme-map.md"
+    expected_answer_elements:
+      - "UK market (transactional)"
+      - "EU/AU markets (brochure-only)"
+      - "Market context files"
+      - "Template block disabling"

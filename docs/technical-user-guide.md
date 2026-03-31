@@ -102,8 +102,8 @@ shopify theme dev --store superfeetww
 See [Theme Architecture Documentation](./theme-architecture.md) for complete structure overview.
 
 **Key Directories:**
-- `sections/` - Page building blocks (101+ files)
-- `snippets/` - Reusable components (143+ files)
+- `sections/` - Page building blocks (103 files in US Mar 2026 export)
+- `snippets/` - Reusable components (144 files in US Mar 2026 export)
 - `templates/` - Page templates (126+ files in US store)
 - `assets/` - CSS, JavaScript, images, fonts
 - `config/` - Theme settings
@@ -579,7 +579,7 @@ shopify theme push --store superfeet-uk
 - Language/localization settings vary
 
 **Template Differences:**
-- **US Store:** 123 templates (most comprehensive)
+- **US Store:** 135 templates (most comprehensive, Mar 2026 export)
 - **Canada Store:** 82 templates
 - **UK Store:** 90 templates
 - Store-specific template assignments
@@ -1141,5 +1141,5 @@ window.Resources = {
 
 ---
 
-*Last Updated: Based on theme exports from November 2025*
+*Last Updated: US theme export March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*
 
