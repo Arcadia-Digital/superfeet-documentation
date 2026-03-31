@@ -164,3 +164,54 @@ recordings/
 
 # Enhanced TOC development files (keeping enhanced-toc.js for production)
 # enhanced-toc/
+
+# =============================================================================
+# Client handoff — keep this repo as published documentation + sources only.
+# Large exports, theme code, internal Arcadia materials live locally (not in Git).
+# =============================================================================
+
+# Theme exports & binaries (zip/tar already covered above)
+code/
+
+# Matrixify / data dumps and conversion workspaces
+data/
+conversion/
+
+# Project artifacts not needed for the documentation site
+artifacts/
+downloads/
+recordings/
+
+# Third-party / PM exports
+jira-export-*.*
+accessibility/
+
+# Arcadia agent knowledge pack (Custom GPT / internal AI workflows)
+agent/
+
+# Internal diffs and working notes (regenerate locally if needed)
+docs/internal_*.md
+
+# Arcadia process, handoff, and retrospective (local copies only)
+handoff-documentation/
+prompts/
+AI_ONBOARDING.md
+START_HERE.md
+PROCESS.md
+phase-2.md
+ARCDIG_DOCS_IMPROVEMENTS.md
+AUTHENTICATION_IMPLEMENTATION.md
+OFFBOARDING_CHECKLIST.md
+SUPERFEET_CASE_STUDY.md
+SUPERFEET_RETROSPECTIVE.md
+SUPERFEET_RETROSPECTIVE_NOV2025.md
+SCALING_GUIDE.md
+TEMPLATE_FILES.md
+docs/superfeet-general-notes.md
+
+# Redundant or dev-only site pages (primary docs are non-backup HTML + docs/*.md)
+superfeet-platform-documentation-backup.html
+development-changelog.html
+
+# Maintenance scripts (optional tooling — omitted from client documentation repo)
+scripts/

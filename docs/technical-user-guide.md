@@ -1141,5 +1141,5 @@ window.Resources = {
 
 ---
 
-*Last Updated: US theme export March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*
+*Last Updated: March 2026 (US theme export baseline).*
 

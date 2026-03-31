@@ -2593,6 +2593,6 @@ shopify theme info --store superfeetww
 
 ---
 
-*Last Updated: Based on US theme export March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
+*Last Updated: March 2026 (US theme export baseline).*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

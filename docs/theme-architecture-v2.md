@@ -196,10 +196,10 @@ theme-root/
 | Store                 | Sections | Snippets | Templates | Notes                         |
 | --------------------- | -------- | -------- | --------- | ----------------------------- |
 | US (superfeetww)      | 103      | 144      | 135       | US theme export Mar 31, 2026 (reference) |
-| Canada (superfeet-ca) | 101      | 143      | 75        | Folder `code/superfeet-ca-theme` (Oct 2025 export in repo) |
-| UK (superfeet-uk)     | 101      | 143      | 84        | Folder `code/superfeet-uk-theme` (Oct 2025 export in repo) |
+| Canada (superfeet-ca) | 101      | 143      | 75        | Last verified Oct 2025 regional theme export (not stored in this repo) |
+| UK (superfeet-uk)     | 101      | 143      | 84        | Last verified Oct 2025 regional theme export (not stored in this repo) |
 
-**Note:** Template totals are recursive `templates/**/*.json`. US counts follow [internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md). CA/UK folders in this repo predate the Mar 2026 US refresh—re-export regional themes to confirm parity.
+**Note:** Template totals are recursive `templates/**/*.json`. US counts reflect a March 2026 US theme export baseline. Re-export CA/UK themes from Shopify to confirm regional parity.
 
 ### File Naming Conventions
 
@@ -1464,7 +1464,7 @@ window.Resources.colorMap
 ### Canada Store (superfeet-ca)
 
 **Characteristics:**
-- 75 templates (recursive JSON in `code/superfeet-ca-theme`, Oct 2025 export in repo)
+- 75 templates (last verified Oct 2025 regional export)
 - Bilingual support (English/French)
 - Regional pricing and shipping
 - CA-specific customizations
@@ -1479,7 +1479,7 @@ window.Resources.colorMap
 ### UK Store (superfeet-uk)
 
 **Characteristics:**
-- 84 templates (recursive JSON in `code/superfeet-uk-theme`, Oct 2025 export in repo)
+- 84 templates (last verified Oct 2025 regional export)
 - UK/EU/AU customer focus
 - Regional pricing and shipping
 - Market context files for EU/AU
@@ -1625,6 +1625,6 @@ window.Resources.colorMap
 
 ---
 
-*Last Updated: Based on US theme export March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
+*Last Updated: March 2026 (US theme export baseline).*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

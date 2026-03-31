@@ -569,6 +569,6 @@ Theme generates multiple sizes:
 
 ---
 
-*Last Updated: March 2026. Theme geometry: verify against latest sections in US export ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
+*Last Updated: March 2026. Verify media requirements against the current theme in Shopify.*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
 

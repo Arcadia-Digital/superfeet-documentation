@@ -1,79 +1,26 @@
-# Documentation Status
+# Documentation folder (`docs/`)
 
-**Superfeet ARCDIG-DOCS Implementation**
+Markdown sources for the Superfeet platform documentation hub. Root-level `.html` files are the primary published pages; keep them in sync when you edit here.
 
-All markdown documentation files have been generated and are ready for review and approval.
+## Files in this directory
 
----
+1. **theme-architecture.md** / **theme-architecture-v2.md** - Theme architecture
+2. **technical-user-guide.md** / **technical-user-guide-v2.md** - Developer workflows
+3. **business-user-guide.md** - Content management and regional stores
+4. **data-guide.md** - Metafields and data structures
+5. **integrations.md** - Installed apps and integrations
+6. **image-media-specifications.md** - Media specifications
+7. **QUICK_REFERENCE.md** - Quick lookup
+8. **MATRIXIFY_REVIEW_RUNBOOK.md** - Reconciling Matrixify exports with these docs
 
-## Generated Documentation Files
+## Theme inventory baseline (US, March 2026)
 
-All documentation files are located in the `docs/` directory:
+Verified from a US theme export: **135** JSON templates, **103** sections, **144** snippets (recursive counts under `templates/` and top-level `sections/` / `snippets/`). Re-export from **Shopify Admin → Online Store → Themes** when you need to re-verify.
 
-1. **theme-architecture.md** - Technical architecture and code structure
-2. **technical-user-guide.md** - Developer-focused documentation
-3. **business-user-guide.md** - Content management workflows (includes menu-to-section mapping)
-4. **data-guide.md** - Metafields and data structures reference
-5. **integrations.md** - All 29 installed apps and integrations
-6. **QUICK_REFERENCE.md** - Quick lookup tables and common tasks
+## Configuration notes
 
----
-
-## Implementation Status
-
-### Completed
-
-- ✅ ARCDIG-DOCS methodology files cloned and copied
-- ✅ Discovery phase completed (technical landscape analysis)
-- ✅ All markdown documentation files generated
-- ✅ Documentation uses evidence-based approach (verified against codebase)
-- ✅ Navigation documentation includes menu-to-section mapping table
-- ✅ Index.html updated with links to new documentation
-- ✅ Authentication implemented in component-loader.js
-- ✅ Component loader system in place
-
-### Pending Approval
-
-- ⏳ **Markdown to HTML Conversion** - Waiting for content approval before converting to HTML pages
-
-### Configuration Required
-
-- 🔧 **Authentication Password** - Update `PASSWORD` constant in `component-loader.js` (line 22)
-  - Current value: `'YOUR_PASSWORD_HERE'`
-  - Replace with actual password before deployment
+- **Password protection (optional):** If `component-loader.js` gates the site, set the `PASSWORD` constant before deployment.
 
 ---
 
-## Theme Code Source
-
-**US Store Documentation:** Built using theme code from:
-- `code/theme_export__www-superfeet-com-us-spring-sale-3-25-3-31__31MAR2026-0344pm/` (March 31, 2026 US theme export)
-
-**Note:** Inventory diff vs November 2025 baseline: [internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md). US store: **135** JSON templates, **103** sections, **144** snippets (recursive counts).
-
----
-
-## Next Steps
-
-1. **Review markdown documentation files** in `docs/` directory
-2. **Approve content** for HTML conversion
-3. **Set authentication password** in `component-loader.js`
-4. **Convert markdown to HTML** (after approval)
-5. **Test authentication** and component loading
-6. **Deploy to GitHub Pages**
-
----
-
-## File Locations
-
-- **Markdown Documentation:** `docs/*.md`
-- **Component Loader:** `component-loader.js`
-- **Authentication:** Implemented in `component-loader.js`
-- **Index Page:** `index.html` (updated with new documentation links)
-- **Header/Footer:** `header.html`, `footer.html` (already customized)
-
----
-
-*Documentation follows ARCDIG-DOCS methodology v1.5.0*  
 *Last Updated: March 2026*
-

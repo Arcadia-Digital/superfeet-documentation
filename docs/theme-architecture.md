@@ -51,7 +51,7 @@ theme-root/
 | Canada (superfeet-ca) | 101      | 143      | 75        |
 | UK (superfeet-uk)     | 101      | 143      | 84        |
 
-**Note:** US counts from March 2026 export; CA/UK template counts from theme folders in `code/` (Oct 2025 exports). See [internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md).
+**Note:** US counts from March 2026 export. CA/UK template counts last verified Oct 2025 (re-export from Shopify to confirm).
 
 ---
 
@@ -71,7 +71,7 @@ Superfeet uses **independent Shopify stores** for each region rather than a sing
 
 **Common Elements:**
 - Same base theme (CQL Propel v24.3.0)
-- Shared Propel patterns; US Mar 2026 export in `code/` is ahead of older CA/UK folders here until those themes are re-exported
+- Shared Propel patterns; US Mar 2026 baseline may be ahead of last verified CA/UK exports—re-export regional themes to confirm
 - Layout files follow the same structure across stores (verify when merging changes)
 
 **Regional Variations:**
@@ -467,12 +467,12 @@ Templates are assigned in Shopify Admin:
 - All integrations active
 
 ### Canada Store (superfeet-ca)
-- 75 templates (`code/superfeet-ca-theme`, Oct 2025 export in repo)
+- 75 templates (last verified Oct 2025 regional export)
 - Bilingual support (English/French)
 - Regional pricing and shipping
 
 ### UK Store (superfeet-uk)
-- 84 templates (`code/superfeet-uk-theme`, Oct 2025 export in repo)
+- 84 templates (last verified Oct 2025 regional export)
 - UK/EU/AU customer focus
 - Regional pricing and shipping
 

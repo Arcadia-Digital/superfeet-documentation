@@ -757,8 +757,8 @@ EU and AU are **markets within the same store**, not separate stores. This means
 
 **Template Counts:**
 - **US:** 135 templates (March 2026 US theme export)
-- **Canada:** 75 templates (`code/superfeet-ca-theme`, Oct 2025 export in repo)
-- **UK:** 84 templates (`code/superfeet-uk-theme`, Oct 2025 export in repo)
+- **Canada:** 75 templates (last verified Oct 2025 regional theme export)
+- **UK:** 84 templates (last verified Oct 2025 regional theme export)
 
 **Note:** Template counts differ due to store-specific template assignments and regional customizations. Product, collection, and content counts reflect regional inventory and content strategies.
 
@@ -1051,5 +1051,5 @@ The UK store has market context files for several templates:
 
 ---
 
-*Last Updated: Theme structure March 31, 2026 ([internal_THEME_DELTA_MAR2026.md](./internal_THEME_DELTA_MAR2026.md))*  
+*Last Updated: March 2026 (theme structure baseline).*  
 *Documentation follows ARCDIG-DOCS methodology v1.5.0*
